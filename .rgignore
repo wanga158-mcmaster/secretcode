@@ -1,0 +1,19 @@
+# Default searches show working code. Vendored SDK/CMake, map data and evidence are reached
+# through explicit paths: rg --no-ignore <pattern> <path>.
+sdk/
+cmake/
+maps/
+
+# Keep local runtime and evidence exclusions explicit for scoped searches.
+.cache/
+.tools/
+.cambc/
+**/.cambc/
+**/compile_commands.json
+**/build/
+**/target/
+*.wasm
+replays/
+results/
+__pycache__/
+*.pyc

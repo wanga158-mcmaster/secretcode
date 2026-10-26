@@ -1,0 +1,18 @@
+{
+  "catalog": "docs/reference/runtime-catalog.json",
+  "camp_parameter_source": "docs/reference/GameRules.md",
+  "cases_file": "c8-broad-family.json",
+  "baseline": "default",
+  "oracle_nodes": 8000,
+  "beam_width": 96,
+  "max_actions": 1024,
+  "population": 24,
+  "archive_limit": 96,
+  "max_blocked": 18,
+  "minimization_trials": 8,
+  "minimum_regret": 1,
+  "memory_mb": 1024,
+  "native_request_limit": 4,
+  "validation_state_limit": 2048,
+  "notes": "Eight constructed catalog-derived clearing, party, terrain, resource, banking and reactive-opponent families. Seed families receive round-robin mutation attempts. Cases are adaptive model training data; complete alternatives and references are required for regret witnesses, and native validation remains separate."
+}

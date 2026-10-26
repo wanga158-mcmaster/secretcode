@@ -1,0 +1,106 @@
+{
+  "schema": "native-draft-fuel-header-comparison/v1",
+  "atUtc": "2026-10-26T01:53:45.098371+00:00",
+  "observations": [
+    {
+      "cliVersion": "3.0.5",
+      "replay": {
+        "path": ".cache/vendor-update-20261025/project4/tools/tests/fixtures/00collision-cli-3.0.5.repl26a",
+        "sha256": "114da33f275cdd59673cc0fdcc12a8a5662621586c721051386a2ba2012587f3",
+        "size": 38798
+      },
+      "entry": "team-a.fuel",
+      "entrySha256": "68e439e92044ded986c4499009d3f011dcca1f0d1d7ed834d936f6728b07e899",
+      "prefix13Hex": "6136326c657566000000010000",
+      "budgets": [
+        1000000,
+        100000,
+        200000,
+        100000,
+        1000000,
+        100000,
+        200000,
+        100000
+      ],
+      "layout": "two blocks of draft-first/draft-other/play-first/play-other uint64LE; offset13"
+    },
+    {
+      "cliVersion": "3.0.5",
+      "replay": {
+        "path": ".cache/vendor-update-20261025/project4/tools/tests/fixtures/00collision-cli-3.0.5.repl26a",
+        "sha256": "114da33f275cdd59673cc0fdcc12a8a5662621586c721051386a2ba2012587f3",
+        "size": 38798
+      },
+      "entry": "team-b.fuel",
+      "entrySha256": "975bc56a261344fdaa74310b84d20efa5e014f13e1c14ee3a137391e0373807a",
+      "prefix13Hex": "6136326c657566000000010000",
+      "budgets": [
+        1000000,
+        100000,
+        200000,
+        100000,
+        1000000,
+        100000,
+        200000,
+        100000
+      ],
+      "layout": "two blocks of draft-first/draft-other/play-first/play-other uint64LE; offset13"
+    },
+    {
+      "cliVersion": "4.0.0",
+      "replay": {
+        "path": ".cache/vendor-update-20261025/project4/tools/tests/fixtures/00collision-cli-4.0.0.repl26a",
+        "sha256": "c8b9f324e272e428417e2e83d8c4c64b4ea08eb898b0a87b1997a924264d1766",
+        "size": 39073
+      },
+      "entry": "team-a.fuel",
+      "entrySha256": "02fd510f0910755a10fd7f251991207c86e29408c77d632f0eea0c21eafc2b2c",
+      "prefix13Hex": "6136326c657566000000010000",
+      "budgets": [
+        10000000,
+        100000,
+        200000,
+        100000,
+        10000000,
+        100000,
+        200000,
+        100000
+      ],
+      "layout": "two blocks of draft-first/draft-other/play-first/play-other uint64LE; offset13"
+    },
+    {
+      "cliVersion": "4.0.0",
+      "replay": {
+        "path": ".cache/vendor-update-20261025/project4/tools/tests/fixtures/00collision-cli-4.0.0.repl26a",
+        "sha256": "c8b9f324e272e428417e2e83d8c4c64b4ea08eb898b0a87b1997a924264d1766",
+        "size": 39073
+      },
+      "entry": "team-b.fuel",
+      "entrySha256": "afba2b17e8c086862cb8e2648cbc00a5de4e48ba48bcf68628f36332ab3b7c25",
+      "prefix13Hex": "6136326c657566000000010000",
+      "budgets": [
+        10000000,
+        100000,
+        200000,
+        100000,
+        10000000,
+        100000,
+        200000,
+        100000
+      ],
+      "layout": "two blocks of draft-first/draft-other/play-first/play-other uint64LE; offset13"
+    }
+  ],
+  "decoder": {
+    "path": ".cache/vendor-update-20261025/project4/tools/arena/games.py",
+    "sha256": "4ddf38ff39f0aa26888de7a173be7cff93729da289b5df267526f8467954a2d5",
+    "size": 48144
+  },
+  "extractionScript": {
+    "path": ".cache/vendor-update-20261025/check_fuel_headers.py",
+    "sha256": "d3c5575b8abb34df0fc8194a87809ebf27cf5d1cec57284663792a952d669766",
+    "size": 701
+  },
+  "conclusion": "Retained nativeCLI4 headers grant10,000,000 first-draft fuel versus1,000,000 in nativeCLI3 headers. Laterdraft100,000/playfirst200,000/playother100,000 match in these fixtures.",
+  "limits": "Header allocations, not universal per-instruction fuel or all-game parity. Old140panel compared outcomes/rounds/gems/recordedhealth but not these headers."
+}

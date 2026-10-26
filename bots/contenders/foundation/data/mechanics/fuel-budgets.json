@@ -1,0 +1,31 @@
+{
+  "schema": "contenders-foundation fuel evidence v1 (engine 1.0.2, CLI/SDK 3.0.4, release builds via arena run-batch --release)",
+  "probe": "bots/contenders/_probe-fuel/src/main.cpp",
+  "tables": "fuel-costs.csv: net fuel = median(fuel_remaining() delta) - median(noop delta, 15); columns lab30 (fuel-small 30x30), lab100 (fuel-large 100x100, same local layout), packs31 (00packs), ambush100 (00ambush), bigw100 (01big_world); 'action ...' rows are single raw deltas. lab100 'bitboard positions() many bits' is invalid (one call ~90K exceeds the turn; sample spanned an exhaustion).",
+  "budgets_from_fuel_stream_header": {"draft_first": 1000000, "draft_other": 100000, "play_first": 200000, "play_other": 100000},
+  "fuel_remaining_at_turn_start": {"draft_turn_1_main_entry": {"30x30": 990479, "100x100_lab": 989369, "100x100_pool": 988997},
+    "draft_later_turns": 99999, "play_first_turn_main_entry": {"30x30": 190063, "100x100_lab": 188953, "100x100_pool_5_champions": 188581},
+    "play_later_turns": 99999},
+  "static_init_before_main": {"draft": {"30x30": 9521, "100x100_lab": 10631, "100x100_pool": 11003},
+    "play_first_turn": {"30x30": 9937, "100x100_lab": 11047, "100x100_pool": 11419},
+    "note": "includes cambc::champion_designs (13 design champions; one champion{type} construct = 552) ~7.2K, draft_memory snapshot ~1.5K, terrain/spawn masks, settings"},
+  "distance_field_expansions": [
+    {"map": "fuel-small 30x30 open", "whole": [20, 621], "bounded10": [10, 461], "compute_to_6": [6, 402]},
+    {"map": "00packs 31x31", "whole": [31, 797]},
+    {"map": "fuel-large 100x100 open", "whole": [55, 12044], "bounded10": [10, 4439], "compute_to_6": [6, 3768]},
+    {"map": "00ambush 100x100", "whole": [133, 25226]},
+    {"map": "01big_world 100x100", "whole": [161, 29958]}
+  ],
+  "distance_field_model": "fuel ~= (16 + E) * chunks, chunks = ceil(W/8)*ceil(H/8) (16 on 30x30, 169 on 100x100), E = BFS expansions (max distance reached); fit on 100x100: 2754 + 169 E",
+  "map_camp_groups_model": "~930 per group + ~105 per camp (+~100): fuel-small 7 groups/8 camps 7.3K, 00packs 8/42 12.7K, 00ambush 12/46 16.1K, 01big_world 24/92 32.0K",
+  "exhaustion": {
+    "run": ".cache/contenders/mechanics/runs/fuel-lab2/games/fuel-small_probe-fuel_probe-fuel_5bb7006a.repl26a",
+    "round": 67, "champion": "team A id 0 (Vesper Vale)",
+    "pre_loop_move": "applied in round 67 (replay Move step r67)",
+    "replay_step": "TurnRollover (kind 26) for the actor in r67, then its turnEnd tick still runs",
+    "fuel_stream": "turn#201 (r67, c0) = 100000 (exactly the budget); turn#204 (r68, c0) = 75823",
+    "resumption": "round 68 turn resumes inside the busy loop: local round 67, round_number() 68, fresh 100000 budget; the post-loop move applied in round 68; no new turn-start code ran in r68",
+    "statistics": "events kind fuelExhausted, one entry per exhausted turn: {amount 0.0, context '0', target 0, timestamp {input 431, ordinal 6970, phase 'champions', round 67, substep 0}, value '1', x 0, y 0}, owner {id 0, kind champion, name 'Vesper Vale', team teamA}; diagnostics.botFaults 0",
+    "arena": "arena play summary counts it as 'exhausted' and 'suspended'"
+  }
+}

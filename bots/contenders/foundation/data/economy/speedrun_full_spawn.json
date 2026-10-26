@@ -1,0 +1,2592 @@
+[
+ {
+  "map": "00ambush",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 338,
+  "labour_bound": 503,
+  "labour_rate": 2.177,
+  "schedule": 790,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 790,
+   "banked": 1010,
+   "use": {
+    "travel": 2166,
+    "wait": 31,
+    "fight": 1245,
+    "capture": 120,
+    "bank": 187,
+    "out": 132,
+    "idle": 101
+   },
+   "captures": 24,
+   "tributes": 5,
+   "gems": 1010,
+   "gold": 4180.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 461
+   },
+   "max_bag": 238
+  }
+ },
+ {
+  "map": "00collision",
+  "draft": 3,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 251,
+  "labour_bound": 684,
+  "labour_rate": 1.471,
+  "schedule": 725,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 725,
+   "banked": 1004,
+   "use": {
+    "travel": 859,
+    "wait": 0,
+    "fight": 934,
+    "capture": 235,
+    "bank": 106,
+    "out": 102,
+    "idle": 38
+   },
+   "captures": 47,
+   "tributes": 10,
+   "gems": 1004,
+   "gold": 4100.0,
+   "bank_at": {
+    "200": 0,
+    "400": 339,
+    "600": 554
+   },
+   "max_bag": 132
+  }
+ },
+ {
+  "map": "00contest",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 365,
+  "labour_bound": 1267,
+  "labour_rate": 0.808,
+  "schedule": 1136,
+  "policy": {
+   "bank_at": 25,
+   "wait_max": 0,
+   "split": "team",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 1136,
+   "banked": 1000,
+   "use": {
+    "travel": 1090,
+    "wait": 0,
+    "fight": 3960,
+    "capture": 25,
+    "bank": 500,
+    "out": 90,
+    "idle": 0
+   },
+   "captures": 5,
+   "tributes": 5,
+   "gems": 1000,
+   "gold": 1500.0,
+   "bank_at": {
+    "200": 0,
+    "400": 200,
+    "600": 400
+   },
+   "max_bag": 200
+  }
+ },
+ {
+  "map": "00corners",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 183,
+  "labour_bound": 470,
+  "labour_rate": 2.149,
+  "schedule": 535,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 535,
+   "banked": 1011,
+   "use": {
+    "travel": 878,
+    "wait": 95,
+    "fight": 1297,
+    "capture": 230,
+    "bank": 105,
+    "out": 180,
+    "idle": 65
+   },
+   "captures": 46,
+   "tributes": 10,
+   "gems": 1011,
+   "gold": 5500.0,
+   "bank_at": {
+    "200": 0,
+    "400": 444,
+    "600": 1011
+   },
+   "max_bag": 138
+  }
+ },
+ {
+  "map": "00eight",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 298,
+  "labour_bound": 543,
+  "labour_rate": 1.884,
+  "schedule": 565,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 0,
+   "split": "3+rest",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 565,
+   "banked": 1027,
+   "use": {
+    "travel": 1118,
+    "wait": 0,
+    "fight": 1150,
+    "capture": 175,
+    "bank": 216,
+    "out": 174,
+    "idle": 51
+   },
+   "captures": 35,
+   "tributes": 10,
+   "gems": 1027,
+   "gold": 5730.000000000003,
+   "bank_at": {
+    "200": 133,
+    "400": 468,
+    "600": 1027
+   },
+   "max_bag": 133
+  }
+ },
+ {
+  "map": "00elkring",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 298,
+  "labour_bound": 449,
+  "labour_rate": 2.242,
+  "schedule": 497,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 497,
+   "banked": 1012,
+   "use": {
+    "travel": 828,
+    "wait": 0,
+    "fight": 1025,
+    "capture": 230,
+    "bank": 179,
+    "out": 132,
+    "idle": 48
+   },
+   "captures": 46,
+   "tributes": 11,
+   "gems": 1012,
+   "gold": 5060.0,
+   "bank_at": {
+    "200": 220,
+    "400": 550,
+    "600": 1012
+   },
+   "max_bag": 110
+  }
+ },
+ {
+  "map": "00expanse",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 219,
+  "labour_bound": 415,
+  "labour_rate": 2.444,
+  "schedule": 694,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 694,
+   "banked": 1022,
+   "use": {
+    "travel": 1860,
+    "wait": 94,
+    "fight": 977,
+    "capture": 150,
+    "bank": 184,
+    "out": 150,
+    "idle": 100
+   },
+   "captures": 30,
+   "tributes": 6,
+   "gems": 1022,
+   "gold": 5000.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 670
+   },
+   "max_bag": 231
+  }
+ },
+ {
+  "map": "00fragment",
+  "draft": 3,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 937,
+  "labour_bound": 1098,
+  "labour_rate": 0.915,
+  "schedule": 1164,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 1164,
+   "banked": 1004,
+   "use": {
+    "travel": 1579,
+    "wait": 0,
+    "fight": 1058,
+    "capture": 485,
+    "bank": 104,
+    "out": 366,
+    "idle": 263
+   },
+   "captures": 97,
+   "tributes": 7,
+   "gems": 1004,
+   "gold": 8340.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 0
+   },
+   "max_bag": 222
+  }
+ },
+ {
+  "map": "00gem_fields",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 182,
+  "labour_bound": 251,
+  "labour_rate": 4.064,
+  "schedule": 378,
+  "policy": {
+   "bank_at": 25,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 378,
+   "banked": 1006,
+   "use": {
+    "travel": 868,
+    "wait": 0,
+    "fight": 571,
+    "capture": 125,
+    "bank": 209,
+    "out": 54,
+    "idle": 32
+   },
+   "captures": 25,
+   "tributes": 20,
+   "gems": 1006,
+   "gold": 1680.0,
+   "bank_at": {
+    "200": 485,
+    "400": 1006,
+    "600": 1006
+   },
+   "max_bag": 71
+  }
+ },
+ {
+  "map": "00gemfight",
+  "draft": 4,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 317,
+  "labour_bound": 319,
+  "labour_rate": 3.159,
+  "schedule": 529,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 529,
+   "banked": 1004,
+   "use": {
+    "travel": 838,
+    "wait": 157,
+    "fight": 587,
+    "capture": 340,
+    "bank": 104,
+    "out": 60,
+    "idle": 86
+   },
+   "captures": 68,
+   "tributes": 10,
+   "gems": 1004,
+   "gold": 1310.0,
+   "bank_at": {
+    "200": 0,
+    "400": 528,
+    "600": 1004
+   },
+   "max_bag": 159
+  }
+ },
+ {
+  "map": "00great_wall",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 72,
+  "labour_bound": 340,
+  "labour_rate": 2.992,
+  "schedule": 659,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "3+rest",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 659,
+   "banked": 1002,
+   "use": {
+    "travel": 1632,
+    "wait": 104,
+    "fight": 993,
+    "capture": 175,
+    "bank": 192,
+    "out": 120,
+    "idle": 114
+   },
+   "captures": 35,
+   "tributes": 6,
+   "gems": 1002,
+   "gold": 2780.0,
+   "bank_at": {
+    "200": 0,
+    "400": 268,
+    "600": 734
+   },
+   "max_bag": 268
+  }
+ },
+ {
+  "map": "00interlock",
+  "draft": 4,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 316,
+  "labour_bound": 583,
+  "labour_rate": 1.73,
+  "schedule": 704,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 704,
+   "banked": 1001,
+   "use": {
+    "travel": 1110,
+    "wait": 62,
+    "fight": 1168,
+    "capture": 130,
+    "bank": 208,
+    "out": 120,
+    "idle": 4
+   },
+   "captures": 26,
+   "tributes": 9,
+   "gems": 1001,
+   "gold": 4620.0,
+   "bank_at": {
+    "200": 0,
+    "400": 261,
+    "600": 747
+   },
+   "max_bag": 136
+  }
+ },
+ {
+  "map": "00lanes",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 228,
+  "labour_bound": 443,
+  "labour_rate": 2.418,
+  "schedule": 623,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 623,
+   "banked": 1003,
+   "use": {
+    "travel": 1193,
+    "wait": 64,
+    "fight": 1351,
+    "capture": 350,
+    "bank": 104,
+    "out": 114,
+    "idle": 48
+   },
+   "captures": 70,
+   "tributes": 11,
+   "gems": 1003,
+   "gold": 4170.0,
+   "bank_at": {
+    "200": 0,
+    "400": 316,
+    "600": 646
+   },
+   "max_bag": 121
+  }
+ },
+ {
+  "map": "00lost_world",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 145,
+  "labour_bound": 214,
+  "labour_rate": 4.917,
+  "schedule": 310,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 310,
+   "banked": 1002,
+   "use": {
+    "travel": 721,
+    "wait": 179,
+    "fight": 177,
+    "capture": 335,
+    "bank": 108,
+    "out": 6,
+    "idle": 25
+   },
+   "captures": 67,
+   "tributes": 11,
+   "gems": 1002,
+   "gold": 100.0,
+   "bank_at": {
+    "200": 434,
+    "400": 1002,
+    "600": 1002
+   },
+   "max_bag": 113
+  }
+ },
+ {
+  "map": "00monolith",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 199,
+  "labour_bound": 607,
+  "labour_rate": 1.662,
+  "schedule": 647,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 647,
+   "banked": 1006,
+   "use": {
+    "travel": 1344,
+    "wait": 249,
+    "fight": 1083,
+    "capture": 350,
+    "bank": 103,
+    "out": 168,
+    "idle": 101
+   },
+   "captures": 70,
+   "tributes": 5,
+   "gems": 1006,
+   "gold": 6520.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 200
+   },
+   "max_bag": 207
+  }
+ },
+ {
+  "map": "00packs",
+  "draft": 3,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 419,
+  "labour_bound": 648,
+  "labour_rate": 1.554,
+  "schedule": 606,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 606,
+   "banked": 1000,
+   "use": {
+    "travel": 692,
+    "wait": 0,
+    "fight": 754,
+    "capture": 250,
+    "bank": 104,
+    "out": 126,
+    "idle": 15
+   },
+   "captures": 50,
+   "tributes": 10,
+   "gems": 1000,
+   "gold": 6620.0,
+   "bank_at": {
+    "200": 0,
+    "400": 332,
+    "600": 926
+   },
+   "max_bag": 122
+  }
+ },
+ {
+  "map": "00pilgrimage",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 437,
+  "labour_bound": 499,
+  "labour_rate": 2.174,
+  "schedule": 938,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "team",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 938,
+   "banked": 1071,
+   "use": {
+    "travel": 3120,
+    "wait": 90,
+    "fight": 605,
+    "capture": 65,
+    "bank": 545,
+    "out": 210,
+    "idle": 0
+   },
+   "captures": 13,
+   "tributes": 4,
+   "gems": 1071,
+   "gold": 6360.0,
+   "bank_at": {
+    "200": 0,
+    "400": 264,
+    "600": 528
+   },
+   "max_bag": 279
+  }
+ },
+ {
+  "map": "00quadrants",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 107,
+  "labour_bound": 184,
+  "labour_rate": 5.489,
+  "schedule": 361,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "3+rest",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 361,
+   "banked": 1001,
+   "use": {
+    "travel": 608,
+    "wait": 4,
+    "fight": 765,
+    "capture": 105,
+    "bank": 211,
+    "out": 102,
+    "idle": 27
+   },
+   "captures": 21,
+   "tributes": 5,
+   "gems": 1001,
+   "gold": 1709.9999999999998,
+   "bank_at": {
+    "200": 213,
+    "400": 1001,
+    "600": 1001
+   },
+   "max_bag": 315
+  }
+ },
+ {
+  "map": "00reverse_spiral",
+  "draft": 4,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 254,
+  "labour_bound": 492,
+  "labour_rate": 2.038,
+  "schedule": 775,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 775,
+   "banked": 1000,
+   "use": {
+    "travel": 1528,
+    "wait": 18,
+    "fight": 1014,
+    "capture": 165,
+    "bank": 202,
+    "out": 132,
+    "idle": 4
+   },
+   "captures": 33,
+   "tributes": 5,
+   "gems": 1000,
+   "gold": 3580.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 442
+   },
+   "max_bag": 240
+  }
+ },
+ {
+  "map": "00road_of_riches",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 209,
+  "labour_bound": 224,
+  "labour_rate": 4.644,
+  "schedule": 539,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 539,
+   "banked": 1002,
+   "use": {
+    "travel": 1422,
+    "wait": 139,
+    "fight": 452,
+    "capture": 325,
+    "bank": 102,
+    "out": 18,
+    "idle": 250
+   },
+   "captures": 65,
+   "tributes": 5,
+   "gems": 1002,
+   "gold": 840.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 1002
+   },
+   "max_bag": 210
+  }
+ },
+ {
+  "map": "00rows",
+  "draft": 4,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 221,
+  "labour_bound": 832,
+  "labour_rate": 1.22,
+  "schedule": 998,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 998,
+   "banked": 1000,
+   "use": {
+    "travel": 1693,
+    "wait": 258,
+    "fight": 1471,
+    "capture": 265,
+    "bank": 103,
+    "out": 156,
+    "idle": 198
+   },
+   "captures": 53,
+   "tributes": 7,
+   "gems": 1000,
+   "gold": 8180.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 0
+   },
+   "max_bag": 207
+  }
+ },
+ {
+  "map": "00rushbait_v2",
+  "draft": 4,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 277,
+  "labour_bound": 560,
+  "labour_rate": 1.805,
+  "schedule": 648,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 648,
+   "banked": 1013,
+   "use": {
+    "travel": 1160,
+    "wait": 0,
+    "fight": 1061,
+    "capture": 210,
+    "bank": 104,
+    "out": 162,
+    "idle": 53
+   },
+   "captures": 42,
+   "tributes": 7,
+   "gems": 1013,
+   "gold": 3960.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 634
+   },
+   "max_bag": 219
+  }
+ },
+ {
+  "map": "00split",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 116,
+  "labour_bound": 327,
+  "labour_rate": 3.312,
+  "schedule": 496,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 496,
+   "banked": 1002,
+   "use": {
+    "travel": 968,
+    "wait": 103,
+    "fight": 868,
+    "capture": 215,
+    "bank": 183,
+    "out": 66,
+    "idle": 13
+   },
+   "captures": 43,
+   "tributes": 6,
+   "gems": 1002,
+   "gold": 2250.0,
+   "bank_at": {
+    "200": 0,
+    "400": 201,
+    "600": 1002
+   },
+   "max_bag": 255
+  }
+ },
+ {
+  "map": "00stampede",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 516,
+  "labour_bound": 831,
+  "labour_rate": 1.288,
+  "schedule": 1025,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "team",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 1025,
+   "banked": 1120,
+   "use": {
+    "travel": 3095,
+    "wait": 0,
+    "fight": 1290,
+    "capture": 35,
+    "bank": 560,
+    "out": 150,
+    "idle": 0
+   },
+   "captures": 7,
+   "tributes": 4,
+   "gems": 1120,
+   "gold": 4340.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 320
+   },
+   "max_bag": 320
+  }
+ },
+ {
+  "map": "00swirl",
+  "draft": 4,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 133,
+  "labour_bound": 487,
+  "labour_rate": 2.075,
+  "schedule": 547,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 547,
+   "banked": 1012,
+   "use": {
+    "travel": 728,
+    "wait": 16,
+    "fight": 1064,
+    "capture": 175,
+    "bank": 104,
+    "out": 156,
+    "idle": 97
+   },
+   "captures": 35,
+   "tributes": 7,
+   "gems": 1012,
+   "gold": 6470.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 1012
+   },
+   "max_bag": 263
+  }
+ },
+ {
+  "map": "01big_world",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 207,
+  "labour_bound": 589,
+  "labour_rate": 1.719,
+  "schedule": 768,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 768,
+   "banked": 1025,
+   "use": {
+    "travel": 1661,
+    "wait": 166,
+    "fight": 1361,
+    "capture": 140,
+    "bank": 186,
+    "out": 180,
+    "idle": 216
+   },
+   "captures": 28,
+   "tributes": 5,
+   "gems": 1025,
+   "gold": 5350.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 212
+   },
+   "max_bag": 418
+  }
+ },
+ {
+  "map": "01boss_battle",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 103,
+  "labour_bound": 545,
+  "labour_rate": 1.866,
+  "schedule": 444,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 444,
+   "banked": 1027,
+   "use": {
+    "travel": 689,
+    "wait": 0,
+    "fight": 1020,
+    "capture": 150,
+    "bank": 188,
+    "out": 210,
+    "idle": 58
+   },
+   "captures": 30,
+   "tributes": 6,
+   "gems": 1027,
+   "gold": 8310.0,
+   "bank_at": {
+    "200": 0,
+    "400": 634,
+    "600": 1027
+   },
+   "max_bag": 216
+  }
+ },
+ {
+  "map": "01broken_curve",
+  "draft": 3,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 132,
+  "labour_bound": 640,
+  "labour_rate": 1.585,
+  "schedule": 632,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 632,
+   "banked": 1005,
+   "use": {
+    "travel": 670,
+    "wait": 34,
+    "fight": 890,
+    "capture": 185,
+    "bank": 104,
+    "out": 114,
+    "idle": 10
+   },
+   "captures": 37,
+   "tributes": 6,
+   "gems": 1005,
+   "gold": 4230.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 609
+   },
+   "max_bag": 206
+  }
+ },
+ {
+  "map": "01concentrated_wealth",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 449,
+  "labour_bound": 516,
+  "labour_rate": 2.036,
+  "schedule": 905,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 905,
+   "banked": 1030,
+   "use": {
+    "travel": 2823,
+    "wait": 146,
+    "fight": 868,
+    "capture": 210,
+    "bank": 184,
+    "out": 138,
+    "idle": 139
+   },
+   "captures": 42,
+   "tributes": 6,
+   "gems": 1030,
+   "gold": 5740.0,
+   "bank_at": {
+    "200": 0,
+    "400": 213,
+    "600": 213
+   },
+   "max_bag": 251
+  }
+ },
+ {
+  "map": "01corridors",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 151,
+  "labour_bound": 644,
+  "labour_rate": 1.593,
+  "schedule": 600,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 600,
+   "banked": 1008,
+   "use": {
+    "travel": 1332,
+    "wait": 0,
+    "fight": 1158,
+    "capture": 115,
+    "bank": 169,
+    "out": 192,
+    "idle": 146
+   },
+   "captures": 23,
+   "tributes": 6,
+   "gems": 1008,
+   "gold": 5500.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 1008
+   },
+   "max_bag": 250
+  }
+ },
+ {
+  "map": "01elk_arena",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 873,
+  "labour_bound": 938,
+  "labour_rate": 1.075,
+  "schedule": 885,
+  "policy": {
+   "bank_at": 25,
+   "wait_max": 25,
+   "split": "team",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 885,
+   "banked": 1008,
+   "use": {
+    "travel": 690,
+    "wait": 1560,
+    "fight": 610,
+    "capture": 200,
+    "bank": 560,
+    "out": 390,
+    "idle": 0
+   },
+   "captures": 40,
+   "tributes": 14,
+   "gems": 1008,
+   "gold": 3560.0,
+   "bank_at": {
+    "200": 216,
+    "400": 432,
+    "600": 648
+   },
+   "max_bag": 72
+  }
+ },
+ {
+  "map": "01fracture",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 165,
+  "labour_bound": 438,
+  "labour_rate": 2.369,
+  "schedule": 754,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 754,
+   "banked": 1004,
+   "use": {
+    "travel": 1904,
+    "wait": 94,
+    "fight": 1143,
+    "capture": 145,
+    "bank": 183,
+    "out": 180,
+    "idle": 196
+   },
+   "captures": 29,
+   "tributes": 6,
+   "gems": 1004,
+   "gold": 5340.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 429
+   },
+   "max_bag": 229
+  }
+ },
+ {
+  "map": "01gold_rush",
+  "draft": 3,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 353,
+  "labour_bound": 1090,
+  "labour_rate": 0.923,
+  "schedule": 980,
+  "policy": {
+   "bank_at": 50,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 980,
+   "banked": 1003,
+   "use": {
+    "travel": 1069,
+    "wait": 113,
+    "fight": 1169,
+    "capture": 450,
+    "bank": 110,
+    "out": 84,
+    "idle": 26
+   },
+   "captures": 90,
+   "tributes": 17,
+   "gems": 1003,
+   "gold": 4900.0,
+   "bank_at": {
+    "200": 0,
+    "400": 275,
+    "600": 385
+   },
+   "max_bag": 233
+  }
+ },
+ {
+  "map": "01hooks",
+  "draft": 4,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 751,
+  "labour_bound": 775,
+  "labour_rate": 1.313,
+  "schedule": 818,
+  "policy": {
+   "bank_at": 50,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 818,
+   "banked": 1012,
+   "use": {
+    "travel": 852,
+    "wait": 894,
+    "fight": 832,
+    "capture": 230,
+    "bank": 216,
+    "out": 204,
+    "idle": 14
+   },
+   "captures": 46,
+   "tributes": 16,
+   "gems": 1012,
+   "gold": 4140.0,
+   "bank_at": {
+    "200": 132,
+    "400": 396,
+    "600": 660
+   },
+   "max_bag": 66
+  }
+ },
+ {
+  "map": "01islands",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 306,
+  "labour_bound": 546,
+  "labour_rate": 1.892,
+  "schedule": 682,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "3+2",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 682,
+   "banked": 1024,
+   "use": {
+    "travel": 1628,
+    "wait": 0,
+    "fight": 1119,
+    "capture": 110,
+    "bank": 273,
+    "out": 228,
+    "idle": 100
+   },
+   "captures": 22,
+   "tributes": 5,
+   "gems": 1024,
+   "gold": 4320.0,
+   "bank_at": {
+    "200": 0,
+    "400": 234,
+    "600": 644
+   },
+   "max_bag": 234
+  }
+ },
+ {
+  "map": "01shortcut",
+  "draft": 4,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 181,
+  "labour_bound": 363,
+  "labour_rate": 2.787,
+  "schedule": 920,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 920,
+   "banked": 1009,
+   "use": {
+    "travel": 2102,
+    "wait": 102,
+    "fight": 892,
+    "capture": 160,
+    "bank": 210,
+    "out": 120,
+    "idle": 50
+   },
+   "captures": 32,
+   "tributes": 6,
+   "gems": 1009,
+   "gold": 3680.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 423
+   },
+   "max_bag": 222
+  }
+ },
+ {
+  "map": "01starfish",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 188,
+  "labour_bound": 398,
+  "labour_rate": 2.591,
+  "schedule": 592,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "3+rest",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 592,
+   "banked": 1003,
+   "use": {
+    "travel": 1097,
+    "wait": 77,
+    "fight": 1330,
+    "capture": 110,
+    "bank": 219,
+    "out": 174,
+    "idle": 42
+   },
+   "captures": 22,
+   "tributes": 6,
+   "gems": 1003,
+   "gold": 4279.999999999999,
+   "bank_at": {
+    "200": 0,
+    "400": 271,
+    "600": 1003
+   },
+   "max_bag": 287
+  }
+ },
+ {
+  "map": "01starvation",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 272,
+  "labour_bound": 567,
+  "labour_rate": 2.055,
+  "schedule": 1034,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "team",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 1034,
+   "banked": 1064,
+   "use": {
+    "travel": 2535,
+    "wait": 0,
+    "fight": 1815,
+    "capture": 55,
+    "bank": 540,
+    "out": 120,
+    "idle": 0
+   },
+   "captures": 11,
+   "tributes": 4,
+   "gems": 1064,
+   "gold": 2660.0,
+   "bank_at": {
+    "200": 0,
+    "400": 204,
+    "600": 432
+   },
+   "max_bag": 316
+  }
+ },
+ {
+  "map": "01the_farm",
+  "draft": 3,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 64,
+  "labour_bound": 526,
+  "labour_rate": 1.917,
+  "schedule": 629,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 629,
+   "banked": 1003,
+   "use": {
+    "travel": 737,
+    "wait": 0,
+    "fight": 806,
+    "capture": 195,
+    "bank": 102,
+    "out": 132,
+    "idle": 44
+   },
+   "captures": 39,
+   "tributes": 6,
+   "gems": 1003,
+   "gold": 4470.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 678
+   },
+   "max_bag": 236
+  }
+ },
+ {
+  "map": "01yellow_brick_road",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 134,
+  "labour_bound": 416,
+  "labour_rate": 2.417,
+  "schedule": 343,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 343,
+   "banked": 1004,
+   "use": {
+    "travel": 477,
+    "wait": 0,
+    "fight": 685,
+    "capture": 210,
+    "bank": 177,
+    "out": 180,
+    "idle": 21
+   },
+   "captures": 42,
+   "tributes": 10,
+   "gems": 1004,
+   "gold": 11600.0,
+   "bank_at": {
+    "200": 341,
+    "400": 1004,
+    "600": 1004
+   },
+   "max_bag": 137
+  }
+ },
+ {
+  "map": "legacy/ambush",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 354,
+  "labour_bound": 546,
+  "labour_rate": 1.992,
+  "schedule": 930,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 930,
+   "banked": 1008,
+   "use": {
+    "travel": 2463,
+    "wait": 72,
+    "fight": 1586,
+    "capture": 135,
+    "bank": 184,
+    "out": 150,
+    "idle": 100
+   },
+   "captures": 27,
+   "tributes": 5,
+   "gems": 1008,
+   "gold": 4360.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 236
+   },
+   "max_bag": 236
+  }
+ },
+ {
+  "map": "legacy/collision",
+  "draft": 3,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 367,
+  "labour_bound": 1201,
+  "labour_rate": 0.836,
+  "schedule": 1027,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 1027,
+   "banked": 1005,
+   "use": {
+    "travel": 1444,
+    "wait": 23,
+    "fight": 1107,
+    "capture": 195,
+    "bank": 158,
+    "out": 150,
+    "idle": 41
+   },
+   "captures": 39,
+   "tributes": 5,
+   "gems": 1005,
+   "gold": 6030.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 210
+   },
+   "max_bag": 225
+  }
+ },
+ {
+  "map": "legacy/contest",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 365,
+  "labour_bound": 1267,
+  "labour_rate": 0.808,
+  "schedule": 1136,
+  "policy": {
+   "bank_at": 25,
+   "wait_max": 0,
+   "split": "team",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 1136,
+   "banked": 1000,
+   "use": {
+    "travel": 1090,
+    "wait": 0,
+    "fight": 3960,
+    "capture": 25,
+    "bank": 500,
+    "out": 90,
+    "idle": 0
+   },
+   "captures": 5,
+   "tributes": 5,
+   "gems": 1000,
+   "gold": 1500.0,
+   "bank_at": {
+    "200": 0,
+    "400": 200,
+    "600": 400
+   },
+   "max_bag": 200
+  }
+ },
+ {
+  "map": "legacy/corners",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 198,
+  "labour_bound": 617,
+  "labour_rate": 1.634,
+  "schedule": 632,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 632,
+   "banked": 1029,
+   "use": {
+    "travel": 1247,
+    "wait": 124,
+    "fight": 1209,
+    "capture": 210,
+    "bank": 184,
+    "out": 186,
+    "idle": 26
+   },
+   "captures": 42,
+   "tributes": 6,
+   "gems": 1029,
+   "gold": 5670.0,
+   "bank_at": {
+    "200": 0,
+    "400": 224,
+    "600": 671
+   },
+   "max_bag": 224
+  }
+ },
+ {
+  "map": "legacy/eight",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 358,
+  "labour_bound": 644,
+  "labour_rate": 1.583,
+  "schedule": 648,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 648,
+   "banked": 1004,
+   "use": {
+    "travel": 1040,
+    "wait": 158,
+    "fight": 1547,
+    "capture": 160,
+    "bank": 177,
+    "out": 192,
+    "idle": 58
+   },
+   "captures": 32,
+   "tributes": 6,
+   "gems": 1004,
+   "gold": 6070.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 720
+   },
+   "max_bag": 246
+  }
+ },
+ {
+  "map": "legacy/elkring",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 432,
+  "labour_bound": 676,
+  "labour_rate": 1.485,
+  "schedule": 637,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 637,
+   "banked": 1005,
+   "use": {
+    "travel": 973,
+    "wait": 353,
+    "fight": 1388,
+    "capture": 335,
+    "bank": 101,
+    "out": 252,
+    "idle": 30
+   },
+   "captures": 67,
+   "tributes": 5,
+   "gems": 1005,
+   "gold": 7370.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 0
+   },
+   "max_bag": 210
+  }
+ },
+ {
+  "map": "legacy/expanse",
+  "draft": 3,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 228,
+  "labour_bound": 847,
+  "labour_rate": 1.189,
+  "schedule": 1021,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 1021,
+   "banked": 1000,
+   "use": {
+    "travel": 1557,
+    "wait": 118,
+    "fight": 976,
+    "capture": 140,
+    "bank": 159,
+    "out": 150,
+    "idle": 35
+   },
+   "captures": 28,
+   "tributes": 5,
+   "gems": 1000,
+   "gold": 4300.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 206
+   },
+   "max_bag": 220
+  }
+ },
+ {
+  "map": "legacy/fragment",
+  "draft": 3,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 1149,
+  "labour_bound": 1451,
+  "labour_rate": 0.692,
+  "schedule": 1392,
+  "policy": {
+   "bank_at": 50,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 1392,
+   "banked": 1009,
+   "use": {
+    "travel": 2064,
+    "wait": 0,
+    "fight": 1147,
+    "capture": 605,
+    "bank": 107,
+    "out": 456,
+    "idle": 250
+   },
+   "captures": 121,
+   "tributes": 20,
+   "gems": 1009,
+   "gold": 9710.0,
+   "bank_at": {
+    "200": 0,
+    "400": 131,
+    "600": 305
+   },
+   "max_bag": 67
+  }
+ },
+ {
+  "map": "legacy/interlock",
+  "draft": 4,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 439,
+  "labour_bound": 839,
+  "labour_rate": 1.2,
+  "schedule": 908,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 908,
+   "banked": 1002,
+   "use": {
+    "travel": 1770,
+    "wait": 0,
+    "fight": 1296,
+    "capture": 180,
+    "bank": 202,
+    "out": 180,
+    "idle": 0
+   },
+   "captures": 36,
+   "tributes": 6,
+   "gems": 1002,
+   "gold": 6060.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 420
+   },
+   "max_bag": 218
+  }
+ },
+ {
+  "map": "legacy/lanes",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 288,
+  "labour_bound": 707,
+  "labour_rate": 1.479,
+  "schedule": 852,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 852,
+   "banked": 1001,
+   "use": {
+    "travel": 1519,
+    "wait": 0,
+    "fight": 1872,
+    "capture": 660,
+    "bank": 103,
+    "out": 150,
+    "idle": 101
+   },
+   "captures": 132,
+   "tributes": 6,
+   "gems": 1001,
+   "gold": 7430.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 0
+   },
+   "max_bag": 206
+  }
+ },
+ {
+  "map": "legacy/monolith",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 206,
+  "labour_bound": 1002,
+  "labour_rate": 1.003,
+  "schedule": 933,
+  "policy": {
+   "bank_at": 25,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 933,
+   "banked": 1001,
+   "use": {
+    "travel": 1341,
+    "wait": 0,
+    "fight": 2735,
+    "capture": 215,
+    "bank": 183,
+    "out": 138,
+    "idle": 91
+   },
+   "captures": 43,
+   "tributes": 17,
+   "gems": 1001,
+   "gold": 4110.0,
+   "bank_at": {
+    "200": 69,
+    "400": 200,
+    "600": 260
+   },
+   "max_bag": 271
+  }
+ },
+ {
+  "map": "legacy/packs",
+  "draft": 3,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 478,
+  "labour_bound": 936,
+  "labour_rate": 1.075,
+  "schedule": 794,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 794,
+   "banked": 1004,
+   "use": {
+    "travel": 916,
+    "wait": 0,
+    "fight": 991,
+    "capture": 355,
+    "bank": 103,
+    "out": 162,
+    "idle": 14
+   },
+   "captures": 71,
+   "tributes": 6,
+   "gems": 1004,
+   "gold": 5980.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 404
+   },
+   "max_bag": 212
+  }
+ },
+ {
+  "map": "legacy/pilgrimage",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 545,
+  "labour_bound": 658,
+  "labour_rate": 1.615,
+  "schedule": 1157,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 25,
+   "split": "3+rest",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 1157,
+   "banked": 1003,
+   "use": {
+    "travel": 3330,
+    "wait": 152,
+    "fight": 1653,
+    "capture": 190,
+    "bank": 220,
+    "out": 210,
+    "idle": 125
+   },
+   "captures": 38,
+   "tributes": 10,
+   "gems": 1003,
+   "gold": 6780.000000000001,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 240
+   },
+   "max_bag": 135
+  }
+ },
+ {
+  "map": "legacy/rows",
+  "draft": 4,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 223,
+  "labour_bound": 1679,
+  "labour_rate": 0.6,
+  "schedule": 1301,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 1301,
+   "banked": 1008,
+   "use": {
+    "travel": 2420,
+    "wait": 588,
+    "fight": 1642,
+    "capture": 420,
+    "bank": 104,
+    "out": 318,
+    "idle": 26
+   },
+   "captures": 84,
+   "tributes": 11,
+   "gems": 1008,
+   "gold": 10080.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 0
+   },
+   "max_bag": 108
+  }
+ },
+ {
+  "map": "legacy/rushbait_v2",
+  "draft": 4,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 411,
+  "labour_bound": 1123,
+  "labour_rate": 0.896,
+  "schedule": 899,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 899,
+   "banked": 1002,
+   "use": {
+    "travel": 1793,
+    "wait": 0,
+    "fight": 1251,
+    "capture": 400,
+    "bank": 103,
+    "out": 282,
+    "idle": 45
+   },
+   "captures": 80,
+   "tributes": 7,
+   "gems": 1002,
+   "gold": 6300.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 0
+   },
+   "max_bag": 214
+  }
+ },
+ {
+  "map": "legacy/stampede",
+  "draft": 5,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta",
+   "Varg"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 582,
+  "labour_bound": 981,
+  "labour_rate": 1.08,
+  "schedule": 1083,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "team",
+   "gold_weight": 0.0
+  },
+  "detail": {
+   "rounds": 1083,
+   "banked": 1056,
+   "use": {
+    "travel": 3370,
+    "wait": 0,
+    "fight": 1300,
+    "capture": 40,
+    "bank": 540,
+    "out": 180,
+    "idle": 0
+   },
+   "captures": 8,
+   "tributes": 4,
+   "gems": 1056,
+   "gold": 4320.0,
+   "bank_at": {
+    "200": 0,
+    "400": 264,
+    "600": 264
+   },
+   "max_bag": 264
+  }
+ },
+ {
+  "map": "legacy/swirl",
+  "draft": 4,
+  "roster": [
+   "Heart",
+   "Marcella",
+   "Ryth",
+   "Vendetta"
+  ],
+  "territory": "full",
+  "items": "spawn",
+  "supply_floor": 145,
+  "labour_bound": 535,
+  "labour_rate": 1.886,
+  "schedule": 590,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "detail": {
+   "rounds": 590,
+   "banked": 1009,
+   "use": {
+    "travel": 662,
+    "wait": 24,
+    "fight": 1336,
+    "capture": 200,
+    "bank": 104,
+    "out": 156,
+    "idle": 30
+   },
+   "captures": 40,
+   "tributes": 6,
+   "gems": 1009,
+   "gold": 6940.0,
+   "bank_at": {
+    "200": 0,
+    "400": 0,
+    "600": 1009
+   },
+   "max_bag": 224
+  }
+ }
+]

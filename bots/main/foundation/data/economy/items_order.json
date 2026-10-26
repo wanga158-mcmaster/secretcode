@@ -1,0 +1,1202 @@
+{
+ "00ambush": {
+  "jungle": {
+   "rounds": 818,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 863,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 872,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 873,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 833,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 864,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 863,
+   "bank400": 0
+  }
+ },
+ "00collision": {
+  "jungle": {
+   "rounds": 725,
+   "bank400": 328
+  },
+  "monster": {
+   "rounds": 726,
+   "bank400": 325
+  },
+  "power": {
+   "rounds": 779,
+   "bank400": 328
+  },
+  "treasure": {
+   "rounds": 739,
+   "bank400": 328
+  },
+  "health": {
+   "rounds": 737,
+   "bank400": 219
+  },
+  "tank": {
+   "rounds": 739,
+   "bank400": 328
+  },
+  "treasure-health": {
+   "rounds": 761,
+   "bank400": 230
+  }
+ },
+ "00contest": {
+  "jungle": {
+   "rounds": 1136,
+   "bank400": 200
+  },
+  "monster": {
+   "rounds": 1200,
+   "bank400": 200
+  },
+  "power": {
+   "rounds": 1205,
+   "bank400": 200
+  },
+  "treasure": {
+   "rounds": 1212,
+   "bank400": 200
+  },
+  "health": {
+   "rounds": 1230,
+   "bank400": 200
+  },
+  "tank": {
+   "rounds": 1257,
+   "bank400": 200
+  },
+  "treasure-health": {
+   "rounds": 1271,
+   "bank400": 200
+  }
+ },
+ "00corners": {
+  "jungle": {
+   "rounds": 543,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 557,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 594,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 563,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 569,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 580,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 583,
+   "bank400": 0
+  }
+ },
+ "00eight": {
+  "jungle": {
+   "rounds": 604,
+   "bank400": 390
+  },
+  "monster": {
+   "rounds": 584,
+   "bank400": 390
+  },
+  "power": {
+   "rounds": 614,
+   "bank400": 387
+  },
+  "treasure": {
+   "rounds": 615,
+   "bank400": 390
+  },
+  "health": {
+   "rounds": 630,
+   "bank400": 262
+  },
+  "tank": {
+   "rounds": 653,
+   "bank400": 374
+  },
+  "treasure-health": {
+   "rounds": 676,
+   "bank400": 262
+  }
+ },
+ "00elkring": {
+  "jungle": {
+   "rounds": 507,
+   "bank400": 440
+  },
+  "monster": {
+   "rounds": 499,
+   "bank400": 440
+  },
+  "power": {
+   "rounds": 500,
+   "bank400": 440
+  },
+  "treasure": {
+   "rounds": 510,
+   "bank400": 440
+  },
+  "health": {
+   "rounds": 560,
+   "bank400": 440
+  },
+  "tank": {
+   "rounds": 595,
+   "bank400": 440
+  },
+  "treasure-health": {
+   "rounds": 561,
+   "bank400": 440
+  }
+ },
+ "00expanse": {
+  "jungle": {
+   "rounds": 694,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 716,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 791,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 743,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 744,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 737,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 747,
+   "bank400": 0
+  }
+ },
+ "00fragment": {
+  "jungle": {
+   "rounds": 1182,
+   "bank400": 200
+  },
+  "monster": {
+   "rounds": 1165,
+   "bank400": 170
+  },
+  "power": {
+   "rounds": 1183,
+   "bank400": 116
+  },
+  "treasure": {
+   "rounds": 1164,
+   "bank400": 200
+  },
+  "health": {
+   "rounds": 1191,
+   "bank400": 170
+  },
+  "tank": {
+   "rounds": 1240,
+   "bank400": 112
+  },
+  "treasure-health": {
+   "rounds": 1224,
+   "bank400": 112
+  }
+ },
+ "00gem_fields": {
+  "jungle": {
+   "rounds": 402,
+   "bank400": 970
+  },
+  "monster": {
+   "rounds": 398,
+   "bank400": 1006
+  },
+  "power": {
+   "rounds": 400,
+   "bank400": 1006
+  },
+  "treasure": {
+   "rounds": 402,
+   "bank400": 970
+  },
+  "health": {
+   "rounds": 431,
+   "bank400": 941
+  },
+  "tank": {
+   "rounds": 438,
+   "bank400": 941
+  },
+  "treasure-health": {
+   "rounds": 429,
+   "bank400": 927
+  }
+ },
+ "00gemfight": {
+  "jungle": {
+   "rounds": 529,
+   "bank400": 528
+  },
+  "monster": {
+   "rounds": 530,
+   "bank400": 528
+  },
+  "power": {
+   "rounds": 525,
+   "bank400": 528
+  },
+  "treasure": {
+   "rounds": 596,
+   "bank400": 528
+  },
+  "health": {
+   "rounds": 548,
+   "bank400": 521
+  },
+  "tank": {
+   "rounds": 560,
+   "bank400": 521
+  },
+  "treasure-health": {
+   "rounds": 616,
+   "bank400": 521
+  }
+ },
+ "00great_wall": {
+  "jungle": {
+   "rounds": 675,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 673,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 740,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 700,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 695,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 700,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 711,
+   "bank400": 0
+  }
+ },
+ "00interlock": {
+  "jungle": {
+   "rounds": 734,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 722,
+   "bank400": 217
+  },
+  "power": {
+   "rounds": 787,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 781,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 793,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 815,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 814,
+   "bank400": 0
+  }
+ },
+ "00lanes": {
+  "jungle": {
+   "rounds": 679,
+   "bank400": 202
+  },
+  "monster": {
+   "rounds": 650,
+   "bank400": 411
+  },
+  "power": {
+   "rounds": 677,
+   "bank400": 202
+  },
+  "treasure": {
+   "rounds": 681,
+   "bank400": 202
+  },
+  "health": {
+   "rounds": 764,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 773,
+   "bank400": 209
+  },
+  "treasure-health": {
+   "rounds": 772,
+   "bank400": 209
+  }
+ },
+ "00lost_world": {
+  "jungle": {
+   "rounds": 310,
+   "bank400": 1002
+  },
+  "monster": {
+   "rounds": 310,
+   "bank400": 1002
+  },
+  "power": {
+   "rounds": 310,
+   "bank400": 1002
+  },
+  "treasure": {
+   "rounds": 310,
+   "bank400": 1002
+  },
+  "health": {
+   "rounds": 310,
+   "bank400": 1002
+  },
+  "tank": {
+   "rounds": 310,
+   "bank400": 1002
+  },
+  "treasure-health": {
+   "rounds": 310,
+   "bank400": 1002
+  }
+ },
+ "00monolith": {
+  "jungle": {
+   "rounds": 665,
+   "bank400": 312
+  },
+  "monster": {
+   "rounds": 657,
+   "bank400": 524
+  },
+  "power": {
+   "rounds": 651,
+   "bank400": 423
+  },
+  "treasure": {
+   "rounds": 652,
+   "bank400": 434
+  },
+  "health": {
+   "rounds": 966,
+   "bank400": 317
+  },
+  "tank": {
+   "rounds": 1022,
+   "bank400": 203
+  },
+  "treasure-health": {
+   "rounds": 1048,
+   "bank400": 205
+  }
+ },
+ "00packs": {
+  "jungle": {
+   "rounds": 640,
+   "bank400": 202
+  },
+  "monster": {
+   "rounds": 631,
+   "bank400": 218
+  },
+  "power": {
+   "rounds": 681,
+   "bank400": 200
+  },
+  "treasure": {
+   "rounds": 627,
+   "bank400": 220
+  },
+  "health": {
+   "rounds": 652,
+   "bank400": 200
+  },
+  "tank": {
+   "rounds": 725,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 676,
+   "bank400": 200
+  }
+ },
+ "00pilgrimage": {
+  "jungle": {
+   "rounds": 976,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 1064,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 1031,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 964,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 1180,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 1176,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 1152,
+   "bank400": 0
+  }
+ },
+ "00quadrants": {
+  "jungle": {
+   "rounds": 363,
+   "bank400": 1024
+  },
+  "monster": {
+   "rounds": 386,
+   "bank400": 1022
+  },
+  "power": {
+   "rounds": 395,
+   "bank400": 1022
+  },
+  "treasure": {
+   "rounds": 395,
+   "bank400": 1006
+  },
+  "health": {
+   "rounds": 379,
+   "bank400": 1020
+  },
+  "tank": {
+   "rounds": 426,
+   "bank400": 752
+  },
+  "treasure-health": {
+   "rounds": 417,
+   "bank400": 886
+  }
+ },
+ "00reverse_spiral": {
+  "jungle": {
+   "rounds": 792,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 814,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 891,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 846,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 880,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 939,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 891,
+   "bank400": 0
+  }
+ },
+ "00road_of_riches": {
+  "jungle": {
+   "rounds": 539,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 539,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 539,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 558,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 540,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 573,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 578,
+   "bank400": 0
+  }
+ },
+ "00rows": {
+  "jungle": {
+   "rounds": 998,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 1062,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 1069,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 1050,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 1070,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 2000,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 2000,
+   "bank400": 0
+  }
+ },
+ "00rushbait_v2": {
+  "jungle": {
+   "rounds": 666,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 688,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 720,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 695,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 664,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 716,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 737,
+   "bank400": 0
+  }
+ },
+ "00split": {
+  "jungle": {
+   "rounds": 500,
+   "bank400": 449
+  },
+  "monster": {
+   "rounds": 544,
+   "bank400": 418
+  },
+  "power": {
+   "rounds": 517,
+   "bank400": 418
+  },
+  "treasure": {
+   "rounds": 519,
+   "bank400": 418
+  },
+  "health": {
+   "rounds": 559,
+   "bank400": 209
+  },
+  "tank": {
+   "rounds": 554,
+   "bank400": 422
+  },
+  "treasure-health": {
+   "rounds": 568,
+   "bank400": 422
+  }
+ },
+ "00stampede": {
+  "jungle": {
+   "rounds": 1025,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 1028,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 1040,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 1038,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 1050,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 1074,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 1069,
+   "bank400": 0
+  }
+ },
+ "00swirl": {
+  "jungle": {
+   "rounds": 549,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 555,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 615,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 561,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 579,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 585,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 562,
+   "bank400": 0
+  }
+ },
+ "01big_world": {
+  "jungle": {
+   "rounds": 913,
+   "bank400": 320
+  },
+  "monster": {
+   "rounds": 858,
+   "bank400": 260
+  },
+  "power": {
+   "rounds": 856,
+   "bank400": 238
+  },
+  "treasure": {
+   "rounds": 885,
+   "bank400": 242
+  },
+  "health": {
+   "rounds": 843,
+   "bank400": 264
+  },
+  "tank": {
+   "rounds": 832,
+   "bank400": 260
+  },
+  "treasure-health": {
+   "rounds": 866,
+   "bank400": 238
+  }
+ },
+ "01boss_battle": {
+  "jungle": {
+   "rounds": 2000,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 2000,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 2000,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 2000,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 710,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 678,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 767,
+   "bank400": 0
+  }
+ },
+ "01broken_curve": {
+  "jungle": {
+   "rounds": 690,
+   "bank400": 362
+  },
+  "monster": {
+   "rounds": 692,
+   "bank400": 362
+  },
+  "power": {
+   "rounds": 715,
+   "bank400": 362
+  },
+  "treasure": {
+   "rounds": 670,
+   "bank400": 354
+  },
+  "health": {
+   "rounds": 755,
+   "bank400": 277
+  },
+  "tank": {
+   "rounds": 763,
+   "bank400": 247
+  },
+  "treasure-health": {
+   "rounds": 764,
+   "bank400": 247
+  }
+ },
+ "01concentrated_wealth": {
+  "jungle": {
+   "rounds": 995,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 935,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 944,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 918,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 968,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 970,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 970,
+   "bank400": 0
+  }
+ },
+ "01corridors": {
+  "jungle": {
+   "rounds": 600,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 617,
+   "bank400": 238
+  },
+  "power": {
+   "rounds": 630,
+   "bank400": 238
+  },
+  "treasure": {
+   "rounds": 596,
+   "bank400": 238
+  },
+  "health": {
+   "rounds": 611,
+   "bank400": 200
+  },
+  "tank": {
+   "rounds": 880,
+   "bank400": 200
+  },
+  "treasure-health": {
+   "rounds": 994,
+   "bank400": 0
+  }
+ },
+ "01elk_arena": {
+  "jungle": {
+   "rounds": 885,
+   "bank400": 432
+  },
+  "monster": {
+   "rounds": 883,
+   "bank400": 432
+  },
+  "power": {
+   "rounds": 886,
+   "bank400": 432
+  },
+  "treasure": {
+   "rounds": 884,
+   "bank400": 432
+  },
+  "health": {
+   "rounds": 913,
+   "bank400": 432
+  },
+  "tank": {
+   "rounds": 938,
+   "bank400": 432
+  },
+  "treasure-health": {
+   "rounds": 921,
+   "bank400": 432
+  }
+ },
+ "01fracture": {
+  "jungle": {
+   "rounds": 761,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 836,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 830,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 828,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 789,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 860,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 871,
+   "bank400": 0
+  }
+ },
+ "01gold_rush": {
+  "jungle": {
+   "rounds": 1110,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 1248,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 1150,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 972,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 1065,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 1248,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 1091,
+   "bank400": 0
+  }
+ },
+ "01hooks": {
+  "jungle": {
+   "rounds": 885,
+   "bank400": 396
+  },
+  "monster": {
+   "rounds": 885,
+   "bank400": 396
+  },
+  "power": {
+   "rounds": 885,
+   "bank400": 396
+  },
+  "treasure": {
+   "rounds": 885,
+   "bank400": 396
+  },
+  "health": {
+   "rounds": 885,
+   "bank400": 396
+  },
+  "tank": {
+   "rounds": 899,
+   "bank400": 396
+  },
+  "treasure-health": {
+   "rounds": 899,
+   "bank400": 396
+  }
+ },
+ "01islands": {
+  "jungle": {
+   "rounds": 702,
+   "bank400": 204
+  },
+  "monster": {
+   "rounds": 705,
+   "bank400": 204
+  },
+  "power": {
+   "rounds": 806,
+   "bank400": 204
+  },
+  "treasure": {
+   "rounds": 737,
+   "bank400": 204
+  },
+  "health": {
+   "rounds": 704,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 724,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 729,
+   "bank400": 0
+  }
+ },
+ "01shortcut": {
+  "jungle": {
+   "rounds": 920,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 960,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 1055,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 1027,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 1036,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 975,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 985,
+   "bank400": 0
+  }
+ },
+ "01starfish": {
+  "jungle": {
+   "rounds": 628,
+   "bank400": 492
+  },
+  "monster": {
+   "rounds": 628,
+   "bank400": 492
+  },
+  "power": {
+   "rounds": 628,
+   "bank400": 477
+  },
+  "treasure": {
+   "rounds": 629,
+   "bank400": 492
+  },
+  "health": {
+   "rounds": 676,
+   "bank400": 492
+  },
+  "tank": {
+   "rounds": 695,
+   "bank400": 272
+  },
+  "treasure-health": {
+   "rounds": 683,
+   "bank400": 492
+  }
+ },
+ "01starvation": {
+  "jungle": {
+   "rounds": 1034,
+   "bank400": 204
+  },
+  "monster": {
+   "rounds": 1024,
+   "bank400": 204
+  },
+  "power": {
+   "rounds": 1095,
+   "bank400": 204
+  },
+  "treasure": {
+   "rounds": 1024,
+   "bank400": 204
+  },
+  "health": {
+   "rounds": 1024,
+   "bank400": 204
+  },
+  "tank": {
+   "rounds": 1150,
+   "bank400": 204
+  },
+  "treasure-health": {
+   "rounds": 1105,
+   "bank400": 204
+  }
+ },
+ "01the_farm": {
+  "jungle": {
+   "rounds": 629,
+   "bank400": 0
+  },
+  "monster": {
+   "rounds": 622,
+   "bank400": 0
+  },
+  "power": {
+   "rounds": 666,
+   "bank400": 0
+  },
+  "treasure": {
+   "rounds": 656,
+   "bank400": 0
+  },
+  "health": {
+   "rounds": 621,
+   "bank400": 0
+  },
+  "tank": {
+   "rounds": 656,
+   "bank400": 0
+  },
+  "treasure-health": {
+   "rounds": 642,
+   "bank400": 0
+  }
+ },
+ "01yellow_brick_road": {
+  "jungle": {
+   "rounds": 359,
+   "bank400": 1027
+  },
+  "monster": {
+   "rounds": 359,
+   "bank400": 1027
+  },
+  "power": {
+   "rounds": 367,
+   "bank400": 1027
+  },
+  "treasure": {
+   "rounds": 361,
+   "bank400": 1001
+  },
+  "health": {
+   "rounds": 387,
+   "bank400": 1001
+  },
+  "tank": {
+   "rounds": 391,
+   "bank400": 1002
+  },
+  "treasure-health": {
+   "rounds": 386,
+   "bank400": 1011
+  }
+ }
+}

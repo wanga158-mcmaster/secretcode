@@ -1,0 +1,953 @@
+{
+ "procless": {
+  "coverage": {
+   "sides": 86,
+   "wins": 63,
+   "maps": 30,
+   "vs": {
+    "ha²t": 38,
+    "EMPEROR Tung": 10,
+    "Univardisty of Shingtonwash": 10,
+    "Nanyang Technological University": 5,
+    "Intercontinental Fish": 5,
+    ":3": 5,
+    "Sponge(Albert and Bob)": 5,
+    "Zarzorki": 5,
+    "prism best girl": 3
+   },
+   "from": "2026-10-22T00:10:07.981Z",
+   "to": "2026-10-22T03:52:55.679Z",
+   "tracks": 74
+  },
+  "drafts": [
+   [
+    "Heart Vesper Ryth Marcella Vendetta",
+    62
+   ],
+   [
+    "Heart Vesper Ryth Marcella",
+    18
+   ],
+   [
+    "Vesper Heart Vendetta",
+    6
+   ]
+  ],
+  "drafts_by_map_varying": {},
+  "opening": {
+   "first_clear": 30.0,
+   "first_cap": 36.0,
+   "caps100": 4.046511627906977,
+   "caps200": 9.337209302325581,
+   "first5_types": {
+    "wolf": 172,
+    "gem": 43,
+    "gold": 114,
+    "elk": 98,
+    "golem": 1,
+    "mix": 2
+   }
+  },
+  "economy": {
+   "100": {
+    "gold": 350.0,
+    "ogold": 320.0,
+    "banked": 4.0,
+    "obanked": 8.0,
+    "collected": 39.0,
+    "n": 86
+   },
+   "200": {
+    "gold": 760.5,
+    "ogold": 677.0,
+    "banked": 35.5,
+    "obanked": 36.5,
+    "collected": 87.0,
+    "n": 86
+   },
+   "300": {
+    "gold": 1177.5,
+    "ogold": 1048.0,
+    "banked": 84.0,
+    "obanked": 78.0,
+    "collected": 140.0,
+    "n": 86
+   },
+   "400": {
+    "gold": 1955.5,
+    "ogold": 1410.0,
+    "banked": 148.5,
+    "obanked": 113.5,
+    "collected": 204.5,
+    "n": 86
+   },
+   "600": {
+    "gold": 3621.0,
+    "ogold": 2306.0,
+    "banked": 320.0,
+    "obanked": 194.5,
+    "collected": 394.5,
+    "n": 84
+   },
+   "1000": {
+    "gold": 6143.0,
+    "ogold": 4394.0,
+    "banked": 611.0,
+    "obanked": 382.0,
+    "collected": 732.0,
+    "n": 51
+   }
+  },
+  "win_rounds": {
+   "median": 978.5,
+   "p25": 874,
+   "p75": 1106
+  },
+  "banking": {
+   "tributes_per_game": 29.023255813953487,
+   "bag_median": 22.0,
+   "bag_p90": 65,
+   "big_tributes": [
+    [
+     "b4b7450c",
+     "00contest",
+     942,
+     200,
+     "Vendetta"
+    ]
+   ],
+   "locks_per_game": 0.0,
+   "carry_by_champ": {
+    "Heart": 59.5,
+    "Vesper": 44.0,
+    "Ryth": 58.5,
+    "Marcella": 59.5,
+    "Vendetta": 54.0
+   }
+  },
+  "first_buy": {
+   "Heart": 94.0,
+   "Vesper": 67.0,
+   "Ryth": 89.5,
+   "Marcella": 105.0,
+   "Vendetta": 120.5
+  },
+  "fights": {
+   "first_own_dmg": 72.0,
+   "kills400": 1.686046511627907,
+   "deaths400": 1.3953488372093024,
+   "kills": 6.813953488372093,
+   "deaths": 5.22093023255814,
+   "camp_deaths": 0.686046511627907,
+   "killers": {
+    "Heart": 180,
+    "Vendetta": 134,
+    "Vesper": 107,
+    "Marcella": 106,
+    "Ryth": 59
+   },
+   "victims": {
+    "Ryth": 113,
+    "Vesper": 103,
+    "Heart": 81,
+    "Marcella": 79,
+    "Vendetta": 73
+   }
+  },
+  "movement": {
+   "grouped": 0.17225,
+   "solo": 0.5158095238095237,
+   "spread": 13.534444444444444,
+   "enemyhalf": 0.12017536569148937,
+   "spawn": 0.04857629077832006,
+   "recalls400": 4.4,
+   "party": 1.3642969021928297,
+   "ranged_hold": 0.8434163701067615,
+   "contact_frac": 0.4934210526315789
+  },
+  "losses": [
+   {
+    "mid": "6b8e6a50",
+    "map": "00gemfight",
+    "opp": "EMPEROR Tung",
+    "rounds": 1423,
+    "gems": "830-1014",
+    "gold400": "859-1412",
+    "kd400": "1-2",
+    "kd": "9-9",
+    "opp_draft": "Heart Vesper Marcella Ryth"
+   },
+   {
+    "mid": "8c3aa336",
+    "map": "00ambush",
+    "opp": "EMPEROR Tung",
+    "rounds": 1173,
+    "gems": "728-1001",
+    "gold400": "699-2203",
+    "kd400": "0-2",
+    "kd": "1-2",
+    "opp_draft": "Heart Vesper Marcella Ryth Vendetta"
+   },
+   {
+    "mid": "ff1adfe4",
+    "map": "01starvation",
+    "opp": "EMPEROR Tung",
+    "rounds": 1887,
+    "gems": "344-1020",
+    "gold400": "420-1165",
+    "kd400": "3-1",
+    "kd": "3-27",
+    "opp_draft": "Heart Vesper Marcella Ryth Vendetta"
+   },
+   {
+    "mid": "3d4a6aa1",
+    "map": "01starfish",
+    "opp": "Nanyang Technological University",
+    "rounds": 1429,
+    "gems": "369-1110",
+    "gold400": "964-1594",
+    "kd400": "3-4",
+    "kd": "15-21",
+    "opp_draft": "Heart Ryth Ren Marcella Vesper"
+   },
+   {
+    "mid": "040416d8",
+    "map": "00swirl",
+    "opp": "Univardisty of Shingtonwash",
+    "rounds": 1182,
+    "gems": "65-1017",
+    "gold400": "878-2301",
+    "kd400": "1-8",
+    "kd": "4-31",
+    "opp_draft": "Marcella Heart Vesper Ryth"
+   },
+   {
+    "mid": "73f60c28",
+    "map": "01shortcut",
+    "opp": "Univardisty of Shingtonwash",
+    "rounds": 1169,
+    "gems": "682-1021",
+    "gold400": "1133-1020",
+    "kd400": "1-0",
+    "kd": "3-4",
+    "opp_draft": "Marcella Varg Heart Vendetta"
+   },
+   {
+    "mid": "6bb293ae",
+    "map": "01concentrated_wealth",
+    "opp": "Intercontinental Fish",
+    "rounds": 1307,
+    "gems": "586-1004",
+    "gold400": "1505-1880",
+    "kd400": "1-3",
+    "kd": "4-9",
+    "opp_draft": "Stellar Heart Ren Cassi Issac Ryth"
+   },
+   {
+    "mid": "b4b7450c",
+    "map": "00contest",
+    "opp": "Intercontinental Fish",
+    "rounds": 1745,
+    "gems": "200-1000",
+    "gold400": "1474-3449",
+    "kd400": "1-12",
+    "kd": "13-40",
+    "opp_draft": "Stellar Heart Ren Cassi Issac Ryth"
+   },
+   {
+    "mid": "bbe4de2b",
+    "map": "01concentrated_wealth",
+    "opp": ":3",
+    "rounds": 1126,
+    "gems": "659-1021",
+    "gold400": "1369-1916",
+    "kd400": "1-1",
+    "kd": "4-5",
+    "opp_draft": "Heart Ryth Vesper Marcella Stellar"
+   },
+   {
+    "mid": "ced1bed6",
+    "map": "00split",
+    "opp": "Sponge(Albert and Bob)",
+    "rounds": 826,
+    "gems": "542-1028",
+    "gold400": "2434-2786",
+    "kd400": "1-0",
+    "kd": "3-8",
+    "opp_draft": "Heart Ryth Vendetta Willow Marcella"
+   },
+   {
+    "mid": "d11a412c",
+    "map": "01fracture",
+    "opp": "Sponge(Albert and Bob)",
+    "rounds": 1048,
+    "gems": "860-1001",
+    "gold400": "2085-2292",
+    "kd400": "0-0",
+    "kd": "1-1",
+    "opp_draft": "Heart Ryth Vendetta Willow Marcella"
+   },
+   {
+    "mid": "0b5e15d9",
+    "map": "00monolith",
+    "opp": "EMPEROR Tung",
+    "rounds": 1145,
+    "gems": "775-1008",
+    "gold400": "2575-3140",
+    "kd400": "0-3",
+    "kd": "6-9",
+    "opp_draft": "Heart Vesper Marcella Ryth Vendetta"
+   },
+   {
+    "mid": "c775bd7d",
+    "map": "00expanse",
+    "opp": "Zarzorki",
+    "rounds": 1077,
+    "gems": "789-1031",
+    "gold400": "2610-2576",
+    "kd400": "0-0",
+    "kd": "0-3",
+    "opp_draft": "Heart Vesper Marcella Ryth Vendetta"
+   },
+   {
+    "mid": "7f4fdd72",
+    "map": "00pilgrimage",
+    "opp": "Univardisty of Shingtonwash",
+    "rounds": 1933,
+    "gems": "830-1003",
+    "gold400": "2011-1845",
+    "kd400": "0-3",
+    "kd": "3-9",
+    "opp_draft": "Marcella Varg Heart Vendetta Vesper"
+   },
+   {
+    "mid": "c6c381d7",
+    "map": "00monolith",
+    "opp": "Univardisty of Shingtonwash",
+    "rounds": 1013,
+    "gems": "620-1145",
+    "gold400": "2364-2459",
+    "kd400": "1-3",
+    "kd": "2-8",
+    "opp_draft": "Marcella Varg Heart Vendetta Vesper"
+   },
+   {
+    "mid": "8f055441",
+    "map": "00lost_world",
+    "opp": "Univardisty of Shingtonwash",
+    "rounds": 536,
+    "gems": "457-1001",
+    "gold400": "2266-354",
+    "kd400": "7-2",
+    "kd": "7-6",
+    "opp_draft": "Marcella Heart Vesper Ryth Tavi"
+   },
+   {
+    "mid": "570acbc5",
+    "map": "01starvation",
+    "opp": "ha²t",
+    "rounds": 2000,
+    "gems": "684-728",
+    "gold400": "522-624",
+    "kd400": "2-2",
+    "kd": "10-11",
+    "opp_draft": "Heart Marcella Ryth Vendetta Varg"
+   },
+   {
+    "mid": "dcb971ed",
+    "map": "00interlock",
+    "opp": "ha²t",
+    "rounds": 1422,
+    "gems": "730-1021",
+    "gold400": "1000-1314",
+    "kd400": "0-1",
+    "kd": "6-11",
+    "opp_draft": "Heart Marcella Ryth Vendetta"
+   },
+   {
+    "mid": "31274ff9",
+    "map": "00expanse",
+    "opp": "ha²t",
+    "rounds": 1043,
+    "gems": "758-1005",
+    "gold400": "2267-2328",
+    "kd400": "1-0",
+    "kd": "1-1",
+    "opp_draft": "Heart Marcella Ryth Vendetta Varg"
+   },
+   {
+    "mid": "aee02eeb",
+    "map": "01starvation",
+    "opp": "ha²t",
+    "rounds": 2000,
+    "gems": "348-960",
+    "gold400": "375-996",
+    "kd400": "0-4",
+    "kd": "3-20",
+    "opp_draft": "Heart Marcella Ryth Vendetta Varg"
+   },
+   {
+    "mid": "11830a6e",
+    "map": "01starvation",
+    "opp": "ha²t",
+    "rounds": 1967,
+    "gems": "372-1084",
+    "gold400": "242-876",
+    "kd400": "0-2",
+    "kd": "4-24",
+    "opp_draft": "Heart Marcella Ryth Vendetta Varg"
+   },
+   {
+    "mid": "937057a5",
+    "map": "00lost_world",
+    "opp": "prism best girl",
+    "rounds": 719,
+    "gems": "206-1472",
+    "gold400": "1292-1086",
+    "kd400": "0-6",
+    "kd": "1-21",
+    "opp_draft": "Prism Vesper Marcella Ryth Heart"
+   },
+   {
+    "mid": "9ff7d05a",
+    "map": "00rushbait_v2",
+    "opp": "prism best girl",
+    "rounds": 1059,
+    "gems": "710-1035",
+    "gold400": "1307-1777",
+    "kd400": "0-1",
+    "kd": "0-3",
+    "opp_draft": "Prism Vesper Marcella Ryth"
+   }
+  ]
+ },
+ "prism best girl": {
+  "coverage": {
+   "sides": 8,
+   "wins": 6,
+   "maps": 8,
+   "vs": {
+    "ha²t": 5,
+    "procless": 3
+   },
+   "from": "2026-10-22T02:42:10.309Z",
+   "to": "2026-10-22T03:20:12.502Z",
+   "tracks": 6
+  },
+  "drafts": [
+   [
+    "Prism Vesper Marcella Ryth",
+    3
+   ],
+   [
+    "Prism Vesper Marcella Ryth Heart",
+    3
+   ],
+   [
+    "Prism Marcella Vendetta Heart Vesper",
+    1
+   ],
+   [
+    "Prism Vesper Marcella Vendetta Heart",
+    1
+   ]
+  ],
+  "drafts_by_map_varying": {},
+  "opening": {
+   "first_clear": 35.5,
+   "first_cap": 42.5,
+   "caps100": 4.0,
+   "caps200": 8.875,
+   "first5_types": {
+    "elk": 15,
+    "gem": 9,
+    "wolf": 8,
+    "gold": 8
+   }
+  },
+  "economy": {
+   "100": {
+    "gold": 214.5,
+    "ogold": 279.0,
+    "banked": 10.5,
+    "obanked": 8.0,
+    "collected": 35.5,
+    "n": 8
+   },
+   "200": {
+    "gold": 586.5,
+    "ogold": 617.0,
+    "banked": 56.0,
+    "obanked": 37.5,
+    "collected": 85.5,
+    "n": 8
+   },
+   "300": {
+    "gold": 974.0,
+    "ogold": 1083.5,
+    "banked": 109.0,
+    "obanked": 41.5,
+    "collected": 163.0,
+    "n": 8
+   },
+   "400": {
+    "gold": 1436.5,
+    "ogold": 1299.5,
+    "banked": 175.0,
+    "obanked": 101.5,
+    "collected": 228.0,
+    "n": 8
+   },
+   "600": {
+    "gold": 2621.5,
+    "ogold": 2322.0,
+    "banked": 279.0,
+    "obanked": 194.5,
+    "collected": 370.0,
+    "n": 8
+   },
+   "1000": {
+    "gold": 4839.0,
+    "ogold": 4528.0,
+    "banked": 529.5,
+    "obanked": 359.0,
+    "collected": 682.0,
+    "n": 6
+   }
+  },
+  "win_rounds": {
+   "median": 1044.5,
+   "p25": 719,
+   "p75": 1173
+  },
+  "banking": {
+   "tributes_per_game": 23.25,
+   "bag_median": 28.0,
+   "bag_p90": 73,
+   "big_tributes": [
+    [
+     "f30735b2",
+     "00elkring",
+     655,
+     239,
+     "Prism"
+    ],
+    [
+     "690d0f86",
+     "00lanes",
+     1031,
+     336,
+     "Prism"
+    ],
+    [
+     "937057a5",
+     "00lost_world",
+     720,
+     710,
+     "Prism"
+    ],
+    [
+     "9ff7d05a",
+     "00rushbait_v2",
+     1060,
+     331,
+     "Prism"
+    ]
+   ],
+   "locks_per_game": 0.0,
+   "carry_by_champ": {
+    "Prism": 219.5,
+    "Marcella": 65.5,
+    "Vendetta": 40.5,
+    "Heart": 37.0,
+    "Vesper": 79.0,
+    "Ryth": 21.5
+   }
+  },
+  "first_buy": {
+   "Prism": 322.0,
+   "Marcella": 151.0,
+   "Vendetta": 217.5,
+   "Heart": 157,
+   "Vesper": 109.5,
+   "Ryth": 418.0
+  },
+  "fights": {
+   "first_own_dmg": 75.0,
+   "kills400": 2.125,
+   "deaths400": 0.5,
+   "kills": 10.125,
+   "deaths": 1.875,
+   "camp_deaths": 1.875,
+   "killers": {
+    "Vesper": 25,
+    "Prism": 22,
+    "Marcella": 15,
+    "Heart": 10,
+    "Ryth": 6,
+    "Vendetta": 3
+   },
+   "victims": {
+    "Prism": 4,
+    "Marcella": 4,
+    "Ryth": 3,
+    "Vesper": 3,
+    "Heart": 1
+   }
+  },
+  "movement": {
+   "grouped": 0.3492463768115942,
+   "solo": 0.3431159420289855,
+   "spread": 10.302388888888888,
+   "enemyhalf": 0.14562456717728278,
+   "spawn": 0.07370920485167334,
+   "recalls400": 3.9,
+   "party": 1.8836756756756756,
+   "ranged_hold": 0.9933333333333334,
+   "contact_frac": 0.4482879105520615
+  },
+  "losses": [
+   {
+    "mid": "921a5f68",
+    "map": "01starvation",
+    "opp": "ha²t",
+    "rounds": 2000,
+    "gems": "550-864",
+    "gold400": "702-1065",
+    "kd400": "1-3",
+    "kd": "10-13",
+    "opp_draft": "Heart Marcella Ryth Vendetta Varg"
+   },
+   {
+    "mid": "606e89ab",
+    "map": "01fracture",
+    "opp": "procless",
+    "rounds": 1073,
+    "gems": "477-1033",
+    "gold400": "1096-1988",
+    "kd400": "0-0",
+    "kd": "2-0",
+    "opp_draft": "Heart Vesper Ryth Marcella Vendetta"
+   }
+  ]
+ },
+ "Intercontinental Fish": {
+  "coverage": {
+   "sides": 31,
+   "wins": 22,
+   "maps": 21,
+   "vs": {
+    "ha²t": 15,
+    "procless": 5,
+    "Univardisty of Shingtonwash": 4,
+    ":3": 4,
+    "Sponge(Albert and Bob)": 1,
+    "policy wonk": 1,
+    "EMPEROR Tung": 1
+   },
+   "from": "2026-10-22T00:20:06.906Z",
+   "to": "2026-10-22T03:53:33.609Z",
+   "tracks": 29
+  },
+  "drafts": [
+   [
+    "Stellar Heart Ren Cassi Issac Ryth",
+    18
+   ],
+   [
+    "Stellar Heart Ren",
+    9
+   ],
+   [
+    "Stellar Heart Ren Cassi Issac",
+    4
+   ]
+  ],
+  "drafts_by_map_varying": {},
+  "opening": {
+   "first_clear": 20,
+   "first_cap": 27,
+   "caps100": 3.7419354838709675,
+   "caps200": 8.193548387096774,
+   "first5_types": {
+    "gold": 38,
+    "wolf": 48,
+    "elk": 46,
+    "gem": 16,
+    "golem": 3,
+    "mix": 4
+   }
+  },
+  "economy": {
+   "100": {
+    "gold": 370.0,
+    "ogold": 320.0,
+    "banked": 0.0,
+    "obanked": 0.0,
+    "collected": 49.0,
+    "n": 31
+   },
+   "200": {
+    "gold": 788.0,
+    "ogold": 699.0,
+    "banked": 56.0,
+    "obanked": 41.0,
+    "collected": 101.0,
+    "n": 31
+   },
+   "300": {
+    "gold": 1384.0,
+    "ogold": 1042.0,
+    "banked": 145.0,
+    "obanked": 84.0,
+    "collected": 187.0,
+    "n": 31
+   },
+   "400": {
+    "gold": 1989.0,
+    "ogold": 1542.0,
+    "banked": 218.0,
+    "obanked": 116.0,
+    "collected": 270.0,
+    "n": 31
+   },
+   "600": {
+    "gold": 3430.0,
+    "ogold": 2320.0,
+    "banked": 370.0,
+    "obanked": 217.0,
+    "collected": 430.0,
+    "n": 29
+   },
+   "1000": {
+    "gold": 7061.0,
+    "ogold": 4699.0,
+    "banked": 670.0,
+    "obanked": 369.0,
+    "collected": 705.0,
+    "n": 17
+   }
+  },
+  "win_rounds": {
+   "median": 1065.5,
+   "p25": 876,
+   "p75": 1295
+  },
+  "banking": {
+   "tributes_per_game": 32.58064516129032,
+   "bag_median": 22.0,
+   "bag_p90": 57,
+   "big_tributes": [
+    [
+     "23514fe5",
+     "01gold_rush",
+     1140,
+     211,
+     "Ren"
+    ],
+    [
+     "b4b7450c",
+     "00contest",
+     774,
+     200,
+     "Heart"
+    ],
+    [
+     "b4b7450c",
+     "00contest",
+     1173,
+     200,
+     "Stellar"
+    ],
+    [
+     "b4b7450c",
+     "00contest",
+     1310,
+     200,
+     "Stellar"
+    ],
+    [
+     "b4b7450c",
+     "00contest",
+     1460,
+     200,
+     "Heart"
+    ],
+    [
+     "b4b7450c",
+     "00contest",
+     1746,
+     200,
+     "Issac"
+    ],
+    [
+     "01102eb2",
+     "00split",
+     817,
+     214,
+     "Heart"
+    ],
+    [
+     "7ab18b71",
+     "01gold_rush",
+     1539,
+     200,
+     "Heart"
+    ]
+   ],
+   "locks_per_game": 0.0,
+   "carry_by_champ": {
+    "Stellar": 74.0,
+    "Heart": 70.0,
+    "Ren": 41.0,
+    "Cassi": 25.5,
+    "Issac": 31.5,
+    "Ryth": 31.0
+   }
+  },
+  "first_buy": {
+   "Stellar": 81,
+   "Heart": 93,
+   "Ren": 187,
+   "Cassi": 239,
+   "Issac": 270,
+   "Ryth": 202
+  },
+  "fights": {
+   "first_own_dmg": 72,
+   "kills400": 3.5483870967741935,
+   "deaths400": 1.3225806451612903,
+   "kills": 12.741935483870968,
+   "deaths": 4.0,
+   "camp_deaths": 2.6129032258064515,
+   "killers": {
+    "Heart": 157,
+    "Stellar": 116,
+    "Ren": 57,
+    "Cassi": 28,
+    "Ryth": 22,
+    "Issac": 15
+   },
+   "victims": {
+    "Cassi": 46,
+    "Issac": 46,
+    "Stellar": 33,
+    "Ren": 16,
+    "Heart": 15,
+    "Ryth": 14
+   }
+  },
+  "movement": {
+   "grouped": 0.49333333333333335,
+   "solo": 0.23055555555555557,
+   "spread": 7.305777777777777,
+   "enemyhalf": 0.16202749140893472,
+   "spawn": 0.06035242290748899,
+   "recalls400": 3.3333333333333335,
+   "party": 2.2325581395348837,
+   "ranged_hold": 0.9193548387096774,
+   "contact_frac": 0.5
+  },
+  "losses": [
+   {
+    "mid": "227a63d8",
+    "map": "00corners",
+    "opp": "Univardisty of Shingtonwash",
+    "rounds": 1291,
+    "gems": "300-1017",
+    "gold400": "992-2536",
+    "kd400": "1-11",
+    "kd": "10-30",
+    "opp_draft": "Marcella Heart Vesper Ryth Tavi"
+   },
+   {
+    "mid": "a04d9a24",
+    "map": "00gem_fields",
+    "opp": "procless",
+    "rounds": 675,
+    "gems": "886-1006",
+    "gold400": "1730-1671",
+    "kd400": "7-3",
+    "kd": "8-6",
+    "opp_draft": "Heart Vesper Ryth Marcella Vendetta"
+   },
+   {
+    "mid": "3d488455",
+    "map": "00lanes",
+    "opp": "procless",
+    "rounds": 944,
+    "gems": "608-1002",
+    "gold400": "2042-2354",
+    "kd400": "0-0",
+    "kd": "0-4",
+    "opp_draft": "Heart Vesper Ryth Marcella Vendetta"
+   },
+   {
+    "mid": "4d868e33",
+    "map": "01broken_curve",
+    "opp": "procless",
+    "rounds": 874,
+    "gems": "783-1008",
+    "gold400": "1996-2621",
+    "kd400": "0-0",
+    "kd": "1-0",
+    "opp_draft": "Vesper Heart Vendetta"
+   },
+   {
+    "mid": "34aa08cd",
+    "map": "01yellow_brick_road",
+    "opp": "Sponge(Albert and Bob)",
+    "rounds": 1576,
+    "gems": "664-1007",
+    "gold400": "1806-980",
+    "kd400": "0-0",
+    "kd": "4-6",
+    "opp_draft": "Heart Ryth Vendetta Willow Marcella"
+   },
+   {
+    "mid": "74471741",
+    "map": "01gold_rush",
+    "opp": "ha²t",
+    "rounds": 1781,
+    "gems": "451-1020",
+    "gold400": "1378-1564",
+    "kd400": "3-2",
+    "kd": "13-10",
+    "opp_draft": "Heart Marcella Ryth"
+   },
+   {
+    "mid": "2468dd8b",
+    "map": "01shortcut",
+    "opp": ":3",
+    "rounds": 889,
+    "gems": "30-1010",
+    "gold400": "1566-1842",
+    "kd400": "4-4",
+    "kd": "6-11",
+    "opp_draft": "Heart Vendetta Vesper Marcella"
+   },
+   {
+    "mid": "ddd86e8b",
+    "map": "00quadrants",
+    "opp": ":3",
+    "rounds": 493,
+    "gems": "704-1013",
+    "gold400": "928-1542",
+    "kd400": "0-0",
+    "kd": "0-1",
+    "opp_draft": "Heart Prism Vendetta Vesper Marcella"
+   },
+   {
+    "mid": "6ed38ce5",
+    "map": "01the_farm",
+    "opp": "ha²t",
+    "rounds": 1371,
+    "gems": "885-1151",
+    "gold400": "1000-864",
+    "kd400": "1-0",
+    "kd": "9-1",
+    "opp_draft": "Heart Marcella Ryth"
+   }
+  ]
+ }
+}

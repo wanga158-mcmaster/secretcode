@@ -1,0 +1,151 @@
+{
+  "schema": "contenders-c2/v1",
+  "description": "Native integration check that forces both a changed legal draft permutation and an item sequence. Not a strength campaign.",
+  "controller": "anchors/main-v42",
+  "baseline": {
+    "knobs": {}
+  },
+  "space": [
+    {
+      "name": "draft_mode",
+      "type": "categorical",
+      "values": [
+        99
+      ],
+      "default": 99
+    },
+    {
+      "name": "draft_pref",
+      "type": "permutation",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "default": [
+        10,
+        11,
+        6,
+        1,
+        0,
+        2,
+        9,
+        4,
+        3,
+        5,
+        7,
+        8
+      ],
+      "active_if": {
+        "draft_mode": [
+          99
+        ]
+      }
+    },
+    {
+      "name": "shop_plan",
+      "type": "categorical",
+      "values": [
+        99
+      ],
+      "default": 99
+    },
+    {
+      "name": "shop_seq",
+      "type": "shop_sequence",
+      "families": [
+        0,
+        2,
+        3,
+        4,
+        6
+      ],
+      "stats": [
+        2,
+        3
+      ],
+      "milestones": [
+        5
+      ],
+      "tail_families": [
+        0,
+        6
+      ],
+      "min_steps": 2,
+      "max_steps": 5,
+      "length": 8,
+      "default": [
+        435,
+        335,
+        225,
+        630,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "active_if": {
+        "shop_plan": [
+          99
+        ]
+      }
+    },
+    {
+      "name": "tribute_gems",
+      "type": "categorical",
+      "values": [
+        15,
+        25,
+        40
+      ],
+      "default": 25
+    }
+  ],
+  "cases": {
+    "train": {
+      "maps": [
+        "00ambush"
+      ],
+      "opponents": [
+        "anchors/main-v42"
+      ]
+    },
+    "validation": {
+      "maps": [
+        "00eight"
+      ],
+      "opponents": [
+        "anchors/main-v42"
+      ]
+    },
+    "qualification": {
+      "maps": [
+        "00collision"
+      ],
+      "opponents": [
+        "anchors/main-v42"
+      ]
+    }
+  },
+  "search": {
+    "population": 4,
+    "elites": 2,
+    "promote_fraction": 0.5,
+    "random_fraction": 0.5,
+    "stages": [
+      2
+    ],
+    "audit_every": 2,
+    "validation_every": 2,
+    "qualification_on_finish": false
+  }
+}

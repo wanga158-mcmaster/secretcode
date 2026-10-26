@@ -1,0 +1,133 @@
+{
+  "purpose": "Operational action-word specification for independent contender implementations; no bot code and no new native game.",
+  "scope": {
+    "bundle": "CLI/SDK 3.0.5, engine 1.0.3 evidence where explicitly named",
+    "kits": [
+      "Varg",
+      "Marcella",
+      "Ryth"
+    ],
+    "domain": "Finite movement/basic/one-ability words during one uninterrupted owning champion input; separate macros must handle channels, recovery, banking, shopping, consumables, wards, priorities and fuel-deferred computation.",
+    "completeness": "The syntactic grammar is complete for these productive primitives under the supported fresh local state and legal target/ground domains. Existing native witnesses are finite refinement cases, not exhaustive native-domain or deployed-controller qualification."
+  },
+  "symbols": {
+    "M": "one successful ordinary step",
+    "A": "one successful basic; targets selected afresh per occurrence",
+    "R": "one successful attack-reset cast",
+    "S": "Varg shield cast",
+    "X": "Ryth AoE or Marcella direct-damage cast, exclusive with ordinary movement"
+  },
+  "fresh_fields": [
+    "owner identity, round/epoch, life and position",
+    "can_move/can_attack/can_cast AND independent restrictions",
+    "ability slot cooldown and typed payload: target categories, exclusive_with_movement, range, modifier, radius, duration, enhanced_attack",
+    "fresh target identity/life/visibility/position and queried attack range",
+    "current HP/maxHP/Strength/Focus and relevant items/passives; do not confuse raw Strength with outgoing-damage-adjusted value",
+    "fresh buffs() owned snapshot: shield value+duration, stun duration, enhanced-attack duration",
+    "actual prior successful ordinary step in this input; an attempted/refused move is not a successful step",
+    "complete represented camp/neighbor support for wake, splash/AoE and next camp-phase damage",
+    "Exclusive-with-movement admission requires explicit input-local successful ordinary-step history preserved through every compiler/dispatcher; SDK has no named has_walked accessor."
+  ],
+  "grammar": {
+    "no_cast": "All permutations/subwords of M,A, at most one each, filtered by fresh native gates.",
+    "compatible_nonreset": "For Varg S: all permutations/subwords of M,A,S, each at most once. No order dominates universally.",
+    "reset_from_full_ready": "At most one M and the ordered chain A,R,A. Maximal words are M A R A; A M R A; A R M A; A R A M. Include every legal prefix and shorter supported subword; reset requires actual spent A.",
+    "exclusive_cast": "Ryth X or Marcella X: X A, A X and their prefixes/subwords; no successful M before or after X in the input.",
+    "arbitrary_start": "Start from actual remaining M/A/C, cooldowns, restrictions, existing enhanced state and input history, not an assumed 111 posture. If A is already spent, R A may be a legal suffix. One successful cast across both slots still bounds the word.",
+    "bounds": "These kits have no ability cooldown reset on kill. Within this restricted primitive domain there is at most one successful M, one successful cast and two successful basics (reset branch): maximum four successful primitives. Refused attempts do not count as progress and need a separate finite failure budget.",
+    "effects": "Requery after each accepted or refused primitive. attack() returns void: normal return is acceptance, not proof of a kill. Move/cast bool false is not success. A dead old target never justifies spending the rest of the input idle while another admissible target remains.",
+    "readiness_is_not_legality": "ability::is_ready() checks only info present, cooldown zero and owner.can_cast(); can_cast() reads state bit11. Neither tests actual walked history, reset-specific spent attack, target/category/range/visibility, restrictions or effect support. Treat readiness as one premise, never the complete admission oracle.",
+    "walk_history": "Track actual accepted ordinary step, keyed to owning input identity/round, and preserve it across recompilation. Mark only on bool-true move; a false/refused move is not a step. An exclusive cast requires no earlier successful ordinary step in that input (E126); a successful exclusive cast forbids later step (E127). Reset/invalidate history only at an actual fresh owner input, with all dated authority refreshed after suspension.",
+    "move_bit_is_not_walked": "Do not infer actual prior walking from can_move()==false generically: ranged basic also consumes M without walking, while historical standing basic+exclusive spell is legal in either order. Positive M may be a conservative sufficient unwalked gate only within a separately justified kit/history class; it is not a substitute for the complete generic history contract."
+  },
+  "kits": {
+    "Varg": {
+      "basic": "Primary receives one queried Strength basic; other valid camps/enemies within queried splash radius of PRIMARY TARGET receive splash, primary not twice. Geometry and collateral wake matter.",
+      "slot0": "Self attack reset; movement compatible; requires spent attack.",
+      "slot1": "Self shield; movement compatible; queried shield_amount(), payload duration. Catalog 2.5*Focus, duration 5.",
+      "choice": "Shield and reset compete for the same cast. Compare actual next ordered survival prefix and useful follow-up, not separate independent rates."
+    },
+    "Marcella": {
+      "passive": "Stun immune; 2 gold per actual gem tribute in current catalog.",
+      "slot0": "Self enhanced attack reset; movement compatible; next enhanced basic stuns for one target input. Query existing enhanced buff and native resulting effects.",
+      "slot1": "Visible camp/enemy unit damage spell; exclusive with ordinary walking. Query damage_amount()/payload; catalog 2*Focus, range 4."
+    },
+    "Ryth": {
+      "passive": "Bonus-health Strength scaling; query actual Strength rather than rebuilding from copied base numbers.",
+      "slot0": "Ground AoE damage/stun; exclusive with ordinary walking. Catalog range 4, radius 1 Chebyshev, Focus*1, stun duration 1. Legal centers include supported free centers, not only unit positions.",
+      "slot1": "Self ordinary attack reset; movement compatible; requires spent attack."
+    }
+  },
+  "target_geometry": {
+    "basic": "Enumerate supported visible alive enemy champions/camps (and enemy altar locks if that primitive class is included) within queried Chebyshev attack range. Reselect after any death/effect; two reset basics may use different targets.",
+    "aoe": "Enumerate the declared legal ground-center region, including free centers, and price all affected camps/champions, wake and immediate retaliation. ability.valid_tiles()/mask_into is range only, not visibility/terrain/category/occupancy validation. Existing free-floor witnesses do not prove wall/hole/altar or arbitrary hidden-center legality.",
+    "perch": "A reachable caster position outside every relevant harmful camp's actual footprint can repeatedly chip a harmful group without NPC damage, then enter only after whole clear for capture. Marcella range 4 outranges wolves range 3, not elk/golem range 4 or monolith range 5. Ryth range 4 plus radius 1 can geometrically reach distance 5 only with independently legal/visible ground center. Always query ranges and include whole-group/collateral neighbors.",
+    "recurring": "Current cast cooldown 8 owner ends means cast at r next ready r+8; seven intervening owner inputs remain. Persistent residual camp HP makes repeated chip possible, but actual cooldown waiting, route/visibility, whole-clear ingress, capture, payout, bank and renewed work determine complete throughput.",
+    "deduplication": {
+      "model_scope": "Equal masks over the supplied eight-target stationary scalar model may represent equal modeled successors.",
+      "native_limit": "This is not native successor equivalence: omitted or hidden static camps may wake different groups, or omitted Ren may retaliate immediately.",
+      "equivalence_claim": "Represent all possible affected support, independent representative legality, statuses/effects and ordered responses before claiming native equivalence.",
+      "risk_scope": "These are claim boundaries, not universal hidden-state proof gates before deploying a declared limited-risk controller.",
+      "no_invention": "No known persistent Ryth ground field is assumed."
+    }
+  },
+  "time_and_damage": {
+    "same_input": "No camp or separately scheduled champion turn occurs between successful primitives in the same uninterrupted owner input. Damage wakes the whole group; next round camp phase precedes champion inputs. Hit-triggered champion passives such as Ren retaliation can still damage/kill the caster immediately within a primitive.",
+    "interruption": "If computation/native work exhausts fuel and resumes across inputs, same-input word premises no longer hold. Refresh owner/epoch/state before continuing; a syntactic four-action bound is not a fuel proof.",
+    "cooldown": "New cast cooldown is 8 immediately then decrements to 7 at that owner end under current catalog.",
+    "stun": "One-input stun denies the target's next actual owner opportunity, not necessarily all replies before our next input. Actual pair ordering and round parity can expose two opponent inputs. Marcella immunity matters.",
+    "shield": "Timer decrements at owner end; zero-timer shield expires at owner's next start, after that round's preceding camp phase. A freshly observed timer-1 shield can absorb next camp phase; existing current witness does not cover every other-champion opportunity at zero-timer boundary.",
+    "healing": "None of Varg/Marcella/Ryth has an allied/self heal ability. Spawn recovery is a separate physical owner-end macro, not a cast candidate.",
+    "arithmetic": "Use queried effects and actual target mitigation/shields/HP. ability.damage_amount(visible champion) is capped predicted HP loss after mitigation/shields; it is not total removed shield+HP. Preserve per-action order and float semantics rather than treating damage as one simultaneous volley."
+  },
+  "evidence": [
+    {
+      "path": "results/contenders/mosaic/geometry/r2/native/varg-A-1-64.json",
+      "scope": "Current native Varg R11: Basic MAC111->101, reset101->110, Basic110->100; R10 shield0->250 duration5 preserves M+A, consumes C."
+    },
+    {
+      "path": "results/contenders/mosaic/geometry/r2/native-verification.json",
+      "scope": "Current Varg/Ryth dense-lab task both sides; Ryth AoE MAC111->010, four wolves each lose100. Both controlled task executors complete recovery/clear/capture/bank, then stop. No recurring ordinary controller claim."
+    },
+    {
+      "path": "results/contenders/micro/packing-3.0.5-r2/native-verification.json",
+      "scope": "Ryth AoE lethal action followed by different surviving-member basic; eight lab games cover both sides/parities, current engine."
+    },
+    {
+      "path": "results/contenders/optimization/c11/reset-availability-witness.json",
+      "scope": "Ryth out-of-range Basic code43 leaves A true; reset then refuses code26. One current constructed replay branch."
+    },
+    {
+      "path": "results/contenders/micro-word-compiler/r93-native/assessment.json",
+      "scope": "Current Marcella standing slot1 cast111->010; following own input accepts Move->Basic->Reset->Basic with enhanced stun. Actual own93,own94,foe94,foe95,own95 order limits stun safety."
+    },
+    {
+      "path": "results/contenders/foundation/shield-expiry/verification.json",
+      "scope": "Current Varg timer0 shield absorbs preceding camp phase, then expires at own start; two sides of one short lab cell."
+    },
+    {
+      "path": "results/contenders/foundation/camp-stun-gap/chain.json",
+      "scope": "Current Ryth dense-lab camp attacks at17, none18 after AoE17, resume19; no direct queried buff-countdown proof."
+    },
+    {
+      "path": "results/contenders/micro/freecenter/caller-r2/verification.json",
+      "scope": "Current Ryth supported free floor center applies added Ren hit and immediate20 retaliation. Restricted center subset, not universal ground oracle or strength gain."
+    },
+    {
+      "path": "results/contenders/timetable/independent/4a9db07ca948/local-prerequisite/micro-audit.json",
+      "scope": "One ordinary Vesper R41 Basic/Reset/Basic compound, same actor3/phase10, inputs494/495/496/497; reset restores attack only. Selected-field audit of a complete current-inspector40-42 window, not the full original response bytes."
+    }
+  ],
+  "references": [
+    "sdk/cpp/cambc.h ability_properties/typed payloads/ability::is_ready/valid_tiles/state/restrictions/buffs",
+    "docs/reference/GameRules.md exact turn order and Ryth/Marcella/Varg/Ren kits",
+    "bots/main/foundation/mechanics.md M7,M23-M26,M30",
+    "bots/main/foundation/micro.md U1-U3,U6,U9-U12",
+    "sdk/cpp/cambc.h:2422-2479 champion_state has no named walked flag; :2550-2557 exclusive metadata; :3988-3995 is_ready implementation; M25 E126/E127 historical native contract. Mosaic R3 current integration failure was reported by owner/root, not independently decoded by this atlas worker."
+  ],
+  "clock_scope": {
+    "owner_turn": "Successful ordinary-walk history persists through the continuous physical owner turn, including recompilation.",
+    "native_input": "Recorded native API input numbers may advance between Basic/Reset/Basic/End within one owner turn; do not equate this counter with turn identity.",
+    "freshness": "Use actual owner-turn boundaries and successful command history; preserve exact primitive timestamps separately. Changed round/owner/phase and suspension still need their own validity checks."
+  }
+}

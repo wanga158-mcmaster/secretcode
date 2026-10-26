@@ -1,0 +1,645 @@
+{
+ "calibration": {
+  "0.1": {
+   "n": 195,
+   "actual": 0.09230769230769231,
+   "fitted": 0.1852299561736695
+  },
+  "0.2": {
+   "n": 585,
+   "actual": 0.2222222222222222,
+   "fitted": 0.24519077349974933
+  },
+  "0.3": {
+   "n": 546,
+   "actual": 0.40476190476190477,
+   "fitted": 0.36055787993316474
+  },
+  "0.4": {
+   "n": 596,
+   "actual": 0.43288590604026844,
+   "fitted": 0.4403715033990716
+  },
+  "0.5": {
+   "n": 596,
+   "actual": 0.5671140939597316,
+   "fitted": 0.5596284966009277
+  },
+  "0.6": {
+   "n": 546,
+   "actual": 0.5952380952380952,
+   "fitted": 0.6394421200668354
+  },
+  "0.7": {
+   "n": 585,
+   "actual": 0.7777777777777778,
+   "fitted": 0.7548092265002474
+  },
+  "0.8": {
+   "n": 195,
+   "actual": 0.9076923076923077,
+   "fitted": 0.8147700438263308
+  }
+ },
+ "conflict": {
+  "T1-T1@200": {
+   "games": 69,
+   "conflicts": 8,
+   "gold_leader_wins": 5
+  },
+  "T1-T1@400": {
+   "games": 69,
+   "conflicts": 8,
+   "gold_leader_wins": 6
+  },
+  "T1-T1@600": {
+   "games": 66,
+   "conflicts": 12,
+   "gold_leader_wins": 10
+  },
+  "others@200": {
+   "games": 223,
+   "conflicts": 19,
+   "gold_leader_wins": 11
+  },
+  "others@400": {
+   "games": 222,
+   "conflicts": 31,
+   "gold_leader_wins": 23
+  },
+  "others@600": {
+   "games": 219,
+   "conflicts": 36,
+   "gold_leader_wins": 28
+  },
+  "vs-us@200": {
+   "games": 901,
+   "conflicts": 66,
+   "gold_leader_wins": 41
+  },
+  "vs-us@400": {
+   "games": 900,
+   "conflicts": 114,
+   "gold_leader_wins": 79
+  },
+  "vs-us@600": {
+   "games": 883,
+   "conflicts": 134,
+   "gold_leader_wins": 96
+  }
+ },
+ "comeback": {
+  "T1-T1@200": {
+   "games": 69,
+   "comebacks": 18,
+   "median_deficit_share": 0.2676261118367855
+  },
+  "T1-T1@400": {
+   "games": 69,
+   "comebacks": 14,
+   "median_deficit_share": 0.17872253731723378
+  },
+  "T1-T1@600": {
+   "games": 66,
+   "comebacks": 7,
+   "median_deficit_share": 0.3062845303867403
+  },
+  "T1-T1@1000": {
+   "games": 45,
+   "comebacks": 6,
+   "median_deficit_share": 0.04814647742446214
+  },
+  "others@200": {
+   "games": 220,
+   "comebacks": 62,
+   "median_deficit_share": 0.23958134341980702
+  },
+  "others@400": {
+   "games": 219,
+   "comebacks": 48,
+   "median_deficit_share": 0.18955235619049382
+  },
+  "others@600": {
+   "games": 217,
+   "comebacks": 38,
+   "median_deficit_share": 0.1760329943387043
+  },
+  "others@1000": {
+   "games": 167,
+   "comebacks": 33,
+   "median_deficit_share": 0.15210526315789474
+  },
+  "vs-us@200": {
+   "games": 897,
+   "comebacks": 277,
+   "median_deficit_share": 0.19921875
+  },
+  "vs-us@400": {
+   "games": 900,
+   "comebacks": 184,
+   "median_deficit_share": 0.17024321685487925
+  },
+  "vs-us@600": {
+   "games": 883,
+   "comebacks": 154,
+   "median_deficit_share": 0.14632225501217913
+  },
+  "vs-us@1000": {
+   "games": 678,
+   "comebacks": 91,
+   "median_deficit_share": 0.154548776032152
+  }
+ },
+ "rate": {
+  "T1": {
+   "n": 353,
+   "gold_per_alive_round": 1.051,
+   "dead_rounds": 102.28611898016997,
+   "gems_per_100": 12.5625,
+   "kill_gold_share": 13.818147558676957
+  },
+  "T2": {
+   "n": 508,
+   "gold_per_alive_round": 0.9151824324324325,
+   "dead_rounds": 108.59251968503936,
+   "gems_per_100": 11.414285714285715,
+   "kill_gold_share": 13.028791237204281
+  },
+  "T3": {
+   "n": 266,
+   "gold_per_alive_round": 0.8235858488132095,
+   "dead_rounds": 124.73684210526316,
+   "gems_per_100": 9.971042471042471,
+   "kill_gold_share": 14.64641201371515
+  },
+  "T4": {
+   "n": 140,
+   "gold_per_alive_round": 0.6109481245887256,
+   "dead_rounds": 226.64285714285714,
+   "gems_per_100": 9.409722222222221,
+   "kill_gold_share": 11.062604481537363
+  },
+  "T5": {
+   "n": 77,
+   "gold_per_alive_round": 0.39197386840877274,
+   "dead_rounds": 439.85714285714283,
+   "gems_per_100": 5.082592121982211,
+   "kill_gold_share": 15.760757133725507
+  },
+  "US": {
+   "n": 900,
+   "gold_per_alive_round": 0.8407875076709623,
+   "dead_rounds": 131.79333333333332,
+   "gems_per_100": 9.267787524366472,
+   "kill_gold_share": 8.152007612606985
+  },
+  "T1-T1_win": {
+   "gold_per_alive_round": 1.05,
+   "dead_rounds": 108.17391304347827
+  },
+  "T1-T1_loss": {
+   "gold_per_alive_round": 0.838411316648531,
+   "dead_rounds": 173.14492753623188
+  },
+  "others_win": {
+   "gold_per_alive_round": 0.8952002994166538,
+   "dead_rounds": 160.6936936936937
+  },
+  "others_loss": {
+   "gold_per_alive_round": 0.6876282051282052,
+   "dead_rounds": 267.3738738738739
+  }
+ },
+ "first_blood": {
+  "T1-T1": {
+   "games": 69,
+   "one_sided": 19,
+   "wins": 11
+  },
+  "others": {
+   "games": 223,
+   "one_sided": 65,
+   "wins": 43
+  },
+  "vs-us": {
+   "games": 901,
+   "one_sided": 211,
+   "wins": 154
+  }
+ },
+ "our_deaths": {
+  "v1-27/T1": {
+   "n": 10,
+   "deaths": 15.1,
+   "deaths400": 3.1,
+   "win": 0.2
+  },
+  "v1-27/T2": {
+   "n": 61,
+   "deaths": 20.557377049180328,
+   "deaths400": 4.016393442622951,
+   "win": 0.09836065573770492
+  },
+  "v1-27/T3": {
+   "n": 109,
+   "deaths": 8.311926605504587,
+   "deaths400": 2.0,
+   "win": 0.3669724770642202
+  },
+  "v1-27/T4": {
+   "n": 42,
+   "deaths": 7.0476190476190474,
+   "deaths400": 1.5476190476190477,
+   "win": 0.4523809523809524
+  },
+  "v28-32/T1": {
+   "n": 91,
+   "deaths": 10.307692307692308,
+   "deaths400": 2.7252747252747254,
+   "win": 0.15384615384615385
+  },
+  "v28-32/T2": {
+   "n": 130,
+   "deaths": 7.507692307692308,
+   "deaths400": 1.6076923076923078,
+   "win": 0.43846153846153846
+  },
+  "v33-36/T1": {
+   "n": 105,
+   "deaths": 10.152380952380952,
+   "deaths400": 2.980952380952381,
+   "win": 0.11428571428571428
+  },
+  "v33-36/T2": {
+   "n": 188,
+   "deaths": 7.867021276595745,
+   "deaths400": 1.696808510638298,
+   "win": 0.4734042553191489
+  },
+  "v33-36/T3": {
+   "n": 75,
+   "deaths": 8.266666666666667,
+   "deaths400": 2.013333333333333,
+   "win": 0.7733333333333333
+  },
+  "v33-36/T4": {
+   "n": 25,
+   "deaths": 2.04,
+   "deaths400": 0.84,
+   "win": 0.92
+  },
+  "v33-36/T5": {
+   "n": 5,
+   "deaths": 0.8,
+   "deaths400": 0.8,
+   "win": 1.0
+  }
+ },
+ "currency": {
+  "touch": {
+   "games": 200,
+   "gold_leader": 0.7878787878787878,
+   "gem_leader": 0.7878787878787878,
+   "conflicts": 55,
+   "gold_leader_in_conflicts": 0.509090909090909,
+   "by_map": {
+    "00rushbait_v2": [
+     5,
+     7
+    ],
+    "00swirl": [
+     7,
+     9
+    ],
+    "00quadrants": [
+     4,
+     10
+    ],
+    "01shortcut": [
+     3,
+     12
+    ],
+    "00road_of_riches": [
+     5,
+     10
+    ],
+    "00reverse_spiral": [
+     4,
+     5
+    ],
+    "00gem_fields": [
+     0,
+     2
+    ]
+   }
+  },
+  "gemrich": {
+   "games": 106,
+   "gold_leader": 0.6415094339622641,
+   "gem_leader": 0.7901234567901234,
+   "conflicts": 36,
+   "gold_leader_in_conflicts": 0.3333333333333333,
+   "by_map": {
+    "01the_farm": [
+     5,
+     15
+    ],
+    "00lost_world": [
+     3,
+     14
+    ],
+    "00great_wall": [
+     4,
+     7
+    ]
+   }
+  },
+  "mid": {
+   "games": 637,
+   "gold_leader": 0.8537735849056604,
+   "gem_leader": 0.7201365187713311,
+   "conflicts": 159,
+   "gold_leader_in_conflicts": 0.7484276729559748,
+   "by_map": {
+    "01starfish": [
+     11,
+     11
+    ],
+    "00elkring": [
+     4,
+     4
+    ],
+    "00split": [
+     11,
+     18
+    ],
+    "01gold_rush": [
+     15,
+     16
+    ],
+    "00collision": [
+     7,
+     16
+    ],
+    "00eight": [
+     9,
+     11
+    ],
+    "00corners": [
+     8,
+     12
+    ],
+    "01broken_curve": [
+     4,
+     5
+    ],
+    "00interlock": [
+     10,
+     10
+    ],
+    "01corridors": [
+     5,
+     6
+    ],
+    "01elk_arena": [
+     5,
+     5
+    ],
+    "00rows": [
+     2,
+     6
+    ],
+    "01hooks": [
+     3,
+     3
+    ],
+    "00fragment": [
+     3,
+     4
+    ],
+    "00gemfight": [
+     3,
+     4
+    ],
+    "00monolith": [
+     6,
+     8
+    ],
+    "01islands": [
+     1,
+     2
+    ],
+    "00pilgrimage": [
+     8,
+     12
+    ],
+    "01yellow_brick_road": [
+     2,
+     3
+    ],
+    "00packs": [
+     1,
+     1
+    ],
+    "01concentrated_wealth": [
+     1,
+     1
+    ],
+    "00stampede": [
+     0,
+     1
+    ]
+   }
+  },
+  "far": {
+   "games": 181,
+   "gold_leader": 0.6740331491712708,
+   "gem_leader": 0.6306818181818182,
+   "conflicts": 77,
+   "gold_leader_in_conflicts": 0.5584415584415584,
+   "by_map": {
+    "01big_world": [
+     7,
+     17
+    ],
+    "00expanse": [
+     11,
+     20
+    ],
+    "01fracture": [
+     7,
+     14
+    ],
+    "00ambush": [
+     7,
+     8
+    ],
+    "01starvation": [
+     6,
+     8
+    ],
+    "00lanes": [
+     5,
+     10
+    ]
+   }
+  }
+ },
+ "cohesion": {
+  "T1-T1": {
+   "games": 49,
+   "medians_win_loss": {
+    "grouped": [
+     0.2268479184367035,
+     0.33125
+    ],
+    "solo": [
+     0.4456140350877193,
+     0.3625
+    ],
+    "spread": [
+     10.936444444444446,
+     9.324666666666667
+    ],
+    "party": [
+     1.582236842105263,
+     1.7563291139240507
+    ],
+    "enemyhalf300": [
+     0.06363636363636363,
+     0.05507246376811594
+    ],
+    "recalls400": [
+     4.0,
+     3.0
+    ]
+   },
+   "more_grouped_wins": [
+    14,
+    38
+   ],
+   "bigger_party_wins": [
+    16,
+    42
+   ]
+  },
+  "others": {
+   "games": 67,
+   "medians_win_loss": {
+    "grouped": [
+     0.24081632653061225,
+     0.31866666666666665
+    ],
+    "solo": [
+     0.43960990247561893,
+     0.37133333333333335
+    ],
+    "spread": [
+     10.775666666666666,
+     9.363111111111111
+    ],
+    "party": [
+     1.6084054834054835,
+     1.8035714285714286
+    ],
+    "enemyhalf300": [
+     0.05694444444444444,
+     0.052083333333333336
+    ],
+    "recalls400": [
+     3.75,
+     2.8
+    ]
+   },
+   "more_grouped_wins": [
+    22,
+    54
+   ],
+   "bigger_party_wins": [
+    23,
+    55
+   ]
+  },
+  "vs-us": {
+   "games": 863,
+   "medians_win_loss": {
+    "grouped": [
+     0.24944444444444444,
+     0.23466666666666666
+    ],
+    "solo": [
+     0.43277740508845164,
+     0.44696969696969696
+    ],
+    "spread": [
+     10.136666666666667,
+     12.111777777777778
+    ],
+    "party": [
+     1.6687898089171975,
+     1.5930232558139534
+    ],
+    "enemyhalf300": [
+     0.13240907869997315,
+     0.04642857142857143
+    ],
+    "recalls400": [
+     3.6,
+     3.0
+    ]
+   },
+   "more_grouped_wins": [
+    229,
+    445
+   ],
+   "bigger_party_wins": [
+    192,
+    439
+   ]
+  }
+ },
+ "contact_place": {
+  "touch": {
+   "n": 156,
+   "median": 0.4666666666666667
+  },
+  "gemrich": {
+   "n": 93,
+   "median": 0.48214285714285715
+  },
+  "mid": {
+   "n": 528,
+   "median": 0.5
+  },
+  "far": {
+   "n": 154,
+   "median": 0.5
+  }
+ },
+ "home_deaths": {
+  "T1 by T1": {
+   "n": 174,
+   "contact": 18.0,
+   "hp0": 1.0,
+   "walked_home": 0.5,
+   "recent_death_share": 0.21839080459770116,
+   "round": 699.0
+  },
+  "us": {
+   "n": 1692,
+   "contact": 17.0,
+   "hp0": 1.0,
+   "walked_home": 0.0,
+   "recent_death_share": 0.29609929078014185,
+   "round": 760.0
+  },
+  "T2 by us": {
+   "n": 126,
+   "contact": 19.0,
+   "hp0": 1.0,
+   "walked_home": 0.0,
+   "recent_death_share": 0.07936507936507936,
+   "round": 922.5
+  }
+ }
+}

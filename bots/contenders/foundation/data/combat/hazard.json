@@ -1,0 +1,448 @@
+{
+ "event": "death to a champion in the round of the sample",
+ "games": 1000,
+ "tables": {
+  "allies6|contact": {
+   "0 allies | 1 within 3": {
+    "deaths": 1518,
+    "per_1000_rounds": 7.623,
+    "rounds": 199140
+   },
+   "0 allies | 2+ within 3": {
+    "deaths": 986,
+    "per_1000_rounds": 29.139,
+    "rounds": 33838
+   },
+   "0 allies | 4-6 only": {
+    "deaths": 212,
+    "per_1000_rounds": 0.408,
+    "rounds": 519725
+   },
+   "0 allies | none within 6": {
+    "deaths": 32,
+    "per_1000_rounds": 0.009,
+    "rounds": 3549992
+   },
+   "1 allies | 1 within 3": {
+    "deaths": 925,
+    "per_1000_rounds": 5.112,
+    "rounds": 180947
+   },
+   "1 allies | 2+ within 3": {
+    "deaths": 751,
+    "per_1000_rounds": 16.975,
+    "rounds": 44241
+   },
+   "1 allies | 4-6 only": {
+    "deaths": 158,
+    "per_1000_rounds": 0.31,
+    "rounds": 509565
+   },
+   "1 allies | none within 6": {
+    "deaths": 12,
+    "per_1000_rounds": 0.005,
+    "rounds": 2258097
+   },
+   "2+ allies | 1 within 3": {
+    "deaths": 577,
+    "per_1000_rounds": 3.748,
+    "rounds": 153946
+   },
+   "2+ allies | 2+ within 3": {
+    "deaths": 655,
+    "per_1000_rounds": 12.344,
+    "rounds": 53063
+   },
+   "2+ allies | 4-6 only": {
+    "deaths": 122,
+    "per_1000_rounds": 0.239,
+    "rounds": 510140
+   },
+   "2+ allies | none within 6": {
+    "deaths": 12,
+    "per_1000_rounds": 0.007,
+    "rounds": 1776752
+   }
+  },
+  "bag": {
+   "0-0": {
+    "deaths": 4443,
+    "per_1000_rounds": 0.706,
+    "rounds": 6289548
+   },
+   "1-9": {
+    "deaths": 443,
+    "per_1000_rounds": 0.526,
+    "rounds": 842908
+   },
+   "10-19": {
+    "deaths": 326,
+    "per_1000_rounds": 0.394,
+    "rounds": 826686
+   },
+   "20-39": {
+    "deaths": 454,
+    "per_1000_rounds": 0.42,
+    "rounds": 1082001
+   },
+   "40-79": {
+    "deaths": 179,
+    "per_1000_rounds": 0.36,
+    "rounds": 497639
+   },
+   "80+": {
+    "deaths": 115,
+    "per_1000_rounds": 0.459,
+    "rounds": 250664
+   }
+  },
+  "bag|contact": {
+   "0-0 | 1 within 3": {
+    "deaths": 2183,
+    "per_1000_rounds": 5.792,
+    "rounds": 376874
+   },
+   "0-0 | 2+ within 3": {
+    "deaths": 1831,
+    "per_1000_rounds": 18.481,
+    "rounds": 99076
+   },
+   "0-0 | 4-6 only": {
+    "deaths": 388,
+    "per_1000_rounds": 0.364,
+    "rounds": 1066816
+   },
+   "0-0 | none within 6": {
+    "deaths": 41,
+    "per_1000_rounds": 0.009,
+    "rounds": 4746782
+   },
+   "1-9 | 1 within 3": {
+    "deaths": 230,
+    "per_1000_rounds": 5.336,
+    "rounds": 43102
+   },
+   "1-9 | 2+ within 3": {
+    "deaths": 175,
+    "per_1000_rounds": 18.495,
+    "rounds": 9462
+   },
+   "1-9 | 4-6 only": {
+    "deaths": 32,
+    "per_1000_rounds": 0.251,
+    "rounds": 127415
+   },
+   "1-9 | none within 6": {
+    "deaths": 6,
+    "per_1000_rounds": 0.009,
+    "rounds": 662929
+   },
+   "10-19 | 1 within 3": {
+    "deaths": 175,
+    "per_1000_rounds": 5.597,
+    "rounds": 31266
+   },
+   "10-19 | 2+ within 3": {
+    "deaths": 120,
+    "per_1000_rounds": 17.118,
+    "rounds": 7010
+   },
+   "10-19 | 4-6 only": {
+    "deaths": 26,
+    "per_1000_rounds": 0.272,
+    "rounds": 95552
+   },
+   "10-19 | none within 6": {
+    "deaths": 5,
+    "per_1000_rounds": 0.007,
+    "rounds": 692858
+   },
+   "20-39 | 1 within 3": {
+    "deaths": 263,
+    "per_1000_rounds": 5.306,
+    "rounds": 49569
+   },
+   "20-39 | 2+ within 3": {
+    "deaths": 165,
+    "per_1000_rounds": 17.475,
+    "rounds": 9442
+   },
+   "20-39 | 4-6 only": {
+    "deaths": 24,
+    "per_1000_rounds": 0.17,
+    "rounds": 141439
+   },
+   "20-39 | none within 6": {
+    "deaths": 2,
+    "per_1000_rounds": 0.002,
+    "rounds": 881551
+   },
+   "40-79 | 1 within 3": {
+    "deaths": 104,
+    "per_1000_rounds": 4.594,
+    "rounds": 22637
+   },
+   "40-79 | 2+ within 3": {
+    "deaths": 60,
+    "per_1000_rounds": 15.54,
+    "rounds": 3861
+   },
+   "40-79 | 4-6 only": {
+    "deaths": 13,
+    "per_1000_rounds": 0.203,
+    "rounds": 63895
+   },
+   "40-79 | none within 6": {
+    "deaths": 2,
+    "per_1000_rounds": 0.005,
+    "rounds": 407246
+   },
+   "80+ | 1 within 3": {
+    "deaths": 65,
+    "per_1000_rounds": 6.141,
+    "rounds": 10585
+   },
+   "80+ | 2+ within 3": {
+    "deaths": 41,
+    "per_1000_rounds": 17.896,
+    "rounds": 2291
+   },
+   "80+ | 4-6 only": {
+    "deaths": 9,
+    "per_1000_rounds": 0.203,
+    "rounds": 44313
+   },
+   "80+ | none within 6": {
+    "deaths": 0,
+    "per_1000_rounds": 0.0,
+    "rounds": 193475
+   }
+  },
+  "contact": {
+   "1 within 3": {
+    "deaths": 3020,
+    "per_1000_rounds": 5.655,
+    "rounds": 534033
+   },
+   "2+ within 3": {
+    "deaths": 2392,
+    "per_1000_rounds": 18.24,
+    "rounds": 131142
+   },
+   "4-6 only": {
+    "deaths": 492,
+    "per_1000_rounds": 0.32,
+    "rounds": 1539430
+   },
+   "none within 6": {
+    "deaths": 56,
+    "per_1000_rounds": 0.007,
+    "rounds": 7584841
+   }
+  },
+  "hp|contact": {
+   "40-70% | 1 within 3": {
+    "deaths": 172,
+    "per_1000_rounds": 0.935,
+    "rounds": 184013
+   },
+   "40-70% | 2+ within 3": {
+    "deaths": 103,
+    "per_1000_rounds": 2.425,
+    "rounds": 42479
+   },
+   "40-70% | 4-6 only": {
+    "deaths": 74,
+    "per_1000_rounds": 0.137,
+    "rounds": 540900
+   },
+   "40-70% | none within 6": {
+    "deaths": 14,
+    "per_1000_rounds": 0.005,
+    "rounds": 2688053
+   },
+   "<40% | 1 within 3": {
+    "deaths": 2666,
+    "per_1000_rounds": 13.248,
+    "rounds": 201232
+   },
+   "<40% | 2+ within 3": {
+    "deaths": 2231,
+    "per_1000_rounds": 35.252,
+    "rounds": 63288
+   },
+   "<40% | 4-6 only": {
+    "deaths": 284,
+    "per_1000_rounds": 0.709,
+    "rounds": 400672
+   },
+   "<40% | none within 6": {
+    "deaths": 10,
+    "per_1000_rounds": 0.006,
+    "rounds": 1751675
+   },
+   ">=70% | 1 within 3": {
+    "deaths": 182,
+    "per_1000_rounds": 1.223,
+    "rounds": 148788
+   },
+   ">=70% | 2+ within 3": {
+    "deaths": 58,
+    "per_1000_rounds": 2.286,
+    "rounds": 25375
+   },
+   ">=70% | 4-6 only": {
+    "deaths": 134,
+    "per_1000_rounds": 0.224,
+    "rounds": 597858
+   },
+   ">=70% | none within 6": {
+    "deaths": 32,
+    "per_1000_rounds": 0.01,
+    "rounds": 3145113
+   }
+  },
+  "tier|contact": {
+   "T1 | 1 within 3": {
+    "deaths": 309,
+    "per_1000_rounds": 3.565,
+    "rounds": 86674
+   },
+   "T1 | 2+ within 3": {
+    "deaths": 350,
+    "per_1000_rounds": 14.412,
+    "rounds": 24285
+   },
+   "T1 | 4-6 only": {
+    "deaths": 15,
+    "per_1000_rounds": 0.07,
+    "rounds": 215586
+   },
+   "T1 | none within 6": {
+    "deaths": 5,
+    "per_1000_rounds": 0.004,
+    "rounds": 1143616
+   },
+   "T2 | 1 within 3": {
+    "deaths": 489,
+    "per_1000_rounds": 4.436,
+    "rounds": 110226
+   },
+   "T2 | 2+ within 3": {
+    "deaths": 419,
+    "per_1000_rounds": 14.491,
+    "rounds": 28914
+   },
+   "T2 | 4-6 only": {
+    "deaths": 16,
+    "per_1000_rounds": 0.046,
+    "rounds": 350853
+   },
+   "T2 | none within 6": {
+    "deaths": 14,
+    "per_1000_rounds": 0.009,
+    "rounds": 1602053
+   },
+   "T3 | 1 within 3": {
+    "deaths": 303,
+    "per_1000_rounds": 5.848,
+    "rounds": 51813
+   },
+   "T3 | 2+ within 3": {
+    "deaths": 207,
+    "per_1000_rounds": 18.753,
+    "rounds": 11038
+   },
+   "T3 | 4-6 only": {
+    "deaths": 13,
+    "per_1000_rounds": 0.095,
+    "rounds": 137446
+   },
+   "T3 | none within 6": {
+    "deaths": 3,
+    "per_1000_rounds": 0.004,
+    "rounds": 798242
+   },
+   "T4 | 1 within 3": {
+    "deaths": 128,
+    "per_1000_rounds": 6.486,
+    "rounds": 19734
+   },
+   "T4 | 2+ within 3": {
+    "deaths": 34,
+    "per_1000_rounds": 10.222,
+    "rounds": 3326
+   },
+   "T4 | 4-6 only": {
+    "deaths": 24,
+    "per_1000_rounds": 0.433,
+    "rounds": 55389
+   },
+   "T4 | none within 6": {
+    "deaths": 13,
+    "per_1000_rounds": 0.037,
+    "rounds": 347841
+   },
+   "T5 | 1 within 3": {
+    "deaths": 65,
+    "per_1000_rounds": 18.524,
+    "rounds": 3509
+   },
+   "T5 | 2+ within 3": {
+    "deaths": 34,
+    "per_1000_rounds": 38.288,
+    "rounds": 888
+   },
+   "T5 | 4-6 only": {
+    "deaths": 11,
+    "per_1000_rounds": 1.852,
+    "rounds": 5939
+   },
+   "T5 | none within 6": {
+    "deaths": 14,
+    "per_1000_rounds": 0.214,
+    "rounds": 65563
+   },
+   "T? | 1 within 3": {
+    "deaths": 243,
+    "per_1000_rounds": 7.13,
+    "rounds": 34080
+   },
+   "T? | 2+ within 3": {
+    "deaths": 130,
+    "per_1000_rounds": 17.649,
+    "rounds": 7366
+   },
+   "T? | 4-6 only": {
+    "deaths": 27,
+    "per_1000_rounds": 0.259,
+    "rounds": 104237
+   },
+   "T? | none within 6": {
+    "deaths": 1,
+    "per_1000_rounds": 0.002,
+    "rounds": 511524
+   },
+   "us | 1 within 3": {
+    "deaths": 1483,
+    "per_1000_rounds": 6.504,
+    "rounds": 227997
+   },
+   "us | 2+ within 3": {
+    "deaths": 1218,
+    "per_1000_rounds": 22.015,
+    "rounds": 55325
+   },
+   "us | 4-6 only": {
+    "deaths": 386,
+    "per_1000_rounds": 0.576,
+    "rounds": 669980
+   },
+   "us | none within 6": {
+    "deaths": 6,
+    "per_1000_rounds": 0.002,
+    "rounds": 3116002
+   }
+  }
+ }
+}

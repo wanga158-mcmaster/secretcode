@@ -1,0 +1,20 @@
+{
+  "schema": "contenders-c1/v1",
+  "description": "Bounded native readiness campaign with population4, both sides, two training maps/opponents and disjoint validation/holdout maps. Eight proposals cover two population-turnover equivalents; raise --iterations for further evolution. This small subset is not a competitive qualification or historically unseen evidence.",
+  "controller": "anchors/main-v42",
+  "baseline": "anchors/main-v42",
+  "population_size": 4,
+  "archive_capacity": 32,
+  "max_checkpoint_mb": 64,
+  "max_depth": 3,
+  "tournament_size": 2,
+  "immigration": 0.15,
+  "crossover_rate": 0.3,
+  "mutation_sigma": 0.35,
+  "fitness": "paired_objective",
+  "validation_every": 8,
+  "evaluate_holdout_on_finish": true,
+  "training": {"maps": ["00ambush", "00collision"], "opponents": ["anchors/main-v42", "anchors/main-hunter7"], "sides": ["A", "B"]},
+  "validation": {"maps": ["00corners"], "opponents": ["anchors/main-v42", "anchors/main-hunter7"], "sides": ["A", "B"]},
+  "holdout": {"maps": ["00eight"], "opponents": ["anchors/main-v42", "anchors/main-hunter7"], "sides": ["A", "B"]}
+}

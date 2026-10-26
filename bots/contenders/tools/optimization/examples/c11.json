@@ -1,0 +1,7 @@
+{
+  "domain": "retained-varg-camp18-v1",
+  "inventory_file": "results/contenders/optimization/c11/camp-domain/inventory.json",
+  "max_trace_actions": 192,
+  "random_action_probability": 0.12,
+  "stop_on_first_counterexample": true
+}

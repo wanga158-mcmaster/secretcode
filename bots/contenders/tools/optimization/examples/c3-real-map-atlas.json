@@ -1,0 +1,17 @@
+{
+  "id": "gem-fields-exact-atlas-point-economy",
+  "description": "Actual current-map atlas transfer from a declared full-health observation beside group g_180. The crop and costs are restricted-model evidence; native execution is unqualified.",
+  "map": "00gem-fields",
+  "side": "A",
+  "horizon": 300,
+  "goal": 14,
+  "actors": [{"id": "worker", "champion": "marcella", "position": [30, 2]}],
+  "allow_uncalibrated_costs": false,
+  "atlas_file": "results/contenders/optimization/c4-search/real-map-atlas/cost-modes.json",
+  "atlas_bindings": [
+    {"group": "g_180", "mode": "gem-fields-g180-marcella-basic-point/0", "actors": {"actor0": "worker"}, "translation": [30, 2], "replace_generated_modes": true}
+  ],
+  "max_frontier": 1000,
+  "max_closed": 100000,
+  "checkpoint_every": 100
+}

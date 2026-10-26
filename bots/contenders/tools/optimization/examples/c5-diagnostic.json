@@ -1,0 +1,21 @@
+{
+  "description": "Protocol and learning/resume diagnostic only. Use c5-native.json for game training.",
+  "learning_rate": 0.01,
+  "initial_neutral_bias": 0,
+  "baseline_mode": "paired_native",
+  "evaluation": {"diagnostic_constant_validation": true},
+  "baseline_decay": 0.9,
+  "entropy_bonus": 0.0,
+  "batch_cases": 2,
+  "validation_every": 2,
+  "population_max": 2,
+  "population_fraction": 0.0,
+  "train_cases": [
+    {"map": "diagnostic-a", "side": "A", "opponent": "diagnostic/reference"},
+    {"map": "diagnostic-b", "side": "B", "opponent": "diagnostic/reference"}
+  ],
+  "validation_cases": [
+    {"map": "diagnostic-c", "side": "A", "opponent": "diagnostic/reference"},
+    {"map": "diagnostic-d", "side": "B", "opponent": "diagnostic/reference"}
+  ]
+}

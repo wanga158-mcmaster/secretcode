@@ -1,0 +1,480 @@
+{
+  "controller": "anchors/main-v42",
+  "baseline": "anchors/main-v42",
+  "opponents": [
+    "anchors/main-v42"
+  ],
+  "families": [
+    {
+      "id": "eight",
+      "maps": [
+        "00eight"
+      ]
+    },
+    {
+      "id": "ambush",
+      "maps": [
+        "00ambush"
+      ]
+    }
+  ],
+  "validation_opponents": [
+    "anchors/main-v42",
+    "anchors/main-hunter7"
+  ],
+  "validation_families": [
+    {
+      "id": "transfer",
+      "maps": [
+        "00collision",
+        "00fragment"
+      ]
+    }
+  ],
+  "sides": [
+    "A",
+    "B"
+  ],
+  "validation_every": 2,
+  "admit_generated_opponents": true,
+  "max_policies": 12,
+  "max_opponents": 8,
+  "matrix_steps": 4000,
+  "admission_margin": 0.0,
+  "random_fraction": 0.35,
+  "mutations": 3,
+  "search": {
+    "space": [
+      {
+        "name": "draft_mode",
+        "values": [
+          8,
+          99
+        ],
+        "default": 8
+      },
+      {
+        "name": "draft_pref",
+        "type": "permutation",
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "default": [
+          11,
+          6,
+          0,
+          2,
+          9,
+          1,
+          4,
+          10,
+          3,
+          5,
+          7,
+          8
+        ],
+        "active_if": {
+          "draft_mode": [
+            99
+          ]
+        }
+      },
+      {
+        "name": "draft_pref3",
+        "type": "permutation",
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "default": [
+          11,
+          6,
+          0,
+          2,
+          9,
+          1,
+          4,
+          10,
+          3,
+          5,
+          7,
+          8
+        ],
+        "active_if": {
+          "draft_mode": [
+            99
+          ]
+        }
+      },
+      {
+        "name": "draft_pref4",
+        "type": "permutation",
+        "values": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "default": [
+          11,
+          6,
+          0,
+          2,
+          9,
+          1,
+          4,
+          10,
+          3,
+          5,
+          7,
+          8
+        ],
+        "active_if": {
+          "draft_mode": [
+            99
+          ]
+        }
+      },
+      {
+        "name": "shop_plan",
+        "values": [
+          7,
+          99
+        ],
+        "default": 7
+      },
+      {
+        "name": "shop_seq",
+        "type": "shop_sequence",
+        "families": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "stats": [
+          2,
+          3
+        ],
+        "milestones": [
+          5,
+          7
+        ],
+        "tail_families": [
+          0,
+          1,
+          6
+        ],
+        "min_steps": 2,
+        "max_steps": 6,
+        "length": 8,
+        "default": [
+          335,
+          435,
+          225,
+          35,
+          625,
+          630,
+          -1,
+          -1
+        ],
+        "active_if": {
+          "shop_plan": [
+            99
+          ]
+        }
+      },
+      {
+        "name": "shop_seq_ranged",
+        "type": "shop_sequence",
+        "families": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "stats": [
+          2,
+          3
+        ],
+        "milestones": [
+          5,
+          7
+        ],
+        "tail_families": [
+          0,
+          1,
+          6
+        ],
+        "min_steps": 2,
+        "max_steps": 6,
+        "length": 8,
+        "default": [
+          335,
+          435,
+          35,
+          630,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "active_if": {
+          "shop_plan": [
+            99
+          ]
+        }
+      },
+      {
+        "name": "squad_size",
+        "values": [
+          1,
+          2,
+          3
+        ],
+        "default": 1
+      },
+      {
+        "name": "squad_until_round",
+        "values": [
+          0,
+          60,
+          120,
+          240,
+          400
+        ],
+        "default": 0,
+        "active_if": {
+          "squad_size": [
+            2,
+            3
+          ]
+        }
+      },
+      {
+        "name": "shop_recall_mode",
+        "values": [
+          0,
+          1
+        ],
+        "default": 1
+      },
+      {
+        "name": "shop_recall_scale",
+        "values": [
+          0.5,
+          0.75,
+          1.0,
+          1.25,
+          1.5
+        ],
+        "default": 1.0,
+        "active_if": {
+          "shop_recall_mode": [
+            1
+          ]
+        }
+      },
+      {
+        "name": "early_shop_gold",
+        "values": [
+          0,
+          60,
+          90,
+          120,
+          180
+        ],
+        "default": 0,
+        "active_if": {
+          "shop_recall_mode": [
+            0
+          ]
+        }
+      },
+      {
+        "name": "early_shop_until",
+        "values": [
+          150,
+          250,
+          400,
+          600
+        ],
+        "default": 250,
+        "active_if": {
+          "shop_recall_mode": [
+            0
+          ]
+        }
+      },
+      {
+        "name": "shop_recall_gold",
+        "values": [
+          120,
+          180,
+          240,
+          300,
+          450
+        ],
+        "default": 300,
+        "active_if": {
+          "shop_recall_mode": [
+            0
+          ]
+        }
+      },
+      {
+        "name": "shop_recall_detour",
+        "values": [
+          4,
+          8,
+          12,
+          20,
+          30
+        ],
+        "default": 20,
+        "active_if": {
+          "shop_recall_mode": [
+            0
+          ]
+        }
+      },
+      {
+        "name": "tribute_gems",
+        "values": [
+          15,
+          25,
+          40,
+          60,
+          100
+        ],
+        "default": 25
+      },
+      {
+        "name": "tribute_gems_danger",
+        "values": [
+          0,
+          10,
+          15,
+          25
+        ],
+        "default": 0
+      },
+      {
+        "name": "tribute_detour_tiles",
+        "values": [
+          2,
+          4,
+          8,
+          12
+        ],
+        "default": 8
+      },
+      {
+        "name": "recall_health_frac",
+        "values": [
+          0.35,
+          0.5,
+          0.65
+        ],
+        "default": 0.5
+      },
+      {
+        "name": "camp_safety_margin",
+        "values": [
+          1.2,
+          1.6,
+          2.0
+        ],
+        "default": 1.6
+      },
+      {
+        "name": "hp_cost_weight",
+        "values": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "default": 1.0
+      }
+    ],
+    "constraints": [
+      {
+        "left": "tribute_gems_danger",
+        "op": "le",
+        "right": "tribute_gems"
+      },
+      {
+        "left": "early_shop_gold",
+        "op": "le",
+        "right": "shop_recall_gold"
+      }
+    ]
+  },
+  "description": "Bounded native research campaign: two training families, strict empirical best-response admission, generated opponents, and different validation maps plus a withheld external opponent. Warm-start reuses a C2 native array artifact; subsequent proposals come from the full coupled search grammar. All pool maps have historical use.",
+  "proposal_seeds": [
+    {
+      "draft_mode": 99,
+      "draft_pref": [
+        10,
+        11,
+        6,
+        1,
+        0,
+        2,
+        9,
+        4,
+        3,
+        5,
+        7,
+        8
+      ],
+      "shop_plan": 99,
+      "shop_seq": [
+        435,
+        335,
+        225,
+        630,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "tribute_gems": 25
+    }
+  ]
+}

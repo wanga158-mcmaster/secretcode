@@ -1,0 +1,18 @@
+{
+  "id": "gem-fields-uncontested-basic-economy",
+  "map": "00gem-fields",
+  "side": "A",
+  "horizon": 2000,
+  "goal": 1000,
+  "actors": [
+    {"id": "ryth", "champion": "ryth"},
+    {"id": "marcella", "champion": "marcella"},
+    {"id": "vendetta", "champion": "vendetta"},
+    {"id": "heart", "champion": "heart_of_ruin"},
+    {"id": "tavi", "champion": "tavi"}
+  ],
+  "allow_uncalibrated_costs": false,
+  "max_frontier": 5000,
+  "max_closed": 500000,
+  "checkpoint_every": 1000
+}

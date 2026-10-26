@@ -1,0 +1,353 @@
+{
+  "schemaVersion": "game-map-geometry/3.0.5-builder-verified-lab-v1",
+  "decoder": "Official1.0.3 MapBuilder integrity and encode/decode field roundtrip; pure authored symmetry closure/cardinal grouping.",
+  "engine": {
+    "version": "1.0.3",
+    "sha256": "029ecd290dc400e75418178ec386d72cbd7d9f2fc2a2e451bf594ca23566df48"
+  },
+  "pool": null,
+  "officialPool": false,
+  "maps": [
+    {
+      "id": "short-cycle-liveness-v1",
+      "width": 48,
+      "height": 40,
+      "symmetry": "ROTATIONAL180",
+      "draftCount": 5,
+      "spawns": {
+        "teamA": {
+          "minX": 2,
+          "minY": 18,
+          "maxX": 5,
+          "maxY": 21
+        },
+        "teamB": {
+          "minX": 43,
+          "minY": 19,
+          "maxX": 46,
+          "maxY": 22
+        }
+      },
+      "terrain": {
+        "bush": [],
+        "hole": [],
+        "wall": [
+          23,
+          24,
+          263,
+          264,
+          311,
+          312,
+          359,
+          360,
+          407,
+          408,
+          455,
+          456,
+          503,
+          504,
+          551,
+          552,
+          599,
+          600,
+          647,
+          648,
+          695,
+          696,
+          743,
+          744,
+          791,
+          792,
+          839,
+          840,
+          887,
+          888,
+          935,
+          936,
+          983,
+          984,
+          1031,
+          1032,
+          1079,
+          1080,
+          1127,
+          1128,
+          1175,
+          1176,
+          1223,
+          1224,
+          1271,
+          1272,
+          1319,
+          1320,
+          1367,
+          1368,
+          1415,
+          1416,
+          1463,
+          1464,
+          1511,
+          1512,
+          1559,
+          1560,
+          1607,
+          1608,
+          1655,
+          1656,
+          1895,
+          1896
+        ],
+        "altar": [
+          729,
+          806,
+          1113,
+          1190
+        ]
+      },
+      "groups": [
+        {
+          "key": "g_119",
+          "members": [
+            {
+              "x": 23,
+              "y": 2,
+              "typeId": 2
+            },
+            {
+              "x": 24,
+              "y": 2,
+              "typeId": 3
+            }
+          ],
+          "expected_stock_gold": 20,
+          "expected_stock_gems": 7,
+          "expected_stock_cooldown": 50
+        },
+        {
+          "key": "g_726",
+          "members": [
+            {
+              "x": 6,
+              "y": 15,
+              "typeId": 2
+            },
+            {
+              "x": 7,
+              "y": 15,
+              "typeId": 3
+            }
+          ],
+          "expected_stock_gold": 20,
+          "expected_stock_gems": 7,
+          "expected_stock_cooldown": 50
+        },
+        {
+          "key": "g_808",
+          "members": [
+            {
+              "x": 40,
+              "y": 16,
+              "typeId": 3
+            },
+            {
+              "x": 41,
+              "y": 16,
+              "typeId": 2
+            }
+          ],
+          "expected_stock_gold": 20,
+          "expected_stock_gems": 7,
+          "expected_stock_cooldown": 50
+        },
+        {
+          "key": "g_824",
+          "members": [
+            {
+              "x": 8,
+              "y": 17,
+              "typeId": 2
+            },
+            {
+              "x": 9,
+              "y": 17,
+              "typeId": 3
+            }
+          ],
+          "expected_stock_gold": 20,
+          "expected_stock_gems": 7,
+          "expected_stock_cooldown": 50
+        },
+        {
+          "key": "g_902",
+          "members": [
+            {
+              "x": 38,
+              "y": 18,
+              "typeId": 3
+            },
+            {
+              "x": 39,
+              "y": 18,
+              "typeId": 2
+            }
+          ],
+          "expected_stock_gold": 20,
+          "expected_stock_gems": 7,
+          "expected_stock_cooldown": 50
+        },
+        {
+          "key": "g_918",
+          "members": [
+            {
+              "x": 6,
+              "y": 19,
+              "typeId": 2
+            },
+            {
+              "x": 7,
+              "y": 19,
+              "typeId": 3
+            }
+          ],
+          "expected_stock_gold": 20,
+          "expected_stock_gems": 7,
+          "expected_stock_cooldown": 50
+        },
+        {
+          "key": "g_1000",
+          "members": [
+            {
+              "x": 40,
+              "y": 20,
+              "typeId": 3
+            },
+            {
+              "x": 41,
+              "y": 20,
+              "typeId": 2
+            }
+          ],
+          "expected_stock_gold": 20,
+          "expected_stock_gems": 7,
+          "expected_stock_cooldown": 50
+        },
+        {
+          "key": "g_1016",
+          "members": [
+            {
+              "x": 8,
+              "y": 21,
+              "typeId": 2
+            },
+            {
+              "x": 9,
+              "y": 21,
+              "typeId": 3
+            }
+          ],
+          "expected_stock_gold": 20,
+          "expected_stock_gems": 7,
+          "expected_stock_cooldown": 50
+        },
+        {
+          "key": "g_1094",
+          "members": [
+            {
+              "x": 38,
+              "y": 22,
+              "typeId": 3
+            },
+            {
+              "x": 39,
+              "y": 22,
+              "typeId": 2
+            }
+          ],
+          "expected_stock_gold": 20,
+          "expected_stock_gems": 7,
+          "expected_stock_cooldown": 50
+        },
+        {
+          "key": "g_1110",
+          "members": [
+            {
+              "x": 6,
+              "y": 23,
+              "typeId": 2
+            },
+            {
+              "x": 7,
+              "y": 23,
+              "typeId": 3
+            }
+          ],
+          "expected_stock_gold": 20,
+          "expected_stock_gems": 7,
+          "expected_stock_cooldown": 50
+        },
+        {
+          "key": "g_1192",
+          "members": [
+            {
+              "x": 40,
+              "y": 24,
+              "typeId": 3
+            },
+            {
+              "x": 41,
+              "y": 24,
+              "typeId": 2
+            }
+          ],
+          "expected_stock_gold": 20,
+          "expected_stock_gems": 7,
+          "expected_stock_cooldown": 50
+        },
+        {
+          "key": "g_1799",
+          "members": [
+            {
+              "x": 23,
+              "y": 37,
+              "typeId": 3
+            },
+            {
+              "x": 24,
+              "y": 37,
+              "typeId": 2
+            }
+          ],
+          "expected_stock_gold": 20,
+          "expected_stock_gems": 7,
+          "expected_stock_cooldown": 50
+        }
+      ],
+      "mapSha256": "b4164d4ee3fb5ee762e0b60bcc0725a3ebec797a6c5fa0d8ba3b924224016aa8",
+      "mapBytes": 627,
+      "mapPath": ".cache/arena/orchestration/mass-activation-next/short-cycle-liveness-lab/short-cycle-liveness-v1.map26a"
+    }
+  ],
+  "limitations": [
+    "No Game/Runner initialization or Game_API metadata/live state/SDK visibility queried. Physical native group IDs/rewards/cooldowns await root validation.",
+    "Twelve cardinal two-member components are proved on the exact builder-readback typed coordinate closure; stock reward/cooldown interpretation is separately sourced.",
+    "No gameplay, bot selection, health, strength or strategic contribution is qualified."
+  ],
+  "map": {
+    "path": ".cache/arena/orchestration/mass-activation-next/short-cycle-liveness-lab/short-cycle-liveness-v1.map26a",
+    "sha256": "b4164d4ee3fb5ee762e0b60bcc0725a3ebec797a6c5fa0d8ba3b924224016aa8",
+    "bytes": 627
+  },
+  "builder_result": {
+    "path": ".cache/arena/orchestration/mass-activation-next/short-cycle-liveness-lab/result.json",
+    "sha256": "30c96f767914665dc99802a1272f5f764cabf9c6743da3c18fcd7635de47ff6e",
+    "bytes": 53605
+  },
+  "builder_metadata": {
+    "width": 48,
+    "height": 40,
+    "chunkedWidth": 6,
+    "chunkedHeight": 5,
+    "stride": 6,
+    "boardBytes": 240
+  }
+}

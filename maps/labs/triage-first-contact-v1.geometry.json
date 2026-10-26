@@ -1,0 +1,321 @@
+{
+  "schemaVersion": "game-map-geometry/3.0.4-custom-fixture-v1",
+  "decoder": "official-editor-1.0.2-MapBuilder-and-physical-Game_API_Map",
+  "enginePath": "C:\\Users\\aegir\\AppData\\Local\\cambc\\assets\\d3abb1a4978219ddab8b200b2c1dc4d28adca06f1efb1ad7b79cbd182cd8da50\\mapeditor\\assets\\v1_0_2-BIJCVwNu.wasm",
+  "engineSha256": "742919b4454b427912eece99e5675752791fe5d83167b2fee1766c908e9cccee",
+  "pool": null,
+  "customSource": {
+    "id": "triage-first-contact-v1",
+    "map": {
+      "path": "D:\\files\\battlecode\\.cache\\arena\\orchestration\\triage-lab-setup-next\\triage-first-contact-v1.map26a",
+      "sha256": "7c240b29630d8994baffd9e062b97600864f479a68048da40c55121a81da2101",
+      "bytes": 229
+    },
+    "officialPool": false,
+    "sourcePlan": {
+      "path": "D:\\files\\battlecode\\.cache\\arena\\orchestration\\triage-lab-geometry-next\\plan.json",
+      "sha256": "4c1cee4f77c2e4520178d7e6fb16bb31d30817e1acc6e344ab8b0bc879283422",
+      "bytes": 5804
+    }
+  },
+  "maps": [
+    {
+      "id": "triage-first-contact-v1",
+      "poolId": null,
+      "width": 24,
+      "height": 14,
+      "mapSha256": "7c240b29630d8994baffd9e062b97600864f479a68048da40c55121a81da2101",
+      "mapBytes": 229,
+      "mapPath": "D:\\files\\battlecode\\.cache\\arena\\orchestration\\triage-lab-setup-next\\triage-first-contact-v1.map26a",
+      "terrain": {
+        "bush": [],
+        "wall": [
+          11,
+          12,
+          35,
+          36,
+          59,
+          60,
+          83,
+          84,
+          107,
+          108,
+          131,
+          132,
+          155,
+          156,
+          179,
+          180,
+          203,
+          204,
+          227,
+          228,
+          251,
+          252,
+          275,
+          276,
+          299,
+          300,
+          323,
+          324
+        ],
+        "hole": [],
+        "altar": [
+          79,
+          256
+        ]
+      },
+      "symmetry": "ROTATIONAL180",
+      "draftCount": 4,
+      "spawns": {
+        "teamA": {
+          "minX": 2,
+          "minY": 2,
+          "maxX": 5,
+          "maxY": 5
+        },
+        "teamB": {
+          "minX": 19,
+          "minY": 9,
+          "maxX": 22,
+          "maxY": 12
+        }
+      },
+      "groups": [
+        {
+          "key": "g_77",
+          "nativeId": 0,
+          "gemValue": 4,
+          "goldValue": 60,
+          "cooldown": 50,
+          "members": [
+            {
+              "nativeId": 2,
+              "x": 5,
+              "y": 3,
+              "tile": 77,
+              "typeId": 3,
+              "type": "gold_cluster"
+            },
+            {
+              "nativeId": 0,
+              "x": 5,
+              "y": 4,
+              "tile": 101,
+              "typeId": 0,
+              "type": "wolf"
+            }
+          ]
+        },
+        {
+          "key": "g_234",
+          "nativeId": 1,
+          "gemValue": 4,
+          "goldValue": 60,
+          "cooldown": 50,
+          "members": [
+            {
+              "nativeId": 1,
+              "x": 18,
+              "y": 9,
+              "tile": 234,
+              "typeId": 0,
+              "type": "wolf"
+            },
+            {
+              "nativeId": 3,
+              "x": 18,
+              "y": 10,
+              "tile": 258,
+              "typeId": 3,
+              "type": "gold_cluster"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "catalog": {
+    "source": {
+      "path": "D:\\files\\battlecode\\docs\\reference\\runtime-catalog.json",
+      "sha256": "e06897b7bede2edfe4a7ec232b477a81e4c2c485748baccccc21ee48838c164b",
+      "bytes": 66960
+    },
+    "scope": "Existing pinned public catalog from the identical editor engine; not live camp state or a new config query.",
+    "types": [
+      {
+        "id": 0,
+        "name": "wolf",
+        "stats": {
+          "vision_radius": 8,
+          "base_move_speed": 1,
+          "base_attack_range": 3,
+          "base_health": 1350,
+          "health_growth": 0,
+          "base_strength": 20,
+          "strength_growth": 0,
+          "base_focus": 1,
+          "focus_growth": 0
+        }
+      },
+      {
+        "id": 3,
+        "name": "gold_cluster",
+        "stats": {
+          "vision_radius": 8,
+          "base_move_speed": 1,
+          "base_attack_range": 3,
+          "base_health": 120,
+          "health_growth": 0,
+          "base_strength": 0,
+          "strength_growth": 0,
+          "base_focus": 1,
+          "focus_growth": 0
+        }
+      }
+    ]
+  },
+  "execution": {
+    "exportLog": [
+      {
+        "name": "Engine_Malloc",
+        "arity": 1,
+        "count": 32
+      },
+      {
+        "name": "MapBuilder_FromFileBytes",
+        "arity": 3,
+        "count": 1
+      },
+      {
+        "name": "Engine_Free",
+        "arity": 1,
+        "count": 32
+      },
+      {
+        "name": "MapBuilder_VerifyIntegrity",
+        "arity": 1,
+        "count": 1
+      },
+      {
+        "name": "MapBuilder_GetBitboardMetadata",
+        "arity": 2,
+        "count": 1
+      },
+      {
+        "name": "MapBuilder_GetSymmetry",
+        "arity": 2,
+        "count": 1
+      },
+      {
+        "name": "MapBuilder_GetNumChampsPerTeam",
+        "arity": 2,
+        "count": 1
+      },
+      {
+        "name": "Game_FromMapFileBytes",
+        "arity": 4,
+        "count": 1
+      },
+      {
+        "name": "Game_Runner_Init",
+        "arity": 1,
+        "count": 1
+      },
+      {
+        "name": "Game_API_Map_GetBitboardMetadata",
+        "arity": 2,
+        "count": 1
+      },
+      {
+        "name": "Game_API_Map_GetSymmetry",
+        "arity": 2,
+        "count": 1
+      },
+      {
+        "name": "MapBuilder_GetBushBuffer",
+        "arity": 2,
+        "count": 1
+      },
+      {
+        "name": "MapBuilder_GetWallBuffer",
+        "arity": 2,
+        "count": 1
+      },
+      {
+        "name": "MapBuilder_GetHoleBuffer",
+        "arity": 2,
+        "count": 1
+      },
+      {
+        "name": "MapBuilder_GetAltarBuffer",
+        "arity": 2,
+        "count": 1
+      },
+      {
+        "name": "Game_API_GetSpawnRegion",
+        "arity": 3,
+        "count": 2
+      },
+      {
+        "name": "Game_API_Map_GetNumCampGroups",
+        "arity": 2,
+        "count": 1
+      },
+      {
+        "name": "Game_API_Map_GetCampGroups",
+        "arity": 4,
+        "count": 1
+      },
+      {
+        "name": "Game_API_Map_CampGroup_Get",
+        "arity": 3,
+        "count": 2
+      },
+      {
+        "name": "Game_API_Map_CampGroup_GetRespawnTime",
+        "arity": 3,
+        "count": 2
+      },
+      {
+        "name": "Game_API_Map_CampGroup_GetNumCamps",
+        "arity": 3,
+        "count": 2
+      },
+      {
+        "name": "Game_API_Map_CampGroup_GetCampInfo",
+        "arity": 5,
+        "count": 2
+      },
+      {
+        "name": "Game_API_Map_CampInfo_Get",
+        "arity": 3,
+        "count": 4
+      },
+      {
+        "name": "Game_Destroy",
+        "arity": 1,
+        "count": 1
+      },
+      {
+        "name": "MapBuilder_Destroy",
+        "arity": 1,
+        "count": 1
+      }
+    ],
+    "gameContextsCreated": 1,
+    "builderContextsCreated": 1,
+    "metadataInitializations": 1,
+    "contextsDestroyed": 2,
+    "buffersAllocated": 32,
+    "buffersFreed": 32,
+    "allResourcesFreed": true,
+    "botsLoaded": 0,
+    "draftsAdvanced": 0,
+    "advancedRounds": 0,
+    "advancedTurns": 0,
+    "matchesLaunched": 0,
+    "customMaps": 1,
+    "scope": "One metadata-only Game_Runner_Init, exact canonical map decoder; no draft/action/round/input/replay/bot."
+  }
+}

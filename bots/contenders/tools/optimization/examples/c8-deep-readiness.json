@@ -1,0 +1,269 @@
+{
+  "catalog": "docs/reference/runtime-catalog.json",
+  "camp_parameter_source": "docs/reference/GameRules.md",
+  "baseline": "default",
+  "oracle_nodes": 20000,
+  "beam_width": 128,
+  "max_actions": 768,
+  "memory_mb": 1536,
+  "population": 64,
+  "archive_limit": 64,
+  "max_blocked": 24,
+  "minimization_trials": 0,
+  "minimum_regret": 1,
+  "native_request_limit": 2,
+  "validation_state_limit": 2048,
+  "cases": [
+    {
+      "id": "cooperative-elk-arrivals",
+      "family": "cooperative-elk-arrivals",
+      "width": 11,
+      "height": 9,
+      "actors": [
+        {
+          "id": "r0",
+          "design": "ryth",
+          "team": 0,
+          "x": 2,
+          "y": 4,
+          "spawn": [
+            0,
+            0
+          ],
+          "hp": 1000
+        },
+        {
+          "id": "m0",
+          "design": "marcella",
+          "team": 0,
+          "x": 1,
+          "y": 6,
+          "spawn": [
+            0,
+            0
+          ],
+          "hp": 900
+        }
+      ],
+      "camps": [
+        {
+          "id": "e0",
+          "design": "elk",
+          "group": 0,
+          "x": 6,
+          "y": 4,
+          "gems": 15,
+          "gold": 90,
+          "respawn": 60
+        },
+        {
+          "id": "g0",
+          "design": "gem_cluster",
+          "group": 0,
+          "x": 6,
+          "y": 5,
+          "gems": 7,
+          "gold": 0,
+          "respawn": 50
+        }
+      ],
+      "blocked": [
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "altars": [
+        [
+          1,
+          0
+        ],
+        [
+          9,
+          8
+        ]
+      ],
+      "opponent_policy": "default",
+      "settings": {
+        "max_rounds": 100
+      },
+      "goal": {
+        "kind": "capture_depart",
+        "team": 0,
+        "group": 0
+      },
+      "provenance": {
+        "kind": "constructed",
+        "native_validated": false,
+        "stats": "queried pinned runtime catalog, explicit injury/resource/timer overrides",
+        "natural_reachability": "not established",
+        "role": "adaptive_training"
+      }
+    },
+    {
+      "id": "contested-ryth-capture",
+      "family": "contested-ryth-capture",
+      "width": 11,
+      "height": 9,
+      "actors": [
+        {
+          "id": "r0",
+          "design": "ryth",
+          "team": 0,
+          "x": 3,
+          "y": 3,
+          "spawn": [
+            0,
+            0
+          ]
+        },
+        {
+          "id": "r1",
+          "design": "ryth",
+          "team": 1,
+          "x": 7,
+          "y": 5,
+          "spawn": [
+            10,
+            8
+          ]
+        }
+      ],
+      "camps": [
+        {
+          "id": "w0",
+          "design": "wolf",
+          "group": 0,
+          "x": 5,
+          "y": 4,
+          "gems": 4,
+          "gold": 40,
+          "respawn": 40,
+          "hp": 675
+        },
+        {
+          "id": "g0",
+          "design": "gem_cluster",
+          "group": 0,
+          "x": 5,
+          "y": 5,
+          "gems": 7,
+          "gold": 0,
+          "respawn": 50
+        }
+      ],
+      "blocked": [],
+      "altars": [
+        [
+          1,
+          0
+        ],
+        [
+          9,
+          8
+        ]
+      ],
+      "opponent_policy": "pressure",
+      "settings": {
+        "max_rounds": 100
+      },
+      "goal": {
+        "kind": "capture_depart",
+        "team": 0,
+        "group": 0
+      },
+      "provenance": {
+        "kind": "constructed",
+        "native_validated": false,
+        "stats": "queried pinned runtime catalog, explicit injury/resource/timer overrides",
+        "natural_reachability": "not established",
+        "role": "adaptive_training"
+      }
+    },
+    {
+      "id": "varg-shield-golem",
+      "family": "varg-shield-golem",
+      "width": 11,
+      "height": 9,
+      "actors": [
+        {
+          "id": "v0",
+          "design": "varg",
+          "team": 0,
+          "x": 3,
+          "y": 4,
+          "spawn": [
+            0,
+            0
+          ],
+          "hp": 850,
+          "shield": 100,
+          "shield_ticks": 3
+        }
+      ],
+      "camps": [
+        {
+          "id": "g0",
+          "design": "golem",
+          "group": 0,
+          "x": 6,
+          "y": 4,
+          "gems": 36,
+          "gold": 160,
+          "respawn": 80,
+          "hp": 3000
+        },
+        {
+          "id": "j0",
+          "design": "gem_cluster",
+          "group": 0,
+          "x": 6,
+          "y": 5,
+          "gems": 7,
+          "gold": 0,
+          "respawn": 50
+        }
+      ],
+      "blocked": [],
+      "altars": [
+        [
+          1,
+          0
+        ],
+        [
+          9,
+          8
+        ]
+      ],
+      "opponent_policy": "default",
+      "settings": {
+        "max_rounds": 100
+      },
+      "goal": {
+        "kind": "capture_depart",
+        "team": 0,
+        "group": 0
+      },
+      "provenance": {
+        "kind": "constructed",
+        "native_validated": false,
+        "stats": "queried pinned runtime catalog, explicit injury/resource/timer overrides",
+        "natural_reachability": "not established",
+        "role": "adaptive_training"
+      }
+    }
+  ],
+  "notes": "Three difficult covered families at a larger search budget; compare feasible alternatives with broad-family output, without converting capped search into negative proof."
+}

@@ -1,0 +1,46 @@
+{
+  "reviewDate": "2026-10-21",
+  "scope": "Official public event announcements, schedule, related public site links, and fresh official Markdown handbook exports. Read-only public HTTP; no login, games, submission, upload or ladder activity.",
+  "namedCheck": "Official announcements/docs/download pages cross-check; integrator owns distribution, CLI, SDK, engine and maps checks.",
+  "primarySources": [
+    "https://2026a.battlecode.co.uk/",
+    "https://2026a.battlecode.co.uk/api/v1/event/status",
+    "https://2026a.battlecode.co.uk/api/v1/patch-notes",
+    "https://2026a.battlecode.co.uk/game/docs/agents",
+    "https://2026a.battlecode.co.uk/public-assets/landing-CTjiANWr.js",
+    "https://2026a.battlecode.co.uk/service/assets/service-CHmls6Mv.js"
+  ],
+  "eventStatus": {"phase": "live", "registrationsOpen": true, "archived": false},
+  "patchList": {
+    "count": 3,
+    "nextCursor": null,
+    "entries": [
+      {"url": "https://2026a.battlecode.co.uk/game/patch-notes/e251fa42-fb2a-4d9b-ab8c-2e044f21d599", "title": "Patch 1.0.2 Notes", "revision": 7, "publishedAt": "2026-10-21T01:31:57.918481Z", "updatedAt": "2026-10-21T01:31:57.918481Z"},
+      {"url": "https://2026a.battlecode.co.uk/game/patch-notes/7a4caf45-afc3-49d0-838a-9eb9657bafc6", "title": "Patch 1.0.1 Notes", "revision": 7, "publishedAt": "2026-10-20T19:05:06.830872Z", "updatedAt": "2026-10-20T19:14:04.573628Z"},
+      {"url": "https://2026a.battlecode.co.uk/game/patch-notes/2e172875-28d7-4152-9483-54a3db6d2663", "title": "Patch 1.0.0 Notes - Week 2", "revision": 6, "publishedAt": "2026-10-20T05:34:03.988146Z", "updatedAt": "2026-10-20T18:57:04.983214Z"}
+    ]
+  },
+  "materialAnnouncements": {
+    "1.0.2": ["Stellar Health 750 to 650; Health/shard 75 to 65; Focus 85 to 70; Focus/shard 9 to 7", "Heart of Ruin Strength 40 to 30; Strength/shard 4 to 3.5; dash Focus multiplier 1.75 to 1.5", "Ren stun Focus multiplier 1.25 to 0.75", "Vesper Vale Health 900 to 1000; Strength 50 to 55", "Vendetta Health 800 to 1000", "Tavi Health 750 to 900; Focus 100 to 110", "Prism passive Focus/gem 1 to 1.5"],
+    "1.0.1": ["Heart of Ruin Strength/shard 5 to 4; Focus/shard 15 to 12, already reflected in pinned queried metadata", "Invalid submissions following compilation-breaking updates receive a 24-hour grace period and then automatically lose ranked matches; site alerts affected teams"]
+  },
+  "currentLandingSchedule": [
+    {"date": "2026-10-12", "title": "Event launch"},
+    {"date": "2026-10-19", "title": "Sprint 1", "lock": "2026-10-18T23:59:00+01:00"},
+    {"date": "2026-10-25", "title": "Sprint 2", "lock": "2026-10-24T23:59:00+01:00"},
+    {"date": "2026-11-01", "title": "Sprint 3", "lock": "2026-10-31T23:59:00+00:00"},
+    {"date": "2026-11-04", "title": "International qualifiers"},
+    {"date": "2026-11-11", "title": "UK qualifiers"},
+    {"date": "2026-11-18", "title": "In-person finals", "venue": "Cambridge Union"}
+  ],
+  "relatedPublicSites": [
+    {"url": "https://battlecode.co.uk", "finding": "Redirects to https://2026a.battlecode.co.uk/."},
+    {"url": "https://discord.gg/KaNZWaHtxX", "finding": "Official landing links this invitation; Discord channel content was not accessed."},
+    {"url": "https://cus.org/", "finding": "Official landing links the finals venue; no separate competition announcement review was needed."}
+  ],
+  "sourceRepositoryLinks": "Reviewed official landing and current service source for repository/changelog links. None identified for competition source code. Service mentions github.com/yourname as profile-form example only; landing's GitHub URL is a styled-components dependency error-help link.",
+  "retainedRawResponses": ["agents.html", "service-CHmls6Mv.js", "landing-current.js", "patch-notes-current.json", "event-status-current.json", "docs-C9HTw_LG.js", "ChampionGrid-BnE9c48b.js"],
+  "exportsEvidence": "export-evidence.json",
+  "coverageLimits": ["No authenticated workspace or Discord announcements reviewed.", "Search engine results are incomplete and lag live HTTP; direct public event API and fetched static sources take precedence.", "Current schedule was verified; historical schedule deltas were not inferred without a pinned previous schedule.", "No source-code/changelog repository inferred or visited from speculative names."],
+  "cleanup": "Browser creation timed out; subsequent browser inventory confirmed no tabs existed. No temporary servers or native game processes were opened. Retained exports, source inputs and raw responses are evidence consumed by the integrator."
+}

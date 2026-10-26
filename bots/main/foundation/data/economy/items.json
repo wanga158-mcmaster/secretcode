@@ -1,0 +1,8976 @@
+{
+ "walk_back": 15,
+ "shop_trip": 21,
+ "rows": [
+  {
+   "kit": "Ryth",
+   "comp": "wolf1",
+   "base_rounds": 21,
+   "base_damage": 340,
+   "base_cycle": 33.4,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -4.31,
+     "breakeven_captures": 4.9
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": -20,
+     "d_cycle": -1.44,
+     "breakeven_captures": 14.6
+    },
+    "health shard": {
+     "d_rounds": -1,
+     "d_damage": -20,
+     "d_cycle": -1.98,
+     "breakeven_captures": 10.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -8,
+     "d_damage": -140,
+     "d_cycle": -11.06,
+     "breakeven_captures": 1.9
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -120,
+     "d_cycle": -9.62,
+     "breakeven_captures": 2.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": -3,
+     "d_damage": -144,
+     "d_cycle": -7.41,
+     "breakeven_captures": 2.8
+    },
+    "5 health + Durability": {
+     "d_rounds": -3,
+     "d_damage": -88,
+     "d_cycle": -6.55,
+     "breakeven_captures": 3.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -172,
+     "d_cycle": -9.76,
+     "breakeven_captures": 2.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -3,
+     "d_damage": -144,
+     "d_cycle": -6.15,
+     "breakeven_captures": 3.4
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -4.31,
+     "breakeven_captures": 4.9
+    }
+   }
+  },
+  {
+   "kit": "Ryth",
+   "comp": "gold1 wolf1",
+   "base_rounds": 21,
+   "base_damage": 340,
+   "base_cycle": 33.4,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -4.31,
+     "breakeven_captures": 4.9
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": -20,
+     "d_cycle": -1.44,
+     "breakeven_captures": 14.6
+    },
+    "health shard": {
+     "d_rounds": -1,
+     "d_damage": -20,
+     "d_cycle": -1.98,
+     "breakeven_captures": 10.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -8,
+     "d_damage": -140,
+     "d_cycle": -11.06,
+     "breakeven_captures": 1.9
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -120,
+     "d_cycle": -9.62,
+     "breakeven_captures": 2.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": -3,
+     "d_damage": -144,
+     "d_cycle": -7.41,
+     "breakeven_captures": 2.8
+    },
+    "5 health + Durability": {
+     "d_rounds": -3,
+     "d_damage": -88,
+     "d_cycle": -6.55,
+     "breakeven_captures": 3.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -172,
+     "d_cycle": -9.76,
+     "breakeven_captures": 2.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -3,
+     "d_damage": -144,
+     "d_cycle": -6.15,
+     "breakeven_captures": 3.4
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -4.31,
+     "breakeven_captures": 4.9
+    }
+   }
+  },
+  {
+   "kit": "Ryth",
+   "comp": "gem1 wolf1",
+   "base_rounds": 21,
+   "base_damage": 340,
+   "base_cycle": 33.4,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -4.31,
+     "breakeven_captures": 4.9
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": -20,
+     "d_cycle": -1.44,
+     "breakeven_captures": 14.6
+    },
+    "health shard": {
+     "d_rounds": -1,
+     "d_damage": -20,
+     "d_cycle": -1.98,
+     "breakeven_captures": 10.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -8,
+     "d_damage": -140,
+     "d_cycle": -11.06,
+     "breakeven_captures": 1.9
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -120,
+     "d_cycle": -9.62,
+     "breakeven_captures": 2.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": -3,
+     "d_damage": -144,
+     "d_cycle": -7.41,
+     "breakeven_captures": 2.8
+    },
+    "5 health + Durability": {
+     "d_rounds": -3,
+     "d_damage": -88,
+     "d_cycle": -6.55,
+     "breakeven_captures": 3.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -172,
+     "d_cycle": -9.76,
+     "breakeven_captures": 2.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -3,
+     "d_damage": -144,
+     "d_cycle": -6.15,
+     "breakeven_captures": 3.4
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -4.31,
+     "breakeven_captures": 4.9
+    }
+   }
+  },
+  {
+   "kit": "Ryth",
+   "comp": "gold2 wolf2",
+   "base_rounds": 38,
+   "base_damage": 980,
+   "base_cycle": 64.4,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -140,
+     "d_cycle": -7.06,
+     "breakeven_captures": 3.0
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -60,
+     "d_cycle": -3.31,
+     "breakeven_captures": 6.3
+    },
+    "health shard": {
+     "d_rounds": -1,
+     "d_damage": -40,
+     "d_cycle": -3.46,
+     "breakeven_captures": 6.1
+    },
+    "5 str + Monster": {
+     "d_rounds": -13,
+     "d_damage": -360,
+     "d_cycle": -20.88,
+     "breakeven_captures": 1.0
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -12,
+     "d_damage": -340,
+     "d_cycle": -19.44,
+     "breakeven_captures": 1.1
+    },
+    "5 health + Jungle": {
+     "d_rounds": -4,
+     "d_damage": -392,
+     "d_cycle": -16.36,
+     "breakeven_captures": 1.3
+    },
+    "5 health + Durability": {
+     "d_rounds": -4,
+     "d_damage": -224,
+     "d_cycle": -13.76,
+     "breakeven_captures": 1.5
+    },
+    "5 str + Jungle": {
+     "d_rounds": -11,
+     "d_damage": -504,
+     "d_cycle": -22.02,
+     "breakeven_captures": 1.0
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -392,
+     "d_cycle": -13.58,
+     "breakeven_captures": 1.5
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -6,
+     "d_damage": -160,
+     "d_cycle": -9.5,
+     "breakeven_captures": 2.2
+    }
+   }
+  },
+  {
+   "kit": "Ryth",
+   "comp": "elk1 gem1 gold1",
+   "base_rounds": 38,
+   "base_damage": 1920,
+   "base_cycle": 85.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -240,
+     "d_cycle": -9.25,
+     "breakeven_captures": 2.3
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": -60,
+     "d_cycle": -2.31,
+     "breakeven_captures": 9.1
+    },
+    "health shard": {
+     "d_rounds": -1,
+     "d_damage": -60,
+     "d_cycle": -5.44,
+     "breakeven_captures": 3.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -14,
+     "d_damage": -720,
+     "d_cycle": -29.75,
+     "breakeven_captures": 0.7
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -13,
+     "d_damage": -660,
+     "d_cycle": -27.44,
+     "breakeven_captures": 0.8
+    },
+    "5 health + Jungle": {
+     "d_rounds": -4,
+     "d_damage": -744,
+     "d_cycle": -27.84,
+     "breakeven_captures": 0.8
+    },
+    "5 health + Durability": {
+     "d_rounds": -4,
+     "d_damage": -408,
+     "d_cycle": -22.65,
+     "breakeven_captures": 0.9
+    },
+    "5 str + Jungle": {
+     "d_rounds": -12,
+     "d_damage": -1038,
+     "d_cycle": -34.71,
+     "breakeven_captures": 0.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -744,
+     "d_cycle": -21.27,
+     "breakeven_captures": 1.0
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -240,
+     "d_cycle": -10.25,
+     "breakeven_captures": 2.0
+    }
+   }
+  },
+  {
+   "kit": "Ryth",
+   "comp": "elk1",
+   "base_rounds": 38,
+   "base_damage": 1920,
+   "base_cycle": 85.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -240,
+     "d_cycle": -9.25,
+     "breakeven_captures": 2.3
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": -60,
+     "d_cycle": -2.31,
+     "breakeven_captures": 9.1
+    },
+    "health shard": {
+     "d_rounds": -1,
+     "d_damage": -60,
+     "d_cycle": -5.44,
+     "breakeven_captures": 3.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -14,
+     "d_damage": -720,
+     "d_cycle": -29.75,
+     "breakeven_captures": 0.7
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -13,
+     "d_damage": -660,
+     "d_cycle": -27.44,
+     "breakeven_captures": 0.8
+    },
+    "5 health + Jungle": {
+     "d_rounds": -4,
+     "d_damage": -744,
+     "d_cycle": -27.84,
+     "breakeven_captures": 0.8
+    },
+    "5 health + Durability": {
+     "d_rounds": -4,
+     "d_damage": -408,
+     "d_cycle": -22.65,
+     "breakeven_captures": 0.9
+    },
+    "5 str + Jungle": {
+     "d_rounds": -12,
+     "d_damage": -1038,
+     "d_cycle": -34.71,
+     "breakeven_captures": 0.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -744,
+     "d_cycle": -21.27,
+     "breakeven_captures": 1.0
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -240,
+     "d_cycle": -10.25,
+     "breakeven_captures": 2.0
+    }
+   }
+  },
+  {
+   "kit": "Ryth",
+   "comp": "elk2 gold2",
+   "base_rounds": 68,
+   "base_damage": 5400,
+   "base_cycle": 191.1,
+   "items": {
+    "str shard": {
+     "d_rounds": -6,
+     "d_damage": -540,
+     "d_cycle": -17.81,
+     "breakeven_captures": 1.2
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -180,
+     "d_cycle": -5.94,
+     "breakeven_captures": 3.5
+    },
+    "health shard": {
+     "d_rounds": -2,
+     "d_damage": -180,
+     "d_cycle": -14.72,
+     "breakeven_captures": 1.4
+    },
+    "5 str + Monster": {
+     "d_rounds": -24,
+     "d_damage": -1980,
+     "d_cycle": -67.31,
+     "breakeven_captures": 0.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -23,
+     "d_damage": -1860,
+     "d_cycle": -63.69,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -1998,
+     "d_cycle": -71.59,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Durability": {
+     "d_rounds": -6,
+     "d_damage": -1026,
+     "d_cycle": -56.59,
+     "breakeven_captures": 0.4
+    },
+    "5 str + Jungle": {
+     "d_rounds": -19,
+     "d_damage": -2754,
+     "d_cycle": -79.24,
+     "breakeven_captures": 0.3
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -11,
+     "d_damage": -2166,
+     "d_cycle": -58.38,
+     "breakeven_captures": 0.4
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -11,
+     "d_damage": -780,
+     "d_cycle": -28.06,
+     "breakeven_captures": 0.7
+    }
+   }
+  },
+  {
+   "kit": "Ryth",
+   "comp": "golem1",
+   "base_rounds": 79,
+   "base_damage": 8160,
+   "base_cycle": 262.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -6,
+     "d_damage": -600,
+     "d_cycle": -19.12,
+     "breakeven_captures": 1.1
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -240,
+     "d_cycle": -7.25,
+     "breakeven_captures": 2.9
+    },
+    "health shard": {
+     "d_rounds": -2,
+     "d_damage": -240,
+     "d_cycle": -20.58,
+     "breakeven_captures": 1.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -30,
+     "d_damage": -3120,
+     "d_cycle": -98.25,
+     "breakeven_captures": 0.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -28,
+     "d_damage": -3000,
+     "d_cycle": -93.62,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -2868,
+     "d_cycle": -102.79,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Durability": {
+     "d_rounds": -6,
+     "d_damage": -1356,
+     "d_cycle": -79.44,
+     "breakeven_captures": 0.3
+    },
+    "5 str + Jungle": {
+     "d_rounds": -24,
+     "d_damage": -4212,
+     "d_cycle": -116.14,
+     "breakeven_captures": 0.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -2868,
+     "d_cycle": -68.74,
+     "breakeven_captures": 0.3
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -840,
+     "d_cycle": -26.38,
+     "breakeven_captures": 0.8
+    }
+   }
+  },
+  {
+   "kit": "Ryth",
+   "comp": "gem1",
+   "base_rounds": 1,
+   "base_damage": 0,
+   "base_cycle": 6.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Ryth",
+   "comp": "gold2",
+   "base_rounds": 2,
+   "base_damage": 0,
+   "base_cycle": 7.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    }
+   }
+  },
+  {
+   "kit": "Vesper",
+   "comp": "wolf1",
+   "base_rounds": 22,
+   "base_damage": 420,
+   "base_cycle": 39.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -40,
+     "d_cycle": -3.05,
+     "breakeven_captures": 6.9
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -8,
+     "d_damage": -160,
+     "d_cycle": -12.2,
+     "breakeven_captures": 1.7
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -160,
+     "d_cycle": -12.2,
+     "breakeven_captures": 1.7
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -5.88,
+     "breakeven_captures": 3.6
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -42,
+     "d_cycle": -4.41,
+     "breakeven_captures": 4.8
+    },
+    "5 str + Jungle": {
+     "d_rounds": -7,
+     "d_damage": -224,
+     "d_cycle": -12.88,
+     "breakeven_captures": 1.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -3.31,
+     "breakeven_captures": 6.3
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vesper",
+   "comp": "gold1 wolf1",
+   "base_rounds": 25,
+   "base_damage": 420,
+   "base_cycle": 42.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -40,
+     "d_cycle": -4.05,
+     "breakeven_captures": 5.2
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -9,
+     "d_damage": -160,
+     "d_cycle": -13.2,
+     "breakeven_captures": 1.6
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -9,
+     "d_damage": -160,
+     "d_cycle": -13.2,
+     "breakeven_captures": 1.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -5.88,
+     "breakeven_captures": 3.6
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -42,
+     "d_cycle": -4.41,
+     "breakeven_captures": 4.8
+    },
+    "5 str + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -224,
+     "d_cycle": -13.88,
+     "breakeven_captures": 1.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -3.31,
+     "breakeven_captures": 6.3
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vesper",
+   "comp": "gem1 wolf1",
+   "base_rounds": 25,
+   "base_damage": 420,
+   "base_cycle": 42.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -40,
+     "d_cycle": -4.05,
+     "breakeven_captures": 5.2
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -9,
+     "d_damage": -160,
+     "d_cycle": -13.2,
+     "breakeven_captures": 1.6
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -9,
+     "d_damage": -160,
+     "d_cycle": -13.2,
+     "breakeven_captures": 1.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -5.88,
+     "breakeven_captures": 3.6
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -42,
+     "d_cycle": -4.41,
+     "breakeven_captures": 4.8
+    },
+    "5 str + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -224,
+     "d_cycle": -13.88,
+     "breakeven_captures": 1.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -3.31,
+     "breakeven_captures": 6.3
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vesper",
+   "comp": "gold2 wolf2",
+   "base_rounds": 50,
+   "base_damage": 1280,
+   "base_cycle": 89.6,
+   "items": {
+    "str shard": {
+     "d_rounds": -6,
+     "d_damage": -100,
+     "d_cycle": -8.62,
+     "breakeven_captures": 2.4
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -3.05,
+     "breakeven_captures": 6.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -18,
+     "d_damage": -480,
+     "d_cycle": -30.6,
+     "breakeven_captures": 0.7
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -18,
+     "d_damage": -480,
+     "d_cycle": -30.6,
+     "breakeven_captures": 0.7
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -384,
+     "d_cycle": -17.92,
+     "breakeven_captures": 1.2
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -128,
+     "d_cycle": -13.44,
+     "breakeven_captures": 1.6
+    },
+    "5 str + Jungle": {
+     "d_rounds": -16,
+     "d_damage": -678,
+     "d_cycle": -33.8,
+     "breakeven_captures": 0.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -384,
+     "d_cycle": -10.08,
+     "breakeven_captures": 2.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vesper",
+   "comp": "elk1 gem1 gold1",
+   "base_rounds": 44,
+   "base_damage": 2280,
+   "base_cycle": 109.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -5,
+     "d_damage": -240,
+     "d_cycle": -11.3,
+     "breakeven_captures": 1.9
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -5.44,
+     "breakeven_captures": 3.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -16,
+     "d_damage": -840,
+     "d_cycle": -38.05,
+     "breakeven_captures": 0.6
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -15,
+     "d_damage": -780,
+     "d_cycle": -35.47,
+     "breakeven_captures": 0.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -684,
+     "d_cycle": -31.92,
+     "breakeven_captures": 0.7
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -228,
+     "d_cycle": -23.94,
+     "breakeven_captures": 0.9
+    },
+    "5 str + Jungle": {
+     "d_rounds": -14,
+     "d_damage": -1230,
+     "d_cycle": -46.29,
+     "breakeven_captures": 0.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -684,
+     "d_cycle": -17.95,
+     "breakeven_captures": 1.2
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vesper",
+   "comp": "elk1",
+   "base_rounds": 39,
+   "base_damage": 2280,
+   "base_cycle": 104.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -240,
+     "d_cycle": -10.3,
+     "breakeven_captures": 2.0
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -5.44,
+     "breakeven_captures": 3.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -14,
+     "d_damage": -840,
+     "d_cycle": -36.05,
+     "breakeven_captures": 0.6
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -13,
+     "d_damage": -780,
+     "d_cycle": -33.47,
+     "breakeven_captures": 0.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -684,
+     "d_cycle": -31.92,
+     "breakeven_captures": 0.7
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -228,
+     "d_cycle": -23.94,
+     "breakeven_captures": 0.9
+    },
+    "5 str + Jungle": {
+     "d_rounds": -13,
+     "d_damage": -1230,
+     "d_cycle": -45.29,
+     "breakeven_captures": 0.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -684,
+     "d_cycle": -17.95,
+     "breakeven_captures": 1.2
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vesper",
+   "comp": "elk2 gold2",
+   "base_rounds": 83,
+   "base_damage": 6900,
+   "base_cycle": 270.1,
+   "items": {
+    "str shard": {
+     "d_rounds": -9,
+     "d_damage": -660,
+     "d_cycle": -26.33,
+     "breakeven_captures": 0.8
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -16.47,
+     "breakeven_captures": 1.3
+    },
+    "5 str + Monster": {
+     "d_rounds": -30,
+     "d_damage": -2520,
+     "d_cycle": -96.15,
+     "breakeven_captures": 0.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -28,
+     "d_damage": -2400,
+     "d_cycle": -91.0,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2070,
+     "d_cycle": -96.6,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -690,
+     "d_cycle": -72.45,
+     "breakeven_captures": 0.3
+    },
+    "5 str + Jungle": {
+     "d_rounds": -26,
+     "d_damage": -3666,
+     "d_cycle": -122.23,
+     "breakeven_captures": 0.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2070,
+     "d_cycle": -54.34,
+     "breakeven_captures": 0.4
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vesper",
+   "comp": "golem1",
+   "base_rounds": 81,
+   "base_damage": 9600,
+   "base_cycle": 339.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -7,
+     "d_damage": -840,
+     "d_cycle": -29.05,
+     "breakeven_captures": 0.7
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -22.91,
+     "breakeven_captures": 0.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -31,
+     "d_damage": -3720,
+     "d_cycle": -128.65,
+     "breakeven_captures": 0.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -29,
+     "d_damage": -3480,
+     "d_cycle": -120.35,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2880,
+     "d_cycle": -134.4,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -960,
+     "d_cycle": -100.8,
+     "breakeven_captures": 0.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -25,
+     "d_damage": -4980,
+     "d_cycle": -155.72,
+     "breakeven_captures": 0.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2880,
+     "d_cycle": -75.6,
+     "breakeven_captures": 0.3
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vesper",
+   "comp": "gem1",
+   "base_rounds": 2,
+   "base_damage": 0,
+   "base_cycle": 8.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vesper",
+   "comp": "gold2",
+   "base_rounds": 5,
+   "base_damage": 0,
+   "base_cycle": 11.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vendetta",
+   "comp": "wolf1",
+   "base_rounds": 18,
+   "base_damage": 340,
+   "base_cycle": 31.9,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -40,
+     "d_cycle": -3.05,
+     "breakeven_captures": 6.9
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.81,
+     "breakeven_captures": 25.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -7,
+     "d_damage": -140,
+     "d_cycle": -10.67,
+     "breakeven_captures": 2.0
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -140,
+     "d_cycle": -10.67,
+     "breakeven_captures": 2.0
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -102,
+     "d_cycle": -4.76,
+     "breakeven_captures": 4.4
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -34,
+     "d_cycle": -3.57,
+     "breakeven_captures": 5.9
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -186,
+     "d_cycle": -10.88,
+     "breakeven_captures": 1.9
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -102,
+     "d_cycle": -2.68,
+     "breakeven_captures": 7.8
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vendetta",
+   "comp": "gold1 wolf1",
+   "base_rounds": 19,
+   "base_damage": 340,
+   "base_cycle": 32.9,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -40,
+     "d_cycle": -3.05,
+     "breakeven_captures": 6.9
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.81,
+     "breakeven_captures": 25.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -7,
+     "d_damage": -140,
+     "d_cycle": -10.67,
+     "breakeven_captures": 2.0
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -140,
+     "d_cycle": -10.67,
+     "breakeven_captures": 2.0
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -102,
+     "d_cycle": -4.76,
+     "breakeven_captures": 4.4
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -34,
+     "d_cycle": -3.57,
+     "breakeven_captures": 5.9
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -186,
+     "d_cycle": -10.88,
+     "breakeven_captures": 1.9
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -102,
+     "d_cycle": -2.68,
+     "breakeven_captures": 7.8
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vendetta",
+   "comp": "gem1 wolf1",
+   "base_rounds": 19,
+   "base_damage": 340,
+   "base_cycle": 32.9,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -40,
+     "d_cycle": -3.05,
+     "breakeven_captures": 6.9
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.81,
+     "breakeven_captures": 25.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -7,
+     "d_damage": -140,
+     "d_cycle": -10.67,
+     "breakeven_captures": 2.0
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -140,
+     "d_cycle": -10.67,
+     "breakeven_captures": 2.0
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -102,
+     "d_cycle": -4.76,
+     "breakeven_captures": 4.4
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -34,
+     "d_cycle": -3.57,
+     "breakeven_captures": 5.9
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -186,
+     "d_cycle": -10.88,
+     "breakeven_captures": 1.9
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -102,
+     "d_cycle": -2.68,
+     "breakeven_captures": 7.8
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vendetta",
+   "comp": "gold2 wolf2",
+   "base_rounds": 37,
+   "base_damage": 1020,
+   "base_cycle": 68.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -100,
+     "d_cycle": -5.63,
+     "breakeven_captures": 3.7
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -2.43,
+     "breakeven_captures": 8.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -13,
+     "d_damage": -400,
+     "d_cycle": -23.5,
+     "breakeven_captures": 0.9
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -13,
+     "d_damage": -400,
+     "d_cycle": -23.5,
+     "breakeven_captures": 0.9
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -306,
+     "d_cycle": -14.28,
+     "breakeven_captures": 1.5
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -102,
+     "d_cycle": -10.71,
+     "breakeven_captures": 2.0
+    },
+    "5 str + Jungle": {
+     "d_rounds": -11,
+     "d_damage": -544,
+     "d_cycle": -25.28,
+     "breakeven_captures": 0.8
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -306,
+     "d_cycle": -8.03,
+     "breakeven_captures": 2.6
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vendetta",
+   "comp": "elk1 gem1 gold1",
+   "base_rounds": 33,
+   "base_damage": 1800,
+   "base_cycle": 85.2,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -180,
+     "d_cycle": -7.72,
+     "breakeven_captures": 2.7
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -4.3,
+     "breakeven_captures": 4.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -12,
+     "d_damage": -720,
+     "d_cycle": -30.9,
+     "breakeven_captures": 0.7
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -11,
+     "d_damage": -660,
+     "d_cycle": -28.33,
+     "breakeven_captures": 0.7
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -540,
+     "d_cycle": -25.2,
+     "breakeven_captures": 0.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -180,
+     "d_cycle": -18.9,
+     "breakeven_captures": 1.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -10,
+     "d_damage": -960,
+     "d_cycle": -35.2,
+     "breakeven_captures": 0.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -540,
+     "d_cycle": -14.18,
+     "breakeven_captures": 1.5
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vendetta",
+   "comp": "elk1",
+   "base_rounds": 31,
+   "base_damage": 1800,
+   "base_cycle": 83.2,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -180,
+     "d_cycle": -7.72,
+     "breakeven_captures": 2.7
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -4.3,
+     "breakeven_captures": 4.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -12,
+     "d_damage": -720,
+     "d_cycle": -30.9,
+     "breakeven_captures": 0.7
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -11,
+     "d_damage": -660,
+     "d_cycle": -28.33,
+     "breakeven_captures": 0.7
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -540,
+     "d_cycle": -25.2,
+     "breakeven_captures": 0.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -180,
+     "d_cycle": -18.9,
+     "breakeven_captures": 1.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -10,
+     "d_damage": -960,
+     "d_cycle": -35.2,
+     "breakeven_captures": 0.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -540,
+     "d_cycle": -14.18,
+     "breakeven_captures": 1.5
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vendetta",
+   "comp": "elk2 gold2",
+   "base_rounds": 64,
+   "base_damage": 5460,
+   "base_cycle": 212.3,
+   "items": {
+    "str shard": {
+     "d_rounds": -6,
+     "d_damage": -540,
+     "d_cycle": -20.18,
+     "breakeven_captures": 1.0
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -13.03,
+     "breakeven_captures": 1.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -24,
+     "d_damage": -2160,
+     "d_cycle": -80.7,
+     "breakeven_captures": 0.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -22,
+     "d_damage": -1980,
+     "d_cycle": -73.98,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -1638,
+     "d_cycle": -76.44,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -546,
+     "d_cycle": -57.33,
+     "breakeven_captures": 0.4
+    },
+    "5 str + Jungle": {
+     "d_rounds": -20,
+     "d_damage": -2898,
+     "d_cycle": -96.07,
+     "breakeven_captures": 0.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -1638,
+     "d_cycle": -43.0,
+     "breakeven_captures": 0.5
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vendetta",
+   "comp": "golem1",
+   "base_rounds": 64,
+   "base_damage": 7560,
+   "base_cycle": 267.4,
+   "items": {
+    "str shard": {
+     "d_rounds": -6,
+     "d_damage": -720,
+     "d_cycle": -24.9,
+     "breakeven_captures": 0.8
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -18.04,
+     "breakeven_captures": 1.2
+    },
+    "5 str + Monster": {
+     "d_rounds": -23,
+     "d_damage": -2760,
+     "d_cycle": -95.45,
+     "breakeven_captures": 0.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -22,
+     "d_damage": -2640,
+     "d_cycle": -91.3,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2268,
+     "d_cycle": -105.84,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -756,
+     "d_cycle": -79.38,
+     "breakeven_captures": 0.3
+    },
+    "5 str + Jungle": {
+     "d_rounds": -20,
+     "d_damage": -3948,
+     "d_cycle": -123.63,
+     "breakeven_captures": 0.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2268,
+     "d_cycle": -59.53,
+     "breakeven_captures": 0.4
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vendetta",
+   "comp": "gem1",
+   "base_rounds": 2,
+   "base_damage": 0,
+   "base_cycle": 7.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Vendetta",
+   "comp": "gold2",
+   "base_rounds": 3,
+   "base_damage": 0,
+   "base_cycle": 8.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Stellar",
+   "comp": "wolf1",
+   "base_rounds": 22,
+   "base_damage": 420,
+   "base_cycle": 45.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -5.42,
+     "breakeven_captures": 3.9
+    },
+    "focus shard": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -5.42,
+     "breakeven_captures": 3.9
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.54,
+     "breakeven_captures": 13.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -6,
+     "d_damage": -120,
+     "d_cycle": -10.85,
+     "breakeven_captures": 1.9
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -100,
+     "d_cycle": -9.04,
+     "breakeven_captures": 2.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -9.05,
+     "breakeven_captures": 2.3
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -42,
+     "d_cycle": -6.78,
+     "breakeven_captures": 3.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -196,
+     "d_cycle": -12.92,
+     "breakeven_captures": 1.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -196,
+     "d_cycle": -12.92,
+     "breakeven_captures": 1.6
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -100,
+     "d_cycle": -9.04,
+     "breakeven_captures": 2.3
+    }
+   }
+  },
+  {
+   "kit": "Stellar",
+   "comp": "gold1 wolf1",
+   "base_rounds": 22,
+   "base_damage": 420,
+   "base_cycle": 45.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -5.42,
+     "breakeven_captures": 3.9
+    },
+    "focus shard": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -5.42,
+     "breakeven_captures": 3.9
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.54,
+     "breakeven_captures": 13.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -6,
+     "d_damage": -120,
+     "d_cycle": -10.85,
+     "breakeven_captures": 1.9
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -100,
+     "d_cycle": -9.04,
+     "breakeven_captures": 2.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -9.05,
+     "breakeven_captures": 2.3
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -42,
+     "d_cycle": -6.78,
+     "breakeven_captures": 3.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -196,
+     "d_cycle": -12.92,
+     "breakeven_captures": 1.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -196,
+     "d_cycle": -12.92,
+     "breakeven_captures": 1.6
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -100,
+     "d_cycle": -9.04,
+     "breakeven_captures": 2.3
+    }
+   }
+  },
+  {
+   "kit": "Stellar",
+   "comp": "gem1 wolf1",
+   "base_rounds": 22,
+   "base_damage": 420,
+   "base_cycle": 45.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -5.42,
+     "breakeven_captures": 3.9
+    },
+    "focus shard": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -5.42,
+     "breakeven_captures": 3.9
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.54,
+     "breakeven_captures": 13.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -6,
+     "d_damage": -120,
+     "d_cycle": -10.85,
+     "breakeven_captures": 1.9
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -100,
+     "d_cycle": -9.04,
+     "breakeven_captures": 2.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -9.05,
+     "breakeven_captures": 2.3
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -42,
+     "d_cycle": -6.78,
+     "breakeven_captures": 3.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -196,
+     "d_cycle": -12.92,
+     "breakeven_captures": 1.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -196,
+     "d_cycle": -12.92,
+     "breakeven_captures": 1.6
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -100,
+     "d_cycle": -9.04,
+     "breakeven_captures": 2.3
+    }
+   }
+  },
+  {
+   "kit": "Stellar",
+   "comp": "gold2 wolf2",
+   "base_rounds": 41,
+   "base_damage": 1220,
+   "base_cycle": 96.3,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -140,
+     "d_cycle": -9.65,
+     "breakeven_captures": 2.2
+    },
+    "focus shard": {
+     "d_rounds": -5,
+     "d_damage": -160,
+     "d_cycle": -11.46,
+     "breakeven_captures": 1.8
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -4.48,
+     "breakeven_captures": 4.7
+    },
+    "5 str + Monster": {
+     "d_rounds": -13,
+     "d_damage": -380,
+     "d_cycle": -28.35,
+     "breakeven_captures": 0.7
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -260,
+     "d_cycle": -18.5,
+     "breakeven_captures": 1.1
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -366,
+     "d_cycle": -26.28,
+     "breakeven_captures": 0.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -122,
+     "d_cycle": -19.71,
+     "breakeven_captures": 1.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -548,
+     "d_cycle": -30.13,
+     "breakeven_captures": 0.7
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -548,
+     "d_cycle": -30.13,
+     "breakeven_captures": 0.7
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -260,
+     "d_cycle": -18.5,
+     "breakeven_captures": 1.1
+    }
+   }
+  },
+  {
+   "kit": "Stellar",
+   "comp": "elk1 gem1 gold1",
+   "base_rounds": 41,
+   "base_damage": 2400,
+   "base_cycle": 143.9,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -240,
+     "d_cycle": -13.69,
+     "breakeven_captures": 1.5
+    },
+    "focus shard": {
+     "d_rounds": -4,
+     "d_damage": -240,
+     "d_cycle": -13.69,
+     "breakeven_captures": 1.5
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -8.81,
+     "breakeven_captures": 2.4
+    },
+    "5 str + Monster": {
+     "d_rounds": -15,
+     "d_damage": -900,
+     "d_cycle": -51.35,
+     "breakeven_captures": 0.4
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -12,
+     "d_damage": -720,
+     "d_cycle": -41.08,
+     "breakeven_captures": 0.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -720,
+     "d_cycle": -51.69,
+     "breakeven_captures": 0.4
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -240,
+     "d_cycle": -38.77,
+     "breakeven_captures": 0.5
+    },
+    "5 str + Jungle": {
+     "d_rounds": -10,
+     "d_damage": -1140,
+     "d_cycle": -56.04,
+     "breakeven_captures": 0.4
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -1056,
+     "d_cycle": -50.65,
+     "breakeven_captures": 0.4
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -11,
+     "d_damage": -660,
+     "d_cycle": -37.65,
+     "breakeven_captures": 0.6
+    }
+   }
+  },
+  {
+   "kit": "Stellar",
+   "comp": "elk1",
+   "base_rounds": 41,
+   "base_damage": 2400,
+   "base_cycle": 143.9,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -240,
+     "d_cycle": -13.69,
+     "breakeven_captures": 1.5
+    },
+    "focus shard": {
+     "d_rounds": -4,
+     "d_damage": -240,
+     "d_cycle": -13.69,
+     "breakeven_captures": 1.5
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -8.81,
+     "breakeven_captures": 2.4
+    },
+    "5 str + Monster": {
+     "d_rounds": -15,
+     "d_damage": -900,
+     "d_cycle": -51.35,
+     "breakeven_captures": 0.4
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -12,
+     "d_damage": -720,
+     "d_cycle": -41.08,
+     "breakeven_captures": 0.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -720,
+     "d_cycle": -51.69,
+     "breakeven_captures": 0.4
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -240,
+     "d_cycle": -38.77,
+     "breakeven_captures": 0.5
+    },
+    "5 str + Jungle": {
+     "d_rounds": -10,
+     "d_damage": -1140,
+     "d_cycle": -56.04,
+     "breakeven_captures": 0.4
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -1056,
+     "d_cycle": -50.65,
+     "breakeven_captures": 0.4
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -11,
+     "d_damage": -660,
+     "d_cycle": -37.65,
+     "breakeven_captures": 0.6
+    }
+   }
+  },
+  {
+   "kit": "Stellar",
+   "comp": "elk2 gold2",
+   "base_rounds": 73,
+   "base_damage": 6720,
+   "base_cycle": 350.4,
+   "items": {
+    "str shard": {
+     "d_rounds": -7,
+     "d_damage": -660,
+     "d_cycle": -33.65,
+     "breakeven_captures": 0.6
+    },
+    "focus shard": {
+     "d_rounds": -7,
+     "d_damage": -660,
+     "d_cycle": -33.65,
+     "breakeven_captures": 0.6
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -24.67,
+     "breakeven_captures": 0.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -23,
+     "d_damage": -2280,
+     "d_cycle": -115.08,
+     "breakeven_captures": 0.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -18,
+     "d_damage": -1800,
+     "d_cycle": -90.69,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2016,
+     "d_cycle": -144.74,
+     "breakeven_captures": 0.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -672,
+     "d_cycle": -108.55,
+     "breakeven_captures": 0.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -16,
+     "d_damage": -3108,
+     "d_cycle": -141.52,
+     "breakeven_captures": 0.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -16,
+     "d_damage": -3024,
+     "d_cycle": -138.12,
+     "breakeven_captures": 0.2
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -21,
+     "d_damage": -1920,
+     "d_cycle": -98.54,
+     "breakeven_captures": 0.2
+    }
+   }
+  },
+  {
+   "kit": "Stellar",
+   "comp": "golem1",
+   "base_rounds": 82,
+   "base_damage": 9720,
+   "base_cycle": 480.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -360,
+     "d_cycle": -17.54,
+     "breakeven_captures": 1.2
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -240,
+     "d_cycle": -11.69,
+     "breakeven_captures": 1.8
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -35.69,
+     "breakeven_captures": 0.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -24,
+     "d_damage": -2880,
+     "d_cycle": -140.31,
+     "breakeven_captures": 0.1
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -21,
+     "d_damage": -2520,
+     "d_cycle": -122.77,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2916,
+     "d_cycle": -209.35,
+     "breakeven_captures": 0.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -972,
+     "d_cycle": -157.02,
+     "breakeven_captures": 0.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -17,
+     "d_damage": -4344,
+     "d_cycle": -192.43,
+     "breakeven_captures": 0.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -17,
+     "d_damage": -4344,
+     "d_cycle": -192.43,
+     "breakeven_captures": 0.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -17,
+     "d_damage": -2040,
+     "d_cycle": -99.38,
+     "breakeven_captures": 0.2
+    }
+   }
+  },
+  {
+   "kit": "Stellar",
+   "comp": "gem1",
+   "base_rounds": 1,
+   "base_damage": 0,
+   "base_cycle": 7.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Stellar",
+   "comp": "gold2",
+   "base_rounds": 2,
+   "base_damage": 0,
+   "base_cycle": 8.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Prism",
+   "comp": "wolf1",
+   "base_rounds": 22,
+   "base_damage": 360,
+   "base_cycle": 41.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -40,
+     "d_cycle": -3.5,
+     "breakeven_captures": 6.0
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -40,
+     "d_cycle": -3.5,
+     "breakeven_captures": 6.0
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.07,
+     "breakeven_captures": 19.7
+    },
+    "5 str + Monster": {
+     "d_rounds": -5,
+     "d_damage": -80,
+     "d_cycle": -8.0,
+     "breakeven_captures": 2.6
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -80,
+     "d_cycle": -8.0,
+     "breakeven_captures": 2.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -108,
+     "d_cycle": -6.88,
+     "breakeven_captures": 3.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -36,
+     "d_cycle": -4.99,
+     "breakeven_captures": 4.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -4,
+     "d_damage": -164,
+     "d_cycle": -10.15,
+     "breakeven_captures": 2.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -164,
+     "d_cycle": -11.15,
+     "breakeven_captures": 1.9
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -80,
+     "d_cycle": -8.0,
+     "breakeven_captures": 2.6
+    }
+   }
+  },
+  {
+   "kit": "Prism",
+   "comp": "gold1 wolf1",
+   "base_rounds": 22,
+   "base_damage": 360,
+   "base_cycle": 41.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -40,
+     "d_cycle": -3.5,
+     "breakeven_captures": 6.0
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -40,
+     "d_cycle": -3.5,
+     "breakeven_captures": 6.0
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.07,
+     "breakeven_captures": 19.7
+    },
+    "5 str + Monster": {
+     "d_rounds": -5,
+     "d_damage": -80,
+     "d_cycle": -8.0,
+     "breakeven_captures": 2.6
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -80,
+     "d_cycle": -8.0,
+     "breakeven_captures": 2.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -108,
+     "d_cycle": -6.88,
+     "breakeven_captures": 3.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -36,
+     "d_cycle": -4.99,
+     "breakeven_captures": 4.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -4,
+     "d_damage": -164,
+     "d_cycle": -10.15,
+     "breakeven_captures": 2.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -164,
+     "d_cycle": -11.15,
+     "breakeven_captures": 1.9
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -80,
+     "d_cycle": -8.0,
+     "breakeven_captures": 2.6
+    }
+   }
+  },
+  {
+   "kit": "Prism",
+   "comp": "gem1 wolf1",
+   "base_rounds": 22,
+   "base_damage": 360,
+   "base_cycle": 41.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -40,
+     "d_cycle": -3.5,
+     "breakeven_captures": 6.0
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -40,
+     "d_cycle": -3.5,
+     "breakeven_captures": 6.0
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.07,
+     "breakeven_captures": 19.7
+    },
+    "5 str + Monster": {
+     "d_rounds": -5,
+     "d_damage": -80,
+     "d_cycle": -8.0,
+     "breakeven_captures": 2.6
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -80,
+     "d_cycle": -8.0,
+     "breakeven_captures": 2.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -108,
+     "d_cycle": -6.88,
+     "breakeven_captures": 3.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -36,
+     "d_cycle": -4.99,
+     "breakeven_captures": 4.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -4,
+     "d_damage": -164,
+     "d_cycle": -10.15,
+     "breakeven_captures": 2.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -164,
+     "d_cycle": -11.15,
+     "breakeven_captures": 1.9
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -80,
+     "d_cycle": -8.0,
+     "breakeven_captures": 2.6
+    }
+   }
+  },
+  {
+   "kit": "Prism",
+   "comp": "gold2 wolf2",
+   "base_rounds": 41,
+   "base_damage": 1120,
+   "base_cycle": 89.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -80,
+     "d_cycle": -5.0,
+     "breakeven_captures": 4.2
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -80,
+     "d_cycle": -5.0,
+     "breakeven_captures": 4.2
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -3.32,
+     "breakeven_captures": 6.3
+    },
+    "5 str + Monster": {
+     "d_rounds": -8,
+     "d_damage": -220,
+     "d_cycle": -16.25,
+     "breakeven_captures": 1.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -220,
+     "d_cycle": -16.25,
+     "breakeven_captures": 1.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -336,
+     "d_cycle": -21.42,
+     "breakeven_captures": 1.0
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -112,
+     "d_cycle": -15.54,
+     "breakeven_captures": 1.4
+    },
+    "5 str + Jungle": {
+     "d_rounds": -7,
+     "d_damage": -490,
+     "d_cycle": -25.38,
+     "breakeven_captures": 0.8
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -490,
+     "d_cycle": -26.38,
+     "breakeven_captures": 0.8
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -220,
+     "d_cycle": -16.25,
+     "breakeven_captures": 1.3
+    }
+   }
+  },
+  {
+   "kit": "Prism",
+   "comp": "elk1 gem1 gold1",
+   "base_rounds": 40,
+   "base_damage": 2040,
+   "base_cycle": 122.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -120,
+     "d_cycle": -6.5,
+     "breakeven_captures": 3.2
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -120,
+     "d_cycle": -6.5,
+     "breakeven_captures": 3.2
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -6.04,
+     "breakeven_captures": 3.5
+    },
+    "5 str + Monster": {
+     "d_rounds": -10,
+     "d_damage": -540,
+     "d_cycle": -30.25,
+     "breakeven_captures": 0.7
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -420,
+     "d_cycle": -23.75,
+     "breakeven_captures": 0.9
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -612,
+     "d_cycle": -39.02,
+     "breakeven_captures": 0.5
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -204,
+     "d_cycle": -28.31,
+     "breakeven_captures": 0.7
+    },
+    "5 str + Jungle": {
+     "d_rounds": -7,
+     "d_damage": -864,
+     "d_cycle": -39.4,
+     "breakeven_captures": 0.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -7,
+     "d_damage": -864,
+     "d_cycle": -39.4,
+     "breakeven_captures": 0.5
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -420,
+     "d_cycle": -23.75,
+     "breakeven_captures": 0.9
+    }
+   }
+  },
+  {
+   "kit": "Prism",
+   "comp": "elk1",
+   "base_rounds": 40,
+   "base_damage": 2040,
+   "base_cycle": 122.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -120,
+     "d_cycle": -6.5,
+     "breakeven_captures": 3.2
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -120,
+     "d_cycle": -6.5,
+     "breakeven_captures": 3.2
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -6.04,
+     "breakeven_captures": 3.5
+    },
+    "5 str + Monster": {
+     "d_rounds": -10,
+     "d_damage": -540,
+     "d_cycle": -30.25,
+     "breakeven_captures": 0.7
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -420,
+     "d_cycle": -23.75,
+     "breakeven_captures": 0.9
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -612,
+     "d_cycle": -39.02,
+     "breakeven_captures": 0.5
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -204,
+     "d_cycle": -28.31,
+     "breakeven_captures": 0.7
+    },
+    "5 str + Jungle": {
+     "d_rounds": -7,
+     "d_damage": -864,
+     "d_cycle": -39.4,
+     "breakeven_captures": 0.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -7,
+     "d_damage": -864,
+     "d_cycle": -39.4,
+     "breakeven_captures": 0.5
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -420,
+     "d_cycle": -23.75,
+     "breakeven_captures": 0.9
+    }
+   }
+  },
+  {
+   "kit": "Prism",
+   "comp": "elk2 gold2",
+   "base_rounds": 73,
+   "base_damage": 6120,
+   "base_cycle": 308.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -300,
+     "d_cycle": -14.25,
+     "breakeven_captures": 1.5
+    },
+    "focus shard": {
+     "d_rounds": -4,
+     "d_damage": -360,
+     "d_cycle": -17.5,
+     "breakeven_captures": 1.2
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -18.12,
+     "breakeven_captures": 1.2
+    },
+    "5 str + Monster": {
+     "d_rounds": -16,
+     "d_damage": -1440,
+     "d_cycle": -70.0,
+     "breakeven_captures": 0.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -15,
+     "d_damage": -1320,
+     "d_cycle": -64.5,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -1836,
+     "d_cycle": -117.04,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -612,
+     "d_cycle": -84.91,
+     "breakeven_captures": 0.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -11,
+     "d_damage": -2508,
+     "d_cycle": -105.05,
+     "breakeven_captures": 0.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -15,
+     "d_damage": -2676,
+     "d_cycle": -115.35,
+     "breakeven_captures": 0.2
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -16,
+     "d_damage": -1320,
+     "d_cycle": -65.5,
+     "breakeven_captures": 0.3
+    }
+   }
+  },
+  {
+   "kit": "Prism",
+   "comp": "golem1",
+   "base_rounds": 82,
+   "base_damage": 8400,
+   "base_cycle": 403.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -120,
+     "d_cycle": -6.5,
+     "breakeven_captures": 3.2
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -120,
+     "d_cycle": -6.5,
+     "breakeven_captures": 3.2
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -24.87,
+     "breakeven_captures": 0.8
+    },
+    "5 str + Monster": {
+     "d_rounds": -19,
+     "d_damage": -1920,
+     "d_cycle": -91.0,
+     "breakeven_captures": 0.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -16,
+     "d_damage": -1680,
+     "d_cycle": -79.0,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2520,
+     "d_cycle": -160.65,
+     "breakeven_captures": 0.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -840,
+     "d_cycle": -116.55,
+     "breakeven_captures": 0.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -14,
+     "d_damage": -3528,
+     "d_cycle": -146.3,
+     "breakeven_captures": 0.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -16,
+     "d_damage": -3696,
+     "d_cycle": -154.6,
+     "breakeven_captures": 0.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -17,
+     "d_damage": -1680,
+     "d_cycle": -80.0,
+     "breakeven_captures": 0.3
+    }
+   }
+  },
+  {
+   "kit": "Prism",
+   "comp": "gem1",
+   "base_rounds": 1,
+   "base_damage": 0,
+   "base_cycle": 7.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Prism",
+   "comp": "gold2",
+   "base_rounds": 2,
+   "base_damage": 0,
+   "base_cycle": 8.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Marcella",
+   "comp": "wolf1",
+   "base_rounds": 19,
+   "base_damage": 300,
+   "base_cycle": 30.6,
+   "items": {
+    "str shard": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.5,
+     "breakeven_captures": 41.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -6,
+     "d_damage": -100,
+     "d_cycle": -8.19,
+     "breakeven_captures": 2.6
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -6,
+     "d_damage": -100,
+     "d_cycle": -8.19,
+     "breakeven_captures": 2.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -90,
+     "d_cycle": -3.32,
+     "breakeven_captures": 6.3
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -30,
+     "d_cycle": -2.39,
+     "breakeven_captures": 8.8
+    },
+    "5 str + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -146,
+     "d_cycle": -8.19,
+     "breakeven_captures": 2.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -3,
+     "d_damage": -118,
+     "d_cycle": -5.58,
+     "breakeven_captures": 3.8
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -4,
+     "d_damage": -60,
+     "d_cycle": -5.31,
+     "breakeven_captures": 4.0
+    }
+   }
+  },
+  {
+   "kit": "Marcella",
+   "comp": "gold1 wolf1",
+   "base_rounds": 22,
+   "base_damage": 300,
+   "base_cycle": 33.6,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.5,
+     "breakeven_captures": 41.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -7,
+     "d_damage": -100,
+     "d_cycle": -9.19,
+     "breakeven_captures": 2.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -100,
+     "d_cycle": -9.19,
+     "breakeven_captures": 2.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -90,
+     "d_cycle": -3.32,
+     "breakeven_captures": 6.3
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -30,
+     "d_cycle": -2.39,
+     "breakeven_captures": 8.8
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -146,
+     "d_cycle": -9.19,
+     "breakeven_captures": 2.3
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -118,
+     "d_cycle": -7.58,
+     "breakeven_captures": 2.8
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -60,
+     "d_cycle": -6.31,
+     "breakeven_captures": 3.3
+    }
+   }
+  },
+  {
+   "kit": "Marcella",
+   "comp": "gem1 wolf1",
+   "base_rounds": 22,
+   "base_damage": 300,
+   "base_cycle": 33.6,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.5,
+     "breakeven_captures": 41.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -7,
+     "d_damage": -100,
+     "d_cycle": -9.19,
+     "breakeven_captures": 2.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -100,
+     "d_cycle": -9.19,
+     "breakeven_captures": 2.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -90,
+     "d_cycle": -3.32,
+     "breakeven_captures": 6.3
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -30,
+     "d_cycle": -2.39,
+     "breakeven_captures": 8.8
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -146,
+     "d_cycle": -9.19,
+     "breakeven_captures": 2.3
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -118,
+     "d_cycle": -7.58,
+     "breakeven_captures": 2.8
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -60,
+     "d_cycle": -6.31,
+     "breakeven_captures": 3.3
+    }
+   }
+  },
+  {
+   "kit": "Marcella",
+   "comp": "gold2 wolf2",
+   "base_rounds": 45,
+   "base_damage": 1060,
+   "base_cycle": 73.2,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -80,
+     "d_cycle": -4.75,
+     "breakeven_captures": 4.4
+    },
+    "focus shard": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -4.31,
+     "breakeven_captures": 4.9
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.78,
+     "breakeven_captures": 11.8
+    },
+    "5 str + Monster": {
+     "d_rounds": -15,
+     "d_damage": -380,
+     "d_cycle": -23.31,
+     "breakeven_captures": 0.9
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -15,
+     "d_damage": -380,
+     "d_cycle": -23.31,
+     "breakeven_captures": 0.9
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -318,
+     "d_cycle": -11.73,
+     "breakeven_captures": 1.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -106,
+     "d_cycle": -8.46,
+     "breakeven_captures": 2.5
+    },
+    "5 str + Jungle": {
+     "d_rounds": -13,
+     "d_damage": -556,
+     "d_cycle": -25.16,
+     "breakeven_captures": 0.8
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -11,
+     "d_damage": -472,
+     "d_cycle": -21.33,
+     "breakeven_captures": 1.0
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -11,
+     "d_damage": -280,
+     "d_cycle": -17.12,
+     "breakeven_captures": 1.2
+    }
+   }
+  },
+  {
+   "kit": "Marcella",
+   "comp": "elk1 gem1 gold1",
+   "base_rounds": 41,
+   "base_damage": 1740,
+   "base_cycle": 84.1,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -60,
+     "d_cycle": -5.31,
+     "breakeven_captures": 4.0
+    },
+    "focus shard": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -4.31,
+     "breakeven_captures": 4.9
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -2.93,
+     "breakeven_captures": 7.2
+    },
+    "5 str + Monster": {
+     "d_rounds": -15,
+     "d_damage": -540,
+     "d_cycle": -26.81,
+     "breakeven_captures": 0.8
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -14,
+     "d_damage": -480,
+     "d_cycle": -24.5,
+     "breakeven_captures": 0.9
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -522,
+     "d_cycle": -19.26,
+     "breakeven_captures": 1.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -174,
+     "d_cycle": -13.88,
+     "breakeven_captures": 1.5
+    },
+    "5 str + Jungle": {
+     "d_rounds": -13,
+     "d_damage": -858,
+     "d_cycle": -31.77,
+     "breakeven_captures": 0.7
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -9,
+     "d_damage": -816,
+     "d_cycle": -26.85,
+     "breakeven_captures": 0.8
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -12,
+     "d_damage": -480,
+     "d_cycle": -22.5,
+     "breakeven_captures": 0.9
+    }
+   }
+  },
+  {
+   "kit": "Marcella",
+   "comp": "elk1",
+   "base_rounds": 35,
+   "base_damage": 1740,
+   "base_cycle": 78.1,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -60,
+     "d_cycle": -3.31,
+     "breakeven_captures": 6.3
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -60,
+     "d_cycle": -3.31,
+     "breakeven_captures": 6.3
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -2.93,
+     "breakeven_captures": 7.2
+    },
+    "5 str + Monster": {
+     "d_rounds": -11,
+     "d_damage": -540,
+     "d_cycle": -22.81,
+     "breakeven_captures": 0.9
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -10,
+     "d_damage": -480,
+     "d_cycle": -20.5,
+     "breakeven_captures": 1.0
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -522,
+     "d_cycle": -19.26,
+     "breakeven_captures": 1.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -174,
+     "d_cycle": -13.88,
+     "breakeven_captures": 1.5
+    },
+    "5 str + Jungle": {
+     "d_rounds": -10,
+     "d_damage": -858,
+     "d_cycle": -28.77,
+     "breakeven_captures": 0.7
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -9,
+     "d_damage": -816,
+     "d_cycle": -26.85,
+     "breakeven_captures": 0.8
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -10,
+     "d_damage": -480,
+     "d_cycle": -20.5,
+     "breakeven_captures": 1.0
+    }
+   }
+  },
+  {
+   "kit": "Marcella",
+   "comp": "elk2 gold2",
+   "base_rounds": 77,
+   "base_damage": 5820,
+   "base_cycle": 209.3,
+   "items": {
+    "str shard": {
+     "d_rounds": -5,
+     "d_damage": -480,
+     "d_cycle": -15.5,
+     "breakeven_captures": 1.4
+    },
+    "focus shard": {
+     "d_rounds": -4,
+     "d_damage": -420,
+     "d_cycle": -13.19,
+     "breakeven_captures": 1.6
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -9.79,
+     "breakeven_captures": 2.1
+    },
+    "5 str + Monster": {
+     "d_rounds": -27,
+     "d_damage": -1980,
+     "d_cycle": -70.31,
+     "breakeven_captures": 0.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -25,
+     "d_damage": -1860,
+     "d_cycle": -65.69,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -1746,
+     "d_cycle": -64.41,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -582,
+     "d_cycle": -46.43,
+     "breakeven_captures": 0.5
+    },
+    "5 str + Jungle": {
+     "d_rounds": -22,
+     "d_damage": -3006,
+     "d_cycle": -87.76,
+     "breakeven_captures": 0.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -16,
+     "d_damage": -2670,
+     "d_cycle": -74.41,
+     "breakeven_captures": 0.3
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -19,
+     "d_damage": -1620,
+     "d_cycle": -54.44,
+     "breakeven_captures": 0.4
+    }
+   }
+  },
+  {
+   "kit": "Marcella",
+   "comp": "golem1",
+   "base_rounds": 75,
+   "base_damage": 7680,
+   "base_cycle": 248.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -5,
+     "d_damage": -480,
+     "d_cycle": -15.5,
+     "breakeven_captures": 1.4
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -120,
+     "d_cycle": -4.62,
+     "breakeven_captures": 4.5
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -12.92,
+     "breakeven_captures": 1.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -26,
+     "d_damage": -2640,
+     "d_cycle": -83.75,
+     "breakeven_captures": 0.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -25,
+     "d_damage": -2520,
+     "d_cycle": -80.12,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2304,
+     "d_cycle": -84.99,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -768,
+     "d_cycle": -61.27,
+     "breakeven_captures": 0.3
+    },
+    "5 str + Jungle": {
+     "d_rounds": -22,
+     "d_damage": -3900,
+     "d_cycle": -107.31,
+     "breakeven_captures": 0.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -18,
+     "d_damage": -3564,
+     "d_cycle": -95.96,
+     "breakeven_captures": 0.2
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -18,
+     "d_damage": -1800,
+     "d_cycle": -57.38,
+     "breakeven_captures": 0.4
+    }
+   }
+  },
+  {
+   "kit": "Marcella",
+   "comp": "gem1",
+   "base_rounds": 1,
+   "base_damage": 0,
+   "base_cycle": 6.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Marcella",
+   "comp": "gold2",
+   "base_rounds": 2,
+   "base_damage": 0,
+   "base_cycle": 7.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Willow",
+   "comp": "wolf1",
+   "base_rounds": 22,
+   "base_damage": 420,
+   "base_cycle": 43.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -1,
+     "d_damage": -20,
+     "d_cycle": -1.75,
+     "breakeven_captures": 12.0
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.05,
+     "breakeven_captures": 20.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -6,
+     "d_damage": -120,
+     "d_cycle": -10.5,
+     "breakeven_captures": 2.0
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -100,
+     "d_cycle": -8.75,
+     "breakeven_captures": 2.4
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -7.63,
+     "breakeven_captures": 2.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -42,
+     "d_cycle": -5.31,
+     "breakeven_captures": 4.0
+    },
+    "5 str + Jungle": {
+     "d_rounds": -4,
+     "d_damage": -182,
+     "d_cycle": -10.83,
+     "breakeven_captures": 1.9
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -4.73,
+     "breakeven_captures": 4.4
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Willow",
+   "comp": "gold1 wolf1",
+   "base_rounds": 25,
+   "base_damage": 420,
+   "base_cycle": 46.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -1,
+     "d_damage": -20,
+     "d_cycle": -1.75,
+     "breakeven_captures": 12.0
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.05,
+     "breakeven_captures": 20.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -7,
+     "d_damage": -120,
+     "d_cycle": -11.5,
+     "breakeven_captures": 1.8
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -100,
+     "d_cycle": -10.75,
+     "breakeven_captures": 2.0
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -7.63,
+     "breakeven_captures": 2.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -42,
+     "d_cycle": -5.31,
+     "breakeven_captures": 4.0
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -182,
+     "d_cycle": -12.83,
+     "breakeven_captures": 1.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -4.73,
+     "breakeven_captures": 4.4
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Willow",
+   "comp": "gem1 wolf1",
+   "base_rounds": 25,
+   "base_damage": 420,
+   "base_cycle": 46.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -1,
+     "d_damage": -20,
+     "d_cycle": -1.75,
+     "breakeven_captures": 12.0
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.05,
+     "breakeven_captures": 20.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -7,
+     "d_damage": -120,
+     "d_cycle": -11.5,
+     "breakeven_captures": 1.8
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -100,
+     "d_cycle": -10.75,
+     "breakeven_captures": 2.0
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -7.63,
+     "breakeven_captures": 2.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -42,
+     "d_cycle": -5.31,
+     "breakeven_captures": 4.0
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -182,
+     "d_cycle": -12.83,
+     "breakeven_captures": 1.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -126,
+     "d_cycle": -4.73,
+     "breakeven_captures": 4.4
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Willow",
+   "comp": "gold2 wolf2",
+   "base_rounds": 50,
+   "base_damage": 1280,
+   "base_cycle": 104.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -60,
+     "d_cycle": -4.25,
+     "breakeven_captures": 4.9
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -3.2,
+     "breakeven_captures": 6.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -15,
+     "d_damage": -360,
+     "d_cycle": -28.5,
+     "breakeven_captures": 0.7
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -13,
+     "d_damage": -300,
+     "d_cycle": -24.25,
+     "breakeven_captures": 0.9
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -384,
+     "d_cycle": -23.24,
+     "breakeven_captures": 0.9
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -128,
+     "d_cycle": -16.17,
+     "breakeven_captures": 1.3
+    },
+    "5 str + Jungle": {
+     "d_rounds": -11,
+     "d_damage": -566,
+     "d_cycle": -32.22,
+     "breakeven_captures": 0.7
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -384,
+     "d_cycle": -14.4,
+     "breakeven_captures": 1.5
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Willow",
+   "comp": "elk1 gem1 gold1",
+   "base_rounds": 44,
+   "base_damage": 2280,
+   "base_cycle": 135.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -120,
+     "d_cycle": -6.5,
+     "breakeven_captures": 3.2
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -5.7,
+     "breakeven_captures": 3.7
+    },
+    "5 str + Monster": {
+     "d_rounds": -12,
+     "d_damage": -660,
+     "d_cycle": -36.75,
+     "breakeven_captures": 0.6
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -11,
+     "d_damage": -600,
+     "d_cycle": -33.5,
+     "breakeven_captures": 0.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -684,
+     "d_cycle": -41.4,
+     "breakeven_captures": 0.5
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -228,
+     "d_cycle": -28.8,
+     "breakeven_captures": 0.7
+    },
+    "5 str + Jungle": {
+     "d_rounds": -10,
+     "d_damage": -1020,
+     "d_cycle": -48.25,
+     "breakeven_captures": 0.4
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -684,
+     "d_cycle": -25.65,
+     "breakeven_captures": 0.8
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Willow",
+   "comp": "elk1",
+   "base_rounds": 39,
+   "base_damage": 2280,
+   "base_cycle": 130.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -120,
+     "d_cycle": -6.5,
+     "breakeven_captures": 3.2
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -5.7,
+     "breakeven_captures": 3.7
+    },
+    "5 str + Monster": {
+     "d_rounds": -11,
+     "d_damage": -660,
+     "d_cycle": -35.75,
+     "breakeven_captures": 0.6
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -10,
+     "d_damage": -600,
+     "d_cycle": -32.5,
+     "breakeven_captures": 0.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -684,
+     "d_cycle": -41.4,
+     "breakeven_captures": 0.5
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -228,
+     "d_cycle": -28.8,
+     "breakeven_captures": 0.7
+    },
+    "5 str + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -1020,
+     "d_cycle": -46.25,
+     "breakeven_captures": 0.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -684,
+     "d_cycle": -25.65,
+     "breakeven_captures": 0.8
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Willow",
+   "comp": "elk2 gold2",
+   "base_rounds": 83,
+   "base_damage": 6900,
+   "base_cycle": 347.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -360,
+     "d_cycle": -16.5,
+     "breakeven_captures": 1.3
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -17.25,
+     "breakeven_captures": 1.2
+    },
+    "5 str + Monster": {
+     "d_rounds": -23,
+     "d_damage": -1920,
+     "d_cycle": -95.0,
+     "breakeven_captures": 0.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -21,
+     "d_damage": -1800,
+     "d_cycle": -88.5,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2070,
+     "d_cycle": -125.29,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -690,
+     "d_cycle": -87.16,
+     "breakeven_captures": 0.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -17,
+     "d_damage": -3078,
+     "d_cycle": -132.42,
+     "breakeven_captures": 0.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2070,
+     "d_cycle": -77.62,
+     "breakeven_captures": 0.3
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Willow",
+   "comp": "golem1",
+   "base_rounds": 81,
+   "base_damage": 9600,
+   "base_cycle": 447.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -480,
+     "d_cycle": -22.0,
+     "breakeven_captures": 1.0
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -24.0,
+     "breakeven_captures": 0.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -23,
+     "d_damage": -2760,
+     "d_cycle": -126.5,
+     "breakeven_captures": 0.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -20,
+     "d_damage": -2400,
+     "d_cycle": -110.0,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2880,
+     "d_cycle": -174.32,
+     "breakeven_captures": 0.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -960,
+     "d_cycle": -121.26,
+     "breakeven_captures": 0.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -17,
+     "d_damage": -4308,
+     "d_cycle": -178.55,
+     "breakeven_captures": 0.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2880,
+     "d_cycle": -108.0,
+     "breakeven_captures": 0.2
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Willow",
+   "comp": "gem1",
+   "base_rounds": 2,
+   "base_damage": 0,
+   "base_cycle": 8.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Willow",
+   "comp": "gold2",
+   "base_rounds": 5,
+   "base_damage": 0,
+   "base_cycle": 11.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Ren",
+   "comp": "wolf1",
+   "base_rounds": 22,
+   "base_damage": 360,
+   "base_cycle": 37.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -1,
+     "d_damage": -20,
+     "d_cycle": -1.58,
+     "breakeven_captures": 13.3
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": -20,
+     "d_cycle": -1.58,
+     "breakeven_captures": 13.3
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.05,
+     "breakeven_captures": 20.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -7,
+     "d_damage": -120,
+     "d_cycle": -10.5,
+     "breakeven_captures": 2.0
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -120,
+     "d_cycle": -10.5,
+     "breakeven_captures": 2.0
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -108,
+     "d_cycle": -5.77,
+     "breakeven_captures": 3.6
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -36,
+     "d_cycle": -4.42,
+     "breakeven_captures": 4.7
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -178,
+     "d_cycle": -11.19,
+     "breakeven_captures": 1.9
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -4,
+     "d_damage": -164,
+     "d_cycle": -8.78,
+     "breakeven_captures": 2.4
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -80,
+     "d_cycle": -7.33,
+     "breakeven_captures": 2.9
+    }
+   }
+  },
+  {
+   "kit": "Ren",
+   "comp": "gold1 wolf1",
+   "base_rounds": 25,
+   "base_damage": 360,
+   "base_cycle": 40.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -20,
+     "d_cycle": -2.58,
+     "breakeven_captures": 8.1
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": -20,
+     "d_cycle": -0.58,
+     "breakeven_captures": 36.0
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.05,
+     "breakeven_captures": 20.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -8,
+     "d_damage": -120,
+     "d_cycle": -11.5,
+     "breakeven_captures": 1.8
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -120,
+     "d_cycle": -11.5,
+     "breakeven_captures": 1.8
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -108,
+     "d_cycle": -5.77,
+     "breakeven_captures": 3.6
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -36,
+     "d_cycle": -4.42,
+     "breakeven_captures": 4.7
+    },
+    "5 str + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -178,
+     "d_cycle": -13.19,
+     "breakeven_captures": 1.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -3,
+     "d_damage": -164,
+     "d_cycle": -7.78,
+     "breakeven_captures": 2.7
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -4,
+     "d_damage": -80,
+     "d_cycle": -6.33,
+     "breakeven_captures": 3.3
+    }
+   }
+  },
+  {
+   "kit": "Ren",
+   "comp": "gem1 wolf1",
+   "base_rounds": 25,
+   "base_damage": 360,
+   "base_cycle": 40.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -20,
+     "d_cycle": -2.58,
+     "breakeven_captures": 8.1
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": -20,
+     "d_cycle": -0.58,
+     "breakeven_captures": 36.0
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.05,
+     "breakeven_captures": 20.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -8,
+     "d_damage": -120,
+     "d_cycle": -11.5,
+     "breakeven_captures": 1.8
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -120,
+     "d_cycle": -11.5,
+     "breakeven_captures": 1.8
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -108,
+     "d_cycle": -5.77,
+     "breakeven_captures": 3.6
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -36,
+     "d_cycle": -4.42,
+     "breakeven_captures": 4.7
+    },
+    "5 str + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -178,
+     "d_cycle": -13.19,
+     "breakeven_captures": 1.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -3,
+     "d_damage": -164,
+     "d_cycle": -7.78,
+     "breakeven_captures": 2.7
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -4,
+     "d_damage": -80,
+     "d_cycle": -6.33,
+     "breakeven_captures": 3.3
+    }
+   }
+  },
+  {
+   "kit": "Ren",
+   "comp": "gold2 wolf2",
+   "base_rounds": 44,
+   "base_damage": 1040,
+   "base_cycle": 79.3,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -60,
+     "d_cycle": -5.75,
+     "breakeven_captures": 3.7
+    },
+    "focus shard": {
+     "d_rounds": -3,
+     "d_damage": -60,
+     "d_cycle": -4.75,
+     "breakeven_captures": 4.4
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -3.03,
+     "breakeven_captures": 6.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -14,
+     "d_damage": -340,
+     "d_cycle": -23.92,
+     "breakeven_captures": 0.9
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -13,
+     "d_damage": -320,
+     "d_cycle": -22.33,
+     "breakeven_captures": 0.9
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -312,
+     "d_cycle": -16.68,
+     "breakeven_captures": 1.3
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -104,
+     "d_cycle": -12.78,
+     "breakeven_captures": 1.6
+    },
+    "5 str + Jungle": {
+     "d_rounds": -12,
+     "d_damage": -508,
+     "d_cycle": -26.82,
+     "breakeven_captures": 0.8
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -438,
+     "d_cycle": -20.77,
+     "breakeven_captures": 1.0
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -220,
+     "d_cycle": -14.42,
+     "breakeven_captures": 1.5
+    }
+   }
+  },
+  {
+   "kit": "Ren",
+   "comp": "elk1 gem1 gold1",
+   "base_rounds": 45,
+   "base_damage": 1980,
+   "base_cycle": 107.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -180,
+     "d_cycle": -9.25,
+     "breakeven_captures": 2.3
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": -60,
+     "d_cycle": -2.75,
+     "breakeven_captures": 7.6
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -5.78,
+     "breakeven_captures": 3.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -16,
+     "d_damage": -720,
+     "d_cycle": -37.0,
+     "breakeven_captures": 0.6
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -15,
+     "d_damage": -720,
+     "d_cycle": -36.0,
+     "breakeven_captures": 0.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -594,
+     "d_cycle": -31.76,
+     "breakeven_captures": 0.7
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -198,
+     "d_cycle": -24.34,
+     "breakeven_captures": 0.9
+    },
+    "5 str + Jungle": {
+     "d_rounds": -13,
+     "d_damage": -1014,
+     "d_cycle": -42.58,
+     "breakeven_captures": 0.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -804,
+     "d_cycle": -28.45,
+     "breakeven_captures": 0.7
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -360,
+     "d_cycle": -18.5,
+     "breakeven_captures": 1.1
+    }
+   }
+  },
+  {
+   "kit": "Ren",
+   "comp": "elk1",
+   "base_rounds": 39,
+   "base_damage": 1980,
+   "base_cycle": 101.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -180,
+     "d_cycle": -8.25,
+     "breakeven_captures": 2.5
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": -60,
+     "d_cycle": -2.75,
+     "breakeven_captures": 7.6
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -5.78,
+     "breakeven_captures": 3.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -14,
+     "d_damage": -720,
+     "d_cycle": -35.0,
+     "breakeven_captures": 0.6
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -13,
+     "d_damage": -720,
+     "d_cycle": -34.0,
+     "breakeven_captures": 0.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -594,
+     "d_cycle": -31.76,
+     "breakeven_captures": 0.7
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -198,
+     "d_cycle": -24.34,
+     "breakeven_captures": 0.9
+    },
+    "5 str + Jungle": {
+     "d_rounds": -11,
+     "d_damage": -1014,
+     "d_cycle": -40.58,
+     "breakeven_captures": 0.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -804,
+     "d_cycle": -29.45,
+     "breakeven_captures": 0.7
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -360,
+     "d_cycle": -17.5,
+     "breakeven_captures": 1.2
+    }
+   }
+  },
+  {
+   "kit": "Ren",
+   "comp": "elk2 gold2",
+   "base_rounds": 73,
+   "base_damage": 5640,
+   "base_cycle": 242.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -6,
+     "d_damage": -360,
+     "d_cycle": -16.5,
+     "breakeven_captures": 1.3
+    },
+    "focus shard": {
+     "d_rounds": -5,
+     "d_damage": -180,
+     "d_cycle": -10.25,
+     "breakeven_captures": 2.0
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -16.45,
+     "breakeven_captures": 1.3
+    },
+    "5 str + Monster": {
+     "d_rounds": -24,
+     "d_damage": -1800,
+     "d_cycle": -76.5,
+     "breakeven_captures": 0.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -23,
+     "d_damage": -1680,
+     "d_cycle": -72.0,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -1692,
+     "d_cycle": -90.48,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -564,
+     "d_cycle": -69.32,
+     "breakeven_captures": 0.3
+    },
+    "5 str + Jungle": {
+     "d_rounds": -20,
+     "d_damage": -2742,
+     "d_cycle": -99.97,
+     "breakeven_captures": 0.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -13,
+     "d_damage": -2364,
+     "d_cycle": -81.95,
+     "breakeven_captures": 0.3
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -16,
+     "d_damage": -1200,
+     "d_cycle": -51.0,
+     "breakeven_captures": 0.4
+    }
+   }
+  },
+  {
+   "kit": "Ren",
+   "comp": "golem1",
+   "base_rounds": 81,
+   "base_damage": 8400,
+   "base_cycle": 331.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -6,
+     "d_damage": -720,
+     "d_cycle": -27.0,
+     "breakeven_captures": 0.8
+    },
+    "focus shard": {
+     "d_rounds": -3,
+     "d_damage": -360,
+     "d_cycle": -13.5,
+     "breakeven_captures": 1.6
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -24.5,
+     "breakeven_captures": 0.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -27,
+     "d_damage": -2880,
+     "d_cycle": -111.0,
+     "breakeven_captures": 0.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -26,
+     "d_damage": -2760,
+     "d_cycle": -106.5,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2520,
+     "d_cycle": -134.75,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -840,
+     "d_cycle": -103.25,
+     "breakeven_captures": 0.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -24,
+     "d_damage": -4284,
+     "d_cycle": -148.95,
+     "breakeven_captures": 0.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -13,
+     "d_damage": -3528,
+     "d_cycle": -115.9,
+     "breakeven_captures": 0.2
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -16,
+     "d_damage": -1680,
+     "d_cycle": -65.0,
+     "breakeven_captures": 0.3
+    }
+   }
+  },
+  {
+   "kit": "Ren",
+   "comp": "gem1",
+   "base_rounds": 2,
+   "base_damage": 0,
+   "base_cycle": 7.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    }
+   }
+  },
+  {
+   "kit": "Ren",
+   "comp": "gold2",
+   "base_rounds": 6,
+   "base_damage": 0,
+   "base_cycle": 11.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": -3,
+     "d_damage": 0,
+     "d_cycle": -3.0,
+     "breakeven_captures": 7.0
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -3,
+     "d_damage": 0,
+     "d_cycle": -3.0,
+     "breakeven_captures": 7.0
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": -3,
+     "d_damage": 0,
+     "d_cycle": -3.0,
+     "breakeven_captures": 7.0
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    }
+   }
+  },
+  {
+   "kit": "Varg",
+   "comp": "wolf1",
+   "base_rounds": 30,
+   "base_damage": 220,
+   "base_cycle": 40.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -20,
+     "d_cycle": -4.52,
+     "breakeven_captures": 4.6
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.52,
+     "breakeven_captures": 40.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -13,
+     "d_damage": -100,
+     "d_cycle": -15.62,
+     "breakeven_captures": 1.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -12,
+     "d_damage": -80,
+     "d_cycle": -14.1,
+     "breakeven_captures": 1.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -66,
+     "d_cycle": -3.08,
+     "breakeven_captures": 6.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -22,
+     "d_cycle": -2.31,
+     "breakeven_captures": 9.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -12,
+     "d_damage": -122,
+     "d_cycle": -15.2,
+     "breakeven_captures": 1.4
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -66,
+     "d_cycle": -1.73,
+     "breakeven_captures": 12.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Varg",
+   "comp": "gold1 wolf1",
+   "base_rounds": 30,
+   "base_damage": 220,
+   "base_cycle": 40.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -20,
+     "d_cycle": -4.52,
+     "breakeven_captures": 4.6
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.52,
+     "breakeven_captures": 40.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -13,
+     "d_damage": -100,
+     "d_cycle": -15.62,
+     "breakeven_captures": 1.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -12,
+     "d_damage": -80,
+     "d_cycle": -14.1,
+     "breakeven_captures": 1.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -66,
+     "d_cycle": -3.08,
+     "breakeven_captures": 6.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -22,
+     "d_cycle": -2.31,
+     "breakeven_captures": 9.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -12,
+     "d_damage": -122,
+     "d_cycle": -15.2,
+     "breakeven_captures": 1.4
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -66,
+     "d_cycle": -1.73,
+     "breakeven_captures": 12.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Varg",
+   "comp": "gem1 wolf1",
+   "base_rounds": 30,
+   "base_damage": 220,
+   "base_cycle": 40.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -20,
+     "d_cycle": -4.52,
+     "breakeven_captures": 4.6
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.52,
+     "breakeven_captures": 40.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -13,
+     "d_damage": -100,
+     "d_cycle": -15.62,
+     "breakeven_captures": 1.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -12,
+     "d_damage": -80,
+     "d_cycle": -14.1,
+     "breakeven_captures": 1.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -66,
+     "d_cycle": -3.08,
+     "breakeven_captures": 6.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -22,
+     "d_cycle": -2.31,
+     "breakeven_captures": 9.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -12,
+     "d_damage": -122,
+     "d_cycle": -15.2,
+     "breakeven_captures": 1.4
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -66,
+     "d_cycle": -1.73,
+     "breakeven_captures": 12.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Varg",
+   "comp": "gold2 wolf2",
+   "base_rounds": 30,
+   "base_damage": 440,
+   "base_cycle": 46.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -40,
+     "d_cycle": -5.05,
+     "breakeven_captures": 4.2
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.05,
+     "breakeven_captures": 20.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -13,
+     "d_damage": -200,
+     "d_cycle": -18.25,
+     "breakeven_captures": 1.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -12,
+     "d_damage": -160,
+     "d_cycle": -16.2,
+     "breakeven_captures": 1.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -132,
+     "d_cycle": -6.16,
+     "breakeven_captures": 3.4
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -44,
+     "d_cycle": -4.62,
+     "breakeven_captures": 4.5
+    },
+    "5 str + Jungle": {
+     "d_rounds": -12,
+     "d_damage": -244,
+     "d_cycle": -18.4,
+     "breakeven_captures": 1.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -132,
+     "d_cycle": -3.46,
+     "breakeven_captures": 6.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Varg",
+   "comp": "elk1 gem1 gold1",
+   "base_rounds": 53,
+   "base_damage": 1500,
+   "base_cycle": 97.4,
+   "items": {
+    "str shard": {
+     "d_rounds": -5,
+     "d_damage": -180,
+     "d_cycle": -9.72,
+     "breakeven_captures": 2.2
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": -150,
+     "d_cycle": -3.94,
+     "breakeven_captures": 5.3
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -3.58,
+     "breakeven_captures": 5.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -23,
+     "d_damage": -690,
+     "d_cycle": -41.11,
+     "breakeven_captures": 0.5
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -22,
+     "d_damage": -690,
+     "d_cycle": -40.11,
+     "breakeven_captures": 0.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -660,
+     "d_cycle": -24.67,
+     "breakeven_captures": 0.9
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -300,
+     "d_cycle": -18.38,
+     "breakeven_captures": 1.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -20,
+     "d_damage": -996,
+     "d_cycle": -46.14,
+     "breakeven_captures": 0.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -660,
+     "d_cycle": -17.33,
+     "breakeven_captures": 1.2
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": -300,
+     "d_cycle": -7.88,
+     "breakeven_captures": 2.7
+    }
+   }
+  },
+  {
+   "kit": "Varg",
+   "comp": "elk1",
+   "base_rounds": 53,
+   "base_damage": 1500,
+   "base_cycle": 97.4,
+   "items": {
+    "str shard": {
+     "d_rounds": -5,
+     "d_damage": -180,
+     "d_cycle": -9.72,
+     "breakeven_captures": 2.2
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": -150,
+     "d_cycle": -3.94,
+     "breakeven_captures": 5.3
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -3.58,
+     "breakeven_captures": 5.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -23,
+     "d_damage": -690,
+     "d_cycle": -41.11,
+     "breakeven_captures": 0.5
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -22,
+     "d_damage": -690,
+     "d_cycle": -40.11,
+     "breakeven_captures": 0.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -660,
+     "d_cycle": -24.67,
+     "breakeven_captures": 0.9
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -300,
+     "d_cycle": -18.38,
+     "breakeven_captures": 1.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -20,
+     "d_damage": -996,
+     "d_cycle": -46.14,
+     "breakeven_captures": 0.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -660,
+     "d_cycle": -17.33,
+     "breakeven_captures": 1.2
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": -300,
+     "d_cycle": -7.88,
+     "breakeven_captures": 2.7
+    }
+   }
+  },
+  {
+   "kit": "Varg",
+   "comp": "elk2 gold2",
+   "base_rounds": 53,
+   "base_damage": 4500,
+   "base_cycle": 176.1,
+   "items": {
+    "str shard": {
+     "d_rounds": -5,
+     "d_damage": -360,
+     "d_cycle": -14.45,
+     "breakeven_captures": 1.5
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": -150,
+     "d_cycle": -3.94,
+     "breakeven_captures": 5.3
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -10.74,
+     "breakeven_captures": 2.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -23,
+     "d_damage": -2020,
+     "d_cycle": -76.02,
+     "breakeven_captures": 0.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -22,
+     "d_damage": -1900,
+     "d_cycle": -71.88,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -1800,
+     "d_cycle": -70.88,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -600,
+     "d_cycle": -49.88,
+     "breakeven_captures": 0.4
+    },
+    "5 str + Jungle": {
+     "d_rounds": -20,
+     "d_damage": -2812,
+     "d_cycle": -93.81,
+     "breakeven_captures": 0.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2550,
+     "d_cycle": -66.94,
+     "breakeven_captures": 0.3
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": -900,
+     "d_cycle": -23.62,
+     "breakeven_captures": 0.9
+    }
+   }
+  },
+  {
+   "kit": "Varg",
+   "comp": "golem1",
+   "base_rounds": 111,
+   "base_damage": 9700,
+   "base_cycle": 370.6,
+   "items": {
+    "str shard": {
+     "d_rounds": -12,
+     "d_damage": -940,
+     "d_cycle": -36.68,
+     "breakeven_captures": 0.6
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": -350,
+     "d_cycle": -9.19,
+     "breakeven_captures": 2.3
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -23.15,
+     "breakeven_captures": 0.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -49,
+     "d_damage": -4380,
+     "d_cycle": -163.97,
+     "breakeven_captures": 0.1
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -47,
+     "d_damage": -4140,
+     "d_cycle": -155.67,
+     "breakeven_captures": 0.1
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -3960,
+     "d_cycle": -154.18,
+     "breakeven_captures": 0.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -1320,
+     "d_cycle": -107.98,
+     "breakeven_captures": 0.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -43,
+     "d_damage": -6156,
+     "d_cycle": -204.59,
+     "breakeven_captures": 0.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -5671,
+     "d_cycle": -148.86,
+     "breakeven_captures": 0.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": -2100,
+     "d_cycle": -55.12,
+     "breakeven_captures": 0.4
+    }
+   }
+  },
+  {
+   "kit": "Varg",
+   "comp": "gem1",
+   "base_rounds": 2,
+   "base_damage": 0,
+   "base_cycle": 7.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Varg",
+   "comp": "gold2",
+   "base_rounds": 2,
+   "base_damage": 0,
+   "base_cycle": 7.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Tavi",
+   "comp": "wolf1",
+   "base_rounds": 18,
+   "base_damage": 280,
+   "base_cycle": 32.2,
+   "items": {
+    "str shard": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.63,
+     "breakeven_captures": 33.4
+    },
+    "5 str + Monster": {
+     "d_rounds": -6,
+     "d_damage": -100,
+     "d_cycle": -8.92,
+     "breakeven_captures": 2.4
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -6,
+     "d_damage": -100,
+     "d_cycle": -8.92,
+     "breakeven_captures": 2.4
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -84,
+     "d_cycle": -4.13,
+     "breakeven_captures": 5.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -28,
+     "d_cycle": -2.98,
+     "breakeven_captures": 7.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -140,
+     "d_cycle": -9.08,
+     "breakeven_captures": 2.3
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -1,
+     "d_damage": -84,
+     "d_cycle": -3.45,
+     "breakeven_captures": 6.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    }
+   }
+  },
+  {
+   "kit": "Tavi",
+   "comp": "gold1 wolf1",
+   "base_rounds": 20,
+   "base_damage": 280,
+   "base_cycle": 34.2,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.63,
+     "breakeven_captures": 33.4
+    },
+    "5 str + Monster": {
+     "d_rounds": -6,
+     "d_damage": -100,
+     "d_cycle": -8.92,
+     "breakeven_captures": 2.4
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -6,
+     "d_damage": -100,
+     "d_cycle": -8.92,
+     "breakeven_captures": 2.4
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -84,
+     "d_cycle": -4.13,
+     "breakeven_captures": 5.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -28,
+     "d_cycle": -2.98,
+     "breakeven_captures": 7.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -140,
+     "d_cycle": -9.08,
+     "breakeven_captures": 2.3
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -2,
+     "d_damage": -84,
+     "d_cycle": -4.45,
+     "breakeven_captures": 4.7
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    }
+   }
+  },
+  {
+   "kit": "Tavi",
+   "comp": "gem1 wolf1",
+   "base_rounds": 20,
+   "base_damage": 280,
+   "base_cycle": 34.2,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.63,
+     "breakeven_captures": 33.4
+    },
+    "5 str + Monster": {
+     "d_rounds": -6,
+     "d_damage": -100,
+     "d_cycle": -8.92,
+     "breakeven_captures": 2.4
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -6,
+     "d_damage": -100,
+     "d_cycle": -8.92,
+     "breakeven_captures": 2.4
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -84,
+     "d_cycle": -4.13,
+     "breakeven_captures": 5.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -28,
+     "d_cycle": -2.98,
+     "breakeven_captures": 7.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -5,
+     "d_damage": -140,
+     "d_cycle": -9.08,
+     "breakeven_captures": 2.3
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -2,
+     "d_damage": -84,
+     "d_cycle": -4.45,
+     "breakeven_captures": 4.7
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    }
+   }
+  },
+  {
+   "kit": "Tavi",
+   "comp": "gold2 wolf2",
+   "base_rounds": 42,
+   "base_damage": 1000,
+   "base_cycle": 77.2,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -100,
+     "d_cycle": -4.92,
+     "breakeven_captures": 4.3
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": -40,
+     "d_cycle": -2.17,
+     "breakeven_captures": 9.7
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -2.24,
+     "breakeven_captures": 9.4
+    },
+    "5 str + Monster": {
+     "d_rounds": -14,
+     "d_damage": -360,
+     "d_cycle": -24.5,
+     "breakeven_captures": 0.9
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -14,
+     "d_damage": -360,
+     "d_cycle": -24.5,
+     "breakeven_captures": 0.9
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -300,
+     "d_cycle": -14.75,
+     "breakeven_captures": 1.4
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -100,
+     "d_cycle": -10.64,
+     "breakeven_captures": 2.0
+    },
+    "5 str + Jungle": {
+     "d_rounds": -12,
+     "d_damage": -538,
+     "d_cycle": -27.69,
+     "breakeven_captures": 0.8
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -2,
+     "d_damage": -370,
+     "d_cycle": -12.79,
+     "breakeven_captures": 1.6
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -3,
+     "d_damage": -100,
+     "d_cycle": -5.92,
+     "breakeven_captures": 3.5
+    }
+   }
+  },
+  {
+   "kit": "Tavi",
+   "comp": "elk1 gem1 gold1",
+   "base_rounds": 38,
+   "base_damage": 1680,
+   "base_cycle": 93.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -60,
+     "d_cycle": -5.75,
+     "breakeven_captures": 3.7
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -3.77,
+     "breakeven_captures": 5.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -13,
+     "d_damage": -600,
+     "d_cycle": -30.5,
+     "breakeven_captures": 0.7
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -12,
+     "d_damage": -540,
+     "d_cycle": -27.75,
+     "breakeven_captures": 0.8
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -504,
+     "d_cycle": -24.79,
+     "breakeven_captures": 0.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -168,
+     "d_cycle": -17.87,
+     "breakeven_captures": 1.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -11,
+     "d_damage": -798,
+     "d_cycle": -34.27,
+     "breakeven_captures": 0.6
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -4,
+     "d_damage": -630,
+     "d_cycle": -22.38,
+     "breakeven_captures": 0.9
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -240,
+     "d_cycle": -12.0,
+     "breakeven_captures": 1.8
+    }
+   }
+  },
+  {
+   "kit": "Tavi",
+   "comp": "elk1",
+   "base_rounds": 33,
+   "base_damage": 1680,
+   "base_cycle": 88.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -1,
+     "d_damage": -60,
+     "d_cycle": -2.75,
+     "breakeven_captures": 7.6
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -3.77,
+     "breakeven_captures": 5.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -11,
+     "d_damage": -600,
+     "d_cycle": -28.5,
+     "breakeven_captures": 0.7
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -10,
+     "d_damage": -540,
+     "d_cycle": -25.75,
+     "breakeven_captures": 0.8
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -504,
+     "d_cycle": -24.79,
+     "breakeven_captures": 0.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -168,
+     "d_cycle": -17.87,
+     "breakeven_captures": 1.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -798,
+     "d_cycle": -31.27,
+     "breakeven_captures": 0.7
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -3,
+     "d_damage": -630,
+     "d_cycle": -21.38,
+     "breakeven_captures": 1.0
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -4,
+     "d_damage": -240,
+     "d_cycle": -11.0,
+     "breakeven_captures": 1.9
+    }
+   }
+  },
+  {
+   "kit": "Tavi",
+   "comp": "elk2 gold2",
+   "base_rounds": 73,
+   "base_damage": 5460,
+   "base_cycle": 238.2,
+   "items": {
+    "str shard": {
+     "d_rounds": -7,
+     "d_damage": -300,
+     "d_cycle": -15.75,
+     "breakeven_captures": 1.3
+    },
+    "focus shard": {
+     "d_rounds": -1,
+     "d_damage": -120,
+     "d_cycle": -4.5,
+     "breakeven_captures": 4.7
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -12.25,
+     "breakeven_captures": 1.7
+    },
+    "5 str + Monster": {
+     "d_rounds": -25,
+     "d_damage": -1980,
+     "d_cycle": -82.75,
+     "breakeven_captures": 0.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -24,
+     "d_damage": -1800,
+     "d_cycle": -76.5,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -1638,
+     "d_cycle": -80.56,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -546,
+     "d_cycle": -58.08,
+     "breakeven_captures": 0.4
+    },
+    "5 str + Jungle": {
+     "d_rounds": -21,
+     "d_damage": -2646,
+     "d_cycle": -98.18,
+     "breakeven_captures": 0.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -2100,
+     "d_cycle": -69.25,
+     "breakeven_captures": 0.3
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -9,
+     "d_damage": -840,
+     "d_cycle": -33.5,
+     "breakeven_captures": 0.6
+    }
+   }
+  },
+  {
+   "kit": "Tavi",
+   "comp": "golem1",
+   "base_rounds": 72,
+   "base_damage": 7440,
+   "base_cycle": 295.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -7,
+     "d_damage": -720,
+     "d_cycle": -28.0,
+     "breakeven_captures": 0.8
+    },
+    "focus shard": {
+     "d_rounds": -3,
+     "d_damage": -360,
+     "d_cycle": -13.5,
+     "breakeven_captures": 1.6
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -16.69,
+     "breakeven_captures": 1.3
+    },
+    "5 str + Monster": {
+     "d_rounds": -26,
+     "d_damage": -2760,
+     "d_cycle": -106.5,
+     "breakeven_captures": 0.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -23,
+     "d_damage": -2400,
+     "d_cycle": -93.0,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2232,
+     "d_cycle": -109.78,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -744,
+     "d_cycle": -79.14,
+     "breakeven_captures": 0.3
+    },
+    "5 str + Jungle": {
+     "d_rounds": -22,
+     "d_damage": -3912,
+     "d_cycle": -136.1,
+     "breakeven_captures": 0.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -2820,
+     "d_cycle": -90.25,
+     "breakeven_captures": 0.2
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -11,
+     "d_damage": -1200,
+     "d_cycle": -46.0,
+     "breakeven_captures": 0.5
+    }
+   }
+  },
+  {
+   "kit": "Tavi",
+   "comp": "gem1",
+   "base_rounds": 1,
+   "base_damage": 0,
+   "base_cycle": 7.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Tavi",
+   "comp": "gold2",
+   "base_rounds": 2,
+   "base_damage": 0,
+   "base_cycle": 8.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Heart",
+   "comp": "wolf1",
+   "base_rounds": 25,
+   "base_damage": 120,
+   "base_cycle": 33.1,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.29,
+     "breakeven_captures": 73.3
+    },
+    "5 str + Monster": {
+     "d_rounds": -8,
+     "d_damage": -40,
+     "d_cycle": -9.05,
+     "breakeven_captures": 2.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -40,
+     "d_cycle": -8.05,
+     "breakeven_captures": 2.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -36,
+     "d_cycle": -1.68,
+     "breakeven_captures": 12.5
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -12,
+     "d_cycle": -1.26,
+     "breakeven_captures": 16.7
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -64,
+     "d_cycle": -7.68,
+     "breakeven_captures": 2.7
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -4,
+     "d_damage": -64,
+     "d_cycle": -5.68,
+     "breakeven_captures": 3.7
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -40,
+     "d_cycle": -6.05,
+     "breakeven_captures": 3.5
+    }
+   }
+  },
+  {
+   "kit": "Heart",
+   "comp": "gold1 wolf1",
+   "base_rounds": 25,
+   "base_damage": 120,
+   "base_cycle": 33.1,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.29,
+     "breakeven_captures": 73.3
+    },
+    "5 str + Monster": {
+     "d_rounds": -8,
+     "d_damage": -40,
+     "d_cycle": -9.05,
+     "breakeven_captures": 2.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -40,
+     "d_cycle": -8.05,
+     "breakeven_captures": 2.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -36,
+     "d_cycle": -1.68,
+     "breakeven_captures": 12.5
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -12,
+     "d_cycle": -1.26,
+     "breakeven_captures": 16.7
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -64,
+     "d_cycle": -7.68,
+     "breakeven_captures": 2.7
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -4,
+     "d_damage": -64,
+     "d_cycle": -5.68,
+     "breakeven_captures": 3.7
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -40,
+     "d_cycle": -6.05,
+     "breakeven_captures": 3.5
+    }
+   }
+  },
+  {
+   "kit": "Heart",
+   "comp": "gem1 wolf1",
+   "base_rounds": 25,
+   "base_damage": 120,
+   "base_cycle": 33.1,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -0.29,
+     "breakeven_captures": 73.3
+    },
+    "5 str + Monster": {
+     "d_rounds": -8,
+     "d_damage": -40,
+     "d_cycle": -9.05,
+     "breakeven_captures": 2.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -40,
+     "d_cycle": -8.05,
+     "breakeven_captures": 2.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -36,
+     "d_cycle": -1.68,
+     "breakeven_captures": 12.5
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -12,
+     "d_cycle": -1.26,
+     "breakeven_captures": 16.7
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -64,
+     "d_cycle": -7.68,
+     "breakeven_captures": 2.7
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -4,
+     "d_damage": -64,
+     "d_cycle": -5.68,
+     "breakeven_captures": 3.7
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -5,
+     "d_damage": -40,
+     "d_cycle": -6.05,
+     "breakeven_captures": 3.5
+    }
+   }
+  },
+  {
+   "kit": "Heart",
+   "comp": "gold2 wolf2",
+   "base_rounds": 41,
+   "base_damage": 470,
+   "base_cycle": 58.3,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": -54,
+     "d_cycle": -1.42,
+     "breakeven_captures": 14.8
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.12,
+     "breakeven_captures": 18.7
+    },
+    "5 str + Monster": {
+     "d_rounds": -10,
+     "d_damage": -170,
+     "d_cycle": -14.46,
+     "breakeven_captures": 1.5
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -130,
+     "d_cycle": -11.41,
+     "breakeven_captures": 1.8
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -246,
+     "d_cycle": -8.42,
+     "breakeven_captures": 2.5
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -92,
+     "d_cycle": -5.72,
+     "breakeven_captures": 3.7
+    },
+    "5 str + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -302,
+     "d_cycle": -15.93,
+     "breakeven_captures": 1.3
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -302,
+     "d_cycle": -15.93,
+     "breakeven_captures": 1.3
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -10,
+     "d_damage": -270,
+     "d_cycle": -17.09,
+     "breakeven_captures": 1.2
+    }
+   }
+  },
+  {
+   "kit": "Heart",
+   "comp": "elk1 gem1 gold1",
+   "base_rounds": 49,
+   "base_damage": 1620,
+   "base_cycle": 96.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -240,
+     "d_cycle": -10.3,
+     "breakeven_captures": 2.0
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -228,
+     "d_cycle": -7.99,
+     "breakeven_captures": 2.6
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -3.87,
+     "breakeven_captures": 5.4
+    },
+    "5 str + Monster": {
+     "d_rounds": -16,
+     "d_damage": -540,
+     "d_cycle": -30.18,
+     "breakeven_captures": 0.7
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -16,
+     "d_damage": -540,
+     "d_cycle": -30.18,
+     "breakeven_captures": 0.7
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -756,
+     "d_cycle": -27.41,
+     "breakeven_captures": 0.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -252,
+     "d_cycle": -18.59,
+     "breakeven_captures": 1.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -14,
+     "d_damage": -1044,
+     "d_cycle": -41.41,
+     "breakeven_captures": 0.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -9,
+     "d_damage": -1242,
+     "d_cycle": -41.6,
+     "breakeven_captures": 0.5
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -12,
+     "d_damage": -972,
+     "d_cycle": -37.52,
+     "breakeven_captures": 0.6
+    }
+   }
+  },
+  {
+   "kit": "Heart",
+   "comp": "elk1",
+   "base_rounds": 49,
+   "base_damage": 1620,
+   "base_cycle": 96.5,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -240,
+     "d_cycle": -10.3,
+     "breakeven_captures": 2.0
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -228,
+     "d_cycle": -7.99,
+     "breakeven_captures": 2.6
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -3.87,
+     "breakeven_captures": 5.4
+    },
+    "5 str + Monster": {
+     "d_rounds": -16,
+     "d_damage": -540,
+     "d_cycle": -30.18,
+     "breakeven_captures": 0.7
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -16,
+     "d_damage": -540,
+     "d_cycle": -30.18,
+     "breakeven_captures": 0.7
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -756,
+     "d_cycle": -27.41,
+     "breakeven_captures": 0.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -252,
+     "d_cycle": -18.59,
+     "breakeven_captures": 1.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -14,
+     "d_damage": -1044,
+     "d_cycle": -41.41,
+     "breakeven_captures": 0.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -9,
+     "d_damage": -1242,
+     "d_cycle": -41.6,
+     "breakeven_captures": 0.5
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -12,
+     "d_damage": -972,
+     "d_cycle": -37.52,
+     "breakeven_captures": 0.6
+    }
+   }
+  },
+  {
+   "kit": "Heart",
+   "comp": "elk2 gold2",
+   "base_rounds": 78,
+   "base_damage": 5040,
+   "base_cycle": 215.3,
+   "items": {
+    "str shard": {
+     "d_rounds": -5,
+     "d_damage": -330,
+     "d_cycle": -13.66,
+     "breakeven_captures": 1.5
+    },
+    "focus shard": {
+     "d_rounds": -5,
+     "d_damage": -372,
+     "d_cycle": -14.76,
+     "breakeven_captures": 1.4
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -12.03,
+     "breakeven_captures": 1.7
+    },
+    "5 str + Monster": {
+     "d_rounds": -22,
+     "d_damage": -1530,
+     "d_cycle": -62.16,
+     "breakeven_captures": 0.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -21,
+     "d_damage": -1470,
+     "d_cycle": -59.59,
+     "breakeven_captures": 0.4
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -1962,
+     "d_cycle": -78.43,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -654,
+     "d_cycle": -55.54,
+     "breakeven_captures": 0.4
+    },
+    "5 str + Jungle": {
+     "d_rounds": -17,
+     "d_damage": -2814,
+     "d_cycle": -90.87,
+     "breakeven_captures": 0.2
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -21,
+     "d_damage": -3174,
+     "d_cycle": -104.32,
+     "breakeven_captures": 0.2
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -21,
+     "d_damage": -2046,
+     "d_cycle": -74.71,
+     "breakeven_captures": 0.3
+    }
+   }
+  },
+  {
+   "kit": "Heart",
+   "comp": "golem1",
+   "base_rounds": 102,
+   "base_damage": 8610,
+   "base_cycle": 333.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -6,
+     "d_damage": -450,
+     "d_cycle": -17.81,
+     "breakeven_captures": 1.2
+    },
+    "focus shard": {
+     "d_rounds": -5,
+     "d_damage": -546,
+     "d_cycle": -19.33,
+     "breakeven_captures": 1.1
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -20.55,
+     "breakeven_captures": 1.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -34,
+     "d_damage": -3000,
+     "d_cycle": -112.75,
+     "breakeven_captures": 0.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -30,
+     "d_damage": -2520,
+     "d_cycle": -96.15,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -3168,
+     "d_cycle": -130.78,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -1056,
+     "d_cycle": -93.82,
+     "breakeven_captures": 0.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -28,
+     "d_damage": -4668,
+     "d_cycle": -150.53,
+     "breakeven_captures": 0.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -21,
+     "d_damage": -5130,
+     "d_cycle": -155.66,
+     "breakeven_captures": 0.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -21,
+     "d_damage": -2790,
+     "d_cycle": -94.24,
+     "breakeven_captures": 0.2
+    }
+   }
+  },
+  {
+   "kit": "Heart",
+   "comp": "gem1",
+   "base_rounds": 1,
+   "base_damage": 0,
+   "base_cycle": 6.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Heart",
+   "comp": "gold2",
+   "base_rounds": 1,
+   "base_damage": 0,
+   "base_cycle": 6.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Cassi",
+   "comp": "wolf1",
+   "base_rounds": 27,
+   "base_damage": 440,
+   "base_cycle": 52.2,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -20,
+     "d_cycle": -2.88,
+     "breakeven_captures": 7.3
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -20,
+     "d_cycle": -2.88,
+     "breakeven_captures": 7.3
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.88,
+     "breakeven_captures": 11.2
+    },
+    "5 str + Monster": {
+     "d_rounds": -9,
+     "d_damage": -140,
+     "d_cycle": -15.12,
+     "breakeven_captures": 1.4
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -7,
+     "d_damage": -120,
+     "d_cycle": -12.25,
+     "breakeven_captures": 1.7
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -132,
+     "d_cycle": -10.51,
+     "breakeven_captures": 2.0
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -44,
+     "d_cycle": -8.01,
+     "breakeven_captures": 2.6
+    },
+    "5 str + Jungle": {
+     "d_rounds": -6,
+     "d_damage": -202,
+     "d_cycle": -14.84,
+     "breakeven_captures": 1.4
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -9,
+     "d_damage": -230,
+     "d_cycle": -19.06,
+     "breakeven_captures": 1.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -10,
+     "d_damage": -160,
+     "d_cycle": -17.0,
+     "breakeven_captures": 1.2
+    }
+   }
+  },
+  {
+   "kit": "Cassi",
+   "comp": "gold1 wolf1",
+   "base_rounds": 31,
+   "base_damage": 440,
+   "base_cycle": 56.2,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -20,
+     "d_cycle": -3.88,
+     "breakeven_captures": 5.4
+    },
+    "focus shard": {
+     "d_rounds": -3,
+     "d_damage": -20,
+     "d_cycle": -3.88,
+     "breakeven_captures": 5.4
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.88,
+     "breakeven_captures": 11.2
+    },
+    "5 str + Monster": {
+     "d_rounds": -10,
+     "d_damage": -140,
+     "d_cycle": -16.12,
+     "breakeven_captures": 1.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -120,
+     "d_cycle": -13.25,
+     "breakeven_captures": 1.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -132,
+     "d_cycle": -10.51,
+     "breakeven_captures": 2.0
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -44,
+     "d_cycle": -8.01,
+     "breakeven_captures": 2.6
+    },
+    "5 str + Jungle": {
+     "d_rounds": -7,
+     "d_damage": -202,
+     "d_cycle": -15.84,
+     "breakeven_captures": 1.3
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -9,
+     "d_damage": -230,
+     "d_cycle": -19.06,
+     "breakeven_captures": 1.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -11,
+     "d_damage": -160,
+     "d_cycle": -18.0,
+     "breakeven_captures": 1.2
+    }
+   }
+  },
+  {
+   "kit": "Cassi",
+   "comp": "gem1 wolf1",
+   "base_rounds": 31,
+   "base_damage": 440,
+   "base_cycle": 56.2,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -20,
+     "d_cycle": -3.88,
+     "breakeven_captures": 5.4
+    },
+    "focus shard": {
+     "d_rounds": -3,
+     "d_damage": -20,
+     "d_cycle": -3.88,
+     "breakeven_captures": 5.4
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.88,
+     "breakeven_captures": 11.2
+    },
+    "5 str + Monster": {
+     "d_rounds": -10,
+     "d_damage": -140,
+     "d_cycle": -16.12,
+     "breakeven_captures": 1.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -8,
+     "d_damage": -120,
+     "d_cycle": -13.25,
+     "breakeven_captures": 1.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -132,
+     "d_cycle": -10.51,
+     "breakeven_captures": 2.0
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -44,
+     "d_cycle": -8.01,
+     "breakeven_captures": 2.6
+    },
+    "5 str + Jungle": {
+     "d_rounds": -7,
+     "d_damage": -202,
+     "d_cycle": -15.84,
+     "breakeven_captures": 1.3
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -9,
+     "d_damage": -230,
+     "d_cycle": -19.06,
+     "breakeven_captures": 1.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -11,
+     "d_damage": -160,
+     "d_cycle": -18.0,
+     "breakeven_captures": 1.2
+    }
+   }
+  },
+  {
+   "kit": "Cassi",
+   "comp": "gold2 wolf2",
+   "base_rounds": 64,
+   "base_damage": 1500,
+   "base_cycle": 135.6,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -120,
+     "d_cycle": -9.25,
+     "breakeven_captures": 2.3
+    },
+    "focus shard": {
+     "d_rounds": -4,
+     "d_damage": -120,
+     "d_cycle": -9.25,
+     "breakeven_captures": 2.3
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -6.41,
+     "breakeven_captures": 3.3
+    },
+    "5 str + Monster": {
+     "d_rounds": -21,
+     "d_damage": -460,
+     "d_cycle": -41.12,
+     "breakeven_captures": 0.5
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -18,
+     "d_damage": -420,
+     "d_cycle": -36.38,
+     "breakeven_captures": 0.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -450,
+     "d_cycle": -35.83,
+     "breakeven_captures": 0.6
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -150,
+     "d_cycle": -27.31,
+     "breakeven_captures": 0.8
+    },
+    "5 str + Jungle": {
+     "d_rounds": -16,
+     "d_damage": -716,
+     "d_cycle": -47.33,
+     "breakeven_captures": 0.4
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -16,
+     "d_damage": -758,
+     "d_cycle": -49.16,
+     "breakeven_captures": 0.4
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -16,
+     "d_damage": -480,
+     "d_cycle": -37.0,
+     "breakeven_captures": 0.6
+    }
+   }
+  },
+  {
+   "kit": "Cassi",
+   "comp": "elk1 gem1 gold1",
+   "base_rounds": 56,
+   "base_damage": 2520,
+   "base_cycle": 172.2,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -60,
+     "d_cycle": -6.62,
+     "breakeven_captures": 3.2
+    },
+    "focus shard": {
+     "d_rounds": -4,
+     "d_damage": -120,
+     "d_cycle": -9.25,
+     "breakeven_captures": 2.3
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -10.78,
+     "breakeven_captures": 1.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -17,
+     "d_damage": -840,
+     "d_cycle": -53.75,
+     "breakeven_captures": 0.4
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -15,
+     "d_damage": -720,
+     "d_cycle": -46.5,
+     "breakeven_captures": 0.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -756,
+     "d_cycle": -60.19,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -252,
+     "d_cycle": -45.89,
+     "breakeven_captures": 0.5
+    },
+    "5 str + Jungle": {
+     "d_rounds": -13,
+     "d_damage": -1176,
+     "d_cycle": -64.45,
+     "breakeven_captures": 0.3
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -15,
+     "d_damage": -1302,
+     "d_cycle": -71.96,
+     "breakeven_captures": 0.3
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -16,
+     "d_damage": -840,
+     "d_cycle": -52.75,
+     "breakeven_captures": 0.4
+    }
+   }
+  },
+  {
+   "kit": "Cassi",
+   "comp": "elk1",
+   "base_rounds": 49,
+   "base_damage": 2520,
+   "base_cycle": 165.2,
+   "items": {
+    "str shard": {
+     "d_rounds": -1,
+     "d_damage": -60,
+     "d_cycle": -3.62,
+     "breakeven_captures": 5.8
+    },
+    "focus shard": {
+     "d_rounds": -2,
+     "d_damage": -120,
+     "d_cycle": -7.25,
+     "breakeven_captures": 2.9
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -10.78,
+     "breakeven_captures": 1.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -16,
+     "d_damage": -840,
+     "d_cycle": -52.75,
+     "breakeven_captures": 0.4
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -13,
+     "d_damage": -720,
+     "d_cycle": -44.5,
+     "breakeven_captures": 0.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -756,
+     "d_cycle": -60.19,
+     "breakeven_captures": 0.3
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -252,
+     "d_cycle": -45.89,
+     "breakeven_captures": 0.5
+    },
+    "5 str + Jungle": {
+     "d_rounds": -11,
+     "d_damage": -1176,
+     "d_cycle": -62.45,
+     "breakeven_captures": 0.3
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -14,
+     "d_damage": -1302,
+     "d_cycle": -70.96,
+     "breakeven_captures": 0.3
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -16,
+     "d_damage": -840,
+     "d_cycle": -52.75,
+     "breakeven_captures": 0.4
+    }
+   }
+  },
+  {
+   "kit": "Cassi",
+   "comp": "elk2 gold2",
+   "base_rounds": 105,
+   "base_damage": 8040,
+   "base_cycle": 462.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -5,
+     "d_damage": -240,
+     "d_cycle": -15.5,
+     "breakeven_captures": 1.4
+    },
+    "focus shard": {
+     "d_rounds": -5,
+     "d_damage": -420,
+     "d_cycle": -23.38,
+     "breakeven_captures": 0.9
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -34.38,
+     "breakeven_captures": 0.6
+    },
+    "5 str + Monster": {
+     "d_rounds": -30,
+     "d_damage": -2520,
+     "d_cycle": -140.25,
+     "breakeven_captures": 0.1
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -27,
+     "d_damage": -2160,
+     "d_cycle": -121.5,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2412,
+     "d_cycle": -192.04,
+     "breakeven_captures": 0.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -804,
+     "d_cycle": -146.4,
+     "breakeven_captures": 0.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -24,
+     "d_damage": -3756,
+     "d_cycle": -188.32,
+     "breakeven_captures": 0.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -25,
+     "d_damage": -3966,
+     "d_cycle": -198.51,
+     "breakeven_captures": 0.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -25,
+     "d_damage": -2340,
+     "d_cycle": -127.38,
+     "breakeven_captures": 0.2
+    }
+   }
+  },
+  {
+   "kit": "Cassi",
+   "comp": "golem1",
+   "base_rounds": 105,
+   "base_damage": 10920,
+   "base_cycle": 588.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -8,
+     "d_damage": -840,
+     "d_cycle": -44.75,
+     "breakeven_captures": 0.5
+    },
+    "focus shard": {
+     "d_rounds": -8,
+     "d_damage": -840,
+     "d_cycle": -44.75,
+     "breakeven_captures": 0.5
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -46.7,
+     "breakeven_captures": 0.4
+    },
+    "5 str + Monster": {
+     "d_rounds": -32,
+     "d_damage": -3360,
+     "d_cycle": -179.0,
+     "breakeven_captures": 0.1
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -30,
+     "d_damage": -3240,
+     "d_cycle": -171.75,
+     "breakeven_captures": 0.1
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -3276,
+     "d_cycle": -260.83,
+     "breakeven_captures": 0.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -1092,
+     "d_cycle": -198.85,
+     "breakeven_captures": 0.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -25,
+     "d_damage": -5124,
+     "d_cycle": -249.18,
+     "breakeven_captures": 0.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": -28,
+     "d_damage": -5376,
+     "d_cycle": -263.2,
+     "breakeven_captures": 0.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": -32,
+     "d_damage": -3360,
+     "d_cycle": -179.0,
+     "breakeven_captures": 0.1
+    }
+   }
+  },
+  {
+   "kit": "Cassi",
+   "comp": "gem1",
+   "base_rounds": 1,
+   "base_damage": 0,
+   "base_cycle": 7.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Cassi",
+   "comp": "gold2",
+   "base_rounds": 4,
+   "base_damage": 0,
+   "base_cycle": 10.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": -1,
+     "d_damage": 0,
+     "d_cycle": -1.0,
+     "breakeven_captures": 21.0
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Issac",
+   "comp": "wolf1",
+   "base_rounds": 30,
+   "base_damage": 580,
+   "base_cycle": 51.9,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -40,
+     "d_cycle": -3.17,
+     "breakeven_captures": 6.6
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.38,
+     "breakeven_captures": 15.2
+    },
+    "5 str + Monster": {
+     "d_rounds": -10,
+     "d_damage": -200,
+     "d_cycle": -15.83,
+     "breakeven_captures": 1.3
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -9,
+     "d_damage": -180,
+     "d_cycle": -14.25,
+     "breakeven_captures": 1.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -174,
+     "d_cycle": -8.72,
+     "breakeven_captures": 2.4
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -58,
+     "d_cycle": -6.38,
+     "breakeven_captures": 3.3
+    },
+    "5 str + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -286,
+     "d_cycle": -16.34,
+     "breakeven_captures": 1.3
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -174,
+     "d_cycle": -5.08,
+     "breakeven_captures": 4.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Issac",
+   "comp": "gold1 wolf1",
+   "base_rounds": 33,
+   "base_damage": 580,
+   "base_cycle": 54.9,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -40,
+     "d_cycle": -3.17,
+     "breakeven_captures": 6.6
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.38,
+     "breakeven_captures": 15.2
+    },
+    "5 str + Monster": {
+     "d_rounds": -11,
+     "d_damage": -200,
+     "d_cycle": -16.83,
+     "breakeven_captures": 1.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -9,
+     "d_damage": -180,
+     "d_cycle": -14.25,
+     "breakeven_captures": 1.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -174,
+     "d_cycle": -8.72,
+     "breakeven_captures": 2.4
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -58,
+     "d_cycle": -6.38,
+     "breakeven_captures": 3.3
+    },
+    "5 str + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -286,
+     "d_cycle": -16.34,
+     "breakeven_captures": 1.3
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -174,
+     "d_cycle": -5.08,
+     "breakeven_captures": 4.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Issac",
+   "comp": "gem1 wolf1",
+   "base_rounds": 33,
+   "base_damage": 580,
+   "base_cycle": 54.9,
+   "items": {
+    "str shard": {
+     "d_rounds": -2,
+     "d_damage": -40,
+     "d_cycle": -3.17,
+     "breakeven_captures": 6.6
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -1.38,
+     "breakeven_captures": 15.2
+    },
+    "5 str + Monster": {
+     "d_rounds": -11,
+     "d_damage": -200,
+     "d_cycle": -16.83,
+     "breakeven_captures": 1.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -9,
+     "d_damage": -180,
+     "d_cycle": -14.25,
+     "breakeven_captures": 1.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -174,
+     "d_cycle": -8.72,
+     "breakeven_captures": 2.4
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -58,
+     "d_cycle": -6.38,
+     "breakeven_captures": 3.3
+    },
+    "5 str + Jungle": {
+     "d_rounds": -8,
+     "d_damage": -286,
+     "d_cycle": -16.34,
+     "breakeven_captures": 1.3
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -174,
+     "d_cycle": -5.08,
+     "breakeven_captures": 4.1
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Issac",
+   "comp": "gold2 wolf2",
+   "base_rounds": 66,
+   "base_damage": 1760,
+   "base_cycle": 122.3,
+   "items": {
+    "str shard": {
+     "d_rounds": -4,
+     "d_damage": -100,
+     "d_cycle": -6.92,
+     "breakeven_captures": 3.0
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -4.19,
+     "breakeven_captures": 5.0
+    },
+    "5 str + Monster": {
+     "d_rounds": -22,
+     "d_damage": -580,
+     "d_cycle": -38.92,
+     "breakeven_captures": 0.5
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -18,
+     "d_damage": -540,
+     "d_cycle": -33.75,
+     "breakeven_captures": 0.6
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -528,
+     "d_cycle": -26.46,
+     "breakeven_captures": 0.8
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -176,
+     "d_cycle": -19.35,
+     "breakeven_captures": 1.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -16,
+     "d_damage": -864,
+     "d_cycle": -41.2,
+     "breakeven_captures": 0.5
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -528,
+     "d_cycle": -15.4,
+     "breakeven_captures": 1.4
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Issac",
+   "comp": "elk1 gem1 gold1",
+   "base_rounds": 58,
+   "base_damage": 3120,
+   "base_cycle": 154.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -180,
+     "d_cycle": -8.25,
+     "breakeven_captures": 2.5
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -7.43,
+     "breakeven_captures": 2.8
+    },
+    "5 str + Monster": {
+     "d_rounds": -19,
+     "d_damage": -1080,
+     "d_cycle": -50.5,
+     "breakeven_captures": 0.4
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -16,
+     "d_damage": -960,
+     "d_cycle": -44.0,
+     "breakeven_captures": 0.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -936,
+     "d_cycle": -46.9,
+     "breakeven_captures": 0.4
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -312,
+     "d_cycle": -34.3,
+     "breakeven_captures": 0.6
+    },
+    "5 str + Jungle": {
+     "d_rounds": -14,
+     "d_damage": -1524,
+     "d_cycle": -58.45,
+     "breakeven_captures": 0.4
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -936,
+     "d_cycle": -27.3,
+     "breakeven_captures": 0.8
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Issac",
+   "comp": "elk1",
+   "base_rounds": 53,
+   "base_damage": 3120,
+   "base_cycle": 149.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -3,
+     "d_damage": -180,
+     "d_cycle": -8.25,
+     "breakeven_captures": 2.5
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -7.43,
+     "breakeven_captures": 2.8
+    },
+    "5 str + Monster": {
+     "d_rounds": -18,
+     "d_damage": -1080,
+     "d_cycle": -49.5,
+     "breakeven_captures": 0.4
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -16,
+     "d_damage": -960,
+     "d_cycle": -44.0,
+     "breakeven_captures": 0.5
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -936,
+     "d_cycle": -46.9,
+     "breakeven_captures": 0.4
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -312,
+     "d_cycle": -34.3,
+     "breakeven_captures": 0.6
+    },
+    "5 str + Jungle": {
+     "d_rounds": -14,
+     "d_damage": -1524,
+     "d_cycle": -58.45,
+     "breakeven_captures": 0.4
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -936,
+     "d_cycle": -27.3,
+     "breakeven_captures": 0.8
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Issac",
+   "comp": "elk2 gold2",
+   "base_rounds": 112,
+   "base_damage": 9420,
+   "base_cycle": 391.8,
+   "items": {
+    "str shard": {
+     "d_rounds": -7,
+     "d_damage": -600,
+     "d_cycle": -24.5,
+     "breakeven_captures": 0.9
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -22.43,
+     "breakeven_captures": 0.9
+    },
+    "5 str + Monster": {
+     "d_rounds": -38,
+     "d_damage": -3180,
+     "d_cycle": -130.75,
+     "breakeven_captures": 0.2
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -32,
+     "d_damage": -2880,
+     "d_cycle": -116.0,
+     "breakeven_captures": 0.2
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2826,
+     "d_cycle": -141.6,
+     "breakeven_captures": 0.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -942,
+     "d_cycle": -103.56,
+     "breakeven_captures": 0.2
+    },
+    "5 str + Jungle": {
+     "d_rounds": -29,
+     "d_damage": -4590,
+     "d_cycle": -162.88,
+     "breakeven_captures": 0.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -2826,
+     "d_cycle": -82.43,
+     "breakeven_captures": 0.3
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Issac",
+   "comp": "golem1",
+   "base_rounds": 111,
+   "base_damage": 13200,
+   "base_cycle": 501.0,
+   "items": {
+    "str shard": {
+     "d_rounds": -7,
+     "d_damage": -840,
+     "d_cycle": -31.5,
+     "breakeven_captures": 0.7
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": -31.43,
+     "breakeven_captures": 0.7
+    },
+    "5 str + Monster": {
+     "d_rounds": -37,
+     "d_damage": -4440,
+     "d_cycle": -166.5,
+     "breakeven_captures": 0.1
+    },
+    "5 str (Power=6)": {
+     "d_rounds": -34,
+     "d_damage": -4080,
+     "d_cycle": -153.0,
+     "breakeven_captures": 0.1
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -3960,
+     "d_cycle": -198.42,
+     "breakeven_captures": 0.1
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": -1320,
+     "d_cycle": -145.12,
+     "breakeven_captures": 0.1
+    },
+    "5 str + Jungle": {
+     "d_rounds": -30,
+     "d_damage": -6480,
+     "d_cycle": -219.0,
+     "breakeven_captures": 0.1
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": -3960,
+     "d_cycle": -115.5,
+     "breakeven_captures": 0.2
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Issac",
+   "comp": "gem1",
+   "base_rounds": 2,
+   "base_damage": 0,
+   "base_cycle": 7.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  },
+  {
+   "kit": "Issac",
+   "comp": "gold2",
+   "base_rounds": 5,
+   "base_damage": 0,
+   "base_cycle": 10.0,
+   "items": {
+    "str shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "focus shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "health shard": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Monster": {
+     "d_rounds": -2,
+     "d_damage": 0,
+     "d_cycle": -2.0,
+     "breakeven_captures": 10.5
+    },
+    "5 str (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 health + Durability": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 str + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus + Jungle": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    },
+    "5 focus (Power=6)": {
+     "d_rounds": 0,
+     "d_damage": 0,
+     "d_cycle": 0.0,
+     "breakeven_captures": null
+    }
+   }
+  }
+ ]
+}

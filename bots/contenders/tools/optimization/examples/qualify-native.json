@@ -1,0 +1,18 @@
+{
+  "description": "Replace request with an exported native candidate, or use request_file. The neutral example should report no demonstrated gain. Pool and legacy maps are historically used, not unseen.",
+  "request": {
+    "schema": "contenders-eval/v1",
+    "kind": "config",
+    "controller": "anchors/main-v42",
+    "baseline": "anchors/main-v42",
+    "candidate": {"knobs": {}}
+  },
+  "stages": [
+    {"name": "pool", "role": "qualification", "maps": "pool", "opponents": ["anchors/main-v42", "anchors/main-hunter7"]},
+    {"name": "confirmation", "role": "confirmation", "maps": "legacy", "opponents": ["anchors/main-v41"]}
+  ],
+  "batch_cases": 8,
+  "parallel_cases": 4,
+  "bootstrap_samples": 2000,
+  "minimum_paired_gain": 0
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Explicit algorithm test only: deterministic labels, no native game or strength evidence. Normal C6-native example collects real actor trajectories.",
+  "diagnostic_fixture": true,
+  "batch_size": 32,
+  "learning_rate": 0.03,
+  "value_learning_rate": 0.01,
+  "validation_every": 5,
+  "checkpoint_every": 5,
+  "l2": 0.0001
+}

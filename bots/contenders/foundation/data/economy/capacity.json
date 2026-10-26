@@ -1,0 +1,2035 @@
+{
+ "00ambush": {
+  "supply_floor": 338,
+  "supply_floor_half": 602,
+  "labour_bound_base": 503,
+  "labour_rate_base": 2.177,
+  "schedule_base": 1427,
+  "schedule_items": 780,
+  "schedule_items_half": 905,
+  "schedule_base_half": 1454,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.544,
+   "wait": 0.008,
+   "fight": 0.313,
+   "capture": 0.03,
+   "bank": 0.047,
+   "out": 0.033,
+   "idle": 0.025
+  },
+  "binding": [
+   "travel"
+  ],
+  "bank_at_400": 0,
+  "captures": 24,
+  "tributes": 5,
+  "gold": 4180,
+  "main_floor": 342,
+  "main_est_full": 948,
+  "main_est_half": 1058,
+  "main_actual": 1413,
+  "main_actual_A": 1514,
+  "main_actual_B": 1312
+ },
+ "00collision": {
+  "supply_floor": 251,
+  "supply_floor_half": 393,
+  "labour_bound_base": 684,
+  "labour_rate_base": 1.471,
+  "schedule_base": 1163,
+  "schedule_items": 676,
+  "schedule_items_half": 725,
+  "schedule_base_half": 1205,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.378,
+   "fight": 0.411,
+   "capture": 0.103,
+   "bank": 0.047,
+   "out": 0.045,
+   "idle": 0.017
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 332,
+  "captures": 50,
+  "tributes": 10,
+  "gold": 4400,
+  "main_floor": 253,
+  "main_est_full": 885,
+  "main_est_half": 907,
+  "main_actual": 1026,
+  "main_actual_A": 999,
+  "main_actual_B": 1052
+ },
+ "00contest": {
+  "supply_floor": 365,
+  "supply_floor_half": 365,
+  "labour_bound_base": 1267,
+  "labour_rate_base": 0.808,
+  "schedule_base": 1515,
+  "schedule_items": 1116,
+  "schedule_items_half": 1116,
+  "schedule_base_half": 1515,
+  "policy": {
+   "bank_at": 25,
+   "wait_max": 0,
+   "split": "team",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.192,
+   "fight": 0.699,
+   "capture": 0.004,
+   "bank": 0.088,
+   "out": 0.016
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 200,
+  "captures": 5,
+  "tributes": 5,
+  "gold": 1500,
+  "main_floor": 368,
+  "main_est_full": 667,
+  "main_est_half": 688,
+  "main_actual": 1054,
+  "main_actual_A": 1034,
+  "main_actual_B": 1074
+ },
+ "00corners": {
+  "supply_floor": 183,
+  "supply_floor_half": 315,
+  "labour_bound_base": 470,
+  "labour_rate_base": 2.149,
+  "schedule_base": 905,
+  "schedule_items": 495,
+  "schedule_items_half": 587,
+  "schedule_base_half": 985,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.308,
+   "wait": 0.033,
+   "fight": 0.455,
+   "capture": 0.081,
+   "bank": 0.037,
+   "out": 0.063,
+   "idle": 0.023
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 0,
+  "captures": 48,
+  "tributes": 6,
+  "gold": 5770,
+  "main_floor": 186,
+  "main_est_full": 598,
+  "main_est_half": 686,
+  "main_actual": 740,
+  "main_actual_A": 734,
+  "main_actual_B": 747
+ },
+ "00eight": {
+  "supply_floor": 298,
+  "supply_floor_half": 562,
+  "labour_bound_base": 543,
+  "labour_rate_base": 1.884,
+  "schedule_base": 986,
+  "schedule_items": 545,
+  "schedule_items_half": 707,
+  "schedule_base_half": 984,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.388,
+   "fight": 0.399,
+   "capture": 0.061,
+   "bank": 0.075,
+   "out": 0.06,
+   "idle": 0.018
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 497,
+  "captures": 31,
+  "tributes": 9,
+  "gold": 5650,
+  "main_floor": 301,
+  "main_est_full": 699,
+  "main_est_half": 758,
+  "main_actual": 784,
+  "main_actual_A": 743,
+  "main_actual_B": 826
+ },
+ "00elkring": {
+  "supply_floor": 298,
+  "supply_floor_half": 621,
+  "labour_bound_base": 449,
+  "labour_rate_base": 2.242,
+  "schedule_base": 760,
+  "schedule_items": 466,
+  "schedule_items_half": 686,
+  "schedule_base_half": 835,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.339,
+   "fight": 0.42,
+   "capture": 0.094,
+   "bank": 0.073,
+   "out": 0.054,
+   "idle": 0.02
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 440,
+  "captures": 46,
+  "tributes": 5,
+  "gold": 5060,
+  "main_floor": 301,
+  "main_est_full": 553,
+  "main_est_half": 724,
+  "main_actual": 670,
+  "main_actual_A": 658,
+  "main_actual_B": 681
+ },
+ "00expanse": {
+  "supply_floor": 219,
+  "supply_floor_half": 399,
+  "labour_bound_base": 415,
+  "labour_rate_base": 2.444,
+  "schedule_base": 1199,
+  "schedule_items": 694,
+  "schedule_items_half": 743,
+  "schedule_base_half": 1241,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.529,
+   "wait": 0.027,
+   "fight": 0.278,
+   "capture": 0.043,
+   "bank": 0.052,
+   "out": 0.043,
+   "idle": 0.028
+  },
+  "binding": [
+   "travel"
+  ],
+  "bank_at_400": 0,
+  "captures": 30,
+  "tributes": 6,
+  "gold": 5000,
+  "main_floor": 223,
+  "main_est_full": 831,
+  "main_est_half": 865,
+  "main_actual": 922,
+  "main_actual_A": 935,
+  "main_actual_B": 908
+ },
+ "00fragment": {
+  "supply_floor": 937,
+  "supply_floor_half": 1869,
+  "labour_bound_base": 1098,
+  "labour_rate_base": 0.915,
+  "schedule_base": 1484,
+  "schedule_items": 1158,
+  "schedule_items_half": 1931,
+  "schedule_base_half": 2000,
+  "policy": {
+   "bank_at": 50,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.41,
+   "fight": 0.274,
+   "capture": 0.126,
+   "bank": 0.027,
+   "out": 0.095,
+   "idle": 0.068
+  },
+  "binding": [
+   "respawn"
+  ],
+  "bank_at_400": 174,
+  "captures": 97,
+  "tributes": 19,
+  "gold": 8340,
+  "main_floor": 940,
+  "main_est_full": 1205,
+  "main_est_half": 2000,
+  "main_actual": 1381,
+  "main_actual_A": 1403,
+  "main_actual_B": 1359
+ },
+ "00gem_fields": {
+  "supply_floor": 182,
+  "supply_floor_half": 355,
+  "labour_bound_base": 251,
+  "labour_rate_base": 4.064,
+  "schedule_base": 433,
+  "schedule_items": 373,
+  "schedule_items_half": 479,
+  "schedule_base_half": 512,
+  "policy": {
+   "bank_at": 50,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.467,
+   "fight": 0.307,
+   "capture": 0.067,
+   "bank": 0.112,
+   "out": 0.029,
+   "idle": 0.017
+  },
+  "binding": [
+   "travel"
+  ],
+  "bank_at_400": 1006,
+  "captures": 25,
+  "tributes": 13,
+  "gold": 1670,
+  "main_floor": 183,
+  "main_est_full": 448,
+  "main_est_half": 558,
+  "main_actual": 513,
+  "main_actual_A": 488,
+  "main_actual_B": 538
+ },
+ "00gemfight": {
+  "supply_floor": 317,
+  "supply_floor_half": 429,
+  "labour_bound_base": 319,
+  "labour_rate_base": 3.159,
+  "schedule_base": 596,
+  "schedule_items": 529,
+  "schedule_items_half": 583,
+  "schedule_base_half": 620,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.386,
+   "wait": 0.072,
+   "fight": 0.27,
+   "capture": 0.157,
+   "bank": 0.048,
+   "out": 0.028,
+   "idle": 0.04
+  },
+  "binding": [
+   "capture"
+  ],
+  "bank_at_400": 528,
+  "captures": 68,
+  "tributes": 10,
+  "gold": 1310,
+  "main_floor": 320,
+  "main_est_full": 618,
+  "main_est_half": 671,
+  "main_actual": 762,
+  "main_actual_A": 772,
+  "main_actual_B": 752
+ },
+ "00great_wall": {
+  "supply_floor": 72,
+  "supply_floor_half": 72,
+  "labour_bound_base": 340,
+  "labour_rate_base": 2.992,
+  "schedule_base": 809,
+  "schedule_items": 646,
+  "schedule_items_half": 724,
+  "schedule_base_half": 857,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.49,
+   "wait": 0.031,
+   "fight": 0.298,
+   "capture": 0.053,
+   "bank": 0.058,
+   "out": 0.036,
+   "idle": 0.034
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 0,
+  "captures": 34,
+  "tributes": 5,
+  "gold": 2810,
+  "main_floor": 75,
+  "main_est_full": 883,
+  "main_est_half": 830,
+  "main_actual": 1048,
+  "main_actual_A": 924,
+  "main_actual_B": 1173
+ },
+ "00interlock": {
+  "supply_floor": 316,
+  "supply_floor_half": 440,
+  "labour_bound_base": 583,
+  "labour_rate_base": 1.73,
+  "schedule_base": 1182,
+  "schedule_items": 677,
+  "schedule_items_half": 754,
+  "schedule_base_half": 1218,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.396,
+   "wait": 0.022,
+   "fight": 0.417,
+   "capture": 0.046,
+   "bank": 0.074,
+   "out": 0.043,
+   "idle": 0.001
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 206,
+  "captures": 26,
+  "tributes": 6,
+  "gold": 4600,
+  "main_floor": 319,
+  "main_est_full": 759,
+  "main_est_half": 842,
+  "main_actual": 961,
+  "main_actual_A": 965,
+  "main_actual_B": 957
+ },
+ "00lanes": {
+  "supply_floor": 228,
+  "supply_floor_half": 434,
+  "labour_bound_base": 443,
+  "labour_rate_base": 2.418,
+  "schedule_base": 867,
+  "schedule_items": 573,
+  "schedule_items_half": 693,
+  "schedule_base_half": 1016,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.37,
+   "wait": 0.02,
+   "fight": 0.419,
+   "capture": 0.109,
+   "bank": 0.032,
+   "out": 0.035,
+   "idle": 0.015
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 418,
+  "captures": 64,
+  "tributes": 5,
+  "gold": 4070,
+  "main_floor": 231,
+  "main_est_full": 735,
+  "main_est_half": 770,
+  "main_actual": 1039,
+  "main_actual_A": 1070,
+  "main_actual_B": 1008
+ },
+ "00lost_world": {
+  "supply_floor": 145,
+  "supply_floor_half": 167,
+  "labour_bound_base": 214,
+  "labour_rate_base": 4.917,
+  "schedule_base": 310,
+  "schedule_items": 310,
+  "schedule_items_half": 337,
+  "schedule_base_half": 342,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.465,
+   "wait": 0.115,
+   "fight": 0.114,
+   "capture": 0.216,
+   "bank": 0.07,
+   "out": 0.004,
+   "idle": 0.016
+  },
+  "binding": [
+   "capture"
+  ],
+  "bank_at_400": 1002,
+  "captures": 67,
+  "tributes": 11,
+  "gold": 100,
+  "main_floor": 148,
+  "main_est_full": 349,
+  "main_est_half": 355,
+  "main_actual": 400,
+  "main_actual_A": 432,
+  "main_actual_B": 369
+ },
+ "00monolith": {
+  "supply_floor": 199,
+  "supply_floor_half": 362,
+  "labour_bound_base": 607,
+  "labour_rate_base": 1.662,
+  "schedule_base": 958,
+  "schedule_items": 614,
+  "schedule_items_half": 772,
+  "schedule_base_half": 1256,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.396,
+   "wait": 0.073,
+   "fight": 0.319,
+   "capture": 0.103,
+   "bank": 0.03,
+   "out": 0.049,
+   "idle": 0.03
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 526,
+  "captures": 71,
+  "tributes": 10,
+  "gold": 6610,
+  "main_floor": 202,
+  "main_est_full": 637,
+  "main_est_half": 728,
+  "main_actual": 944,
+  "main_actual_A": 952,
+  "main_actual_B": 936
+ },
+ "00packs": {
+  "supply_floor": 419,
+  "supply_floor_half": 811,
+  "labour_bound_base": 648,
+  "labour_rate_base": 1.554,
+  "schedule_base": 826,
+  "schedule_items": 596,
+  "schedule_items_half": 917,
+  "schedule_base_half": 1255,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.357,
+   "fight": 0.388,
+   "capture": 0.129,
+   "bank": 0.054,
+   "out": 0.065,
+   "idle": 0.008
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 224,
+  "captures": 53,
+  "tributes": 6,
+  "gold": 7000,
+  "main_floor": 422,
+  "main_est_full": 719,
+  "main_est_half": 1014,
+  "main_actual": 904,
+  "main_actual_A": 908,
+  "main_actual_B": 901
+ },
+ "00pilgrimage": {
+  "supply_floor": 437,
+  "supply_floor_half": 479,
+  "labour_bound_base": 499,
+  "labour_rate_base": 2.174,
+  "schedule_base": 1323,
+  "schedule_items": 925,
+  "schedule_items_half": 929,
+  "schedule_base_half": 1322,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "3+rest",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.673,
+   "wait": 0.019,
+   "fight": 0.131,
+   "capture": 0.014,
+   "bank": 0.118,
+   "out": 0.045
+  },
+  "binding": [
+   "travel"
+  ],
+  "bank_at_400": 0,
+  "captures": 28,
+  "tributes": 5,
+  "gold": 6200,
+  "main_floor": 440,
+  "main_est_full": 969,
+  "main_est_half": 1062,
+  "main_actual": 1451,
+  "main_actual_A": 1539,
+  "main_actual_B": 1363
+ },
+ "00quadrants": {
+  "supply_floor": 107,
+  "supply_floor_half": 125,
+  "labour_bound_base": 184,
+  "labour_rate_base": 5.489,
+  "schedule_base": 411,
+  "schedule_items": 344,
+  "schedule_items_half": 359,
+  "schedule_base_half": 430,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.334,
+   "wait": 0.002,
+   "fight": 0.42,
+   "capture": 0.058,
+   "bank": 0.116,
+   "out": 0.056,
+   "idle": 0.015
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 1004,
+  "captures": 19,
+  "tributes": 6,
+  "gold": 1680,
+  "main_floor": 108,
+  "main_est_full": 435,
+  "main_est_half": 435,
+  "main_actual": 482,
+  "main_actual_A": 495,
+  "main_actual_B": 468
+ },
+ "00reverse_spiral": {
+  "supply_floor": 254,
+  "supply_floor_half": 452,
+  "labour_bound_base": 492,
+  "labour_rate_base": 2.038,
+  "schedule_base": 1058,
+  "schedule_items": 744,
+  "schedule_items_half": 827,
+  "schedule_base_half": 1254,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.499,
+   "wait": 0.006,
+   "fight": 0.331,
+   "capture": 0.054,
+   "bank": 0.066,
+   "out": 0.043,
+   "idle": 0.001
+  },
+  "binding": [
+   "travel"
+  ],
+  "bank_at_400": 0,
+  "captures": 31,
+  "tributes": 5,
+  "gold": 3760,
+  "main_floor": 257,
+  "main_est_full": 865,
+  "main_est_half": 926,
+  "main_actual": 1275,
+  "main_actual_A": 1314,
+  "main_actual_B": 1236
+ },
+ "00road_of_riches": {
+  "supply_floor": 209,
+  "supply_floor_half": 238,
+  "labour_bound_base": 224,
+  "labour_rate_base": 4.644,
+  "schedule_base": 557,
+  "schedule_items": 532,
+  "schedule_items_half": 567,
+  "schedule_base_half": 656,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.525,
+   "wait": 0.051,
+   "fight": 0.167,
+   "capture": 0.12,
+   "bank": 0.038,
+   "out": 0.007,
+   "idle": 0.092
+  },
+  "binding": [
+   "travel"
+  ],
+  "bank_at_400": 0,
+  "captures": 71,
+  "tributes": 6,
+  "gold": 1190,
+  "main_floor": 210,
+  "main_est_full": 731,
+  "main_est_half": 748,
+  "main_actual": 937,
+  "main_actual_A": 869,
+  "main_actual_B": 1005
+ },
+ "00rows": {
+  "supply_floor": 221,
+  "supply_floor_half": 221,
+  "labour_bound_base": 832,
+  "labour_rate_base": 1.22,
+  "schedule_base": 1573,
+  "schedule_items": 932,
+  "schedule_items_half": 1234,
+  "schedule_base_half": 1573,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.409,
+   "wait": 0.062,
+   "fight": 0.355,
+   "capture": 0.064,
+   "bank": 0.025,
+   "out": 0.038,
+   "idle": 0.048
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 0,
+  "captures": 55,
+  "tributes": 7,
+  "gold": 8620,
+  "main_floor": 225,
+  "main_est_full": 908,
+  "main_est_half": 914,
+  "main_actual": 1214,
+  "main_actual_A": 1193,
+  "main_actual_B": 1236
+ },
+ "00rushbait_v2": {
+  "supply_floor": 277,
+  "supply_floor_half": 512,
+  "labour_bound_base": 560,
+  "labour_rate_base": 1.805,
+  "schedule_base": 924,
+  "schedule_items": 639,
+  "schedule_items_half": 743,
+  "schedule_base_half": 924,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.422,
+   "fight": 0.386,
+   "capture": 0.076,
+   "bank": 0.038,
+   "out": 0.059,
+   "idle": 0.019
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 0,
+  "captures": 40,
+  "tributes": 7,
+  "gold": 3750,
+  "main_floor": 278,
+  "main_est_full": 790,
+  "main_est_half": 856,
+  "main_actual": 1098,
+  "main_actual_A": 1176,
+  "main_actual_B": 1021
+ },
+ "00split": {
+  "supply_floor": 116,
+  "supply_floor_half": 214,
+  "labour_bound_base": 327,
+  "labour_rate_base": 3.312,
+  "schedule_base": 609,
+  "schedule_items": 471,
+  "schedule_items_half": 542,
+  "schedule_base_half": 769,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.401,
+   "wait": 0.043,
+   "fight": 0.359,
+   "capture": 0.089,
+   "bank": 0.076,
+   "out": 0.027,
+   "idle": 0.005
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 446,
+  "captures": 44,
+  "tributes": 6,
+  "gold": 2360,
+  "main_floor": 117,
+  "main_est_full": 615,
+  "main_est_half": 614,
+  "main_actual": 760,
+  "main_actual_A": 747,
+  "main_actual_B": 772
+ },
+ "00stampede": {
+  "supply_floor": 516,
+  "supply_floor_half": 516,
+  "labour_bound_base": 831,
+  "labour_rate_base": 1.288,
+  "schedule_base": 1486,
+  "schedule_items": 1025,
+  "schedule_items_half": 1025,
+  "schedule_base_half": 1486,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "team",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.603,
+   "fight": 0.251,
+   "capture": 0.007,
+   "bank": 0.109,
+   "out": 0.029
+  },
+  "binding": [
+   "travel"
+  ],
+  "bank_at_400": 0,
+  "captures": 7,
+  "tributes": 4,
+  "gold": 4340,
+  "main_floor": 519,
+  "main_est_full": 1222,
+  "main_est_half": 1222,
+  "main_actual": 2000,
+  "main_actual_A": 2000,
+  "main_actual_B": 2000
+ },
+ "00swirl": {
+  "supply_floor": 133,
+  "supply_floor_half": 224,
+  "labour_bound_base": 487,
+  "labour_rate_base": 2.075,
+  "schedule_base": 1150,
+  "schedule_items": 522,
+  "schedule_items_half": 598,
+  "schedule_base_half": 1257,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.311,
+   "wait": 0.007,
+   "fight": 0.455,
+   "capture": 0.075,
+   "bank": 0.044,
+   "out": 0.067,
+   "idle": 0.041
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 224,
+  "captures": 38,
+  "tributes": 5,
+  "gold": 7010,
+  "main_floor": 135,
+  "main_est_full": 695,
+  "main_est_half": 713,
+  "main_actual": 689,
+  "main_actual_A": 690,
+  "main_actual_B": 688
+ },
+ "01big_world": {
+  "supply_floor": 207,
+  "supply_floor_half": 282,
+  "labour_bound_base": 589,
+  "labour_rate_base": 1.719,
+  "schedule_base": 1360,
+  "schedule_items": 751,
+  "schedule_items_half": 746,
+  "schedule_base_half": 1305,
+  "policy": {
+   "bank_at": 50,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.425,
+   "wait": 0.042,
+   "fight": 0.348,
+   "capture": 0.036,
+   "bank": 0.048,
+   "out": 0.046,
+   "idle": 0.055
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 320,
+  "captures": 28,
+  "tributes": 14,
+  "gold": 5150,
+  "main_floor": 208,
+  "main_est_full": 753,
+  "main_est_half": 839,
+  "main_actual": 1058,
+  "main_actual_A": 1055,
+  "main_actual_B": 1060
+ },
+ "01boss_battle": {
+  "supply_floor": 103,
+  "supply_floor_half": 103,
+  "labour_bound_base": 545,
+  "labour_rate_base": 1.866,
+  "schedule_base": 2000,
+  "schedule_items": 440,
+  "schedule_items_half": 440,
+  "schedule_base_half": 2000,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.298,
+   "fight": 0.441,
+   "capture": 0.065,
+   "bank": 0.081,
+   "out": 0.091,
+   "idle": 0.025
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 665,
+  "captures": 29,
+  "tributes": 6,
+  "gold": 8210,
+  "main_floor": 63,
+  "main_est_full": 561,
+  "main_est_half": 561,
+  "main_actual": 850,
+  "main_actual_A": 898,
+  "main_actual_B": 802
+ },
+ "01broken_curve": {
+  "supply_floor": 132,
+  "supply_floor_half": 225,
+  "labour_bound_base": 640,
+  "labour_rate_base": 1.585,
+  "schedule_base": 1027,
+  "schedule_items": 630,
+  "schedule_items_half": 684,
+  "schedule_base_half": 1218,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.334,
+   "wait": 0.017,
+   "fight": 0.443,
+   "capture": 0.092,
+   "bank": 0.052,
+   "out": 0.057,
+   "idle": 0.005
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 390,
+  "captures": 31,
+  "tributes": 9,
+  "gold": 3620,
+  "main_floor": 135,
+  "main_est_full": 804,
+  "main_est_half": 828,
+  "main_actual": 928,
+  "main_actual_A": 916,
+  "main_actual_B": 939
+ },
+ "01concentrated_wealth": {
+  "supply_floor": 449,
+  "supply_floor_half": 563,
+  "labour_bound_base": 516,
+  "labour_rate_base": 2.036,
+  "schedule_base": 1105,
+  "schedule_items": 854,
+  "schedule_items_half": 887,
+  "schedule_base_half": 1105,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.626,
+   "wait": 0.032,
+   "fight": 0.193,
+   "capture": 0.047,
+   "bank": 0.041,
+   "out": 0.031,
+   "idle": 0.031
+  },
+  "binding": [
+   "travel"
+  ],
+  "bank_at_400": 0,
+  "captures": 53,
+  "tributes": 6,
+  "gold": 6030,
+  "main_floor": 450,
+  "main_est_full": 896,
+  "main_est_half": 1011,
+  "main_actual": 1022,
+  "main_actual_A": 971,
+  "main_actual_B": 1073
+ },
+ "01corridors": {
+  "supply_floor": 151,
+  "supply_floor_half": 151,
+  "labour_bound_base": 644,
+  "labour_rate_base": 1.593,
+  "schedule_base": 1132,
+  "schedule_items": 599,
+  "schedule_items_half": 599,
+  "schedule_base_half": 1132,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.428,
+   "fight": 0.372,
+   "capture": 0.037,
+   "bank": 0.054,
+   "out": 0.062,
+   "idle": 0.047
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 0,
+  "captures": 23,
+  "tributes": 6,
+  "gold": 5500,
+  "main_floor": 154,
+  "main_est_full": 720,
+  "main_est_half": 720,
+  "main_actual": 1064,
+  "main_actual_A": 1038,
+  "main_actual_B": 1089
+ },
+ "01elk_arena": {
+  "supply_floor": 873,
+  "supply_floor_half": 873,
+  "labour_bound_base": 938,
+  "labour_rate_base": 1.075,
+  "schedule_base": 985,
+  "schedule_items": 885,
+  "schedule_items_half": 885,
+  "schedule_base_half": 985,
+  "policy": {
+   "bank_at": 25,
+   "wait_max": 25,
+   "split": "team",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.172,
+   "wait": 0.389,
+   "fight": 0.152,
+   "capture": 0.05,
+   "bank": 0.14,
+   "out": 0.097
+  },
+  "binding": [
+   "respawn"
+  ],
+  "bank_at_400": 432,
+  "captures": 40,
+  "tributes": 14,
+  "gold": 3560,
+  "main_floor": 877,
+  "main_est_full": 972,
+  "main_est_half": 985,
+  "main_actual": 1152,
+  "main_actual_A": 1103,
+  "main_actual_B": 1201
+ },
+ "01fracture": {
+  "supply_floor": 165,
+  "supply_floor_half": 237,
+  "labour_bound_base": 438,
+  "labour_rate_base": 2.369,
+  "schedule_base": 1449,
+  "schedule_items": 663,
+  "schedule_items_half": 735,
+  "schedule_base_half": 1458,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.495,
+   "wait": 0.024,
+   "fight": 0.297,
+   "capture": 0.038,
+   "bank": 0.048,
+   "out": 0.047,
+   "idle": 0.051
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 0,
+  "captures": 28,
+  "tributes": 5,
+  "gold": 5320,
+  "main_floor": 169,
+  "main_est_full": 736,
+  "main_est_half": 784,
+  "main_actual": 972,
+  "main_actual_A": 955,
+  "main_actual_B": 990
+ },
+ "01gold_rush": {
+  "supply_floor": 353,
+  "supply_floor_half": 507,
+  "labour_bound_base": 1090,
+  "labour_rate_base": 0.923,
+  "schedule_base": 1465,
+  "schedule_items": 974,
+  "schedule_items_half": 1169,
+  "schedule_base_half": 2000,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.354,
+   "wait": 0.037,
+   "fight": 0.387,
+   "capture": 0.149,
+   "bank": 0.036,
+   "out": 0.028,
+   "idle": 0.009
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 0,
+  "captures": 89,
+  "tributes": 5,
+  "gold": 4800,
+  "main_floor": 354,
+  "main_est_full": 965,
+  "main_est_half": 1045,
+  "main_actual": 1154,
+  "main_actual_A": 1211,
+  "main_actual_B": 1098
+ },
+ "01hooks": {
+  "supply_floor": 751,
+  "supply_floor_half": 1477,
+  "labour_bound_base": 775,
+  "labour_rate_base": 1.313,
+  "schedule_base": 947,
+  "schedule_items": 808,
+  "schedule_items_half": 1507,
+  "schedule_base_half": 1560,
+  "policy": {
+   "bank_at": 25,
+   "wait_max": 25,
+   "split": "team",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.263,
+   "wait": 0.276,
+   "fight": 0.257,
+   "capture": 0.071,
+   "bank": 0.067,
+   "out": 0.063,
+   "idle": 0.004
+  },
+  "binding": [
+   "respawn"
+  ],
+  "bank_at_400": 440,
+  "captures": 46,
+  "tributes": 23,
+  "gold": 4140,
+  "main_floor": 754,
+  "main_est_full": 848,
+  "main_est_half": 1578,
+  "main_actual": 1010,
+  "main_actual_A": 1007,
+  "main_actual_B": 1013
+ },
+ "01islands": {
+  "supply_floor": 306,
+  "supply_floor_half": 570,
+  "labour_bound_base": 546,
+  "labour_rate_base": 1.892,
+  "schedule_base": 1079,
+  "schedule_items": 663,
+  "schedule_items_half": 763,
+  "schedule_base_half": 1191,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.471,
+   "fight": 0.324,
+   "capture": 0.032,
+   "bank": 0.079,
+   "out": 0.066,
+   "idle": 0.029
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 438,
+  "captures": 24,
+  "tributes": 5,
+  "gold": 4620,
+  "main_floor": 310,
+  "main_est_full": 749,
+  "main_est_half": 809,
+  "main_actual": 795,
+  "main_actual_A": 788,
+  "main_actual_B": 802
+ },
+ "01shortcut": {
+  "supply_floor": 181,
+  "supply_floor_half": 181,
+  "labour_bound_base": 363,
+  "labour_rate_base": 2.787,
+  "schedule_base": 1178,
+  "schedule_items": 848,
+  "schedule_items_half": 861,
+  "schedule_base_half": 1144,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.578,
+   "wait": 0.028,
+   "fight": 0.245,
+   "capture": 0.044,
+   "bank": 0.058,
+   "out": 0.033,
+   "idle": 0.014
+  },
+  "binding": [
+   "travel"
+  ],
+  "bank_at_400": 0,
+  "captures": 30,
+  "tributes": 5,
+  "gold": 3900,
+  "main_floor": 183,
+  "main_est_full": 1036,
+  "main_est_half": 1036,
+  "main_actual": 1289,
+  "main_actual_A": 1336,
+  "main_actual_B": 1242
+ },
+ "01starfish": {
+  "supply_floor": 188,
+  "supply_floor_half": 224,
+  "labour_bound_base": 398,
+  "labour_rate_base": 2.591,
+  "schedule_base": 916,
+  "schedule_items": 567,
+  "schedule_items_half": 567,
+  "schedule_base_half": 916,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "team",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.36,
+   "wait": 0.025,
+   "fight": 0.436,
+   "capture": 0.036,
+   "bank": 0.072,
+   "out": 0.057,
+   "idle": 0.014
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 507,
+  "captures": 13,
+  "tributes": 5,
+  "gold": 4780,
+  "main_floor": 191,
+  "main_est_full": 645,
+  "main_est_half": 628,
+  "main_actual": 794,
+  "main_actual_A": 813,
+  "main_actual_B": 775
+ },
+ "01starvation": {
+  "supply_floor": 272,
+  "supply_floor_half": 372,
+  "labour_bound_base": 567,
+  "labour_rate_base": 2.055,
+  "schedule_base": 1366,
+  "schedule_items": 968,
+  "schedule_items_half": 1033,
+  "schedule_base_half": 1366,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "team",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.5,
+   "fight": 0.358,
+   "capture": 0.011,
+   "bank": 0.107,
+   "out": 0.024
+  },
+  "binding": [
+   "travel"
+  ],
+  "bank_at_400": 204,
+  "captures": 11,
+  "tributes": 4,
+  "gold": 2660,
+  "main_floor": 275,
+  "main_est_full": 861,
+  "main_est_half": 895,
+  "main_actual": 1462,
+  "main_actual_A": 1447,
+  "main_actual_B": 1478
+ },
+ "01the_farm": {
+  "supply_floor": 64,
+  "supply_floor_half": 143,
+  "labour_bound_base": 526,
+  "labour_rate_base": 1.917,
+  "schedule_base": 988,
+  "schedule_items": 604,
+  "schedule_items_half": 586,
+  "schedule_base_half": 972,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.366,
+   "fight": 0.4,
+   "capture": 0.097,
+   "bank": 0.051,
+   "out": 0.065,
+   "idle": 0.022
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 0,
+  "captures": 39,
+  "tributes": 6,
+  "gold": 4690,
+  "main_floor": 63,
+  "main_est_full": 804,
+  "main_est_half": 837,
+  "main_actual": 986,
+  "main_actual_A": 1006,
+  "main_actual_B": 967
+ },
+ "01yellow_brick_road": {
+  "supply_floor": 134,
+  "supply_floor_half": 246,
+  "labour_bound_base": 416,
+  "labour_rate_base": 2.417,
+  "schedule_base": 659,
+  "schedule_items": 339,
+  "schedule_items_half": 405,
+  "schedule_base_half": 708,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.273,
+   "fight": 0.391,
+   "capture": 0.12,
+   "bank": 0.101,
+   "out": 0.103,
+   "idle": 0.012
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 1007,
+  "captures": 42,
+  "tributes": 6,
+  "gold": 11540,
+  "main_floor": 135,
+  "main_est_full": 461,
+  "main_est_half": 492,
+  "main_actual": 754,
+  "main_actual_A": 730,
+  "main_actual_B": 778
+ },
+ "legacy/ambush": {
+  "supply_floor": 354,
+  "supply_floor_half": 669,
+  "labour_bound_base": 546,
+  "labour_rate_base": 1.992,
+  "schedule_base": 1534,
+  "schedule_items": 897,
+  "schedule_items_half": 1029,
+  "schedule_base_half": 1687,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.525,
+   "wait": 0.015,
+   "fight": 0.338,
+   "capture": 0.029,
+   "bank": 0.039,
+   "out": 0.032,
+   "idle": 0.021
+  },
+  "binding": [
+   "travel"
+  ],
+  "bank_at_400": 143,
+  "captures": 27,
+  "tributes": 10,
+  "gold": 4410
+ },
+ "legacy/collision": {
+  "supply_floor": 367,
+  "supply_floor_half": 659,
+  "labour_bound_base": 1201,
+  "labour_rate_base": 0.836,
+  "schedule_base": 2000,
+  "schedule_items": 1003,
+  "schedule_items_half": 1150,
+  "schedule_base_half": 2000,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.463,
+   "wait": 0.007,
+   "fight": 0.355,
+   "capture": 0.063,
+   "bank": 0.051,
+   "out": 0.048,
+   "idle": 0.013
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 0,
+  "captures": 42,
+  "tributes": 6,
+  "gold": 6200
+ },
+ "legacy/contest": {
+  "supply_floor": 365,
+  "supply_floor_half": 365,
+  "labour_bound_base": 1267,
+  "labour_rate_base": 0.808,
+  "schedule_base": 1515,
+  "schedule_items": 1116,
+  "schedule_items_half": 1116,
+  "schedule_base_half": 1515,
+  "policy": {
+   "bank_at": 25,
+   "wait_max": 0,
+   "split": "team",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.192,
+   "fight": 0.699,
+   "capture": 0.004,
+   "bank": 0.088,
+   "out": 0.016
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 200,
+  "captures": 5,
+  "tributes": 5,
+  "gold": 1500
+ },
+ "legacy/corners": {
+  "supply_floor": 198,
+  "supply_floor_half": 382,
+  "labour_bound_base": 617,
+  "labour_rate_base": 1.634,
+  "schedule_base": 1154,
+  "schedule_items": 619,
+  "schedule_items_half": 701,
+  "schedule_base_half": 1192,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 0,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.391,
+   "wait": 0.039,
+   "fight": 0.379,
+   "capture": 0.066,
+   "bank": 0.058,
+   "out": 0.058,
+   "idle": 0.008
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 351,
+  "captures": 43,
+  "tributes": 9,
+  "gold": 5580
+ },
+ "legacy/eight": {
+  "supply_floor": 358,
+  "supply_floor_half": 680,
+  "labour_bound_base": 644,
+  "labour_rate_base": 1.583,
+  "schedule_base": 1129,
+  "schedule_items": 648,
+  "schedule_items_half": 890,
+  "schedule_base_half": 1152,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.312,
+   "wait": 0.047,
+   "fight": 0.464,
+   "capture": 0.048,
+   "bank": 0.053,
+   "out": 0.058,
+   "idle": 0.017
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 0,
+  "captures": 32,
+  "tributes": 6,
+  "gold": 6070
+ },
+ "legacy/elkring": {
+  "supply_floor": 432,
+  "supply_floor_half": 886,
+  "labour_bound_base": 676,
+  "labour_rate_base": 1.485,
+  "schedule_base": 1074,
+  "schedule_items": 623,
+  "schedule_items_half": 957,
+  "schedule_base_half": 1194,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.284,
+   "wait": 0.103,
+   "fight": 0.404,
+   "capture": 0.098,
+   "bank": 0.029,
+   "out": 0.073,
+   "idle": 0.009
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 210,
+  "captures": 67,
+  "tributes": 6,
+  "gold": 7370
+ },
+ "legacy/expanse": {
+  "supply_floor": 228,
+  "supply_floor_half": 413,
+  "labour_bound_base": 847,
+  "labour_rate_base": 1.189,
+  "schedule_base": 2000,
+  "schedule_items": 966,
+  "schedule_items_half": 1051,
+  "schedule_base_half": 2000,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "team",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.497,
+   "wait": 0.038,
+   "fight": 0.311,
+   "capture": 0.045,
+   "bank": 0.051,
+   "out": 0.048,
+   "idle": 0.011
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 220,
+  "captures": 23,
+  "tributes": 5,
+  "gold": 4140
+ },
+ "legacy/fragment": {
+  "supply_floor": 1149,
+  "supply_floor_half": 2000,
+  "labour_bound_base": 1451,
+  "labour_rate_base": 0.692,
+  "schedule_base": 2000,
+  "schedule_items": 1387,
+  "schedule_items_half": 2000,
+  "schedule_base_half": 2000,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.446,
+   "fight": 0.248,
+   "capture": 0.131,
+   "bank": 0.023,
+   "out": 0.099,
+   "idle": 0.054
+  },
+  "binding": [
+   "respawn"
+  ],
+  "bank_at_400": 0,
+  "captures": 123,
+  "tributes": 11,
+  "gold": 9830
+ },
+ "legacy/interlock": {
+  "supply_floor": 439,
+  "supply_floor_half": 632,
+  "labour_bound_base": 839,
+  "labour_rate_base": 1.2,
+  "schedule_base": 1616,
+  "schedule_items": 862,
+  "schedule_items_half": 982,
+  "schedule_base_half": 1616,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "pairs",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.488,
+   "fight": 0.357,
+   "capture": 0.05,
+   "bank": 0.056,
+   "out": 0.05
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 0,
+  "captures": 34,
+  "tributes": 6,
+  "gold": 6120
+ },
+ "legacy/lanes": {
+  "supply_floor": 288,
+  "supply_floor_half": 518,
+  "labour_bound_base": 707,
+  "labour_rate_base": 1.479,
+  "schedule_base": 1473,
+  "schedule_items": 818,
+  "schedule_items_half": 881,
+  "schedule_base_half": 1708,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.345,
+   "fight": 0.425,
+   "capture": 0.15,
+   "bank": 0.023,
+   "out": 0.034,
+   "idle": 0.023
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 0,
+  "captures": 138,
+  "tributes": 6,
+  "gold": 7570
+ },
+ "legacy/monolith": {
+  "supply_floor": 206,
+  "supply_floor_half": 362,
+  "labour_bound_base": 1002,
+  "labour_rate_base": 1.003,
+  "schedule_base": 1488,
+  "schedule_items": 861,
+  "schedule_items_half": 1033,
+  "schedule_base_half": 1712,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.285,
+   "fight": 0.582,
+   "capture": 0.046,
+   "bank": 0.039,
+   "out": 0.029,
+   "idle": 0.019
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 0,
+  "captures": 124,
+  "tributes": 6,
+  "gold": 8800
+ },
+ "legacy/packs": {
+  "supply_floor": 478,
+  "supply_floor_half": 955,
+  "labour_bound_base": 936,
+  "labour_rate_base": 1.075,
+  "schedule_base": 1331,
+  "schedule_items": 770,
+  "schedule_items_half": 1139,
+  "schedule_base_half": 1781,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.36,
+   "fight": 0.39,
+   "capture": 0.14,
+   "bank": 0.041,
+   "out": 0.064,
+   "idle": 0.006
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 0,
+  "captures": 72,
+  "tributes": 6,
+  "gold": 6100
+ },
+ "legacy/pilgrimage": {
+  "supply_floor": 545,
+  "supply_floor_half": 611,
+  "labour_bound_base": 658,
+  "labour_rate_base": 1.615,
+  "schedule_base": 1807,
+  "schedule_items": 1106,
+  "schedule_items_half": 1108,
+  "schedule_base_half": 1796,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "3+rest",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.566,
+   "wait": 0.026,
+   "fight": 0.281,
+   "capture": 0.032,
+   "bank": 0.037,
+   "out": 0.036,
+   "idle": 0.021
+  },
+  "binding": [
+   "travel"
+  ],
+  "bank_at_400": 0,
+  "captures": 36,
+  "tributes": 6,
+  "gold": 6880
+ },
+ "legacy/rows": {
+  "supply_floor": 223,
+  "supply_floor_half": 260,
+  "labour_bound_base": 1679,
+  "labour_rate_base": 0.6,
+  "schedule_base": 2000,
+  "schedule_items": 1301,
+  "schedule_items_half": 1421,
+  "schedule_base_half": 2000,
+  "policy": {
+   "bank_at": 100,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.439,
+   "wait": 0.107,
+   "fight": 0.298,
+   "capture": 0.076,
+   "bank": 0.019,
+   "out": 0.058,
+   "idle": 0.005
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 0,
+  "captures": 84,
+  "tributes": 11,
+  "gold": 10080
+ },
+ "legacy/rushbait_v2": {
+  "supply_floor": 411,
+  "supply_floor_half": 778,
+  "labour_bound_base": 1123,
+  "labour_rate_base": 0.896,
+  "schedule_base": 1523,
+  "schedule_items": 899,
+  "schedule_items_half": 1047,
+  "schedule_base_half": 1523,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.463,
+   "fight": 0.323,
+   "capture": 0.103,
+   "bank": 0.027,
+   "out": 0.073,
+   "idle": 0.012
+  },
+  "binding": [
+   "mixed"
+  ],
+  "bank_at_400": 0,
+  "captures": 80,
+  "tributes": 7,
+  "gold": 6300
+ },
+ "legacy/stampede": {
+  "supply_floor": 582,
+  "supply_floor_half": 582,
+  "labour_bound_base": 981,
+  "labour_rate_base": 1.08,
+  "schedule_base": 1629,
+  "schedule_items": 1083,
+  "schedule_items_half": 1083,
+  "schedule_base_half": 1629,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 0,
+   "split": "team",
+   "gold_weight": 0.0
+  },
+  "time_split": {
+   "travel": 0.621,
+   "fight": 0.239,
+   "capture": 0.007,
+   "bank": 0.099,
+   "out": 0.033
+  },
+  "binding": [
+   "travel"
+  ],
+  "bank_at_400": 264,
+  "captures": 8,
+  "tributes": 4,
+  "gold": 4320
+ },
+ "legacy/swirl": {
+  "supply_floor": 145,
+  "supply_floor_half": 264,
+  "labour_bound_base": 535,
+  "labour_rate_base": 1.886,
+  "schedule_base": 1277,
+  "schedule_items": 590,
+  "schedule_items_half": 642,
+  "schedule_base_half": 1291,
+  "policy": {
+   "bank_at": 200,
+   "wait_max": 25,
+   "split": "solo",
+   "gold_weight": 0.05
+  },
+  "time_split": {
+   "travel": 0.264,
+   "wait": 0.01,
+   "fight": 0.532,
+   "capture": 0.08,
+   "bank": 0.041,
+   "out": 0.062,
+   "idle": 0.012
+  },
+  "binding": [
+   "damage"
+  ],
+  "bank_at_400": 0,
+  "captures": 40,
+  "tributes": 6,
+  "gold": 6940
+ }
+}

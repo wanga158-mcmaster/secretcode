@@ -1,0 +1,189 @@
+{
+"engine": "1.0.2",
+"margin": "survivor health share of the winner, signed from the row pick's side; mean of both sides x both parities",
+"names": [
+"Ryth",
+"Vesper",
+"Vendetta",
+"Cassi&Issac",
+"Stellar",
+"Prism",
+"Marcella",
+"Willow",
+"Ren",
+"Varg",
+"Tavi",
+"Heart"
+],
+"rows": [
+{
+"first_side": "A",
+"parity": 0,
+"pick": 0,
+"surv_frac": 0.0375,
+"winner": "A"
+},
+{
+"first_side": "A",
+"parity": 1,
+"pick": 0,
+"surv_frac": 0.0375,
+"winner": "A"
+},
+{
+"first_side": "A",
+"parity": 0,
+"pick": 1,
+"surv_frac": 0.01,
+"winner": "A"
+},
+{
+"first_side": "A",
+"parity": 1,
+"pick": 1,
+"surv_frac": 0.01,
+"winner": "A"
+},
+{
+"first_side": "A",
+"parity": 0,
+"pick": 2,
+"surv_frac": 0.02,
+"winner": "A"
+},
+{
+"first_side": "A",
+"parity": 1,
+"pick": 2,
+"surv_frac": 0.02,
+"winner": "A"
+},
+{
+"first_side": "A",
+"parity": 0,
+"pick": 3,
+"surv_frac": 0.62,
+"winner": "A"
+},
+{
+"first_side": "A",
+"parity": 1,
+"pick": 3,
+"surv_frac": 0.62,
+"winner": "A"
+},
+{
+"first_side": "A",
+"parity": 0,
+"pick": 4,
+"surv_frac": 0.09538461538461539,
+"winner": "A"
+},
+{
+"first_side": "A",
+"parity": 1,
+"pick": 4,
+"surv_frac": 0.09538461538461539,
+"winner": "A"
+},
+{
+"first_side": "A",
+"parity": 0,
+"pick": 5,
+"surv_frac": 0.02857142857142857,
+"winner": "B"
+},
+{
+"first_side": "A",
+"parity": 1,
+"pick": 5,
+"surv_frac": 0.02857142857142857,
+"winner": "B"
+},
+{
+"first_side": "A",
+"parity": 0,
+"pick": 6,
+"surv_frac": 0.05,
+"winner": "B"
+},
+{
+"first_side": "A",
+"parity": 1,
+"pick": 6,
+"surv_frac": 0.05,
+"winner": "B"
+},
+{
+"first_side": "A",
+"parity": 0,
+"pick": 7,
+"surv_frac": 0.05714285714285714,
+"winner": "B"
+},
+{
+"first_side": "A",
+"parity": 1,
+"pick": 7,
+"surv_frac": 0.05714285714285714,
+"winner": "B"
+},
+{
+"first_side": "B",
+"parity": 0,
+"pick": 8,
+"surv_frac": 0.0,
+"winner": "B"
+},
+{
+"first_side": "B",
+"parity": 1,
+"pick": 8,
+"surv_frac": 0.0,
+"winner": "B"
+},
+{
+"first_side": "A",
+"parity": 0,
+"pick": 9,
+"surv_frac": 0.04,
+"winner": "A"
+},
+{
+"first_side": "A",
+"parity": 1,
+"pick": 9,
+"surv_frac": 0.04,
+"winner": "A"
+},
+{
+"first_side": "A",
+"parity": 0,
+"pick": 10,
+"surv_frac": 0.057777777777777775,
+"winner": "B"
+},
+{
+"first_side": "A",
+"parity": 1,
+"pick": 10,
+"surv_frac": 0.057777777777777775,
+"winner": "B"
+},
+{
+"first_side": "B",
+"parity": 0,
+"pick": 11,
+"surv_frac": 0.11209999999999999,
+"winner": "B"
+},
+{
+"first_side": "B",
+"parity": 1,
+"pick": 11,
+"surv_frac": 0.11209999999999999,
+"winner": "B"
+}
+],
+"setup": "mirror duels, A's duelist in turn slot 1, B's in slot 3 (B fillers priority 5)"
+}

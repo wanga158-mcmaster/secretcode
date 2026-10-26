@@ -1,0 +1,36 @@
+{
+  "id": "three-worker-investment-cooperation",
+  "description": "Uncontested scheduling laboratory with distant production, a guarded named-party job, spend-versus-bank choices, health loss and recovery. Explicit party costs are assumptions, not native calibration.",
+  "width": 15,
+  "height": 9,
+  "horizon": 500,
+  "goal": 180,
+  "spawns": [[0, 1], [0, 4], [0, 7]],
+  "altars": [[14, 4]],
+  "blocked": [[7, 0], [7, 1], [7, 7], [7, 8], [10, 3], [10, 5]],
+  "settings": {"capture_time": 5, "recall_time": 5, "submit_multiplier": 0.1},
+  "actors": [
+    {"id": "front", "position": [0, 1], "hp": 400, "max_hp": 400, "strength": 35},
+    {"id": "field", "position": [0, 4], "hp": 260, "max_hp": 400, "strength": 30, "field_shop": true},
+    {"id": "rear", "position": [0, 7], "hp": 400, "max_hp": 400, "strength": 25}
+  ],
+  "items": [
+    {"id": "strength", "cost": 40, "strength": 15, "max_count": 8},
+    {"id": "health", "cost": 30, "health": 100, "max_count": 3}
+  ],
+  "camps": [
+    {"id": "north", "members": [[3, 2], [4, 2]], "member_hp": [160, 160], "hp": 320, "gems": 12, "gold": 40, "respawn": 25},
+    {"id": "south", "members": [[3, 6], [4, 6]], "member_hp": [160, 160], "hp": 320, "gems": 12, "gold": 40, "respawn": 25},
+    {"id": "far-east", "members": [[11, 1], [12, 1]], "member_hp": [210, 210], "hp": 420, "gems": 20, "gold": 60, "respawn": 35},
+    {"id": "party-elk", "members": [[9, 4]], "hp": 1000, "strength": 25, "range": 1, "gems": 35, "gold": 100, "respawn": 50,
+      "modes": [
+        {"id": "front-field", "actors": ["front", "field"], "entry_positions": [[8, 3], [8, 5]], "end_positions": [[8, 3], [8, 5]], "work_rounds": 8, "incoming": [90, 40], "entry_hp_min": [150, 100], "qualification": "explicit_model_assumption"},
+        {"id": "field-rear", "actors": ["field", "rear"], "entry_positions": [[8, 3], [8, 5]], "end_positions": [[8, 3], [8, 5]], "work_rounds": 10, "incoming": [60, 70], "entry_hp_min": [120, 130], "qualification": "explicit_model_assumption"}
+      ]
+    }
+  ],
+  "max_frontier": 5000,
+  "max_closed": 500000,
+  "checkpoint_every": 2000,
+  "greedy_baseline_limit": 10000
+}

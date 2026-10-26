@@ -1,0 +1,80 @@
+{
+  "schema": "contenders-c9-campaign/v2",
+  "provenance": "Eight constructed restricted endgame strata. They exercise terminal timing, denial, movement/reset, lock removal and survival; their occurrence frequency and native execution are not qualified.",
+  "case_node_quantum": 2000,
+  "max_transpositions": 100000,
+  "max_transposition_bytes": 33554432,
+  "checkpoint_nodes": 10000,
+  "cases": [
+    {
+      "id": "uncontested-threshold-bank",
+      "width": 7, "height": 3, "round": 1999,
+      "altars": [[2,1]], "score": [990,980],
+      "actors": [
+        {"pos":[1,1],"spawn":[0,0],"gems":10,"strength":0,"spell_damage":0,"spell_stun":0,"cooldown":[100,100]},
+        {"pos":[6,2],"spawn":[6,0],"strength":0,"spell_damage":0,"spell_stun":0,"cooldown":[100,100]}
+      ]
+    },
+    {
+      "id": "even-last-round-lethal-before-bank",
+      "width":7,"height":5,"round":2000,
+      "altars":[[2,2]],"score":[980,990],"earned_gold":[2000,1900],
+      "actors":[
+        {"pos":[1,2],"spawn":[0,0],"hp":80,"max_hp":1200,"gems":20,"channel_altar":0,"channel_timer":0,"strength":90,"spell_damage":154,"spell_stun":1},
+        {"pos":[1,3],"spawn":[6,4],"hp":200,"max_hp":1200,"strength":90,"spell_damage":0,"spell_stun":0,"cooldown":[100,100]}
+      ]
+    },
+    {
+      "id":"late-lock-and-channel-contest",
+      "terrain":[".......","..#....",".......","....#..","......."],
+      "round":1996,"altars":[[2,2],[5,2]],"score":[975,978],"earned_gold":[2210,2240],"kills":[2,2],
+      "actors":[
+        {"pos":[1,2],"spawn":[0,0],"hp":390,"max_hp":1200,"strength":90,"spell_damage":154,"spell_range":4,"spell_stun":1,"gems":27,"locks":1,"cooldown":[0,2]},
+        {"pos":[4,2],"spawn":[6,4],"hp":330,"max_hp":1200,"strength":85,"spell_damage":100,"spell_range":4,"spell_stun":1,"gems":24,"locks":1,"cooldown":[1,0]}
+      ]
+    },
+    {
+      "id":"ranged-step-reset-locked-bank",
+      "width":8,"height":5,"round":1997,"altars":[[2,2],[6,2]],"altar_locks":[[0,3],[0,0]],"score":[981,980],"earned_gold":[1800,1850],
+      "actors":[
+        {"pos":[1,2],"spawn":[0,0],"hp":280,"max_hp":700,"strength":55,"attack_range":3,"ranged":true,"spell_exclusive":true,"spell_damage":154,"spell_range":4,"spell_stun":1,"gems":20,"locks":1,"cooldown":[0,0]},
+        {"pos":[5,2],"spawn":[7,4],"hp":350,"max_hp":1200,"strength":100,"spell_damage":120,"spell_range":4,"spell_stun":0,"stun_immune":true,"gems":22,"locks":1,"cooldown":[0,2]}
+      ]
+    },
+    {
+      "id":"shield-expiry-lethal-denial",
+      "width":7,"height":5,"round":1998,"altars":[[2,2],[5,2]],"score":[980,980],"earned_gold":[1200,1250],
+      "actors":[
+        {"pos":[1,2],"spawn":[0,0],"hp":160,"max_hp":1200,"shield":150,"shield_timer":1,"strength":90,"spell_damage":154,"spell_range":4,"spell_stun":1,"gems":20,"cooldown":[1,0]},
+        {"pos":[3,2],"spawn":[6,4],"hp":220,"max_hp":1200,"strength":100,"spell_damage":120,"spell_range":4,"spell_stun":1,"gems":20,"cooldown":[0,1]}
+      ]
+    },
+    {
+      "id":"stun-immune-bank-protection",
+      "width":7,"height":5,"round":1998,"altars":[[2,2],[5,2]],"score":[980,980],
+      "actors":[
+        {"pos":[1,2],"spawn":[0,0],"hp":350,"max_hp":1200,"strength":100,"spell_damage":120,"spell_range":4,"spell_stun":0,"stun_immune":true,"gems":20,"cooldown":[0,2]},
+        {"pos":[4,2],"spawn":[6,4],"hp":220,"max_hp":1200,"strength":90,"spell_damage":154,"spell_range":4,"spell_stun":1,"gems":20,"cooldown":[0,0]}
+      ]
+    },
+    {
+      "id":"death-reset-and-gold-tiebreak",
+      "width":7,"height":5,"round":1999,"altars":[[2,2]],"score":[975,975],"earned_gold":[1900,1900],"kills":[2,2],
+      "settings":{"respawn_time":1},
+      "actors":[
+        {"pos":[1,2],"spawn":[0,0],"hp":0,"max_hp":1200,"respawn":0,"strength":90,"spell_damage":154,"spell_range":4,"spell_stun":1,"cooldown":[1000,900]},
+        {"pos":[2,3],"spawn":[6,4],"hp":120,"max_hp":1200,"strength":90,"spell_damage":100,"spell_range":4,"spell_stun":1,"cooldown":[0,2]}
+      ],
+      "provenance":"Synthetic one-tick respawn override isolates recovery/reset and lifetime-gold terminal interactions; not current native respawn setting."
+    },
+    {
+      "id":"two-ticks-five-hit-lock-route",
+      "terrain":[".......","..#.#..",".......","..#.#..","......."],
+      "round":1996,"altars":[[2,2],[5,2]],"altar_locks":[[0,5],[3,0]],"score":[980,980],"earned_gold":[2300,2300],
+      "actors":[
+        {"pos":[1,2],"spawn":[0,0],"hp":280,"max_hp":700,"strength":55,"attack_range":3,"ranged":true,"spell_exclusive":true,"spell_damage":154,"spell_range":4,"spell_stun":1,"gems":20,"cooldown":[1,0]},
+        {"pos":[6,2],"spawn":[6,4],"hp":390,"max_hp":1200,"strength":90,"spell_damage":154,"spell_range":4,"spell_stun":1,"gems":20,"cooldown":[0,1]}
+      ]
+    }
+  ]
+}

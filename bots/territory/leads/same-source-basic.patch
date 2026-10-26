@@ -1,0 +1,44 @@
+--- a/bots/p7-common/src/runtime.h
++++ b/bots/p7-common/src/runtime.h
+@@ -905,6 +905,23 @@
+         }
+         farm(task.source, task.goal == Goal::inspect); return true;
+     }
++    // A successful spell can kill the selected member before the ordinary
++    // basic. Use at most that still-available basic on a fresh legal member of
++    // the same source; never add a spell, reset, movement or outside target.
++    void follow_up_basic(int source) {
++        if (cambc::fuel_remaining() < 25000) return;
++        auto& me = cambc::self();
++        if (!me.can_attack()) return;
++        const auto attacks = me.attack_tiles();
++        for (const auto& m : groups_[source].group.camps()) {
++            if (cambc::fuel_remaining() < 20000) return;
++            if (!m.is_visible()) continue;
++            const auto value = observe(m);
++            if (value.health > 0 && attacks.is_set({value.x, value.y})) {
++                me.attack(m); return;
++            }
++        }
++    }
+     void farm(int source, bool inspect) {
+         if (source < 0 || source >= static_cast<int>(groups_.size())) return;
+         if (cambc::fuel_remaining() < 30000) return;
+@@ -935,14 +952,14 @@
+         }
+         // Try current reach before routing toward a weaker distant member.
+         // If fight lacks fuel, retain the original target and path fallback.
+-        if (available && fight(*available, false, g.incoming > 0)) return;
+-        if (target && !inspect && fight(*target, false, g.incoming > 0)) return;
++        if (available && fight(*available, false, g.incoming > 0)) { follow_up_basic(source); return; }
++        if (target && !inspect && fight(*target, false, g.incoming > 0)) { follow_up_basic(source); return; }
+         bitboard goals;
+         if (target) goals = around(target->position(), me.attack_range());
+         else for (const auto& m : g.group.camps()) goals |= around(m.spawn_position(), 1);
+         if (move_to(goals) && !inspect && cambc::fuel_remaining() >= 35000) for (const auto& m : cambc::vision::camps()) {
+             if (cambc::fuel_remaining() < 25000) return;
+-            if (m.is_alive() && g.spawns.is_set(m.spawn_position()) && me.attack_tiles().is_set(m.position())) { fight(m, true, g.incoming > 0); break; }
++            if (m.is_alive() && g.spawns.is_set(m.spawn_position()) && me.attack_tiles().is_set(m.position())) { if (fight(m, true, g.incoming > 0)) follow_up_basic(source); break; }
+         }
+     }
+ public:

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "source": "results/online/scout/micro-leaders104/33d91940.repl26a",
+  "replaySha256": "0df351adfcacf0ea7c1d34fdd4463b4a6da886b0f92168fbaec4b30046bd3b8a",
+  "decoderProfile": "cli-3.0.5",
+  "mapId": "00eight",
+  "windows": [[45, 60], [320, 333]],
+  "scope": "Retained existing replay only. No bots were run to create this fixture. Action and state regressions use the pinned official read-only visualiser."
+}

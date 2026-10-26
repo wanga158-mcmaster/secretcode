@@ -1,0 +1,192 @@
+[
+ {
+  "name": "Intercontinental Fish",
+  "rank": 2,
+  "opponent": "1890540d-1ffc-4847-adbf-d0d08772f268",
+  "maps": [
+   "00lost_world",
+   "00packs",
+   "00collision",
+   "01gold_rush",
+   "00corners"
+  ],
+  "sides": [
+   "b",
+   "a",
+   "b",
+   "a",
+   "b"
+  ]
+ },
+ {
+  "name": "Sponge(Albert and Bob)",
+  "rank": 4,
+  "opponent": "26824601-d225-427f-bd2d-ce8aa9faa392",
+  "maps": [
+   "00road_of_riches",
+   "00ambush",
+   "00rows",
+   "01boss_battle",
+   "00collision"
+  ],
+  "sides": [
+   "a",
+   "b",
+   "a",
+   "b",
+   "a"
+  ]
+ },
+ {
+  "name": "prism best girl",
+  "rank": 5,
+  "opponent": "38e6d8c4-1608-44f5-956b-08390f564336",
+  "maps": [
+   "00elkring",
+   "00reverse_spiral",
+   "00lanes",
+   "01starvation",
+   "00interlock"
+  ],
+  "sides": [
+   "b",
+   "a",
+   "b",
+   "a",
+   "b"
+  ]
+ },
+ {
+  "name": "EMPEROR Tung",
+  "rank": 6,
+  "opponent": "a1e82708-dfd3-4609-8b9a-69f652d12185",
+  "maps": [
+   "00split",
+   "00gem_fields",
+   "00eight",
+   "01fracture",
+   "00swirl"
+  ],
+  "sides": [
+   "a",
+   "b",
+   "a",
+   "b",
+   "a"
+  ]
+ },
+ {
+  "name": "policy wonk",
+  "rank": 8,
+  "opponent": "3ec4a701-a9b5-498f-9361-eea4a6dd1cde",
+  "maps": [
+   "00stampede",
+   "00monolith",
+   "00great_wall",
+   "01starfish",
+   "00fragment"
+  ],
+  "sides": [
+   "b",
+   "a",
+   "b",
+   "a",
+   "b"
+  ]
+ },
+ {
+  "name": "Trzy Kwaterki",
+  "rank": 12,
+  "opponent": "36258abf-3fd0-4827-8fa5-2a217438cf6f",
+  "maps": [
+   "00pilgrimage",
+   "00rushbait_v2",
+   "01elk_arena",
+   "01big_world",
+   "00lanes"
+  ],
+  "sides": [
+   "a",
+   "b",
+   "a",
+   "b",
+   "a"
+  ]
+ },
+ {
+  "name": "NEETCoders",
+  "rank": 13,
+  "opponent": "882106d4-9deb-40cc-9d5c-8522c1d32129",
+  "maps": [
+   "00fragment",
+   "00interlock",
+   "01broken_curve",
+   "01islands",
+   "01starfish"
+  ],
+  "sides": [
+   "b",
+   "a",
+   "b",
+   "a",
+   "b"
+  ]
+ },
+ {
+  "name": "Nanyang Technological University",
+  "rank": 14,
+  "opponent": "93fd07ff-2f73-4ed4-9911-356cc1034ba5",
+  "maps": [
+   "00swirl",
+   "00corners",
+   "01yellow_brick_road",
+   "01the_farm",
+   "00elkring"
+  ],
+  "sides": [
+   "a",
+   "b",
+   "a",
+   "b",
+   "a"
+  ]
+ },
+ {
+  "name": "FürFortnite",
+  "rank": 15,
+  "opponent": "fa706d6e-9f66-44b0-bd81-1ed3dad69a99",
+  "maps": [
+   "00gemfight",
+   "00quadrants",
+   "01hooks",
+   "01shortcut",
+   "00eight"
+  ],
+  "sides": [
+   "b",
+   "a",
+   "b",
+   "a",
+   "b"
+  ]
+ },
+ {
+  "name": "new team(4)",
+  "rank": 16,
+  "opponent": "616e95e4-36ee-4669-b9b6-edfe818a7470",
+  "maps": [
+   "00expanse",
+   "00contest",
+   "01corridors",
+   "01concentrated_wealth",
+   "00gemfight"
+  ],
+  "sides": [
+   "a",
+   "b",
+   "a",
+   "b",
+   "a"
+  ]
+ }
+]

@@ -1,0 +1,88 @@
+{
+"engine": "1.0.2",
+"margin": "survivor health share of the winner, signed from the row pick's side; mean of both sides x both parities",
+"names": [
+"Ryth",
+"Vesper",
+"Vendetta",
+"Cassi&Issac",
+"Stellar",
+"Prism",
+"Marcella",
+"Willow",
+"Ren",
+"Varg",
+"Tavi",
+"Heart"
+],
+"runs": {
+"b11": {
+"games": 288,
+"hp_err_mean": 68.9212087334527,
+"hp_exact": 242,
+"single_body_diffs": [],
+"winner_agree": 270
+},
+"base": {
+"games": 288,
+"hp_err_mean": 3.609415142352765,
+"hp_exact": 270,
+"single_body_diffs": [],
+"winner_agree": 288
+},
+"metab": {
+"games": 162,
+"hp_err_mean": 94.37988879555151,
+"hp_exact": 128,
+"single_body_diffs": [],
+"winner_agree": 152
+},
+"online": {
+"games": 48,
+"hp_err_mean": 17.08904044109842,
+"hp_exact": 44,
+"single_body_diffs": [],
+"winner_agree": 46
+},
+"stat": {
+"games": 432,
+"hp_err_mean": 22.10732409522647,
+"hp_exact": 390,
+"single_body_diffs": [
+{
+"build": [
+1,
+7
+],
+"engine": null,
+"engine_hp": 0.0,
+"i": 328,
+"model": "B",
+"model_hp": 280.0,
+"parity": 0,
+"pick": [
+9,
+9
+]
+},
+{
+"build": [
+7,
+1
+],
+"engine": null,
+"engine_hp": 0.0,
+"i": 331,
+"model": "A",
+"model_hp": 280.0,
+"parity": 1,
+"pick": [
+9,
+9
+]
+}
+],
+"winner_agree": 424
+}
+}
+}

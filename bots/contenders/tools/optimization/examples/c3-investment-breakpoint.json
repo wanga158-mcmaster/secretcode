@@ -1,0 +1,10 @@
+{
+  "id": "funded-investment-breakpoint",
+  "description": "A finite production deadline makes starting gold an investment decision: unmodified clear service cannot finish in the horizon, while legal strength purchases can. All statistics are explicit model inputs.",
+  "width": 12, "height": 5, "horizon": 90, "goal": 30,
+  "spawns": [[0, 2]], "altars": [[11, 2]],
+  "actors": [{"id": "investor", "position": [0, 2], "hp": 400, "max_hp": 400, "strength": 10, "gold": 60, "field_shop": true}],
+  "items": [{"id": "strength", "cost": 20, "strength": 15, "max_count": 3}],
+  "camps": [{"id": "production", "members": [[5, 2]], "hp": 1000, "gems": 30, "gold": 30, "respawn": 50}],
+  "max_frontier": 5000, "max_closed": 500000, "checkpoint_every": 1000
+}

@@ -1,0 +1,13 @@
+#pragma once
+#ifndef HEURISTICS_ENABLED
+#define HEURISTICS_ENABLED 1
+#endif
+#ifndef HEURISTICS_TRACE
+#define HEURISTICS_TRACE 0
+#endif
+#ifndef PORTFOLIO_PROGRAMS
+#define PORTFOLIO_PROGRAMS 1
+#endif
+#ifndef PORTFOLIO_CARGO_RENEWAL
+#define PORTFOLIO_CARGO_RENEWAL 1
+#endif

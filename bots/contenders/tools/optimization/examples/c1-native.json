@@ -1,0 +1,45 @@
+{
+  "schema": "contenders-c1/v1",
+  "description": "Native structural and numeric evolution of bounded conditional job-priority programs. All fitness uses complete local games and a same-run v42 baseline. The 24/8/8 map roles are withheld within this campaign; they are not historically unseen maps. Validation is report-only and does not select parents. Outputs require separate qualification before adoption.",
+  "controller": "anchors/main-v42",
+  "baseline": "anchors/main-v42",
+  "population_size": 32,
+  "archive_capacity": 128,
+  "max_checkpoint_mb": 384,
+  "max_depth": 4,
+  "tournament_size": 3,
+  "immigration": 0.12,
+  "crossover_rate": 0.25,
+  "mutation_sigma": 0.35,
+  "fitness": "paired_objective",
+  "validation_every": 25,
+  "evaluate_holdout_on_finish": true,
+  "training": {
+    "maps": [
+      "00ambush", "00collision", "00contest", "00elkring",
+      "00expanse", "00fragment", "00great-wall", "00interlock",
+      "00lanes", "00packs", "00pilgrimage", "00quadrants",
+      "00rows", "00rushbait-v2", "00split", "01big-world",
+      "01boss-battle", "01broken-curve", "01elk-arena", "01fracture",
+      "01gold-rush", "01shortcut", "01starfish", "01starvation"
+    ],
+    "opponents": ["anchors/main-v42", "anchors/main-hunter7"],
+    "sides": ["A", "B"]
+  },
+  "validation": {
+    "maps": [
+      "00corners", "00gem-fields", "00lost-world", "00reverse-spiral",
+      "00stampede", "01concentrated-wealth", "01hooks", "01the-farm"
+    ],
+    "opponents": ["anchors/main-v42", "anchors/main-hunter7"],
+    "sides": ["A", "B"]
+  },
+  "holdout": {
+    "maps": [
+      "00eight", "00gemfight", "00monolith", "00road-of-riches",
+      "00swirl", "01corridors", "01islands", "01yellow-brick-road"
+    ],
+    "opponents": ["anchors/main-v42", "anchors/main-hunter7"],
+    "sides": ["A", "B"]
+  }
+}

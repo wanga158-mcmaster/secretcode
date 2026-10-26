@@ -1,0 +1,11 @@
+{
+  "_about": "Named local opponent sets for arena exp. These working panels are not qualification certificates. Current-Main qualification requires at least one strict win in the complete 80-game test (40 pool maps, both sides), clean health and a distinct witnessed contribution. See results/regression/current.json and bots/README.md. coverage-candidates preserves unresolved unusual strategies for investigation.",
+  "gauntlet": ["anchors/main-v53", "anchors/main-hunter7", "miscellaneous/compound", "anchors/fundamentals"],
+  "gauntlet-wide": ["anchors/main-v53", "anchors/main-hunter7", "miscellaneous/compound", "anchors/fundamentals",
+                    "heuristics/satisficer", "heuristics/reset-pursuit", "heuristics/learned-circuit",
+                    "heuristics/twin-interlock", "anchors/starter-cpp"],
+  "coverage-candidates": ["distributed/firebrigade"],
+  "regression-qualified-v53": ["miscellaneous/warband"],
+  "regression-qualified-v52": ["heuristics/satisficer", "heuristics/renewal-regret"],
+  "passive": ["anchors/starter-cpp"]
+}

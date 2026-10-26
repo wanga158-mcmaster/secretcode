@@ -1,0 +1,39 @@
+{
+  "method": "Unique embedded native statistics build identifier, editor Version() and timeline ABI, followed by local native smoke games recorded below.",
+  "nativeCli": {
+    "path": ".tools/cambc.exe",
+    "sha256": "982bd2775cb33c3b13eba2ad87d8b61133484c6b765911ee321d3d9f7a76d8a8",
+    "size": 82198016
+  },
+  "engine": {
+    "version": "1.0.3",
+    "buildHash": "fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f",
+    "replayVersion": "0.0.3",
+    "mapEditorWasmSha256": "029ecd290dc400e75418178ec386d72cbd7d9f2fc2a2e451bf594ca23566df48"
+  },
+  "editorAbi": {
+    "versionRaw": 196609,
+    "timelineSnapshotBytes": 40152,
+    "wasmSize": 638472
+  },
+  "nativeGamesRun": 4,
+  "limits": "Four full local smoke games verify native identity and clean health on the stated keys; no all-map health, native/editor equivalence, or strategy strength claim.",
+  "nativeSmoke": {
+    "run": ".cache/arena/runs/vendor-3.0.5",
+    "games": 4,
+    "maps": [
+      "00collision",
+      "00gem_fields"
+    ],
+    "sides": [
+      "A",
+      "B"
+    ],
+    "health": {
+      "faults": 0,
+      "exhausted": 0,
+      "errors": 0,
+      "stalls": 0
+    }
+  }
+}

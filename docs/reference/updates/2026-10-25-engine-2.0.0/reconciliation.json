@@ -1,0 +1,605 @@
+{
+  "schema": "vendor-update-reconciliation/v1",
+  "checkedAtUtc": "2026-10-26T02:07:09.623999+00:00",
+  "status": "corrected-draft-fuel-probe-passed-fresh-full-parity-pending",
+  "website": {
+    "engine": "2.0.0",
+    "engineArtifact": {
+      "path": ".tools/vendor/engine-2.0.0.wasm",
+      "sha256": "d910a59eb8a01e1bc4ad4faed1c1f7ca9258b346f895e36446eb88a4d17f3b18",
+      "size": 642934
+    },
+    "mapCount": 70,
+    "itemCount": 84,
+    "editorManifest": "https://2026a.battlecode.co.uk/service/tools/mapeditor/current.json",
+    "visualiserManifest": "https://2026a.battlecode.co.uk/service/tools/visualiser/current.json",
+    "mapSource": "https://2026a.battlecode.co.uk/api/v1/maps/pool"
+  },
+  "distribution": {
+    "source": "https://2026a.battlecode.co.uk/api/v1/distribution",
+    "version": "4.0.0",
+    "publication": {
+      "id": "3663a58a-96eb-4cf4-bc0b-21bef28ceb39",
+      "version": "4.0.0",
+      "createdAt": "2026-10-25T23:44:29.659Z",
+      "sha256": "03ee5b8aac2b5186cc05fd8e5dfc4fe281010cb4691a4728538d80afe5576c34",
+      "size": 82220032
+    },
+    "actualDownloadedCli": {
+      "path": ".cache/vendor-update-20261025/cambc-4.0.0.exe",
+      "sha256": "03ee5b8aac2b5186cc05fd8e5dfc4fe281010cb4691a4728538d80afe5576c34",
+      "size": 82220032
+    },
+    "stagedCli": {
+      "path": ".cache/vendor-update-20261025/project4/.tools/cambc.exe",
+      "sha256": "03ee5b8aac2b5186cc05fd8e5dfc4fe281010cb4691a4728538d80afe5576c34",
+      "size": 82220032
+    },
+    "installedCli": {
+      "path": ".tools/cambc.exe",
+      "sha256": "982bd2775cb33c3b13eba2ad87d8b61133484c6b765911ee321d3d9f7a76d8a8",
+      "size": 82198016
+    },
+    "stagedSdkHeader": {
+      "path": ".cache/vendor-update-20261025/project4/sdk/cpp/cambc.h",
+      "sha256": "5d175d6af2ccdb12c693db1dbfceefb0c096c7d482efe4e8683de7ea2d4516bf",
+      "size": 232300
+    },
+    "freshVendorSdkIncludesItemFamilyAndGetItemEnum": true
+  },
+  "installedProductionBundleUnchanged": {
+    "path": "docs/reference/current-version.json",
+    "sha256": "1c74c8a5b6039652edb173e050f8dcf6cdab620100b683268371c4ebb3537347",
+    "size": 16523
+  },
+  "candidate": {
+    "path": ".cache/vendor-update-20261025/project4/docs/reference/current-version.json",
+    "sha256": "125b2d9472a61590cb85a5dfb63b3f23efa3cba9c1566aaf3449525e5aa889f4",
+    "size": 25731
+  },
+  "geometry": {
+    "path": ".cache/vendor-update-20261025/project4/maps/geometry.json",
+    "sha256": "2d02bbfa71cb13b3d8801b257854b902c047294b87498e98d8db991647d67967",
+    "size": 1816072
+  },
+  "runtimeMetadata": {
+    "path": ".cache/vendor-update-20261025/catalog4-verified/runtime.json",
+    "sha256": "07f5e5b43c4dc4c8f3466c96354f57941ee271629fa361f525f9015437ac0351",
+    "size": 101306
+  },
+  "handbook": {
+    "rules": {
+      "path": "docs/reference/updates/2026-10-25-engine-2.0.0/GameRules.md",
+      "sha256": "a2d17ff2eb4139994145d207abc537c2a87618143bdb5d38624c0da09d0ec047",
+      "size": 37021
+    },
+    "cppApi": {
+      "path": "docs/reference/updates/2026-10-25-engine-2.0.0/BotAPICpp.md",
+      "sha256": "c47ba0d4872c9675e3eb5e4cab7f0d7ace37a489ea899c144d66689087679779",
+      "size": 231950
+    },
+    "items": {
+      "path": "docs/reference/updates/2026-10-25-engine-2.0.0/item-names.json",
+      "sha256": "e663542f1c571f4b7862c8cc8dd13e2d663981028c24469d9b15ba0fe1f0b0c9",
+      "size": 3455
+    }
+  },
+  "pool": {
+    "path": "docs/reference/updates/2026-10-25-engine-2.0.0/map-pool.json",
+    "sha256": "88b20f5ba44c672ea01089df7f2805067c71a2d9911d20c8044e5038766bac3a",
+    "size": 10853
+  },
+  "publicSources": {
+    "path": "docs/reference/updates/2026-10-25-engine-2.0.0/public-review.json",
+    "sha256": "1f356f4732ba5d10e2143f4d1a9297c86cc5bb96e13675f4d78d8ff30691e304",
+    "size": 11324
+  },
+  "vendorComparison": {
+    "path": ".cache/vendor-update-20261025/comparison.json",
+    "sha256": "bbf74a1f45164667f30a71ca03fe2e033a8ce224706cafdf8a0d2b67f15eff30",
+    "size": 698
+  },
+  "toolChanges": [
+    "arena win floor derives2*current_unique_pool_count;40maps=>80,70maps=>140.",
+    "Runtime metadata capture validates the pinned pool cardinality instead of an unrelated64map cap.",
+    "Catalog-dependent owner-pool and compiled-runner unit tests derive expected cases from the current catalog."
+  ],
+  "validation": {
+    "guardedSdk4RuntimeMetadata": "passed;84items,13champions,6camps,70verifiedmaps;allresourcesfreed;sourcebeforeafterequal",
+    "runner4": "SDK4 import coverage/guarded fixtures and full140key nativeCLI parity passed",
+    "nativeParity": {
+      "identical": 140,
+      "expected": 140,
+      "issues": 0,
+      "inputsUnchanged": true,
+      "coverage": {
+        "maps": 70,
+        "sides": [
+          "A",
+          "B"
+        ],
+        "expected_keys": 140
+      },
+      "processReturncode": 0,
+      "privateJobEmpty": true,
+      "status": "Fresh140pending for correctedrunner; old140 retained only for its explicit originalmetrics"
+    },
+    "nativeEngineIdentity": {
+      "version": "2.0.0",
+      "buildHash": "85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21",
+      "consistentSamples": 140
+    },
+    "geometry": {
+      "schema": "game-map-geometry/4.0.0-v1",
+      "maps": 70,
+      "tests": 12,
+      "advancedRounds": 0,
+      "proof": {
+        "path": ".cache/vendor-update-20261025/tools4-audit/export-result.json",
+        "sha256": "34c686b9ab28c468b19c4110389e0586e6a6e03b45b0100bb9d9b9b5c03000af",
+        "size": 2507
+      },
+      "testsProof": {
+        "path": ".cache/vendor-update-20261025/tools4-audit/test-result.json",
+        "sha256": "4fa6ab3751dec9dbc60b6609accad1167241cc9d455a942f79a517a9f24d5707",
+        "size": 3248
+      }
+    },
+    "candidateManifestWrite": "applied in project4 only after terminal native parity",
+    "productionPublished": false,
+    "draftFuel": {
+      "status": "corrected-runner-and-expensive-draft-probe-pass;fresh140pending",
+      "headers": {
+        "path": "docs/reference/updates/2026-10-25-engine-2.0.0/draft-fuel-headers.json",
+        "sha256": "febccaceec7369aa482fd388f49307420b5cbe8293306564279f0379f3514cdb",
+        "size": 3727
+      },
+      "nativeCli4FirstDraft": 10000000,
+      "historicalRunnerFirstDraft": 1000000,
+      "laterDraft": 100000,
+      "firstGameplay": 200000,
+      "ordinaryGameplay": 100000,
+      "discriminator": {
+        "path": "docs/reference/updates/2026-10-25-engine-2.0.0/draft-fuel-discriminator.json",
+        "sha256": "bce4c5cc29389b198e8ab2aa644b34933cecb15861de2f827d3c793001a68d43",
+        "size": 23893
+      },
+      "correctedRunnerFirstDraft": 10000000,
+      "queryVector": {
+        "path": "docs/reference/updates/2026-10-25-engine-2.0.0/runner-fuel-budgets.json",
+        "sha256": "0be8a51606deb5eebb13996e7cee3bfee0629c6c94a1ea2f4db4f448d761bb64",
+        "size": 63
+      },
+      "bothSidesWorkloadFuel": [
+        2013483,
+        3886,
+        3900,
+        9988
+      ],
+      "oldOneMillionControlCompletes": false
+    }
+  },
+  "blockers": [
+    "Corrected runner passes the discriminating draft-fuel probe on both sides; a fresh full140key nativeCLI/runner parity report is still required.",
+    "SDK4 development-bot full build/test/health and reference qualification remain separately accounted work.",
+    "Cache capacity and old-runtime preservation must be reconciled before canonical publication.",
+    "Main active old-epoch Jobs and canonical tool publication ownership require integrator coordination."
+  ],
+  "limits": [
+    "Native parity compares outcome, rounds, gems and both teams recorded fault/error/exhaustion counts on the exact70map/both-side keys. No universal fuel equality, health/stalls or strategic-strength claim.",
+    "CanonicalCLI/SDK/maps/current-version remain unactivated by this staged metadata publication.",
+    "OldSDK3/engine1.0.3/40map results and modules do not qualify SDK4/engine2/70map bots; Main53 source rebuild here is an explicit different executable epoch.",
+    "Generated train/heldout/fresh sets remain fitted to the historical40map pool until separately regenerated and validated.",
+    "New official patch reveals a draft fuel change missed by the narrow140comparison; this challenges the validation design without rewriting its actual observations. Capture patch/handbook disagreement remains unresolved."
+  ],
+  "history": [
+    {
+      "atUtc": "2026-10-25T23:03:12.220734+00:00",
+      "status": "candidate-staged-native-distribution-blocked",
+      "distribution": {
+        "source": "https://2026a.battlecode.co.uk/api/v1/distribution",
+        "version": "3.0.5",
+        "actualDownloadedCli": {
+          "path": ".cache/vendor-update-20261025/cambc-vendor.exe",
+          "sha256": "982bd2775cb33c3b13eba2ad87d8b61133484c6b765911ee321d3d9f7a76d8a8",
+          "size": 82198016
+        },
+        "installedCli": {
+          "path": ".tools/cambc.exe",
+          "sha256": "982bd2775cb33c3b13eba2ad87d8b61133484c6b765911ee321d3d9f7a76d8a8",
+          "size": 82198016
+        },
+        "freshInitSdkAndCmakeExactlyMatchInstalled": true
+      },
+      "candidate": {
+        "path": ".cache/vendor-update-20261025/project/docs/reference/current-version.json",
+        "sha256": "67d120a8796f0b400c2ba10e98dedb918e6675566d40e8f313aba8c7c1641085",
+        "size": 16779
+      },
+      "validation": {
+        "winFloorTests": 16,
+        "ownerPoolTests": 8,
+        "catalogSchedulingTests": 1,
+        "guardedRuntimeMetadata": "passed;84items,13champions,6camps",
+        "geometry": "70mapcontexts;allresourcesfreed;0advancedrounds",
+        "nativeMatches": 0
+      },
+      "blockers": [
+        "Public native CLI download still3.0.5/engine1.0.3; no engine selector exposed.",
+        "Fresh vendor SDK is unchanged3.0.5 and lacks the current documented item_family/get_item_enum API.",
+        "Full native CLI versus fastrun2.0.0 parity on all70maps cannot yet be established."
+      ],
+      "limits": [
+        "No production2.0.0 engine activation, nativeCLIparity or newSDKAPI compatibility claim.",
+        "Old1.0.3/40map results do not qualify2.0.0/70map coverage.",
+        "Generated train/heldout sets remain fitted to the previous40map pool until separately regenerated and validated.",
+        "Staged metadata validates oldSDK ABI field layouts and the exact official84item IDs;it does not create an updated vendorSDK."
+      ]
+    },
+    {
+      "atUtc": "2026-10-26T01:12:59.805459+00:00",
+      "status": "sdk4-staged-validation-pending",
+      "validation": {
+        "priorChecks": "Earlier test counts are retained in history.",
+        "guardedSdk4RuntimeMetadata": "passed;84items,13champions,6camps,70verifiedmaps;allresourcesfreed;sourcebeforeafterequal",
+        "runner4": "SDK4 import coverage and extracted host/runtime fixtures passed; see runnerAudit",
+        "nativeParity": "full140keys running; no terminal verdict supplied",
+        "nativeEngineBuildHash": "pending actual native statistics; not replaced with CLI or WASM hash",
+        "candidateManifestWrite": "held until parity terminal to preserve its input closure",
+        "productionPublished": false
+      },
+      "blockers": [
+        "Full70map/both-side nativeCLI4 versus staged fastrun parity has not yet been reported terminal.",
+        "Native engine build identity and replay-profile binding await retained actual statistics.",
+        "New SDK4 bot build/test/health and reference qualification must be accounted separately; old epoch results do not transfer."
+      ]
+    },
+    {
+      "atUtc": "2026-10-26T01:23:23.410127+00:00",
+      "status": "sdk4-staged-native-parity-passed-publication-pending",
+      "validation": {
+        "guardedSdk4RuntimeMetadata": "passed;84items,13champions,6camps,70verifiedmaps;allresourcesfreed;sourcebeforeafterequal",
+        "runner4": "SDK4 import coverage/guarded fixtures and full140key nativeCLI parity passed",
+        "nativeParity": {
+          "identical": 140,
+          "expected": 140,
+          "issues": 0,
+          "inputsUnchanged": true,
+          "coverage": {
+            "maps": 70,
+            "sides": [
+              "A",
+              "B"
+            ],
+            "expected_keys": 140
+          },
+          "processReturncode": 0,
+          "privateJobEmpty": true,
+          "status": "Original140narrowmetrics pass retained; correctedrunner/fuelprobe/fresh140pending"
+        },
+        "nativeEngineIdentity": {
+          "version": "2.0.0",
+          "buildHash": "85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21",
+          "consistentSamples": 140
+        },
+        "geometry": {
+          "schema": "game-map-geometry/4.0.0-v1",
+          "maps": 70,
+          "tests": 12,
+          "advancedRounds": 0,
+          "proof": {
+            "path": ".cache/vendor-update-20261025/tools4-audit/export-result.json",
+            "sha256": "34c686b9ab28c468b19c4110389e0586e6a6e03b45b0100bb9d9b9b5c03000af",
+            "size": 2507
+          },
+          "testsProof": {
+            "path": ".cache/vendor-update-20261025/tools4-audit/test-result.json",
+            "sha256": "4fa6ab3751dec9dbc60b6609accad1167241cc9d455a942f79a517a9f24d5707",
+            "size": 3248
+          }
+        },
+        "candidateManifestWrite": "applied in project4 only after terminal native parity",
+        "productionPublished": false,
+        "draftFuel": {
+          "status": "mismatch-confirmed;corrected-runner-probe-and-fresh140-pending",
+          "headers": {
+            "path": "docs/reference/updates/2026-10-25-engine-2.0.0/draft-fuel-headers.json",
+            "sha256": "febccaceec7369aa482fd388f49307420b5cbe8293306564279f0379f3514cdb",
+            "size": 3727
+          },
+          "nativeCli4FirstDraft": 10000000,
+          "historicalRunnerFirstDraft": 1000000,
+          "laterDraft": 100000,
+          "firstGameplay": 200000,
+          "ordinaryGameplay": 100000
+        }
+      },
+      "blockers": [
+        "SDK4 development-bot full build/test/health and reference qualification remain separately accounted work.",
+        "Cache capacity and old-runtime preservation must be reconciled before canonical publication.",
+        "Main active old-epoch Jobs and canonical tool publication ownership require integrator coordination."
+      ],
+      "candidate": {
+        "path": ".cache/vendor-update-20261025/project4/docs/reference/current-version.json",
+        "sha256": "cca27bd72df57c57559494c575225e31bd6fbbb4764b8fb98debd555934608db",
+        "size": 19791
+      }
+    },
+    {
+      "atUtc": "2026-10-26T01:53:45.098371+00:00",
+      "status": "draft-fuel-mismatch-revalidation-pending",
+      "validation": {
+        "guardedSdk4RuntimeMetadata": "passed;84items,13champions,6camps,70verifiedmaps;allresourcesfreed;sourcebeforeafterequal",
+        "runner4": "SDK4 import coverage/guarded fixtures and full140key nativeCLI parity passed",
+        "nativeParity": {
+          "identical": 140,
+          "expected": 140,
+          "issues": 0,
+          "inputsUnchanged": true,
+          "coverage": {
+            "maps": 70,
+            "sides": [
+              "A",
+              "B"
+            ],
+            "expected_keys": 140
+          },
+          "processReturncode": 0,
+          "privateJobEmpty": true,
+          "status": "Fresh140pending for correctedrunner; old140 retained only for its explicit originalmetrics"
+        },
+        "nativeEngineIdentity": {
+          "version": "2.0.0",
+          "buildHash": "85aa7167b44db7cea97509f55e997750520e33d644e9f4f90d6128c50eba1d21",
+          "consistentSamples": 140
+        },
+        "geometry": {
+          "schema": "game-map-geometry/4.0.0-v1",
+          "maps": 70,
+          "tests": 12,
+          "advancedRounds": 0,
+          "proof": {
+            "path": ".cache/vendor-update-20261025/tools4-audit/export-result.json",
+            "sha256": "34c686b9ab28c468b19c4110389e0586e6a6e03b45b0100bb9d9b9b5c03000af",
+            "size": 2507
+          },
+          "testsProof": {
+            "path": ".cache/vendor-update-20261025/tools4-audit/test-result.json",
+            "sha256": "4fa6ab3751dec9dbc60b6609accad1167241cc9d455a942f79a517a9f24d5707",
+            "size": 3248
+          }
+        },
+        "candidateManifestWrite": "applied in project4 only after terminal native parity",
+        "productionPublished": false,
+        "draftFuel": {
+          "status": "corrected-runner-and-expensive-draft-probe-pass;fresh140pending",
+          "headers": {
+            "path": "docs/reference/updates/2026-10-25-engine-2.0.0/draft-fuel-headers.json",
+            "sha256": "febccaceec7369aa482fd388f49307420b5cbe8293306564279f0379f3514cdb",
+            "size": 3727
+          },
+          "nativeCli4FirstDraft": 10000000,
+          "historicalRunnerFirstDraft": 1000000,
+          "laterDraft": 100000,
+          "firstGameplay": 200000,
+          "ordinaryGameplay": 100000,
+          "discriminator": {
+            "path": "docs/reference/updates/2026-10-25-engine-2.0.0/draft-fuel-discriminator.json",
+            "sha256": "bce4c5cc29389b198e8ab2aa644b34933cecb15861de2f827d3c793001a68d43",
+            "size": 23893
+          },
+          "correctedRunnerFirstDraft": 10000000,
+          "queryVector": {
+            "path": "docs/reference/updates/2026-10-25-engine-2.0.0/runner-fuel-budgets.json",
+            "sha256": "0be8a51606deb5eebb13996e7cee3bfee0629c6c94a1ea2f4db4f448d761bb64",
+            "size": 63
+          },
+          "bothSidesWorkloadFuel": [
+            2013483,
+            3886,
+            3900,
+            9988
+          ],
+          "oldOneMillionControlCompletes": false
+        }
+      },
+      "blockers": [
+        "Corrected runner first-draft fuel allocation requires a discriminating native/runner probe and fresh140key parity; original narrowmetrics panel does not waive the mismatch.",
+        "SDK4 development-bot full build/test/health and reference qualification remain separately accounted work.",
+        "Cache capacity and old-runtime preservation must be reconciled before canonical publication.",
+        "Main active old-epoch Jobs and canonical tool publication ownership require integrator coordination."
+      ],
+      "candidate": {
+        "path": ".cache/vendor-update-20261025/project4/docs/reference/current-version.json",
+        "sha256": "865ea0d8b319a06e3d72a217277a6360011b966b13e8dddcaf4ff2e6392c0f3b",
+        "size": 23070
+      }
+    }
+  ],
+  "candidateManifestMetadataReconciliationPending": false,
+  "preparedManifest": {
+    "path": ".cache/economic-next/vendor4-current-version.pending.json",
+    "sha256": "125b2d9472a61590cb85a5dfb63b3f23efa3cba9c1566aaf3449525e5aa889f4",
+    "size": 25731
+  },
+  "preparedManifestPlan": {
+    "path": ".cache/economic-next/vendor4-manifest-preparation.json",
+    "sha256": "03ce92cdbba991cb1e809e89e6b6c8357bd66daa01d21b10691a5085d99dd57a",
+    "size": 18463
+  },
+  "runnerAudit": {
+    "path": ".cache/vendor-update-20261025/runner4-audit/summary.json",
+    "sha256": "807cb3071a41f28d5f294a5c643d46d10bef2a7db25f576dfe81d2447f80384b",
+    "size": 7323
+  },
+  "nativeIdentity": {
+    "path": ".cache/vendor-update-20261025/project4/docs/reference/engine-identity.json",
+    "sha256": "48f897c25c42f210ba5c6237c21669edbd684c0be2b60992acd797f45ac97a63",
+    "size": 2977
+  },
+  "replayProfileRegistry": {
+    "path": ".cache/vendor-update-20261025/project4/tools/replay-profiles.json",
+    "sha256": "0adc33a1f3aa360a355ec73905447ae346b469b7fab43f067aab6ace9c112108",
+    "size": 3345
+  },
+  "nativeParity": {
+    "path": ".cache/vendor-update-20261025/parity4-full-1792976800535903500/parity.json",
+    "sha256": "82ddd480df1a1f95bc086a687aad285f4096a4cd46bb5a05c022f06fd44471a7",
+    "size": 18529
+  },
+  "nativeParityProcess": {
+    "path": ".cache/vendor-update-20261025/parity4-full-1792976800535903500/process-end.json",
+    "sha256": "363348f94d40e4a1397165192d1c0d2d05f890632914e1efe3dc995d89154122",
+    "size": 4035
+  },
+  "preservedPreviousBundle": {
+    "path": ".tools/vendor/bundles/cambc-3.0.5-engine-1.0.3-1c74c8a5b603/preservation.json",
+    "sha256": "3b11ef64fe526f02ff329fc8c6e730f81194e8bc86bb1119ddf27f37eda1806c",
+    "files": 147,
+    "bytes": 125138158,
+    "liveInputsChanged": false
+  },
+  "integrationDecisions": [
+    {
+      "observation": "The website engine2 preceded native CLI4; the later actual CLI4 download and fresh SDK4 expose 84 items and a new capture-state import.",
+      "interpretation": "The temporary SDK3 bridge is not a native SDK4 oracle.",
+      "decision": "Park the legacy bridge without running a bot game through it; use the real CLI4/SDK4 bundle.",
+      "wouldChangeDecision": "A reproducible incompatibility in the pinned native bundle requires another isolated reconciliation, not guessed ABI compatibility."
+    },
+    {
+      "observation": "Pinned native CLI4 and rebuilt fastrun match 140/140 keys on 70 pool maps, both sides; inputs unchanged and 140 native engine identities consistent.",
+      "interpretation": "The runner is validated for the compared outcome, round, gem and recorded health-count fields on that panel.",
+      "assumption": "Subsequent games use these same engine/runner/library bytes and SDK4-built subjects.",
+      "decision": "Permit new-epoch regression work with explicit source/runtime bindings; inherit no old-epoch win qualification.",
+      "wouldChangeDecision": "Any changed physical input or paired native discrepancy suspends this runner claim. This panel establishes no universal fuel equality, stall safety or bot strength."
+    },
+    {
+      "observation": "SDK4 exposes item and passive states that some old pure models cannot represent, including five Adaptive build failures and strict Decision fixture failures.",
+      "interpretation": "Successful compilation alone cannot establish a complete strategic observation or forecast.",
+      "decision": "Repair catalog bounds and explicitly refuse unsupported forecasts while preserving each policy commitment; retain native health and model coverage as separate gaps.",
+      "wouldChangeDecision": "An exact SDK4 mechanism witness and tested model of a new passive can replace an explicit unknown; a win alone cannot."
+    },
+    {
+      "observation": "Source-only snapshot keys collide across SDK epochs; active old-runtime users still reference the shared installation.",
+      "interpretation": "A direct rebuild can overwrite retained old inputs even though source identity is unchanged.",
+      "decision": "Preserve the previous bundle, stage separate cache storage with shared coordination, and hold publication until old controllers are quiescent and the merged tools are tested.",
+      "wouldChangeDecision": "Publication requires verified preservation, terminal-controller coordination and the tested merged cache path; elapsed time is not evidence of quiescence."
+    }
+  ],
+  "coordinationNote": {
+    "observation": "A staged eight-file lock-path merge briefly preceded the native-controller stop barrier and was restored to exact preimages.",
+    "evidence": ".cache/vendor-update-20261025/cache-epoch/project4-restored.json",
+    "buildControllerAudit": ".cache/vendor-update-20261025/build4-audit/tool-transient-window.json",
+    "decision": "Require explicit terminal-controller clearance before the next coordination-path merge; retain physical-input and source evidence rather than infer a new game result."
+  },
+  "patchNotes": {
+    "path": "docs/reference/updates/2026-10-25-engine-2.0.0/patch-2.0.0.json",
+    "sha256": "e565e367a69ed72047e84a66fad2a6eaacca5ba7454932ab4e01bbb27e965c63",
+    "size": 16068
+  },
+  "patchIndex": {
+    "path": "docs/reference/updates/2026-10-25-engine-2.0.0/patch-notes.json",
+    "sha256": "1dc6eb38eb97d8ed570326dd3b109c98cbb2d8b5cd31d670d4a1bbc470069a81",
+    "size": 43750
+  },
+  "draftFuelHeaders": {
+    "path": "docs/reference/updates/2026-10-25-engine-2.0.0/draft-fuel-headers.json",
+    "sha256": "febccaceec7369aa482fd388f49307420b5cbe8293306564279f0379f3514cdb",
+    "size": 3727
+  },
+  "publicRefresh": {
+    "summary": {
+      "path": ".cache/vendor-update-20261025/public-refresh-1792979163493757300/summary.json",
+      "sha256": "e16de6e6f4743c7d7b3255e00fc999d03bd19d97ec3db8c97e3a68f548e5222b",
+      "size": 47087
+    },
+    "distribution": {
+      "path": ".cache/vendor-update-20261025/public-refresh-1792979163493757300/distribution.json",
+      "sha256": "9437f95817bdf3f6649583f7618cfe5b993d41b39800c24805592b4462ed5093",
+      "size": 2520
+    },
+    "mapeditor": {
+      "path": ".cache/vendor-update-20261025/public-refresh-1792979163493757300/mapeditor.json",
+      "sha256": "66f1a394ba693111d505b09d1db337dde2fc0ebb9d1f31ed135767054d60a133",
+      "size": 154
+    },
+    "visualiser": {
+      "path": ".cache/vendor-update-20261025/public-refresh-1792979163493757300/visualiser.json",
+      "sha256": "69c982894669fbf8bc422bf6feb65d2290b6e6dee043438cceff74032b177aa5",
+      "size": 155
+    },
+    "unchangedVendorAssets": {
+      "distributionEqual": true,
+      "editorManifestEqual": true,
+      "visualiserManifestEqual": true
+    }
+  },
+  "localRunner": {
+    "source": {
+      "path": "tools/fastrun/fastrun.cpp",
+      "sha256": "33676bc2f145c14b94a942403ffa4f0e1782d741a0b328de24d3b0789ddff8b0",
+      "size": 145402
+    },
+    "executable": {
+      "path": ".tools/fastrun/fastrun.exe",
+      "sha256": "8311358c4d98725cec2201edd5f1cb1af7ba8e3b6195aa6ae20517137abb6c11",
+      "size": 1891840
+    },
+    "sharedRuntime": {
+      "path": ".tools/fastrun/wasmtime.dll",
+      "sha256": "239904b9d571cf1c3baf8cec5278f577bf87090b63288efb859f3248f9bfa1d1",
+      "size": 36351416
+    },
+    "fuelBudgets": {
+      "query": {
+        "path": "docs/reference/updates/2026-10-25-engine-2.0.0/runner-fuel-budgets.json",
+        "sha256": "0be8a51606deb5eebb13996e7cee3bfee0629c6c94a1ea2f4db4f448d761bb64",
+        "size": 63
+      },
+      "values": [
+        10000000,
+        100000,
+        200000,
+        100000,
+        10000000,
+        100000,
+        200000,
+        100000
+      ],
+      "authority": "Native CLI4 retained fuel headers and actual callback fuel queries; local --fuel-budgets query/execution/header share one constexpr implementation."
+    },
+    "validation": {
+      "expensiveDraftDiscriminator": {
+        "path": "docs/reference/updates/2026-10-25-engine-2.0.0/draft-fuel-discriminator.json",
+        "sha256": "bce4c5cc29389b198e8ab2aa644b34933cecb15861de2f827d3c793001a68d43",
+        "size": 23893
+      },
+      "firstDraftWorkloadFuel": 2013483,
+      "bothSides": true,
+      "oldOneMillionControlCompletes": false,
+      "freshFullPoolParity": "pending"
+    },
+    "measuredPhysicalInputs": {
+      "source": {
+        "path": ".cache/vendor-update-20261025/project4/tools/fastrun/fastrun.cpp",
+        "sha256": "33676bc2f145c14b94a942403ffa4f0e1782d741a0b328de24d3b0789ddff8b0",
+        "size": 145402
+      },
+      "executable": {
+        "path": ".cache/vendor-update-20261025/project4/.tools/fastrun/fastrun.exe",
+        "sha256": "8311358c4d98725cec2201edd5f1cb1af7ba8e3b6195aa6ae20517137abb6c11",
+        "size": 1891840
+      },
+      "sharedRuntime": {
+        "path": ".cache/vendor-update-20261025/project4/.tools/fastrun/wasmtime.dll",
+        "sha256": "239904b9d571cf1c3baf8cec5278f577bf87090b63288efb859f3248f9bfa1d1",
+        "size": 36351416
+      }
+    }
+  },
+  "draftFuelDiscriminator": {
+    "path": ".cache/vendor-update-20261025/runner4-audit/fuel4/result.json",
+    "sha256": "bce4c5cc29389b198e8ab2aa644b34933cecb15861de2f827d3c793001a68d43",
+    "size": 23893
+  }
+}

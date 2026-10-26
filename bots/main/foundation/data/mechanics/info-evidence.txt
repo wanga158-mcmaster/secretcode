@@ -1,0 +1,113 @@
+# Info probe evidence (engine 1.0.2 native games, release builds). Probe: bots/contenders/_probe-info; maps: data/mechanics/maps/info-*.json
+# Runs: .cache/contenders/mechanics/runs/info-2 (observe), info-3 (wards, order). Lines are verbatim probe logs; E<n> = cambc::error_code.
+
+## Observe (info-observe, run info-2)
+P A r6 obs-hid h3 name=marcella team=1 alive=1 vis=0 pos=E97 hp=E97/E97 str=E97 foc=E97 rng=E97 st=E97 chan=E97 cd=E97,E97 buffs=buffs-err:engine error 97: Unit is not in vision. restr=E97 gems=E97 items=E97 cons=E97 gold(raw)=E105 prio=E97 vtiles=E97
+P A r48 obs-vis h3 name=marcella team=1 alive=1 vis=1 pos=16,17 hp=1200.00/1200.00 str=45.00 foc=60.00 rng=1 st=MAC/2105 chan=E115 cd=0,0 buffs= restr=0 gems=7 items=none cons=0,0 gold(raw)=E105 prio=0/0 vtiles=289
+P A r48 obs-vis h5 name=tavi team=1 alive=1 vis=1 pos=16,15 hp=900.00/900.00 str=45.00 foc=110.00 rng=3 st=MAC/2073 chan=E115 cd=0,0 buffs= restr=0 gems=0 items=none cons=0,0 gold(raw)=E105 prio=0/0 vtiles=289
+P A r49 obs-vis h4 name=varg team=1 alive=1 vis=1 pos=20,9 hp=1000.00/1000.00 str=45.00 foc=100.00 rng=1 st=MAC/2073 chan=E115 cd=0,0 buffs= restr=0 gems=0 items=0x1; cons=1,0 gold(raw)=E105 prio=0/0 vtiles=289
+P A r49 obs-vis h5 name=tavi team=1 alive=1 vis=1 pos=16,15 hp=900.00/900.00 str=45.00 foc=110.00 rng=3 st=MAC/2073 chan=E115 cd=0,0 buffs= restr=0 gems=0 items=none cons=0,0 gold(raw)=E105 prio=0/0 vtiles=289
+P A r58 obs-vis h4 name=varg team=1 alive=1 vis=1 pos=16,13 hp=1000.00/1000.00 str=45.00 foc=100.00 rng=1 st=/1 chan=E115 cd=0,5 buffs=stun1,shield2:96.000000, restr=63 gems=0 items=0x1; cons=1,0 gold(raw)=E105 prio=0/0 vtiles=289
+P A r64 obs-vis h4 name=varg team=1 alive=1 vis=1 pos=16,13 hp=1000.00/1000.00 str=45.00 foc=100.00 rng=1 st=recall,/3 chan=3 cd=0,0 buffs= restr=0 gems=0 items=0x1; cons=1,0 gold(raw)=E105 prio=0/0 vtiles=289
+P A r67 obs-vis h4 name=varg team=1 alive=1 vis=1 pos=16,13 hp=1000.00/1000.00 str=45.00 foc=100.00 rng=1 st=recall,/3 chan=0 cd=0,0 buffs= restr=0 gems=0 items=0x1; cons=1,0 gold(raw)=E105 prio=0/0 vtiles=289
+P A r67 obs-vis h5 name=tavi team=1 alive=1 vis=1 pos=16,15 hp=900.00/900.00 str=45.00 foc=110.00 rng=3 st=MAC/2073 chan=E115 cd=0,0 buffs= restr=0 gems=0 items=none cons=0,0 gold(raw)=E105 prio=0/0 vtiles=289
+P A r84 obs-vis h3 name=marcella team=1 alive=1 vis=1 pos=16,17 hp=1200.00/1200.00 str=45.00 foc=60.00 rng=1 st=MAC/2105 chan=E115 cd=0,0 buffs= restr=0 gems=0 items=none cons=0,0 gold(raw)=E105 prio=0/0 vtiles=289
+P A r84 obs-vis h4 name=varg team=1 alive=1 vis=1 pos=16,13 hp=1000.00/1000.00 str=45.00 foc=100.00 rng=1 st=tp,/4129 chan=2 cd=0,0 buffs= restr=0 gems=0 items=0x1; cons=0,0 gold(raw)=E105 prio=0/0 vtiles=289
+P A r50 op 4 engine error 26 An available attack cannot be reset.
+P A r21 camps group0 gold=40 gems=0 maxresp=50 state=reward [gold@4,9 vis=0 state=dead hp=E97 inv=1 has=0 awakemask=0 asleepmask=0] [gold@4,10 vis=0 state=dead hp=E97 inv=1 has=0 awakemask=0 asleepmask=0]
+P A r21 camps group2 gold=0 gems=7 maxresp=50 state=E97 [gem@4,19 vis=0 state=E97 hp=E97 inv=0 has=0 awakemask=0 asleepmask=0]
+P A r30 camps group0 gold=40 gems=0 maxresp=50 state=respawning50 [gold@4,9 vis=0 state=dead hp=E97 inv=1 has=0 awakemask=0 asleepmask=0] [gold@4,10 vis=0 state=dead hp=E97 inv=1 has=0 awakemask=0 asleepmask=0]
+P A r30 camps group2 gold=0 gems=7 maxresp=50 state=E97 [gem@4,19 vis=0 state=E97 hp=E97 inv=0 has=0 awakemask=0 asleepmask=0]
+P A r36 camps group0 gold=40 gems=0 maxresp=50 state=respawning44 [gold@4,9 vis=0 state=dead hp=E97 inv=1 has=0 awakemask=0 asleepmask=0] [gold@4,10 vis=0 state=dead hp=E97 inv=1 has=0 awakemask=0 asleepmask=0]
+P A r36 camps group2 gold=0 gems=7 maxresp=50 state=respawning36 [gem@4,19 vis=0 state=dead hp=E97 inv=1 has=0 awakemask=0 asleepmask=0]
+
+## Wards, bushes, vision timing (info-wards, runs info-2 and info-3)
+P A r14 hyp champion vision at 15,12: n=285 maxCheb=8 maxE2=128 corner(8,8)=1 edge(8,0)=1 (9,0)=0
+P A r14 hyp ward vision at 15,12: n=169 maxCheb=6 maxE2=72 corner(6,6)=1 edge(6,0)=1 (7,0)=0
+P A r15 wardtry diag(2,2) at 8,10 -> true cooldown=10 wards=8,10;
+P A r16 wardtry bush-while-recharging at 6,10 -> E62 cooldown=9 wards=8,10;
+P A r24 O occupancy=15,2+tavi;13,5+varg;17,2+vesper; handlepos=17,2
+P A r24 O moved=1 to 11,4 vision before=211 after=214 same=0 self_after=214
+P A r25 wardtry own-ward-tile at 8,10 -> E117 cooldown=0 wards=8,10;
+P A r25 wardtry own-tile at 6,8 -> true cooldown=10 wards=6,8;
+P A r25 O occupancy=14,3+tavi;12,6+varg;17,2+vesper; handlepos=17,2
+P A r26 O occupancy=13,4+tavi;15,4+vesper;11,7+varg; handlepos=15,4
+P A r27 O occupancy=15,4+vesper;12,5+tavi;10,8+varg; handlepos=15,4
+P A r28 O occupancy=15,4+vesper;11,6+tavi;9,9+varg; handlepos=15,4
+P A r29 O occupancy=15,4+vesper;10,7+tavi;8,10+varg; handlepos=15,4
+P A r30 O occupancy=15,4+vesper;7,11+varg;9,8+tavi; handlepos=15,4
+P A r35 wardtry unseen-bush at 6,10 -> true cooldown=10 wards=6,10;
+P A r45 wardtry enemy-occupied at 7,10 -> true cooldown=10 wards=7,10;
+P A r62 bush tavi at 13,19 inv(hide)=0 has(hide)=0 Mvis=0
+P A r62 bush varg at 13,21 inv(hide)=1 has(hide)=1 Mvis=1
+P A r62 bush vesper at 16,21 inv(hide)=0 has(hide)=0 Mvis=0
+P A r63 vision all=300 self.visible_tiles=300 hyp_own=207 wards=7,10 inv(ward)=1 inv(ward-3y)=1 ward&all=147/147 all==hyp|ward:1;
+P A r64 vision all=300 self.visible_tiles=300 hyp_own=207 wards=7,10 inv(ward)=1 inv(ward-3y)=1 ward&all=147/147 all==hyp|ward:1;
+P A r64 attack hidden M -> E42
+P A r64 cast stun at hidden M -> E30
+P A r66 move onto hidden -> false can_move=1
+P A r66 after: inv=1 has=1
+P A r66 move again (to 12,19) -> true
+P A r67 next round: inv(hide)=0 has=0
+P B r3 wardtry own-spawn at 29,14 -> true cooldown=10 wards=29,14;
+P B r34 wardtry enemy-spawn at 2,14 -> E64 cooldown=0 wards=
+P B r35 wardtry enemy-spawn at 2,14 -> E64 cooldown=0 wards=
+P B r36 wardtry enemy-spawn at 2,14 -> E64 cooldown=0 wards=
+P B r37 wardtry plain-near-enemy-spawn at 5,12 -> true cooldown=10 wards=5,12;
+P B r62 M at 14,20 sees enemies: 13,19;13,21;
+P A r63 ward share: tavi at 13,19 inv(7,7)=1 sees ally ward=1
+P A r63 ward share: varg at 13,21 inv(7,7)=0 sees ally ward=0
+P A r63 ward share: vesper at 16,21 inv(7,7)=0 sees ally ward=0
+P B r46 enemy sees wards: 29,14 team=0 owner=3 life=inf;7,10 team=1 owner=0 life=inf;5,12 team=0 owner=4 life=inf; enemy-ward-mask n=1
+P B r47 enemy sees wards: 29,14 team=0 owner=3 life=inf;7,10 team=1 owner=0 life=inf;5,12 team=0 owner=4 life=inf; enemy-ward-mask n=1
+
+## Order, memory, death (info-order, runs info-2 and info-3)
+P A draft pick0 snapshot size=1024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  fuel=982601
+P A draft pick1 snapshot size=1024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  fuel=92766
+P A draft pick2 snapshot size=1024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  fuel=92772
+P A r2 draft memory size=1024 bytes: 100 101 102 103 14 15 16 17 18 19 20 21 22 23 24 25 0 0 0 0 
+P A r3 draft assign in play -> E18
+P A r5 raw draft submit in play -> E18
+P A r7 raw shared oob write -> E19
+P A r7 raw shared oob read -> E19
+P A r9 fuel: has_champion=20 throwing position()=4276 (E97) raw sdk_champion code 97=26
+P B r2 draft memory size=1024 bytes: 100 101 102 103 114 115 116 117 118 119 120 121 122 123 124 125 0 0 0 0 
+P A r1 shared before write: 0 0 0 0 0 0 0 0 
+P A r1 start cassi
+P A r1 shared before write: 1 0 0 0 0 0 0 0 
+P A r1 start issac
+P A r1 shared before write: 1 1 0 0 0 0 0 0 
+P A r1 start vesper
+P A r1 shared before write: 1 1 1 0 0 0 0 0 
+P A r1 start ryth
+P A r2 shared before write: 2 2 2 1 0 0 0 0 
+P A r2 start ryth
+P A r2 shared before write: 1 1 1 1 0 0 0 0 
+P A r2 start cassi
+P A r2 shared before write: 2 1 1 1 0 0 0 0 
+P A r2 start issac
+P A r2 shared before write: 2 2 1 1 0 0 0 0 
+P A r2 start vesper
+P B r1 shared before write: 0 0 0 0 0 0 0 0 
+P B r1 shared before write: 0 0 129 0 0 0 0 0 
+P B r1 shared before write: 0 0 129 129 0 0 0 0 
+P A r25 ally h1 name=issac team=0 alive=1 vis=1 pos=5,13 hp=900.00/900.00 str=40.00 foc=100.00 rng=1 st=MAC/2105 chan=E115 cd=0,0 buffs= restr=0 gems=0 items=none cons=0,0 gold(raw)=0 prio=0/0 vtiles=238
+P A r25 ally h2 name=vesper team=0 alive=1 vis=1 pos=5,15 hp=1000.00/1000.00 str=55.00 foc=100.00 rng=3 st=MAC/2105 chan=E115 cd=0,0 buffs= restr=0 gems=0 items=none cons=0,0 gold(raw)=0 prio=0/0 vtiles=238
+P B r25 ally h4 name=vesper team=0 alive=1 vis=0 pos=E97 hp=E97/E97 str=E97 foc=E97 rng=E97 st=E97 chan=E97 cd=E97,E97 buffs=buffs-err:engine error 97: Unit is not in vision. restr=E97 gems=E97 items=E97 cons=E97 gold(raw)=0 prio=E97 vtiles=E97
+P B r19 dead set_priority -> ok
+P B r20 dead buy item -> E52; buy lock -> E59
+P B r21 dead move -> E21; ward -> E63
+P B r22 dead recall -> E44; cast -> E26; attack -> E40
+P B r23 dead pos=-1,-1 hp=0.00 st=dead, vision n=0 wardcd=0 prio=7/7 canbuy=0 cansell=0
+P B r78 respawned at 32,13 hp=650.0 (died r18)
+### replay: turn order 4 v 3 bodies (info-1), cross-team wolf tie (info-3), linked death (info-2)
+r5 c0:cassiA r5 c4:vesperB r5 c1:issacA r5 c5:rythB r5 c2:vesperA r5 c6:stellarB r5 c3:rythA r6 c4:vesperB r6 c0:cassiA r6 c5:rythB r6 c1:issacA r6 c6:stellarB r6 c2:vesperA r6 c3:rythA 
+r20 champs Attack c0:cassiA 13,22->16,22 | m0 hp 1350->1320
+r21 camps Attack m0:wolf@16,22 16,22->13,22 | c0 hp 600->580
+r22 camps Attack m0:wolf@16,22 16,22->19,22 | c4 hp 1000->980
+r23 camps Attack m0:wolf@16,22 16,22->13,22 | c0 hp 580->560
+r24 camps Attack m0:wolf@16,22 16,22->19,22 | c4 hp 980->960
+r21 c0:cassiA r21 c4:vesperB r21 c1:issacA r21 c5:rythB r21 c2:vesperA r21 c6:stellarB r21 c3:rythA r22 c4:vesperB r22 c0:cassiA r22 c5:rythB r22 c1:issacA r22 c6:stellarB r22 c2:vesperA r22 c3:rythA 
+r50 camps Attack m0:wolf@16,22 16,22->13,22 | c0 hp 20->0; c0 pos 13,22->-1,-1; c0 alive 1->0; c1 hp 900->0; c1 pos 5,13->-1,-1; c1 alive 1->0
+r18 camps Attack m2:golem@26,4 26,4->26,7 | c6 hp 50->0; c6 pos 26,7->-1,-1; c6 alive 1->0
+r78 turnStart Respawn c6:stellarB 0,0->0,0 | c6 hp 0->650; c6 pos -1,-1->32,13; c6 alive 0->1

@@ -1,0 +1,33 @@
+{
+  "schema": "optimizer-portfolio/v1",
+  "description": "Independent first campaigns for three machines. Each engine uses its registry default input. Runtime/iteration caps stop real work; they do not pad runtime. Start a selected worker with run.cmd -Portfolio examples/portfolio-three-workers.json -Worker A. No shared database, cores or output directories are reserved.",
+  "workers": [
+    {
+      "id": "A",
+      "engine": "c2",
+      "hours": 24,
+      "iterations": 1000,
+      "threads": 1,
+      "seed": 101,
+      "out": "results/contenders/optimization/worker-a-c2"
+    },
+    {
+      "id": "B",
+      "engine": "c1",
+      "hours": 24,
+      "iterations": 1000,
+      "threads": 1,
+      "seed": 202,
+      "out": "results/contenders/optimization/worker-b-c1"
+    },
+    {
+      "id": "C",
+      "engine": "c4",
+      "hours": 24,
+      "iterations": 1000000,
+      "threads": 1,
+      "seed": 303,
+      "out": "results/contenders/optimization/worker-c-c4"
+    }
+  ]
+}

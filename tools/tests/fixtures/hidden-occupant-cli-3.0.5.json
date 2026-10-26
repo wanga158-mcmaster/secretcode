@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "source": "results/online/39/d4a88623-236e-4033-b6a7-9fd6abfbd8cf/group.zip",
+  "archiveMember": "01-f6cdec3c-c408-41fe-8ac1-5393a8011047.zip",
+  "replaySha256": "84bcdd2abf6fb40d3aa6460fe12c2c93af0fc0df8a6494026af309367a3fdf34",
+  "decoderProfile": "cli-3.0.5",
+  "windows": [[113, 114]],
+  "witness": {"round": 113, "input": 3957, "substep": 0, "actor": 5, "hiddenEnemy": 3},
+  "scope": "Exact retained replay copy. Native blocked movement reveals the occupied tile while preserving action allowances. Main-agent scratch files remain untouched."
+}

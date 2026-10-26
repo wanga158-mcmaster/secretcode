@@ -1,0 +1,171 @@
+# Monster probe evidence (engine 1.0.2 native games, replays decoded by tools/mechanics/replay-events.mjs)
+# probe bots/contenders/_probe-monsters, maps data/mechanics/maps/mon-*.json; ids: A vesper0 ryth1 stellar2, B 3,4,5
+## mon-target (scenario 0): wolf (9,14); elk (9,4); group (9,24),(9,25),(10,25); diagonal wolf (10,23)
+r20 champs Attack c2:stellarA 9,11->9,14 | m0 hp 1350->1320
+r21 camps Attack m0:wolf@9,14 9,14->6,14 | c0 hp 1000->980
+r22 camps Attack m0:wolf@9,14 9,14->6,14 | c0 hp 980->960
+r23 camps Attack m0:wolf@9,14 9,14->6,14 | c0 hp 960->940
+r24 camps Attack m0:wolf@9,14 9,14->11,14 | c1 hp 1200->1180
+r25 camps Attack m0:wolf@9,14 9,14->11,14 | c1 hp 1180->1160
+r26 camps Attack m0:wolf@9,14 9,14->11,14 | c1 hp 1160->1140
+r27 camps Attack m0:wolf@9,14 9,14->11,14 | c1 hp 1140->1120
+r28 camps Attack m0:wolf@9,14 9,14->6,14 | c0 hp 940->920
+r29 camps Attack m0:wolf@9,14 9,14->6,14 | c0 hp 920->900
+r30 camps Attack m0:wolf@9,14 9,14->6,14 | c0 hp 900->880
+r31 camps Attack m0:wolf@9,14 9,14->6,14 | c0 hp 880->860
+r32 camps Attack m0:wolf@9,14 9,14->9,11 | c2 hp 650->630
+r33 camps Attack m0:wolf@9,14 9,14->9,11 | c2 hp 630->610
+r50 champs Attack c0:vesperA 6,7->9,4 | m2 hp 2400->2345
+r51 camps Attack m2:elk@9,4 9,4->6,7 | c0 hp 860->800
+r52 camps Attack m2:elk@9,4 9,4->5,8 | c0 hp 800->740
+r53 camps Attack m2:elk@9,4 9,4->5,8 | c0 hp 740->680
+r55 champs Attack c1:rythA 8,23->9,24 | m4 hp 1350->1305
+r56 camps Attack m4:wolf@9,24 9,24->8,23 | c1 hp 1120->1100
+r56 camps Attack m6:wolf@9,25 9,25->8,23 | c1 hp 1100->1080
+r56 camps Attack m8:wolf@10,25 10,25->8,23 | c1 hp 1080->1060
+r56 champs Attack c1:rythA 8,23->9,24 | m4 hp 1305->1260
+r57 camps Attack m4:wolf@9,24 9,24->8,23 | c1 hp 1060->1040
+r57 camps Attack m6:wolf@9,25 9,25->8,23 | c1 hp 1040->1020
+r57 camps Attack m8:wolf@10,25 10,25->8,23 | c1 hp 1020->1000
+r57 champs Attack c1:rythA 8,23->9,24 | m4 hp 1260->1215
+r58 camps Attack m4:wolf@9,24 9,24->8,23 | c1 hp 1000->980
+r58 camps Attack m6:wolf@9,25 9,25->8,23 | c1 hp 980->960
+r58 camps Attack m8:wolf@10,25 10,25->8,23 | c1 hp 960->940
+r58 champs Attack c1:rythA 8,23->9,24 | m4 hp 1215->1170
+r59 camps Attack m4:wolf@9,24 9,24->8,23 | c1 hp 940->920
+r59 camps Attack m6:wolf@9,25 9,25->8,23 | c1 hp 920->900
+r59 camps Attack m8:wolf@10,25 10,25->8,23 | c1 hp 900->880
+r59 champs Attack c1:rythA 8,23->9,24 | m4 hp 1170->1125
+r60 camps Attack m4:wolf@9,24 9,24->8,23 | c1 hp 880->860
+r60 camps Attack m6:wolf@9,25 9,25->8,23 | c1 hp 860->840
+r60 camps Attack m8:wolf@10,25 10,25->8,23 | c1 hp 840->820
+r61 camps Attack m4:wolf@9,24 9,24->7,22 | c1 hp 820->800
+r61 camps Attack m6:wolf@9,25 9,25->7,22 | c1 hp 800->780
+r61 camps Attack m8:wolf@10,25 10,25->7,22 | c1 hp 780->760
+r62 camps Attack m4:wolf@9,24 9,24->6,21 | c1 hp 760->740
+## mon-target-v (scenario 1): vesper opens on the wolf instead of stellar
+r20 champs Attack c0:vesperA 6,14->9,14 | m0 hp 1350->1295
+r21 camps Attack m0:wolf@9,14 9,14->6,14 | c0 hp 1000->980
+r22 camps Attack m0:wolf@9,14 9,14->6,14 | c0 hp 980->960
+r23 camps Attack m0:wolf@9,14 9,14->6,14 | c0 hp 960->940
+r24 camps Attack m0:wolf@9,14 9,14->11,14 | c1 hp 1200->1180
+## mon-metric (scenario 2): side A elk (10,14) metric test + bush; side B priority tie + gem cluster
+r3 champs SetPriority c5:stellarB 0,0->0,0 | 
+r4 turnStart Tick c5:stellarB 0,0->0,0 | 
+r4 turnStart Tick c0:vesperA 0,0->0,0 | 
+r4 turnStart Tick c3:vesperB 0,0->0,0 | 
+r4 turnStart Tick c1:rythA 0,0->0,0 | 
+r4 turnStart Tick c4:rythB 0,0->0,0 | 
+r4 turnStart Tick c2:stellarA 0,0->0,0 | 
+r5 turnStart Tick c0:vesperA 0,0->0,0 | 
+r5 turnStart Tick c5:stellarB 0,0->0,0 | 
+r5 turnStart Tick c1:rythA 0,0->0,0 | 
+r5 turnStart Tick c3:vesperB 0,0->0,0 | 
+r5 turnStart Tick c2:stellarA 0,0->0,0 | 
+r5 turnStart Tick c4:rythB 0,0->0,0 | 
+r20 champs Attack c5:stellarB 22,21->22,24 | m5 hp 1350->1320
+r20 champs Attack c1:rythA 10,15->10,14 | m0 hp 2400->2355
+r20 champs Attack c4:rythB 26,19->27,19 | m7 hp 120->75
+r21 camps Attack m0:elk@10,14 10,14->10,15 | c1 hp 1200->1140
+r21 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 650->630
+r21 champs Move c1:rythA 10,15->9,16 | c1 pos 10,15->9,16
+r21 champs Recall c4:rythB 0,0->0,0 | 
+r22 camps Attack m0:elk@10,14 10,14->9,16 | c1 hp 1140->1080
+r22 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 630->610
+r22 champs Move c1:rythA 9,16->8,17 | c1 pos 9,16->8,17
+r23 camps Attack m0:elk@10,14 10,14->8,17 | c1 hp 1080->1020
+r23 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 610->590
+r23 champs Move c1:rythA 8,17->9,18 | c1 pos 8,17->9,18
+r24 camps Attack m0:elk@10,14 10,14->7,11 | c2 hp 650->590
+r24 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 590->570
+r24 champs Move c1:rythA 9,18->10,19 | c1 pos 9,18->10,19
+r25 camps Attack m0:elk@10,14 10,14->7,11 | c2 hp 590->530
+r25 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 570->550
+r26 camps Attack m0:elk@10,14 10,14->7,11 | c2 hp 530->470
+r26 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 550->530
+r26 turnStart Move c4:rythB 26,19->31,13 | c4 pos 26,19->31,13
+r26 champs Move c4:rythB 31,13->30,14 | c4 pos 31,13->30,14
+r27 camps Attack m0:elk@10,14 10,14->7,11 | c2 hp 470->410
+r27 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 530->510
+r27 champs Move c4:rythB 30,14->29,15 | c4 pos 30,14->29,15
+r28 camps Attack m0:elk@10,14 10,14->7,11 | c2 hp 410->350
+r28 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 510->490
+r28 champs Move c4:rythB 29,15->28,16 | c4 pos 29,15->28,16
+r29 camps Attack m0:elk@10,14 10,14->7,11 | c2 hp 350->290
+r29 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 490->470
+r29 champs Move c4:rythB 28,16->27,17 | c4 pos 28,16->27,17
+r30 camps Attack m0:elk@10,14 10,14->7,11 | c2 hp 290->230
+r30 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 470->450
+r30 champs Move c1:rythA 10,19->11,19 | c1 pos 10,19->11,19
+r30 champs Move c4:rythB 27,17->26,18 | c4 pos 27,17->26,18
+r31 camps Attack m0:elk@10,14 10,14->6,10 | c2 hp 230->170
+r31 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 450->430
+r31 champs Move c1:rythA 11,19->12,20 | c1 pos 11,19->12,20
+r31 champs Move c4:rythB 26,18->26,19 | c4 pos 26,18->26,19
+r32 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 430->410
+r32 champs Move c1:rythA 12,20->13,21 | c1 pos 12,20->13,21
+r33 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 410->390
+r33 champs Move c1:rythA 13,21->14,22 | c1 pos 13,21->14,22
+r34 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 390->370
+r35 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 370->350
+r36 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 350->330
+r37 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 330->310
+r38 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 310->290
+r39 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 290->270
+r40 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 270->250
+r40 champs Attack c2:stellarA 9,7->9,4 | m2 hp 1350->1320
+r41 camps Attack m2:wolf@9,4 9,4->7,4 | c0 hp 1000->980
+r41 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 250->230
+r42 camps Attack m2:wolf@9,4 9,4->7,4 | c0 hp 980->960
+r42 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 230->210
+r43 camps Attack m2:wolf@9,4 9,4->7,4 | c0 hp 960->940
+r43 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 210->190
+r44 camps Attack m2:wolf@9,4 9,4->7,4 | c0 hp 940->920
+r44 camps Attack m5:wolf@22,24 22,24->22,21 | c5 hp 190->170
+r45 camps Attack m2:wolf@9,4 9,4->7,4 | c0 hp 920->900
+## mon-cast (scenario 3): range-4 spells vs wolf (range 3) and elk (range 4) from Chebyshev 4
+r15 champs Cast c1:rythA slot0 type3 0,0->9,4 | m2 hp 2400->2300
+r15 champs Cast c2:stellarA slot0 type2 0,0->9,14 | m0 hp 1350->1210
+r17 camps Attack m2:elk@9,4 9,4->5,4 | c1 hp 1200->1140
+r18 camps Attack m2:elk@9,4 9,4->5,4 | c1 hp 1140->1080
+r19 camps Attack m2:elk@9,4 9,4->5,4 | c1 hp 1080->1020
+r20 camps Attack m2:elk@9,4 9,4->5,4 | c1 hp 1020->960
+r21 camps Attack m2:elk@9,4 9,4->5,4 | c1 hp 960->900
+r22 camps Attack m2:elk@9,4 9,4->5,4 | c1 hp 900->840
+r23 camps Attack m2:elk@9,4 9,4->5,4 | c1 hp 840->780
+r23 champs Cast c2:stellarA slot0 type2 0,0->9,14 | m0 hp 1210->1070
+r24 camps Attack m2:elk@9,4 9,4->5,4 | c1 hp 780->720
+r25 camps Attack m2:elk@9,4 9,4->5,4 | c1 hp 720->660
+r26 camps Attack m2:elk@9,4 9,4->5,4 | c1 hp 660->600
+r27 camps Attack m2:elk@9,4 9,4->5,4 | c1 hp 600->540
+r28 camps Attack m2:elk@9,4 9,4->5,4 | c1 hp 540->480
+r29 camps Attack m2:elk@9,4 9,4->5,4 | c1 hp 480->420
+r30 camps Attack m2:elk@9,4 9,4->5,4 | c1 hp 420->360
+P A r14 camp elk at 9,4 hp=2400.00 state=asleep buffs=
+P A r14 camp wolf at 9,14 hp=1350.00 state=asleep buffs=
+P A r15 camp elk at 9,4 hp=2400.00 state=asleep buffs=
+P A r15 camp wolf at 9,14 hp=1350.00 state=asleep buffs=
+P A r16 camp elk at 9,4 hp=2300.00 state=awake buffs=stun1,
+P A r16 camp wolf at 9,14 hp=1210.00 state=awake buffs=
+P A r17 camp elk at 9,4 hp=2300.00 state=awake buffs=
+P A r17 camp wolf at 9,14 hp=1210.00 state=awake buffs=
+P A r18 camp elk at 9,4 hp=2300.00 state=awake buffs=
+P A r18 camp wolf at 9,14 hp=1210.00 state=asleep buffs=
+P A r19 camp elk at 9,4 hp=2300.00 state=awake buffs=
+P A r19 camp wolf at 9,14 hp=1210.00 state=asleep buffs=
+P A r20 camp elk at 9,4 hp=2300.00 state=awake buffs=
+P A r20 camp wolf at 9,14 hp=1210.00 state=asleep buffs=
+P A r21 camp elk at 9,4 hp=2300.00 state=awake buffs=
+P A r21 camp wolf at 9,14 hp=1210.00 state=asleep buffs=
+P A r22 camp elk at 9,4 hp=2300.00 state=awake buffs=
+P A r22 camp wolf at 9,14 hp=1210.00 state=asleep buffs=
+P A r23 camp elk at 9,4 hp=2300.00 state=awake buffs=
+P A r23 camp wolf at 9,14 hp=1210.00 state=asleep buffs=
+P A r24 camp elk at 9,4 hp=2300.00 state=awake buffs=
+P A r24 camp wolf at 9,14 hp=1070.00 state=awake buffs=
+P A r25 camp elk at 9,4 hp=2300.00 state=awake buffs=
+P A r25 camp wolf at 9,14 hp=1070.00 state=awake buffs=
+P A r26 camp elk at 9,4 hp=2300.00 state=awake buffs=
+P A r26 camp wolf at 9,14 hp=1070.00 state=asleep buffs=
+P A r27 camp elk at 9,4 hp=2300.00 state=awake buffs=
+P A r27 camp wolf at 9,14 hp=1070.00 state=asleep buffs=

@@ -1,0 +1,17 @@
+{
+  "schema": "optimizer-engines/v1",
+  "engines": [
+    {"id":"c1","name":"Conditional controller search","default_config":"examples/c1-native.json","runtime":"native","output":"A replayable conditional controller, paired evaluation and held-out results"},
+    {"id":"c2","name":"Joint configuration search","default_config":"examples/c2-native.json","runtime":"native","output":"Draft, shop, role and opening configuration with native evidence"},
+    {"id":"c3","name":"Economy scheduling","default_config":"examples/c3-real-map.json","runtime":"model","output":"Executable event schedule, objective bounds and model assumptions"},
+    {"id":"c4","name":"Clearing atlas","default_config":"examples/c4-clear-atlas.json","runtime":"model","output":"Guarded clearing traces, costs and exact or approximate search status"},
+    {"id":"c5","name":"Population policy learning","default_config":"examples/c5-native.json","runtime":"native","output":"Compact trained actor, checkpoint and independent validation"},
+    {"id":"c6","name":"Teacher distillation","default_config":"examples/c6-native.json","runtime":"native","output":"Compact actor and value fit with teacher and held-out comparisons"},
+    {"id":"c7","name":"Best-response league","default_config":"examples/c7-native.json","runtime":"native","output":"Empirical payoff matrix, response archive and opponent mixture"},
+    {"id":"c8","name":"Adversarial curriculum","default_config":"examples/c8-overnight.json","runtime":"model","output":"Minimized regret witnesses and clearing-atlas curriculum"},
+    {"id":"c9","name":"Restricted endgames","default_config":"examples/c9-endgame.json","runtime":"model","output":"Principal variation, outcome bounds and guarded endgame policy"},
+    {"id":"c10","name":"Fuel superoptimization","default_config":"examples/c10-fuel.json","runtime":"native","output":"Equivalent C++ kernel with measured native fuel and semantic witnesses"},
+    {"id":"c11","name":"Model identification","default_config":"examples/c11.json","runtime":"native","output":"Native counterexamples, fitted mechanics and simulator fixtures"},
+    {"id":"c12","aliases":["micro"],"name":"Native micro optimization","default_config":"examples/micro-worlds.json","runtime":"native","output":"Automatically mined actual replay cases, native action/counterplay policies, per-case control comparisons and feasible frontiers"}
+  ]
+}

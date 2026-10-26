@@ -1,0 +1,28 @@
+{
+  "id": "complete-economy-small",
+  "width": 9,
+  "height": 5,
+  "horizon": 300,
+  "goal": 80,
+  "spawns": [[0, 0], [0, 4]],
+  "altars": [[8, 2]],
+  "blocked": [[4, 0], [4, 4]],
+  "settings": {"capture_time": 5, "recall_time": 5, "submit_multiplier": 0.1},
+  "actors": [
+    {"id": "worker-a", "position": [0, 0], "hp": 300, "max_hp": 300, "strength": 30},
+    {"id": "worker-b", "position": [0, 4], "hp": 300, "max_hp": 300, "strength": 30, "field_shop": true}
+  ],
+  "items": [
+    {"id": "strength-mode", "cost": 30, "strength": 10, "max_count": 8},
+    {"id": "health-mode", "cost": 30, "health": 100, "max_count": 3}
+  ],
+  "camps": [
+    {"id": "north-cluster", "members": [[2, 1]], "hp": 120, "gems": 7, "gold": 20, "respawn": 20},
+    {"id": "south-cluster", "members": [[2, 3]], "hp": 120, "gems": 7, "gold": 20, "respawn": 20},
+    {"id": "joint-elk", "members": [[5, 2]], "hp": 300, "strength": 20, "range": 2, "gems": 22, "gold": 90, "respawn": 40,
+     "modes": [{"id": "named-pair-point", "actors": ["worker-a", "worker-b"], "entry_positions": [[4, 1], [4, 3]], "end_positions": [[4, 1], [4, 3]], "work_rounds": 5, "incoming": [60, 60], "entry_hp_min": [100, 100], "qualification": "explicit_model_assumption"}]}
+  ],
+  "max_frontier": 2000,
+  "max_closed": 300000,
+  "checkpoint_every": 500
+}

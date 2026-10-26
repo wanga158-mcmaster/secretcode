@@ -1,0 +1,41 @@
+--- a/bots/p7-common/src/runtime.h
++++ b/bots/p7-common/src/runtime.h
+@@ -225,23 +225,25 @@
+     // A preparation turn builds one immutable field and its reusable queries.
+     // It ends before live observations/actions, preserving their fuel budget.
+     bool warm() {
+-        if (cambc::fuel_remaining() < 65000) return false;
+-        if (warm_ < 2) {
+-            int p = warm_++;
+-            if (p < static_cast<int>(altars_.size())) {
++        bool prepared = false;
++        // Only immutable fields are batched. Stop before the existing reserve;
++        // the caller yields after any real preparation and observes afresh.
++        for (int steps = 0; steps < 10 && cambc::fuel_remaining() >= 65000; ++steps) {
++            if (warm_ < 2) {
++                int p = warm_++;
++                if (p >= static_cast<int>(altars_.size())) continue;
+                 port_fields_[p].emplace(); compute(*port_fields_[p], port_goals(p));
+                 port_home_[p] = distance(*port_fields_[p], cambc::map::spawn_region(team::ally));
+                 for (int i = 0; i < static_cast<int>(groups_.size()); ++i)
+                     port_distances_[p][i] = distance(*port_fields_[p], groups_[i].spawns);
+-            }
+-            return true;
+-        } else if (warm_ - 2 < static_cast<int>(groups_.size())) {
+-            int i = warm_++ - 2; source_fields_[i].emplace(); compute(*source_fields_[i], groups_[i].spawns);
+-            for (int j = 0; j < static_cast<int>(groups_.size()); ++j)
+-                source_distances_[i][j] = distance(*source_fields_[i], groups_[j].spawns);
+-            return true;
+-        }
+-        return false;
++            } else if (warm_ - 2 < static_cast<int>(groups_.size())) {
++                int i = warm_++ - 2; source_fields_[i].emplace(); compute(*source_fields_[i], groups_[i].spawns);
++                for (int j = 0; j < static_cast<int>(groups_.size()); ++j)
++                    source_distances_[i][j] = distance(*source_fields_[i], groups_[j].spawns);
++            } else break;
++            prepared = true;
++        }
++        return prepared;
+     }
+     void shop() {
+         auto& me = cambc::self();

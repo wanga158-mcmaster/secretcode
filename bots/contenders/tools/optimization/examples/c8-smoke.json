@@ -1,0 +1,44 @@
+{
+  "baseline": "basic_first",
+  "oracle_nodes": 160,
+  "beam_width": 8,
+  "max_actions": 512,
+  "population": 6,
+  "archive_limit": 8,
+  "max_blocked": 8,
+  "minimization_trials": 2,
+  "minimum_regret": 1,
+  "cases": [
+    {
+      "id": "ryth-complete-cycle-breakpoint",
+      "width": 7,
+      "height": 7,
+      "blocked": [],
+      "altars": [[0, 1]],
+      "actors": [
+        {
+          "id": "ryth-0", "team": 0, "x": 2, "y": 2,
+          "spawn": [0, 0], "hp": 1200, "max_hp": 1200,
+          "strength": 45, "focus": 100, "range": 1, "ranged": false,
+          "spells": [
+            {"kind": "stun", "range": 4, "radius": 1, "damage": 100,
+             "duration": 1, "cooldown": 0, "max_cooldown": 8, "exclusive": true},
+            {"kind": "reset", "cooldown": 0, "max_cooldown": 8, "exclusive": false}
+          ]
+        }
+      ],
+      "camps": [
+        {"id": "gold-0", "group": 0, "x": 3, "y": 2, "hp": 30,
+         "max_hp": 120, "strength": 0, "range": 3, "gems": 0, "gold": 20, "respawn": 50},
+        {"id": "wolf-1", "group": 0, "x": 3, "y": 3, "hp": 235,
+         "max_hp": 1350, "strength": 20, "range": 3, "gems": 4, "gold": 40, "respawn": 40}
+      ],
+      "settings": {"capture_time": 5, "camp_sleep_time": 2, "recall_time": 5,
+        "spawn_healing": 1, "submit_multiplier": 0.1, "submit_minimum": 1,
+        "winning_gems": 1000, "max_rounds": 90},
+      "goal": {"kind": "capture_depart", "team": 0, "group": 0},
+      "provenance": {"kind": "constructed", "reference": "current 1.0.3 base designs; injured camps",
+        "native_validated": false, "role": "smoke and adaptive training"}
+    }
+  ]
+}

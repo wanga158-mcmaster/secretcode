@@ -1,0 +1,129 @@
+{
+"builds": "health-first (11; Heart 12) against strength-first (15), same champion",
+"cells": {
+"0": {
+"games": [
+0.091,
+-0.074,
+-0.074,
+0.091
+],
+"mean": 0.009
+},
+"1": {
+"games": [
+-0.031,
+0.003,
+0.003,
+-0.031
+],
+"mean": -0.014
+},
+"10": {
+"games": [
+-0.075,
+0.065,
+0.065,
+-0.075
+],
+"mean": -0.005
+},
+"11": {
+"games": [
+0.037,
+0.306,
+0.306,
+0.037
+],
+"mean": 0.171
+},
+"2": {
+"games": [
+-0.046,
+0.025,
+0.025,
+-0.046
+],
+"mean": -0.01
+},
+"3": {
+"games": [
+0.614,
+0.72,
+0.72,
+0.614
+],
+"mean": 0.667
+},
+"4": {
+"games": [
+0.034,
+0.134,
+0.134,
+0.034
+],
+"mean": 0.084
+},
+"5": {
+"games": [
+0.185,
+-0.109,
+-0.109,
+0.185
+],
+"mean": 0.038
+},
+"6": {
+"games": [
+0.027,
+-0.047,
+-0.047,
+0.027
+],
+"mean": -0.01
+},
+"7": {
+"games": [
+-0.032,
+0.008,
+0.008,
+-0.032
+],
+"mean": -0.012
+},
+"8": {
+"games": [
+-0.002,
+0.061,
+0.061,
+-0.002
+],
+"mean": 0.029
+},
+"9": {
+"games": [
+-0.239,
+-0.197,
+-0.197,
+-0.239
+],
+"mean": -0.218
+}
+},
+"engine": "1.0.2",
+"margin": "survivor health share of the winner, signed from the row pick's side; mean of both sides x both parities",
+"names": [
+"Ryth",
+"Vesper",
+"Vendetta",
+"Cassi&Issac",
+"Stellar",
+"Prism",
+"Marcella",
+"Willow",
+"Ren",
+"Varg",
+"Tavi",
+"Heart"
+]
+}

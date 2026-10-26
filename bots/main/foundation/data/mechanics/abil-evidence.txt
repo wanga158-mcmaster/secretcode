@@ -1,0 +1,425 @@
+## Ranged allowance, attack resets, excludes-walking casts, area damage spares allies (abil-basic)
+# run abil-2, a, rounds 20-24
+P A r20 atk camp at 10,4 ok
+P A r20   after atk st=MC
+P A r21 cast slot1 at 16,12 -> true
+P A r21   after cast st=MA
+
+## Same, replay view: who lost health (aoe hits only enemies; no self-hit)
+# run abil-2, replay:abil-basic, rounds 20-24
+r20 champs Attack c0:vesperA 13,10->16,10 | c5 hp 1000->945
+r20 champs Attack c1:taviA 13,12->16,12 | c6 hp 1000->955
+r20 champs Cast c1:taviA slot0 type1 0,0->13,12 | 
+r20 champs Attack c1:taviA 13,12->16,12 | c6 hp 955->910
+r20 champs Attack c2:willowA 13,8->16,8 | c7 hp 1000->945
+r20 champs Cast c2:willowA slot1 type1 0,0->13,8 | 
+r20 champs Attack c2:willowA 13,8->16,8 | c7 hp 945->890
+r20 champs Attack c3:rythA 15,15->16,15 | c8 hp 1200->1155
+r21 champs Cast c1:taviA slot1 type4 0,0->16,12 | c6 hp 910->756
+r21 champs Attack c1:taviA 13,12->16,12 | c6 hp 756->711
+r21 champs Cast c2:willowA slot0 type5 0,0->13,11 | 
+r21 champs Attack c3:rythA 15,15->16,15 | c8 hp 1155->1110
+r21 champs Cast c4:stellarA slot0 type2 0,0->16,16 | c9 hp 650->510
+r21 champs Attack c4:stellarA 13,17->16,16 | c9 hp 510->480
+r22 champs Attack c0:vesperA 13,11->16,10 | c5 hp 945->890
+r22 champs Attack c3:rythA 15,15->16,15 | c8 hp 1110->1065
+r22 champs Cast c3:rythA slot1 type1 0,0->15,15 | 
+r22 champs Attack c3:rythA 15,15->16,15 | c8 hp 1065->1020
+r22 champs Attack c4:stellarA 13,17->16,16 | c9 hp 480->450
+r22 champs Cast c4:stellarA slot1 type3 0,0->16,15 | c8 hp 1020->922; c9 hp 450->352
+r23 champs Cast c3:rythA slot0 type3 0,0->16,15 | c8 hp 922->822; c9 hp 352->252
+r24 champs Attack c0:vesperA 13,11->16,10 | c5 hp 890->835
+r24 champs Cast c0:vesperA slot1 type6 13,11->11,11 | c0 pos 13,11->11,11
+
+## Cooldown ticks: Tavi reset cast r20, ready r28
+# run abil-2, a, rounds 20-29
+P A r20 start tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P A r20 end tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P A r21 start tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P A r21 end tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P A r22 start tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P A r22 end tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P A r23 start tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P A r23 end tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P A r24 start tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P A r24 end tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P A r25 start tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P A r25 end tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=A cd=0,8 gold=0 gems=0 buffs= restr=
+P A r26 start tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,7 gold=0 gems=0 buffs= restr=
+P A r26 end tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,7 gold=0 gems=0 buffs= restr=
+P A r27 start tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,6 gold=0 gems=0 buffs= restr=
+P A r27 end tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,6 gold=0 gems=0 buffs= restr=
+P A r28 start tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,5 gold=0 gems=0 buffs= restr=
+P A r28 end tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,5 gold=0 gems=0 buffs= restr=
+P A r29 start tavi id=2 pos=10,8 hp=900.00/900.00 str=45.00 foc=110.00 st=MAC cd=0,4 gold=0 gems=0 buffs= restr=
+P A r29 end tavi id=2 pos=9,9 hp=900.00/900.00 str=45.00 foc=110.00 st=C cd=0,4 gold=0 gems=0 buffs= restr=
+
+## Stun before/after the target's turn, stunned actions, recall/tribute/teleport cancelled, no stacking, chain (abil-stun)
+# run abil-3, b, rounds 20-73
+P B r21 start vesper id=5 pos=16,12 hp100=100000/100000 str100=5500 foc100=10000 st= cd=0,0 gold=0 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r21 P B r21 op 8 engine error 63 Champion cannot act.
+P B r21 osc 16,12 -> 16,13 engine error 21 Champion cannot act.
+P B r21 end vesper id=5 pos=16,12 hp100=100000/100000 str100=5500 foc100=10000 st= cd=0,0 gold=0 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r31 start vesper id=5 pos=16,13 hp100=100000/100000 str100=5500 foc100=10000 st= cd=0,0 gold=0 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r31 P B r31 op 8 engine error 63 Champion cannot act.
+P B r31 set_priority 2 (now 0 next 2)
+P B r31 shared[1] := 9
+P B r31 osc 16,13 -> 16,12 engine error 21 Champion cannot act.
+P B r31 end vesper id=5 pos=16,13 hp100=100000/100000 str100=5500 foc100=10000 st= cd=0,0 gold=0 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r34 osc 16,10 -> 16,9 engine error 22 Known occupied destination.
+P B r36 start ryth id=6 pos=15,8 hp100=104600/120000 str100=4500 foc100=10000 st= cd=0,0 gold=0 gems=14 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r36 end ryth id=6 pos=15,8 hp100=104600/120000 str100=4500 foc100=10000 st= cd=0,0 gold=0 gems=14 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r36 recall started
+P B r36   after recall st=recall,
+P B r36 end willow id=8 pos=17,8 hp100=70000/70000 str100=5500 foc100=12000 st=recall, cd=0,0 gold=10 gems=0 buffs= restr=
+P B r37 start willow id=8 pos=17,8 hp100=70000/70000 str100=5500 foc100=12000 st=recall, cd=0,0 gold=10 gems=0 buffs= restr=
+P B r37 end willow id=8 pos=17,8 hp100=70000/70000 str100=5500 foc100=12000 st=recall, cd=0,0 gold=10 gems=0 buffs= restr=
+P B r38 start willow id=8 pos=17,8 hp100=70000/70000 str100=5500 foc100=12000 st= cd=0,0 gold=10 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r38 end willow id=8 pos=17,8 hp100=70000/70000 str100=5500 foc100=12000 st= cd=0,0 gold=10 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r44 start vesper id=5 pos=16,13 hp100=72600/100000 str100=5500 foc100=10000 st= cd=0,0 gold=0 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r44 P B r44 op 8 engine error 63 Champion cannot act.
+P B r44 set_priority 3 (now 2 next 3)
+P B r44 shared = 0 9 0 0 0 0 0 0 
+P B r44 osc 16,13 -> 16,12 engine error 21 Champion cannot act.
+P B r44 end vesper id=5 pos=16,13 hp100=72600/100000 str100=5500 foc100=10000 st= cd=0,0 gold=0 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r45 tribute started at 18,5
+P B r45   after tribute st=tribute,
+P B r45 end ryth id=6 pos=17,5 hp100=104600/120000 str100=4500 foc100=10000 st=tribute, cd=0,0 gold=0 gems=14 buffs= restr=
+P B r46 start ryth id=6 pos=17,5 hp100=104600/120000 str100=4500 foc100=10000 st= cd=0,0 gold=0 gems=14 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r46 end ryth id=6 pos=17,5 hp100=104600/120000 str100=4500 foc100=10000 st= cd=0,0 gold=0 gems=14 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r53 use consumable 0 at 20,8 -> true
+P B r53   after consumable st=tp,
+P B r54 start willow id=8 pos=17,8 hp100=70000/70000 str100=5500 foc100=12000 st= cd=0,0 gold=10 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r54 end willow id=8 pos=17,8 hp100=70000/70000 str100=5500 foc100=12000 st= cd=0,0 gold=10 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r63 start willow id=8 pos=17,6 hp100=70000/70000 str100=5500 foc100=12000 st= cd=0,0 gold=10 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r63 end willow id=8 pos=17,6 hp100=70000/70000 str100=5500 foc100=12000 st= cd=0,0 gold=10 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r71 start vesper id=5 pos=16,13 hp100=72600/100000 str100=5500 foc100=10000 st= cd=0,0 gold=0 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r71 osc 16,13 -> 16,12 engine error 21 Champion cannot act.
+P B r71 end vesper id=5 pos=16,13 hp100=72600/100000 str100=5500 foc100=10000 st= cd=0,0 gold=0 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r72 start vesper id=5 pos=16,13 hp100=60600/100000 str100=5500 foc100=10000 st= cd=0,0 gold=0 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r72 P B r72 op 8 engine error 63 Champion cannot act.
+P B r72 shared = 0 9 0 0 0 0 0 0 
+P B r72 osc 16,13 -> 16,12 engine error 21 Champion cannot act.
+P B r72 end vesper id=5 pos=16,13 hp100=60600/100000 str100=5500 foc100=10000 st= cd=0,0 gold=0 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+
+## Stun scenario replay: casts, camp stun skips one attack, channels
+# run abil-3, replay:abil-stun, rounds 19-76
+r21 camps Attack m0:wolf@10,4 10,4->10,5 | c1 hp 900->880
+r21 champs Cast c0:cassiA slot1 type4 0,0->16,12 | 
+r22 camps Attack m0:wolf@10,4 10,4->10,5 | c1 hp 880->860
+r23 camps Attack m0:wolf@10,4 10,4->10,5 | c1 hp 860->840
+r24 camps Attack m0:wolf@10,4 10,4->10,5 | c1 hp 840->820
+r25 camps Attack m0:wolf@10,4 10,4->10,5 | c1 hp 820->800
+r25 champs Cast c2:taviA slot1 type4 0,0->10,4 | m0 hp 1310->1156
+r27 camps Attack m0:wolf@10,4 10,4->10,5 | c1 hp 800->780
+r28 camps Attack m0:wolf@10,4 10,4->10,5 | c1 hp 780->760
+r29 camps Attack m0:wolf@10,4 10,4->10,5 | c1 hp 760->740
+r30 camps Attack m0:wolf@10,4 10,4->10,5 | c1 hp 740->720
+r30 champs Cast c0:cassiA slot1 type4 0,0->16,13 | 
+r31 camps Attack m0:wolf@10,4 10,4->9,6 | c1 hp 720->700
+r32 camps Attack m0:wolf@10,4 10,4->8,7 | c1 hp 700->680
+r35 champs Cast c2:taviA slot1 type4 0,0->15,8 | c6 hp 1200->1046
+r36 champs Recall c8:willowB 0,0->0,0 | 
+r38 champs Cast c0:cassiA slot1 type4 0,0->17,8 | 
+r43 champs Cast c2:taviA slot1 type4 0,0->16,13 | c5 hp 1000->846
+r43 champs Cast c4:prismA slot0 type4 0,0->16,13 | c5 hp 846->726
+r45 champs SubmitGems c6:rythB 0,0->18,5 | 
+r46 champs Cast c0:cassiA slot1 type4 0,0->17,5 | 
+r53 champs TeleportChannel c8:willowB 0,0->20,8 | 
+r54 champs Cast c0:cassiA slot1 type4 0,0->17,8 | 
+r63 champs Cast c0:cassiA slot1 type4 0,0->17,6 | 
+r71 champs Cast c0:cassiA slot1 type4 0,0->16,13 | 
+r71 champs Cast c4:prismA slot0 type4 0,0->16,13 | c5 hp 726->606
+
+## Heart of Ruin dash, passive scaling, shield, dash rules (abil-heart)
+# run abil-5, replay:abil-heart, rounds 29-40
+r29 champs Attack c0:heartA 8,20->7,20 | c7 hp 1200->1170
+r30 champs Cast c0:heartA slot1 type6 8,20->10,20 | c0 pos 8,20->10,20; c5 hp 1000->850; c6 hp 1200->1050; m0 hp 1350->1200
+r30 champs Cast c3:renA slot1 type6 5,4->3,4 | c3 pos 5,4->3,4
+r31 champs Cast c1:vesperA slot1 type6 5,6->5,8 | c1 pos 5,6->5,8
+r31 champs Attack c8:stellarB 13,22->10,20 | c0 hp 1000->970
+r31 champs Attack c9:willowB 13,18->10,20 | c0 hp 970->915
+r32 camps Attack m0:wolf@11,19 11,19->11,20 | c5 hp 850->830
+r32 champs Cast c0:heartA slot0 type7 0,0->10,20 | 
+r32 champs Attack c8:stellarB 13,22->10,20 | 
+r32 champs Attack c9:willowB 13,18->10,20 | 
+r33 camps Attack m0:wolf@11,19 11,19->10,20 | 
+r33 champs Attack c8:stellarB 13,22->10,20 | 
+r33 champs Attack c9:willowB 13,18->10,20 | c0 hp 915->875
+r34 camps Attack m0:wolf@11,19 11,19->11,20 | c5 hp 830->810
+r34 champs Attack c8:stellarB 13,22->10,20 | c0 hp 875->845
+r34 champs Attack c9:willowB 13,18->10,20 | c0 hp 845->790
+r35 camps Attack m0:wolf@11,19 11,19->10,20 | c0 hp 790->770
+r35 champs Attack c8:stellarB 13,22->10,20 | c0 hp 770->740
+r35 champs Attack c9:willowB 13,18->10,20 | c0 hp 740->685
+r36 camps Attack m0:wolf@11,19 11,19->11,20 | c5 hp 810->790
+r36 champs Attack c8:stellarB 13,22->10,20 | c0 hp 685->655
+r36 champs Attack c9:willowB 13,18->10,20 | c0 hp 655->600
+r37 camps Attack m0:wolf@11,19 11,19->10,20 | c0 hp 600->580
+r37 champs Attack c0:heartA 10,20->11,20 | c5 hp 790->753.7
+r37 champs Attack c8:stellarB 13,22->10,20 | c0 hp 580->550
+r37 champs Attack c9:willowB 13,18->10,20 | c0 hp 550->495
+r38 camps Attack m0:wolf@11,19 11,19->11,20 | c5 hp 753.7->733.7
+r38 champs Cast c0:heartA slot1 type6 10,20->10,22 | c0 pos 10,20->10,22; c6 hp 1050->862.13
+r38 champs Cast c3:renA slot1 type6 3,4->5,2 | c3 pos 3,4->5,2
+r39 camps Attack m0:wolf@11,19 11,19->11,20 | c5 hp 733.7->713.7
+r40 camps Attack m0:wolf@11,19 11,19->11,20 | c5 hp 713.7->693.7
+
+## Heart dash/shield queries and dash rule errors
+# run abil-5, a, rounds 29-38
+P A r29 qdmg slot1 dmg100=15000 heal100=0 shield100=0
+P A r29 atk champion at 7,20 ok
+P A r29   after atk st=MC
+P A r30 cast slot1 at 10,20 -> true
+P A r30   after cast st=MA
+P A r30 cast slot1 at 7,4 engine error 32 Destination is unreachable within movement range.
+P A r30 cast slot1 at 8,4 engine error 31 Ability out of range.
+P A r30 cast slot1 at 4,6 engine error 32 Forbidden landing tile.
+P A r30 cast slot1 at 5,6 engine error 32 Known occupied destination.
+P A r30 cast slot1 at 3,4 -> true
+P A r30   after cast st=MA
+P A r31 cast slot1 at 5,8 -> true
+P A r31   after cast st=MA
+P A r32 qdmg slot0 dmg100=0 heal100=0 shield100=15000 vs-target-dmg100=0 vs-target-heal100=0 vs-target-shield100=15000
+P A r32 castself slot0 -> true
+P A r32   after castself st=MA
+P A r37 qdmg slot1 dmg100=18150 heal100=0 shield100=0 vs-target-dmg100=18150 vs-target-heal100=0 vs-target-shield100=0
+P A r37 atk champion at 11,20 ok
+P A r37   after atk st=MC
+P A r38 qdmg slot1 dmg100=18787 heal100=0 shield100=0 vs-target-dmg100=18787 vs-target-heal100=0 vs-target-shield100=0
+P A r38 cast slot1 at 10,22 -> true
+P A r38   after cast st=MA
+P A r38 cast slot1 at 5,2 -> true
+P A r38   after cast st=MA
+
+## Stun from Heart's dash on Varg, Marcella immune
+# run abil-5, b, rounds 30-32
+P B r30 start varg id=5 pos=11,20 hp100=100000/100000 str100=4000 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r30 start marcella id=6 pos=11,21 hp100=105000/120000 str100=4500 foc100=6000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r31 start varg id=5 pos=11,20 hp100=85000/100000 str100=4000 foc100=10000 st= cd=0,0 gold=0 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r31 start marcella id=6 pos=11,21 hp100=105000/120000 str100=4500 foc100=6000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r32 start varg id=5 pos=11,20 hp100=83000/100000 str100=4000 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r32 start marcella id=6 pos=11,21 hp100=105000/120000 str100=4500 foc100=6000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+
+## Durability emblem purchase, Varg shield with Durability, splash, Ren retaliation, Vendetta champion kill (abil-varg)
+# run abil-6, replay:abil-varg, rounds 20-58
+r20 captures Capture k0:0 0,0->0,0 | c0 gold 0->160; g0 reward 1->0 team 0->2
+r27 champs Shop c0:vargA 0,0->0,0 | c0 hp 1000->1500 max 1000->1500; c0 gold 160->10
+r40 champs Cast c0:vargA slot1 type7 0,0->11,18 | 
+r40 champs Attack c5:vesperB 14,16->11,18 | 
+r41 champs Attack c5:vesperB 14,16->11,18 | 
+r42 champs Attack c5:vesperB 14,16->11,18 | 
+r43 champs Attack c5:vesperB 14,16->11,18 | 
+r44 champs Attack c5:vesperB 14,16->11,18 | 
+r45 champs Attack c5:vesperB 14,16->11,18 | c0 hp 1500->1450.5
+r47 champs Attack c0:vargA 11,18->12,18 | c6 hp 1200->1160; c7 hp 1200->1160; m16 hp 1350->1310
+r49 champs Attack c1:stellarA 10,14->13,15 | c1 hp 650->630; c4 hp 900->870
+r50 champs Attack c2:willowA 11,17->13,15 | c2 hp 700->680; c4 hp 870->815
+r51 champs Cast c1:stellarA slot1 type3 0,0->13,15 | c1 hp 630->610; c4 hp 815->717; c5 hp 1000->902
+r52 champs Cast c3:vendettaA slot1 type6 12,14->14,14 | c3 pos 12,14->14,14
+r54 champs Attack c0:vargA 12,16->13,15 | c0 hp 1360.5->1342.5; c4 hp 717->677; c5 hp 902->862
+r54 champs Attack c1:stellarA 10,14->13,15 | c1 hp 610->590; c4 hp 677->647
+r54 champs Attack c2:willowA 11,17->13,15 | c2 hp 680->660; c4 hp 647->592
+r54 champs Attack c3:vendettaA 14,14->13,15 | c3 hp 1000->980; c4 hp 592->522
+r54 champs Cast c3:vendettaA slot0 type1 0,0->14,14 | 
+r54 champs Attack c3:vendettaA 14,14->13,15 | c3 hp 980->960; c4 hp 522->452
+r55 champs Attack c0:vargA 12,16->13,15 | c0 hp 1342.5->1324.5; c4 hp 452->412; c5 hp 862->822
+r55 champs Attack c1:stellarA 10,14->13,15 | c1 hp 590->570; c4 hp 412->382
+r55 champs Attack c2:willowA 11,17->13,15 | c2 hp 660->640; c4 hp 382->327
+r55 champs Attack c3:vendettaA 14,14->13,15 | c3 hp 960->940; c4 hp 327->257
+r56 champs Attack c0:vargA 12,16->13,15 | c0 hp 1324.5->1306.5; c4 hp 257->217; c5 hp 822->782
+r56 champs Attack c1:stellarA 10,14->13,15 | c1 hp 570->550; c4 hp 217->187
+r56 champs Attack c2:willowA 11,17->13,15 | c2 hp 640->620; c4 hp 187->132
+r56 champs Attack c3:vendettaA 14,14->13,15 | c3 hp 940->920; c4 hp 132->62
+r57 champs Attack c3:vendettaA 14,14->13,15 | c3 hp 920->900; c3 gold 0->100; c3 kills 0->1; c4 hp 62->0; c4 pos 13,15->-1,-1; c4 alive 1->0
+
+## Varg shield buff per turn
+# run abil-6, a, rounds 39-46
+P A r39 start varg id=0 pos=11,18 hp100=150000/150000 str100=4000 foc100=10000 st=MAC cd=0,0 gold=10 gems=0 buffs= restr=
+P A r39 end varg id=0 pos=11,18 hp100=150000/150000 str100=4000 foc100=10000 st=MAC cd=0,0 gold=10 gems=0 buffs= restr=
+P A r40 start varg id=0 pos=11,18 hp100=150000/150000 str100=4000 foc100=10000 st=MAC cd=0,0 gold=10 gems=0 buffs= restr=
+P A r40 end varg id=0 pos=11,18 hp100=150000/150000 str100=4000 foc100=10000 st=MA cd=0,8 gold=10 gems=0 buffs=shield5:25000c, restr=
+P A r41 start varg id=0 pos=11,18 hp100=150000/150000 str100=4000 foc100=10000 st=MAC cd=0,7 gold=10 gems=0 buffs=shield4:20050c, restr=
+P A r41 end varg id=0 pos=11,18 hp100=150000/150000 str100=4000 foc100=10000 st=MAC cd=0,7 gold=10 gems=0 buffs=shield4:20050c, restr=
+P A r42 start varg id=0 pos=11,18 hp100=150000/150000 str100=4000 foc100=10000 st=MAC cd=0,6 gold=10 gems=0 buffs=shield3:15100c, restr=
+P A r42 end varg id=0 pos=11,18 hp100=150000/150000 str100=4000 foc100=10000 st=MAC cd=0,6 gold=10 gems=0 buffs=shield3:15100c, restr=
+P A r43 start varg id=0 pos=11,18 hp100=150000/150000 str100=4000 foc100=10000 st=MAC cd=0,5 gold=10 gems=0 buffs=shield2:10150c, restr=
+P A r43 end varg id=0 pos=11,18 hp100=150000/150000 str100=4000 foc100=10000 st=MAC cd=0,5 gold=10 gems=0 buffs=shield2:10150c, restr=
+P A r44 start varg id=0 pos=11,18 hp100=150000/150000 str100=4000 foc100=10000 st=MAC cd=0,4 gold=10 gems=0 buffs=shield1:5200c, restr=
+P A r44 end varg id=0 pos=11,18 hp100=150000/150000 str100=4000 foc100=10000 st=MAC cd=0,4 gold=10 gems=0 buffs=shield1:5200c, restr=
+P A r45 start varg id=0 pos=11,18 hp100=150000/150000 str100=4000 foc100=10000 st=MAC cd=0,3 gold=10 gems=0 buffs= restr=
+P A r45 end varg id=0 pos=11,18 hp100=150000/150000 str100=4000 foc100=10000 st=MAC cd=0,3 gold=10 gems=0 buffs= restr=
+P A r46 start varg id=0 pos=11,18 hp100=145050/150000 str100=4000 foc100=10000 st=MAC cd=0,2 gold=10 gems=0 buffs= restr=
+P A r46 end varg id=0 pos=11,18 hp100=145050/150000 str100=4000 foc100=10000 st=MAC cd=0,2 gold=10 gems=0 buffs= restr=
+
+## Vendetta cooldowns around the champion kill
+# run abil-6, a, rounds 52-58
+P A r54 vkill champion at 13,15 ok
+P A r54   after vkill st=MC
+P A r54 vreset -> true
+P A r54 vkill2 champion at 13,15 ok
+P A r54   after vkill2 st=M
+P A r54 vendetta cd after 8,6 kills? gold=0
+P A r55 vkill champion at 13,15 ok
+P A r55   after vkill st=MC
+P A r55 vendetta cd after 7,5 kills? gold=0
+P A r56 vkill champion at 13,15 ok
+P A r56   after vkill st=MC
+P A r56 vendetta cd after 6,4 kills? gold=0
+P A r57 vkill champion at 13,15 ok
+P A r57   after vkill st=MC
+P A r57 vendetta cd after 0,0 kills? gold=100
+
+## Ren vs wolf retaliation, Willow heals, Vendetta kills one wolf of a group, Marcella enhanced attack, C&I camp death (abil-misc)
+# run abil-7, replay:abil-misc, rounds 20-45
+r20 camps Attack m3:wolf@25,16 25,16->28,18 | c5 hp 120->100
+r20 camps Attack m5:wolf@25,17 25,17->28,18 | c5 hp 100->80
+r20 camps Attack m7:wolf@25,18 25,18->28,18 | c5 hp 80->60
+r21 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 900->880; m0 hp 1315->1295
+r21 camps Attack m3:wolf@25,16 25,16->27,17 | c5 hp 60->40
+r21 camps Attack m5:wolf@25,17 25,17->27,17 | c5 hp 40->20
+r21 camps Attack m7:wolf@25,18 25,18->27,17 | c4 hp 600->0; c4 pos 28,7->-1,-1; c4 gems 7->0; c4 alive 1->0; c5 hp 20->0; c5 pos 27,17->-1,-1; c5 alive 1->0
+r22 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 880->860; m0 hp 1260->1240
+r22 champs Cast c0:willowA slot0 type5 0,0->8,5 | c2 hp 860->900
+r23 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 900->880; m0 hp 1205->1185
+r24 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 880->860; m0 hp 1150->1130
+r25 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 860->840; m0 hp 1095->1075
+r26 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 840->820; m0 hp 1040->1020
+r27 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 820->800; m0 hp 985->965
+r28 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 800->780; m0 hp 930->910
+r29 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 780->760; m0 hp 875->855
+r29 champs Cast c1:vendettaA slot1 type6 9,16->9,15 | c1 pos 9,16->9,15
+r30 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 760->740; m0 hp 820->800
+r30 champs Cast c0:willowA slot0 type5 0,0->9,15 | c1 hp 520->880
+r30 champs Cast c1:vendettaA slot0 type1 0,0->9,15 | 
+r31 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 740->720; m0 hp 765->745
+r32 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 720->700; m0 hp 710->690
+r33 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 700->680; m0 hp 655->635
+r34 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 680->660; m0 hp 600->580
+r35 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 660->640; m0 hp 545->525
+r36 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 640->620; m0 hp 490->470
+r37 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 620->600; m0 hp 435->415
+r38 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 600->580; m0 hp 380->360
+r39 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 580->560; m0 hp 325->305
+r40 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 560->540; m0 hp 270->250
+r40 champs Attack c3:marcellaA 5,22->4,22 | c7 hp 1120->1075
+r40 champs Cast c3:marcellaA slot0 type1 0,0->5,22 | 
+r40 champs Attack c3:marcellaA 5,22->4,22 | c7 hp 1075->1030
+r41 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 540->520; m0 hp 215->195
+r42 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 520->500; m0 hp 160->140
+r43 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 500->480; m0 hp 105->85
+r44 camps Attack m0:wolf@8,4 8,4->8,5 | c2 hp 480->460; m0 hp 50->30
+r44 champs SubmitGems c6:prismB 0,0->11,6 | 
+r44 champs Cast c2:renA slot0 type4 0,0->12,6 | c6 hp 680->605
+
+## Vendetta cooldowns around the camp kill
+# run abil-7, a, rounds 29-32
+P A r29 vdash -> true
+P A r29 vendetta cd 0,8 w2a=alive
+P A r30 vreset -> true
+P A r30 vendetta cd 8,7 w2a=alive
+P A r31 vendetta cd 0,0 w2a=dead
+P A r32 w2a gone; cd 0,0
+
+## Prism focus per gem, Marcella's enhanced stun, 1-tick tribute cancelled by a stun after the turn
+# run abil-7, b, rounds 17-45
+P B r17 start prism id=6 pos=29,14 hp100=70000/70000 str100=3500 foc100=8000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r17 end prism id=6 pos=29,14 hp100=70000/70000 str100=3500 foc100=8000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r17 start ryth id=7 pos=17,9 hp100=120000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r18 start prism id=6 pos=29,14 hp100=70000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r18 end prism id=6 pos=29,14 hp100=70000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r18 start ryth id=7 pos=16,10 hp100=120000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r19 start prism id=6 pos=29,14 hp100=70000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r19 end prism id=6 pos=29,14 hp100=70000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r19 start ryth id=7 pos=15,11 hp100=120000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r20 start prism id=6 pos=29,14 hp100=70000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r20 end prism id=6 pos=29,14 hp100=70000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r20 start ryth id=7 pos=14,12 hp100=120000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r21 start prism id=6 pos=29,14 hp100=70000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r21 end prism id=6 pos=29,14 hp100=70000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r21 start ryth id=7 pos=13,13 hp100=120000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r22 start prism id=6 pos=29,14 hp100=70000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r22 end prism id=6 pos=28,13 hp100=70000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r22 start ryth id=7 pos=12,14 hp100=120000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r23 start prism id=6 pos=28,13 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r23 end prism id=6 pos=27,12 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r23 start ryth id=7 pos=11,15 hp100=120000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r24 start prism id=6 pos=27,12 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r24 end prism id=6 pos=26,11 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r24 start ryth id=7 pos=10,16 hp100=120000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r25 start prism id=6 pos=26,11 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r25 end prism id=6 pos=25,10 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r25 start ryth id=7 pos=9,17 hp100=118000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r26 start prism id=6 pos=25,10 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r26 end prism id=6 pos=24,9 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r26 start ryth id=7 pos=9,18 hp100=116000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r27 start prism id=6 pos=24,9 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r27 end prism id=6 pos=23,8 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r27 start ryth id=7 pos=8,19 hp100=114000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r28 start prism id=6 pos=23,8 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r28 end prism id=6 pos=22,7 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r28 start ryth id=7 pos=7,19 hp100=112000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r29 start prism id=6 pos=22,7 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r29 end prism id=6 pos=21,6 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r29 start ryth id=7 pos=6,20 hp100=112000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r30 start prism id=6 pos=21,6 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r30 end prism id=6 pos=20,5 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r30 start ryth id=7 pos=5,21 hp100=112000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r31 start prism id=6 pos=20,5 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r31 end prism id=6 pos=19,4 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r31 start ryth id=7 pos=4,22 hp100=112000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r32 start prism id=6 pos=19,4 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r32 end prism id=6 pos=18,3 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r32 start ryth id=7 pos=4,22 hp100=112000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r33 start prism id=6 pos=18,3 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r33 end prism id=6 pos=17,2 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r33 start ryth id=7 pos=4,22 hp100=112000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r34 start prism id=6 pos=17,2 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r34 end prism id=6 pos=16,2 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r34 start ryth id=7 pos=4,22 hp100=112000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r35 start prism id=6 pos=16,2 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r35 end prism id=6 pos=15,3 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r35 start ryth id=7 pos=4,22 hp100=112000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r36 start prism id=6 pos=15,3 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r36 end prism id=6 pos=14,4 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r36 start ryth id=7 pos=4,22 hp100=112000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r37 start prism id=6 pos=14,4 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r37 end prism id=6 pos=13,5 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r37 start ryth id=7 pos=4,22 hp100=112000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r38 start prism id=6 pos=13,5 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r38 end prism id=6 pos=12,6 hp100=68000/70000 str100=3500 foc100=9050 st=C cd=0,0 gold=0 gems=7 buffs= restr=
+P B r38 start ryth id=7 pos=4,22 hp100=112000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r39 start prism id=6 pos=12,6 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r39 end prism id=6 pos=12,6 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r39 start ryth id=7 pos=4,22 hp100=112000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r40 start prism id=6 pos=12,6 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r40 end prism id=6 pos=12,6 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r40 start ryth id=7 pos=4,22 hp100=112000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r41 start prism id=6 pos=12,6 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r41 end prism id=6 pos=12,6 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r41 start ryth id=7 pos=4,22 hp100=103000/120000 str100=4500 foc100=10000 st= cd=0,0 gold=0 gems=0 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r42 start prism id=6 pos=12,6 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r42 end prism id=6 pos=12,6 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r42 start ryth id=7 pos=4,22 hp100=103000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r43 start prism id=6 pos=12,6 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r43 end prism id=6 pos=12,6 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r43 start ryth id=7 pos=4,22 hp100=103000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r44 start prism id=6 pos=12,6 hp100=68000/70000 str100=3500 foc100=9050 st=MAC cd=0,0 gold=0 gems=7 buffs= restr=
+P B r44 end prism id=6 pos=12,6 hp100=68000/70000 str100=3500 foc100=9050 st=tribute, cd=0,0 gold=0 gems=7 buffs= restr=
+P B r44 start ryth id=7 pos=4,22 hp100=103000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+P B r45 start prism id=6 pos=12,6 hp100=60500/70000 str100=3500 foc100=9050 st= cd=0,0 gold=0 gems=7 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r45 end prism id=6 pos=12,6 hp100=60500/70000 str100=3500 foc100=9050 st= cd=0,0 gold=0 gems=7 buffs=stun1, restr=move,attack,cast,shop,consumable,ward,
+P B r45 start ryth id=7 pos=4,22 hp100=103000/120000 str100=4500 foc100=10000 st=MAC cd=0,0 gold=0 gems=0 buffs= restr=
+
+## Cassi & Issac killed by a champion: one reward, both bags (abil-candi)
+# run abil-8, replay:abil-candi, rounds 10-62
+r16 captures Capture k0:0 0,0->0,0 | c4 gems 0->7; g7 reward 1->0 team 1->2
+r18 captures Capture k0:0 0,0->0,0 | c5 gems 0->7; g9 reward 1->0 team 1->2
+r19 captures Capture k0:0 0,0->0,0 | c6 gems 0->7; g5 reward 1->0 team 1->2
+r53 champs Attack c1:vendettaA 13,21->12,22 | c1 gold 0->100; c1 gems 0->14; c1 kills 0->1; c4 hp 35->0; c4 pos 12,22->-1,-1; c4 gems 7->0; c4 alive 1->0; c5 hp 900->0; c5 pos 14,22->-1,-1; c5 gems 7->0; c5 alive 1->0
+
+## Stun buff seen right after application
+# run abil-8, a, rounds 44-44
+P A r44 cast slot0 at 12,6 -> true
+P A r44   after cast st=A
+P A r44 target prism at 12,6 hp100=62500 st= buffs=stun1,

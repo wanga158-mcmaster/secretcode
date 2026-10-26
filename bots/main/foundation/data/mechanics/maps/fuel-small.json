@@ -1,0 +1,3 @@
+{"width": 30, "height": 30, "symmetry": "horizontal", "champs": 3, "spawnA": [10, 13, 13, 16],
+ "walls": [[8, 8], [8, 9], [8, 10]], "bushes": [[12, 17]], "holes": [[9, 18]], "altars": [[14, 22]],
+ "camps": [["wolf", 14, 10], ["elk", 12, 20], ["gem_cluster", 13, 18], ["gold_cluster", 11, 9]]}

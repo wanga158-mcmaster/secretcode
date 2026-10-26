@@ -1,0 +1,18 @@
+{
+  "benchmark": {
+    "map": "01big-world",
+    "sides": ["A", "B"],
+    "point_counts": [16, 64, 128],
+    "patterns": ["uniform", "clustered", "ties", "zero_front", "zero_back", "axis_stripes"],
+    "samples_per_case": 2,
+    "seed": 17
+  },
+  "search": {
+    "layouts": ["aos32", "aos16", "soa32", "soa16", "packed16"],
+    "distances": ["ternary", "stdabs", "lut", "rotated"],
+    "reductions": ["branch", "mask"],
+    "unrolls": [1, 2, 4, 8],
+    "early_zero": [false, true],
+    "axis_prune": [false, true]
+  }
+}

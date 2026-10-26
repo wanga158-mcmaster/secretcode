@@ -1,0 +1,39 @@
+{
+  "description": "36 distinct restricted-model clearing problems: health, damage, camp HP and wall geometry. Search grows actual action-state coverage; a time limit checkpoints it rather than padding runtime. Exported clear-only costs are exact tested entry points and remain model-only.",
+  "max_cases": 64,
+  "search": {
+    "max_nodes": 20000,
+    "max_frontier": 8000,
+    "max_depth": 200,
+    "max_solutions": 64,
+    "checkpoint_every": 10000,
+    "baseline_steps": 1000
+  },
+  "generate": {
+    "template": {
+      "id": "catalog-ryth-wolf",
+      "split": "training",
+      "state_origin": "constructed_health_final_strength_and_geometry_grid",
+      "width": 9,
+      "height": 7,
+      "blocked": [],
+      "actors": [
+        {
+          "id": "actor0", "design": "ryth", "team": 0, "x": 4, "y": 3, "spawn": [0, 0],
+          "mitigation": 1
+        }
+      ],
+      "camps": [
+        {"id": "camp0", "design": "wolf", "group": 0, "x": 5, "y": 3, "gems": 4, "gold": 40, "respawn": 40}
+      ],
+      "settings": {"max_rounds": 80},
+      "goal": {"kind": "clear", "team": 0, "group": 0}
+    },
+    "axes": [
+      {"path": "actors.0.hp", "values": [300, 600, 1200]},
+      {"path": "actors.0.strength", "values": [45, 85]},
+      {"path": "camps.0.hp", "values": [450, 900, 1350]},
+      {"path": "blocked", "values": [[], [[3, 2], [3, 3], [3, 4]]]}
+    ]
+  }
+}

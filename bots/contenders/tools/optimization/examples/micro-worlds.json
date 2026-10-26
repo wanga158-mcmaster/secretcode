@@ -1,0 +1,48 @@
+{
+  "schema": "contenders-micro-campaign/v1",
+  "description": "Automatically select four varied combat/farming contexts from unchanged native replay boundaries. Every case retains its natural champion kit, equipment, cooldowns, positions and visible opponents/camps. Search outputs are per-case finite-horizon controls and frontiers, not cross-world strength or optimality claims.",
+  "defaults": {
+    "generation": {"ground_full": true, "channels": true, "prefix_reuse": true},
+    "search": {
+      "max_nodes": 20000,
+      "horizon_turns": 8,
+      "horizon_rounds": 4,
+      "batch_size": 32,
+      "max_actions_per_turn": 8,
+      "exploration": 0.15,
+      "progressive_widening": 2.0,
+      "widening_power": 0.5,
+      "checkpoint_every": 128
+    }
+  },
+  "inventory": {
+    "sources": [
+      {
+        "id": "natural-big-world",
+        "family": "retained-big-world-camps",
+        "replay": "results/contenders/optimization/c11/camp-domain/seed.repl26a",
+        "replay_sha256": "099582852b6dc05ee07ed587920d09691b118077c59750b6c6a8b82ca86b9ea6",
+        "first_input": 1542,
+        "last_input": 1575,
+        "background_policy": "reactive-v1"
+      },
+      {
+        "id": "natural-equipped-combat",
+        "family": "retained-equipped-duel",
+        "replay": "results/contenders/foundation/model-lab-import/seed.repl26a",
+        "replay_sha256": "a4c77d43abd5979a5276826894d8346111c618544f4d45e1f36cd52e6d24b21b",
+        "first_input": 2658,
+        "last_input": 2690,
+        "background_policy": "reactive-v1"
+      }
+    ],
+    "max_cases": 4,
+    "per_source": 2,
+    "min_input_gap": 8,
+    "combat_radius": 12,
+    "farm_radius": 12,
+    "round_bucket": 100,
+    "kinds": ["combat", "farm"]
+  },
+  "campaign": {"nodes_per_case": 20000}
+}

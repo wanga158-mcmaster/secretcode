@@ -1,0 +1,41 @@
+{
+  "base": "anchors/main-v42",
+  "baseline": "anchors/main-v42",
+  "initial_neutral_bias": 4.0,
+  "baseline_mode": "paired_native",
+  "learning_rate": 0.003,
+  "baseline_decay": 0.9,
+  "entropy_bonus": 0.0,
+  "gradient_norm": 5.0,
+  "batch_cases": 4,
+  "validation_every": 10,
+  "archive_every": 10,
+  "archive_min_distance": 0.00001,
+  "population_max": 8,
+  "population_fraction": 0.25,
+  "validation_seed": 1931,
+  "max_consecutive_rejections": 3,
+  "train_cases": [
+    {"map": "00ambush", "side": "A", "opponent": "anchors/main-v42"},
+    {"map": "00ambush", "side": "B", "opponent": "anchors/main-v42"},
+    {"map": "00eight", "side": "A", "opponent": "anchors/main-hunter7"},
+    {"map": "00eight", "side": "B", "opponent": "anchors/main-hunter7"},
+    {"map": "00gem-fields", "side": "A", "opponent": "anchors/main-v42"},
+    {"map": "00gem-fields", "side": "B", "opponent": "anchors/main-v42"},
+    {"map": "01corridors", "side": "A", "opponent": "anchors/main-hunter7"},
+    {"map": "01corridors", "side": "B", "opponent": "anchors/main-hunter7"}
+  ],
+  "validation_cases": [
+    {"map": "00collision", "side": "A", "opponent": "anchors/main-v42"},
+    {"map": "00collision", "side": "B", "opponent": "anchors/main-v42"},
+    {"map": "00fragment", "side": "A", "opponent": "anchors/main-hunter7"},
+    {"map": "00fragment", "side": "B", "opponent": "anchors/main-hunter7"}
+  ],
+  "heldout_cases": [
+    {"map": "00contest", "side": "A", "opponent": "anchors/main-v42"},
+    {"map": "00contest", "side": "B", "opponent": "anchors/main-v42"},
+    {"map": "00corners", "side": "A", "opponent": "anchors/main-hunter7"},
+    {"map": "00corners", "side": "B", "opponent": "anchors/main-hunter7"}
+  ],
+  "notes": "Native episodic shared linear actor over 5 planner preferences and 7 active personal features, not champion micro/recurrent MAPPO. Initial neutral-biased validation reference, action-independent paired native baseline, periodic behaviorally spaced archived policies even without incumbent improvement. Validation families are disjoint from training but historically used; no unseen-map claim. Exports include negative learning curves/readiness if no gain."
+}

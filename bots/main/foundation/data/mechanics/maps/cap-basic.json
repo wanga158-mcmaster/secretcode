@@ -1,0 +1,3 @@
+{"width": 30, "height": 20, "symmetry": "horizontal", "champs": 3, "spawnA": [0, 8, 3, 11],
+ "camps": [["gold_cluster", 5, 9], ["gold_cluster", 6, 3], ["gem_cluster", 7, 3],
+           ["wolf", 5, 15], ["gold_cluster", 6, 15], ["gem_cluster", 10, 9]]}

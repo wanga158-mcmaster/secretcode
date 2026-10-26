@@ -1,0 +1,58 @@
+# Capture probe evidence (engine 1.0.2 native games; replay-events.mjs). Probe bots/contenders/_probe-capture.
+# ids: A ryth0 stellar1 vendetta2, B 3,4,5. 'g<k> reward a->b team x->y' = group reward flag and capturing team (2 = none).
+## cap-basic (scenario 0)
+r6 champs Attack c5:vendettaB 23,4->22,3 | m5 hp 50->0; m5 pos 22,3->-1,-1; g3 reward 0->1 team 2->2
+r6 champs Attack c2:vendettaA 6,4->7,3 | m4 hp 50->0; m4 pos 7,3->-1,-1; g2 reward 0->1 team 2->2
+r7 champs Attack c0:rythA 4,8->5,9 | m0 hp 30->0; m0 pos 5,9->-1,-1; g0 reward 0->1 team 2->2
+r7 champs Attack c3:rythB 25,8->24,9 | m1 hp 30->0; m1 pos 24,9->-1,-1; g1 reward 0->1 team 2->2
+r8 captures Tick k0:0 0,0->0,0 | g2 reward 1->1 team 2->0
+r8 captures Tick k0:0 0,0->0,0 | g3 reward 1->1 team 2->1
+r9 captures Tick k0:0 0,0->0,0 | g0 reward 1->1 team 2->0
+r9 captures Tick k0:0 0,0->0,0 | g1 reward 1->1 team 2->1
+r9 champs Move c5:vendettaB 22,3->21,2 | c5 pos 22,3->21,2
+r10 champs Move c3:rythB 24,9->25,9 | c3 pos 24,9->25,9; g1 reward 1->1 team 1->2
+r11 champs Move c3:rythB 25,9->24,9 | c3 pos 25,9->24,9
+r12 captures Tick k0:0 0,0->0,0 | g1 reward 1->1 team 2->1
+r12 champs Move c5:vendettaB 22,1->21,2 | c5 pos 22,1->21,2
+r13 captures Capture k0:0 0,0->0,0 | c1 gold 0->10; c1 gems 0->4; c2 gold 0->10; c2 gems 0->3; g2 reward 1->0 team 0->2
+r13 captures Capture k0:0 0,0->0,0 | c4 gold 0->20; c4 gems 0->7; g3 reward 1->0 team 1->2
+r14 captures Capture k0:0 0,0->0,0 | c0 gold 0->20; g0 reward 1->0 team 0->2
+r17 captures Capture k0:0 0,0->0,0 | c3 gold 0->20; g1 reward 1->0 team 1->2
+r25 champs Move c3:rythB 24,9->23,8 | c3 pos 24,9->23,8
+r58 champs Attack c3:rythB 18,10->19,9 | m11 hp 30->0; m11 pos 19,9->-1,-1; g7 reward 0->1 team 2->2
+r60 captures Tick k0:0 0,0->0,0 | g7 reward 1->1 team 2->1
+r63 respawns Respawn k0:0 0,0->0,0 | m2 hp 0->120; m2 pos -1,-1->6,3; m4 hp 0->120; m4 pos -1,-1->7,3
+r65 captures Capture k0:0 0,0->0,0 | c3 gems 0->7; g7 reward 1->0 team 1->2
+r67 respawns Respawn k0:0 0,0->0,0 | m1 hp 0->120; m1 pos -1,-1->24,9
+r71 respawns Respawn k0:0 0,0->0,0 | m0 hp 0->120; m0 pos -1,-1->5,9
+P A r1 group first@5,9 members=1 gold=20 gems=0 max_respawn=50
+P A r1 group first@24,9 members=1 gold=20 gems=0 max_respawn=50
+P A r1 group first@6,3 members=2 gold=20 gems=7 max_respawn=50
+P A r1 group first@23,3 members=2 gold=20 gems=7 max_respawn=50
+P A r1 group first@5,15 members=2 gold=60 gems=4 max_respawn=50
+P A r1 group first@24,15 members=2 gold=60 gems=4 max_respawn=50
+P A r1 group first@10,9 members=1 gold=0 gems=7 max_respawn=50
+P A r1 group first@19,9 members=1 gold=0 gems=7 max_respawn=50
+## cap-contest (scenario 1): X (14..16,4) and Y (15,9) on the axis; Z gem (5,15)
+r8 champs Attack c4:stellarB 25,12->25,15 | m5 hp 30->0; m5 pos 25,15->-1,-1; g3 reward 0->1 team 2->2
+r8 champs Attack c2:vendettaA 4,14->5,15 | m4 hp 50->0; m4 pos 5,15->-1,-1; g2 reward 0->1 team 2->2
+r17 champs Attack c0:rythA 14,8->15,9 | m3 hp 30->0; m3 pos 15,9->-1,-1; g1 reward 0->1 team 2->2
+r19 captures Tick k0:0 0,0->0,0 | g1 reward 1->1 team 2->0
+r24 captures Capture k0:0 0,0->0,0 | c0 gold 0->20; g1 reward 1->0 team 0->2
+r26 champs Attack c1:stellarA 15,6->16,4 | m1 hp 30->0; m1 pos 16,4->-1,-1; g0 reward 0->1 team 2->2
+r30 captures Tick k0:0 0,0->0,0 | g0 reward 1->1 team 2->0
+r34 champs Move c5:vendettaB 15,5->16,4 | c5 pos 15,5->16,4; g0 reward 1->1 team 0->2
+r37 captures Tick k0:0 0,0->0,0 | g0 reward 1->1 team 2->0
+r42 captures Capture k0:0 0,0->0,0 | c1 gold 0->60; g0 reward 1->0 team 0->2
+r48 captures Tick k0:0 0,0->0,0 | g2 reward 1->1 team 2->0
+r48 captures Tick k0:0 0,0->0,0 | g3 reward 1->1 team 2->1
+r53 captures Capture k0:0 0,0->0,0 | c2 gems 0->7; g2 reward 1->0 team 0->2
+r53 captures Capture k0:0 0,0->0,0 | c4 gems 0->7; g3 reward 1->0 team 1->2
+## ch-extra (channels scenario 5): enemy occupant blocks respawn of the centre group (17,6)
+r21 champs Attack c4:stellarB 17,8->17,6 | m0 hp 30->0; m0 pos 17,6->-1,-1; g0 reward 0->1 team 2->2
+r24 captures Tick k0:0 0,0->0,0 | g0 reward 1->1 team 2->1
+r29 captures Capture k0:0 0,0->0,0 | c4 gems 0->7; g0 reward 1->0 team 1->2
+r30 champs Move c0:rythA 16,7->17,6 | c0 pos 16,7->17,6
+r64 respawns Respawn k0:0 0,0->0,0 | m2 hp 0->120; m2 pos -1,-1->30,16; m4 hp 0->120; m4 pos -1,-1->29,16
+r90 champs Move c0:rythA 17,6->16,7 | c0 pos 17,6->16,7
+r91 respawns Respawn k0:0 0,0->0,0 | m0 hp 0->120; m0 pos -1,-1->17,6

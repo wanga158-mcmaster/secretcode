@@ -1,0 +1,157 @@
+operation,lab30,lab100,packs31,ambush100,bigw100
+"action move(delta) free tile",155,155,155,155,155
+"action move(delta) free tile 2",155,155,155,155,155
+"noop",0,0,0,0,0
+"fuel_remaining()",4,4,4,4,4
+"round_number()",21,21,21,21,21
+"self()",1,1,1,1,1
+"self().position()",78,78,78,78,78
+"self().health()",65,65,65,65,65
+"self().max_health()",65,65,65,65,65
+"self().state()",56,56,56,56,56
+"self().can_move()",60,60,60,60,60
+"self().is_alive()",39,39,39,39,39
+"self().strength()",65,65,65,65,65
+"self().champion_name()",35,35,35,35,35
+"self().team()",33,33,33,33,33
+"detail::sdk_champion raw record",34,34,34,34,34
+"self().abilities() copy",101,101,101,101,101
+"ability.cooldown()",146,146,146,146,146
+"ability.cooldown() (held copy)",39,39,39,39,39
+"ability.is_ready() (held copy)",480,480,480,480,480
+"ability.info() (held copy)",8,8,8,8,8
+"ability.valid_targets() (held copy)",43,43,43,43,43
+"self().gold_count()",44,44,44,44,44
+"self().gem_count()",45,45,45,45,45
+"self().item_count()",216,216,216,216,216
+"self().buffs()",118,118,118,118,118
+"self().restrictions()",45,45,45,45,45
+"self().ward_cooldown()",44,44,44,44,44
+"self().ward_positions()",122,122,122,122,122
+"self().priority()",39,39,39,39,39
+"self().can_buy(item)",135,135,135,135,135
+"self().visible_tiles()",350,610,350,668,681
+"self().visible_tiles_from(p)",366,779,366,837,850
+"self().consumables()[tp].count()",43,43,43,43,43
+"vision::visible_tiles()",314,574,314,632,645
+"vision::visible_tiles_into(b)",27,180,27,180,180
+"vision::in_vision(p)",33,33,33,33,33
+"vision::champion_tiles(enemy)",272,379,272,437,450
+"vision::champion_tiles_into(enemy,b)",28,181,28,181,181
+"vision::champion_tiles() both",574,963,574,1079,1092
+"vision::camp_tiles()",272,379,272,437,450
+"vision::camp_tiles_into(b)",27,180,27,180,180
+"vision::awake_camp_tiles()",272,379,272,437,450
+"vision::asleep_camp_tiles()",272,379,272,437,450
+"vision::ward_tiles(enemy)",271,378,271,436,449
+"vision::teleport_tiles()",272,379,272,437,450
+"vision::altar_lock_tiles(enemy)",271,378,271,436,449
+"vision::has_camp(p)",42,42,42,42,42
+"vision::has_champion(p)",42,42,42,42,42
+"vision::wards()",101,101,101,101,101
+"vision::altar_locks()",103,103,103,103,103
+"vision::teleports()",103,103,103,103,103
+"vision::champions(enemy)",2177,2590,549,1020,1033
+"vision::champions(ally)",2697,3110,2610,4165,4492
+"vision::camps()",2330,2743,1707,968,981
+"vision::champion_at(p)",448,448,,,
+"enemy.health()",62,62,,,
+"enemy.position()",75,75,,,
+"enemy.state()",53,53,,,
+"enemy.is_visible()",57,57,,,
+"enemy.is_alive()",36,36,,,
+"enemy.gem_count()",42,42,,,
+"enemy.buffs()",115,115,,,
+"enemy.abilities()[0].cooldown()",142,142,,,
+"enemy.item_count()",213,213,,,
+"vision::camp_at(p)",103,103,103,,
+"camp.health()",34,34,34,,
+"camp.position()",47,47,47,,
+"camp.state()",32,32,32,,
+"camp.is_visible()",41,41,41,,
+"camp.base_stats()",150,150,150,,
+"camp.attack_range()",159,159,159,,
+"camp.buffs()",130,130,130,,
+"camp.camp_group()",824,824,1294,,
+"camp_group.state() (held)",360,467,360,,
+"map::camp(p) (spawn tile)",121,121,121,121,121
+"map::camp_groups()",7454,7331,12660,16068,32033
+"vision::camp_groups()",9633,9922,14979,18364,36038
+"cambc::champions(enemy)",2226,2226,2139,3174,3479
+"cambc::champions(ally)",2228,2228,2141,3176,3481
+"global_submitted_gems(enemy)",24,24,24,24,24
+"constants::capture_time",-2,-2,-2,-2,-2
+"map::walls() ref",-1,-1,-1,-1,-1
+"map::width()",-2,-2,-2,-2,-2
+"shared_memory[0] read",27,27,27,27,27
+"shared_memory[0] write",29,29,29,29,29
+"shared_memory.read(0, 8 bytes)",29,29,29,29,29
+"shared_memory.write(0, 8 bytes)",25,25,25,25,25
+"draft_memory[0] (snapshot)",5,5,5,5,5
+"draft_memory_buffer{} (fresh read)",1471,1471,1471,1529,1834
+"bitboard{} construct",272,379,272,437,742
+"bitboard copy",274,381,274,439,744
+"bitboard a | b",305,412,305,470,775
+"bitboard a |= b",40,193,40,193,193
+"bitboard a & b",305,412,305,470,775
+"bitboard ~a",275,382,275,440,745
+"bitboard shift_right(1)",276,383,276,441,746
+"bitboard shift_up_into(1, out)",31,184,31,184,184
+"bitboard count()",42,195,42,195,195
+"bitboard is_empty()",45,198,45,198,198
+"bitboard is_set(p)",38,38,38,38,38
+"bitboard set(p)",14,14,14,14,14
+"bitboard ==",54,207,54,207,207
+"bitboard positions() few bits",457,763,457,763,763
+"bitboard positions() many bits",8389,-10866,8992,85847,84983
+"bitboard positions_into(span) many bits",938,1221,1005,1221,1221
+"bitboard draw_chebyshev(p,3)",22,24,21,22,22
+"bitboard draw_circle(p,3)",22,24,21,22,22
+"bitboard reachable_tiles(p,1)",370,474,367,532,837
+"bitboard reachable_tiles(p,8)",454,561,404,569,924
+"bitboard shadow_cast(p,8)",553,813,440,786,1155
+"bitboard reflect(symmetry)",279,386,279,444,749
+"distance_field{} construct",-2,-2,-2,-2,-2
+"distance_field.compute whole map",621,12044,797,25226,29958
+"distance_field.compute max_distance 10",461,4439,461,4439,4439
+"distance_field.compute_to near tile",402,3768,402,3768,3768
+"distance_field.get(p)",38,38,38,38,38
+"distance_field.next_move_from(p)",843,843,843,843,843
+"distance_field.copy_from",319,2767,319,2767,2767
+"printf one formatted line",5398,5380,5332,5332,5380
+"vector<int> 100 push_back",8750,8698,8755,8948,8948
+"std::sort 100 ints",27537,27537,27537,27537,27537
+"int64 chebyshev x100",1678,1678,1678,1678,1678
+"printf int-only line",3163,3163,3115,3115,3163
+"printf 8 fields 2 floats",7837,7837,7789,7789,7837
+"puts literal",332,332,332,332,332
+"printf no conversion",332,,,,
+"printf 1 int",1278,,,,
+"printf 2 ints",1903,,,,
+"printf 1 %.2f",2521,,,,
+"printf 1 %s",1380,,,,
+"fputs + fputc",115,,,,
+"fflush(nullptr) after a line",426,,,,
+"std::to_string + concat",561,561,558,558,561
+"try/catch, no throw",0,0,0,0,0
+"throw+catch std::runtime_error",1814,2049,1852,1852,1852
+"camp.state() hidden (throws, caught)",3907,3815,3920,3859,3736
+"camp.is_visible() hidden",33,33,33,33,33
+"camp_group.state() hidden (throws, caught)",4333,4419,4537,4679,4492
+"vision::camp_at(hidden tile) (throws, caught)",3915,3823,3915,3867,3744
+"hidden enemy.health() (throws, caught)",3936,3844,3949,3904,3765
+"hidden enemy.is_visible()",41,41,41,41,41
+"hidden enemy.is_alive()",36,36,36,36,36
+"hidden enemy.champion_name()",31,31,31,31,31
+"champion{type} design construct",552,552,552,552,552
+"item_type.info()",29,29,29,29,29
+"consumable_type.cost()",34,34,34,34,34
+"observe_typical()",4793,5735,2337,2328,2328
+"observe_lean()",932,1544,571,876,876
+"action move_towards(far corner)",5011,18891,4480,31944,36676
+"action move_towards(3 tiles away)",4651,10191,4599,10215,10267
+"action attack(camp)",44,44,44,,
+"action ability.use() attack reset",98,98,98,,
+"action attack(camp) after reset",44,44,44,,
+"action ability.use(tile) dash 1 step",112,112,112,,
+"action attack(camp) twice (second throws)",7906,7553,8009,,

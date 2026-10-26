@@ -1,0 +1,8 @@
+{
+  "matrix": {
+    "provenance": "Synthetic rock-paper-scissors diagnostic for the finite empirical solver, not Battlecode evidence",
+    "policies": ["rock", "paper", "scissors"],
+    "opponents": ["rock", "paper", "scissors"],
+    "payoffs": [[0, -1, 1], [1, 0, -1], [-1, 1, 0]]
+  }
+}

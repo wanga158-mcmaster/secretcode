@@ -1,0 +1,48 @@
+{
+  "schema": "contenders-micro-campaign/v1",
+  "description": "Long-running automatic native replay-context mining and micro search. Widen or append actual retained replay intervals to grow world/kit/opponent coverage. A source interval contains at most3001 native inputs; overlapping intervals deduplicate exact cases.",
+  "defaults": {
+    "generation": {"ground_full": true, "channels": true, "prefix_reuse": true},
+    "search": {
+      "max_nodes": 100000,
+      "horizon_turns": 12,
+      "horizon_rounds": 6,
+      "batch_size": 32,
+      "max_actions_per_turn": 10,
+      "exploration": 0.15,
+      "progressive_widening": 2.0,
+      "widening_power": 0.5,
+      "checkpoint_every": 256
+    }
+  },
+  "inventory": {
+    "sources": [
+      {
+        "id": "natural-big-world",
+        "family": "retained-big-world-camps",
+        "replay": "results/contenders/optimization/c11/camp-domain/seed.repl26a",
+        "replay_sha256": "099582852b6dc05ee07ed587920d09691b118077c59750b6c6a8b82ca86b9ea6",
+        "first_input": 1000,
+        "last_input": 3000,
+        "background_policy": "reactive-v1"
+      },
+      {
+        "id": "natural-equipped-combat",
+        "family": "retained-equipped-duel",
+        "replay": "results/contenders/foundation/model-lab-import/seed.repl26a",
+        "replay_sha256": "a4c77d43abd5979a5276826894d8346111c618544f4d45e1f36cd52e6d24b21b",
+        "first_input": 1500,
+        "last_input": 3500,
+        "background_policy": "reactive-v1"
+      }
+    ],
+    "max_cases": 32,
+    "per_source": 16,
+    "min_input_gap": 32,
+    "combat_radius": 12,
+    "farm_radius": 12,
+    "round_bucket": 50,
+    "kinds": ["combat", "farm"]
+  },
+  "campaign": {"nodes_per_case": 100000}
+}

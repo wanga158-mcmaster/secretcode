@@ -1,0 +1,226 @@
+# Channel and death probe evidence (engine 1.0.2 native games; replay-events.mjs + probe logs). Probe bots/contenders/_probe-channels.
+# ids: A ryth0 stellar1 vendetta2, B 3,4,5
+## ch-basic (scenario 0): recall/tribute/crystal
+r1 champs Recall c0:rythA 0,0->0,0 | 
+r2 champs CancelChannel c0:rythA 0,0->0,0 | 
+r15 camps Attack m10:wolf@10,18 10,18->9,17 | c0 hp 1200->1180
+r15 champs Recall c0:rythA 0,0->0,0 | 
+r16 camps Attack m10:wolf@10,18 10,18->9,17 | c0 hp 1180->1160
+r16 champs Recall c0:rythA 0,0->0,0 | 
+r17 camps Attack m10:wolf@10,18 10,18->10,17 | c0 hp 1160->1140
+r18 camps Attack m10:wolf@10,18 10,18->10,17 | c0 hp 1140->1120
+r18 champs Recall c0:rythA 0,0->0,0 | 
+r19 camps Attack m10:wolf@10,18 10,18->10,17 | c0 hp 1120->1100
+r20 camps Attack m10:wolf@10,18 10,18->9,16 | c0 hp 1100->1080
+r21 captures Capture k0:0 0,0->0,0 | c1 gems 0->14; g0 reward 1->0 team 0->2
+r21 camps Attack m10:wolf@10,18 10,18->8,15 | c0 hp 1080->1060
+r23 champs Recall c0:rythA 0,0->0,0 | 
+r28 turnEnd Tick c0:rythA 0,0->0,0 | c0 hp 1060->1200
+r30 champs SubmitGems c1:stellarA 0,0->6,11 | 
+r30 champs Shop c2:vendettaA 0,0->0,0 | c2 gold 40->30
+r32 captures Capture k0:0 0,0->0,0 | c1 gems 14->21; g2 reward 1->0 team 0->2
+r32 turnStart GemsSubmitted c1:stellarA 6,10->6,11 | c1 gems 21->0; submitted 0,21->21,21
+r35 champs Recall c0:rythA 0,0->0,0 | 
+r35 champs CancelChannel c0:rythA 0,0->0,0 | 
+r36 champs Recall c0:rythA 0,0->0,0 | 
+r37 champs CancelChannel c0:rythA 0,0->0,0 | 
+r45 champs TeleportChannel c2:vendettaA 0,0->13,7 | 
+r48 turnStart TeleportComplete c2:vendettaA 10,4->13,7 | c2 pos 10,4->13,7
+P A r1 recall started
+P A r2 channel remaining=4
+P A r2 cancel channel ok
+P A r15 recall started
+P A r16 try move -> ok
+P A r16 try ward -> ok
+P A r16 try castself0 -> error 126 This spell cannot be cast after normal movement.
+P A r16 try castself1 -> error 26 An available attack cannot be reset.
+P A r16 try buy-shard -> error 49 Item purchases require spawn or the shop passive.
+P A r16 try buy-crystal -> error 55 Consumable purchases require spawn.
+P A r16 try priority -> ok
+P A r16 try shared-write -> ok
+P A r16 try recall -> ok
+P A r18 recall started
+P A r23 recall started
+P A r24 channel remaining=4
+P A r24 try move -> error 34 Cancel recall before acting.
+P A r24 try ward -> error 34 Cancel recall before acting.
+P A r24 try castself0 -> error 34 Cancel recall before acting.
+P A r24 try castself1 -> error 34 Cancel recall before acting.
+P A r24 try buy-shard -> error 34 Cancel recall before acting.
+P A r24 try buy-crystal -> error 34 Cancel recall before acting.
+P A r24 try priority -> ok
+P A r24 try shared-write -> ok
+P A r24 try recall -> error 34 Cancel recall before acting.
+P A r26 channel remaining=2
+P A r27 channel remaining=1
+P A r30 tribute started at 6,11
+P A r31 channel remaining=1
+P A r31 try move -> error 35 Cancel gem submission before acting.
+P A r31 try ward -> error 35 Cancel gem submission before acting.
+P A r31 try castself0 -> error 35 Cancel gem submission before acting.
+P A r31 try castself1 -> error 35 Cancel gem submission before acting.
+P A r31 try buy-shard -> error 35 Cancel gem submission before acting.
+P A r31 try buy-crystal -> error 35 Cancel gem submission before acting.
+P A r31 try priority -> ok
+P A r31 try shared-write -> ok
+P A r31 try recall -> error 35 Cancel gem submission before acting.
+P A r35 recall started
+P A r35 cancel channel ok
+P A r35 op 5 engine error 113 Recall already started this turn.
+P A r35 op 6 engine error 115 Champion is not channeling.
+P A r36 recall started
+P A r37 channel remaining=4
+P A r37 cancel channel ok
+P A r37 op 6 engine error 115 Champion is not channeling.
+P A r45 op 11 engine error 22 Forbidden landing tile.
+P A r45 op 11 engine error 22 Forbidden landing tile.
+P A r45 op 11 engine error 37 Teleport out of range.
+P A r45 use consumable 0 at 13,7 -> true
+P A r45 op 11 engine error 123 Champion is teleporting.
+P A r46 channel remaining=2
+P A r46 try move -> error 123 Champion is teleporting.
+P A r46 try ward -> error 123 Champion is teleporting.
+P A r46 try castself0 -> error 123 Champion is teleporting.
+P A r46 try castself1 -> error 123 Champion is teleporting.
+P A r46 try buy-shard -> error 123 Champion is teleporting.
+P A r46 try buy-crystal -> error 123 Champion is teleporting.
+P A r46 try priority -> ok
+P A r46 try shared-write -> ok
+P A r46 try recall -> error 123 Champion is teleporting.
+## ch-lock (scenario 1): locks at the shared altar (15,11), kill and respawn
+r34 champs SubmitGems c1:stellarA 0,0->15,11 | 
+r35 champs PlaceAltarLock c5:vendettaB 0,0->15,11 | 
+r37 champs SubmitGems c4:stellarB 0,0->15,11 | 
+r38 champs Attack c1:stellarA 14,11->15,11 | 
+r39 champs Attack c1:stellarA 14,11->15,11 | 
+r39 turnStart GemsSubmitted c4:stellarB 16,11->15,11 | c4 gems 14->0; submitted 0,0->0,14
+r40 champs Attack c1:stellarA 14,11->15,11 | 
+r41 champs Attack c1:stellarA 14,11->15,11 | 
+r46 champs Attack c2:vendettaA 14,17->15,16 | c2 gold 0->100; c2 gems 0->7; c2 kills 0->1; c3 hp 5->0; c3 pos 15,16->-1,-1; c3 gems 7->0; c3 alive 1->0
+r50 champs Shop c3:rythB 0,0->0,0 | c3 gold 20->10
+r80 champs Attack c1:stellarA 14,11->15,11 | 
+r81 champs SubmitGems c1:stellarA 0,0->15,11 | 
+r83 turnStart GemsSubmitted c1:stellarA 14,11->15,11 | c1 gems 14->0; submitted 0,14->14,14
+r107 turnStart Respawn c3:rythB 0,0->0,0 | c3 hp 0->1200; c3 pos -1,-1->30,10; c3 alive 0->1
+P B r35 use consumable 1 at 15,11 -> true
+P B r38 op 11 engine error 61 No consumable of this type is carried.
+P B r38 lock at 15,11 team=ally hits_remaining=4
+P B r39 lock at 15,11 team=ally hits_remaining=4
+P B r39 lock at 15,11 team=ally hits_remaining=3
+P B r40 lock at 15,11 team=ally hits_remaining=3
+P B r40 lock at 15,11 team=ally hits_remaining=2
+P B r41 lock at 15,11 team=ally hits_remaining=2
+P B r41 lock at 15,11 team=ally hits_remaining=1
+P B r42 lock at 15,11 team=ally hits_remaining=1
+P B r43 lock at 15,11 team=ally hits_remaining=1
+P B r44 lock at 15,11 team=ally hits_remaining=1
+P B r45 lock at 15,11 team=ally hits_remaining=1
+P B r45 atk at 15,11 engine error 42 Target must be a visible enemy or neutral camp.
+P B r46 lock at 15,11 team=ally hits_remaining=1
+P B r47 lock at 15,11 team=ally hits_remaining=1
+P B r48 lock at 15,11 team=ally hits_remaining=1
+P B r49 lock at 15,11 team=ally hits_remaining=1
+P B r50 try move -> false
+P B r50 try ward -> error 63 Champion cannot act.
+P B r50 try castself0 -> error 26 Champion cannot act.
+P B r50 try castself1 -> error 26 Champion cannot act.
+P B r50 try buy-shard -> error 52 Not enough gold to buy items.
+P B r50 try buy-crystal -> ok
+P B r50 try priority -> ok
+P B r50 try shared-write -> ok
+P B r50 try recall -> error 44 Champion cannot act.
+P B r50 lock at 15,11 team=ally hits_remaining=1
+P B r51 lock at 15,11 team=ally hits_remaining=1
+P B r52 lock at 15,11 team=ally hits_remaining=1
+P B r53 lock at 15,11 team=ally hits_remaining=1
+P B r54 lock at 15,11 team=ally hits_remaining=1
+P B r55 lock at 15,11 team=ally hits_remaining=1
+P B r56 lock at 15,11 team=ally hits_remaining=1
+P B r57 lock at 15,11 team=ally hits_remaining=1
+P B r58 lock at 15,11 team=ally hits_remaining=1
+P B r59 lock at 15,11 team=ally hits_remaining=1
+P B r80 lock at 15,11 team=ally hits_remaining=1
+## ch-damage (scenario 2): crystal under elk damage; champion damage cancels recall
+r34 camps Attack m10:elk@11,13 11,13->12,15 | c2 hp 700->640
+r35 camps Attack m10:elk@11,13 11,13->12,15 | c2 hp 640->580
+r35 champs TeleportChannel c2:vendettaA 0,0->15,16 | 
+r36 camps Attack m10:elk@11,13 11,13->12,15 | c2 hp 580->520
+r37 camps Attack m10:elk@11,13 11,13->12,15 | c2 hp 520->460
+r38 camps Attack m10:elk@11,13 11,13->12,15 | c2 hp 460->400
+r38 turnStart TeleportComplete c2:vendettaA 12,15->15,16 | c2 pos 12,15->15,16
+r38 champs Move c2:vendettaA 15,16->14,15 | c2 pos 15,16->14,15
+r39 camps Attack m10:elk@11,13 11,13->14,15 | c2 hp 400->340
+r39 champs Move c2:vendettaA 14,15->13,16 | c2 pos 14,15->13,16
+r40 camps Attack m10:elk@11,13 11,13->13,16 | c2 hp 340->280
+r40 champs Recall c0:rythA 0,0->0,0 | 
+r40 champs Move c2:vendettaA 13,16->14,17 | c2 pos 13,16->14,17
+r41 camps Attack m10:elk@11,13 11,13->14,17 | c2 hp 280->220
+r41 champs Attack c3:rythB 16,20->15,20 | c0 hp 1200->1155
+r41 champs Move c2:vendettaA 14,17->15,18 | c2 pos 14,17->15,18
+r42 champs Attack c3:rythB 16,20->15,20 | c0 hp 1155->1110
+r43 champs Move c3:rythB 16,20->15,19 | c3 pos 16,20->15,19
+P A r40 start ryth id=0 pos=15,20 hp=1200.00/1200.00 str=45.00 foc=100.00 st=MAC cd=0,0 gold=0 gems=0 buffs=
+P A r40 end ryth id=0 pos=15,20 hp=1200.00/1200.00 str=45.00 foc=100.00 st=recall, cd=0,0 gold=0 gems=0 buffs=
+P A r41 start ryth id=0 pos=15,20 hp=1200.00/1200.00 str=45.00 foc=100.00 st=recall, cd=0,0 gold=0 gems=0 buff
+P A r41 end ryth id=0 pos=15,20 hp=1200.00/1200.00 str=45.00 foc=100.00 st=recall, cd=0,0 gold=0 gems=0 buffs=
+P A r42 start ryth id=0 pos=15,20 hp=1110.00/1200.00 str=45.00 foc=100.00 st=MAC cd=0,0 gold=0 gems=0 buffs=
+P A r42 end ryth id=0 pos=15,20 hp=1110.00/1200.00 str=45.00 foc=100.00 st=MAC cd=0,0 gold=0 gems=0 buffs=
+## ch-damage2 (scenario 3): camp kill destroys carried gems
+r47 camps Attack m10:elk@11,13 11,13->12,14 | c0 hp 120->60
+r47 champs Attack c0:rythA 12,14->11,13 | m10 hp 1965->1920
+r48 camps Attack m10:elk@11,13 11,13->12,14 | c0 hp 60->0; c0 pos 12,14->-1,-1; c0 gems 7->0; c0 alive 1->0
+## ch-damage3 (scenario 4): tribute under elk damage
+r28 champs Attack c4:stellarB 25,11->22,13 | m11 hp 2400->2370
+r28 champs Attack c1:stellarA 8,11->11,13 | m10 hp 2400->2370
+r29 camps Attack m10:elk@11,13 11,13->8,11 | c1 hp 650->590
+r29 camps Attack m11:elk@22,13 22,13->25,11 | c4 hp 650->590
+r29 champs SubmitGems c1:stellarA 0,0->7,11 | 
+r29 champs SubmitGems c4:stellarB 0,0->26,11 | 
+r30 camps Attack m10:elk@11,13 11,13->8,11 | c1 hp 590->530
+r30 camps Attack m11:elk@22,13 22,13->25,11 | c4 hp 590->530
+r31 camps Attack m10:elk@11,13 11,13->8,11 | c1 hp 530->470
+r31 camps Attack m11:elk@22,13 22,13->25,11 | c4 hp 530->470
+r31 turnStart GemsSubmitted c1:stellarA 8,11->7,11 | c1 gems 14->0; submitted 0,0->14,0
+r31 turnStart GemsSubmitted c4:stellarB 25,11->26,11 | c4 gems 14->0; submitted 14,0->14,14
+r32 camps Attack m10:elk@11,13 11,13->8,11 | c1 hp 470->410
+r32 camps Attack m11:elk@22,13 22,13->25,11 | c4 hp 470->410
+## ch-extra (scenario 5): crystal landing, lock range, two locks on one altar
+P A r55 op 11 engine error 22 Forbidden landing tile.
+P A r55 op 11 engine error 22 Forbidden landing tile.
+P A r55 op 11 engine error 22 Known occupied destination.
+P A r55 use consumable 0 at 26,13 -> true
+P A r60 op 11 engine error 119 Altar is outside ward placement range.
+P A r63 use consumable 1 at 29,15 -> true
+P B r66 use consumable 1 at 29,15 -> true
+P B r68 atk at 29,15 engine error 42 Target must be a visible enemy or neutral camp.
+P B r70 atk at 29,15 engine error 42 Target must be a visible enemy or neutral camp.
+r55 champs TeleportChannel c2:vendettaA 0,0->26,13 | 
+r58 turnStart TeleportComplete c2:vendettaA 29,13->26,13 | c2 pos 29,13->26,13
+r63 champs PlaceAltarLock c2:vendettaA 0,0->29,15 | 
+r66 champs PlaceAltarLock c5:vendettaB 0,0->29,15 | 
+P B r66 lock at 29,15 team=enemy hits_remaining=5
+P B r66 lock at 29,15 team=ally hits_remaining=5
+P B r67 lock at 29,15 team=enemy hits_remaining=5
+P B r67 lock at 29,15 team=ally hits_remaining=5
+P B r68 lock at 29,15 team=enemy hits_remaining=5
+P B r68 lock at 29,15 team=ally hits_remaining=5
+## ch-lock2 (scenario 7): B locks C (18,11), tributes through its own lock; A's lock placement cancels B's channel; direct hits on locks
+r40 champs PlaceAltarLock c5:vendettaB 0,0->18,11 | 
+r42 champs SubmitGems c4:stellarB 0,0->18,11 | 
+r43 champs PlaceAltarLock c2:vendettaA 0,0->18,11 | 
+r45 champs Attack c1:stellarA 15,11->18,11 | 
+r46 champs Attack c1:stellarA 15,11->18,11 | 
+r47 champs Attack c2:vendettaA 17,12->18,11 | 
+r50 champs Attack c4:stellarB 19,11->18,11 | 
+P B r42 start stellar id=4 pos=19,11 hp=650.00/650.00 str=30.00 foc=70.00 st=MAC cd=0,0 gold=0 gems=14 buffs=
+P B r42 end stellar id=4 pos=19,11 hp=650.00/650.00 str=30.00 foc=70.00 st=tribute, cd=0,0 gold=0 gems=14 buffs=
+P B r43 start stellar id=4 pos=19,11 hp=650.00/650.00 str=30.00 foc=70.00 st=tribute, cd=0,0 gold=0 gems=14 buffs=
+P B r43 end stellar id=4 pos=19,11 hp=650.00/650.00 str=30.00 foc=70.00 st=tribute, cd=0,0 gold=0 gems=14 buffs=
+P B r44 start stellar id=4 pos=19,11 hp=650.00/650.00 str=30.00 foc=70.00 st=MAC cd=0,0 gold=0 gems=14 buffs=
+P B r44 end stellar id=4 pos=19,11 hp=650.00/650.00 str=30.00 foc=70.00 st=MAC cd=0,0 gold=0 gems=14 buffs=
+P A r45 attack enemy lock at 18,11 ok (had 5 hits)
+P A r46 attack enemy lock at 18,11 ok (had 4 hits)
+P A r47 attack enemy lock at 18,11 ok (had 3 hits)
+P A r50 lock at 18,11 team=ally hits_remaining=4
+P A r51 lock at 18,11 team=ally hits_remaining=4
+P A r52 lock at 18,11 team=ally hits_remaining=4

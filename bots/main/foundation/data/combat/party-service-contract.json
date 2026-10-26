@@ -1,0 +1,217 @@
+{
+  "schema": "party-service-knowledge-contract/v1",
+  "title": "Named complete party service",
+  "status": "Reviewed knowledge-only operator specification; not an executable controller, native refinement proof, optimal-party result or release qualification.",
+  "use": [
+    "Derive independent controllers from the game structure; do not include this artifact as shared bot implementation.",
+    "A conditional experiment may use an explicitly limited risk model. Unknown alternatives limit a benefit claim; they are not a new proof or approval gate before useful execution.",
+    "Query runtime settings and actual kit properties at use; numerical geometry below records the settled current bundle."
+  ],
+  "scope": {
+    "bundle": "CLI/SDK 3.0.5, engine 1.0.3 facts where explicitly qualified.",
+    "initial_kits": [
+      "Varg",
+      "Willow",
+      "Vendetta"
+    ],
+    "clocks": "Camp-first phase plus actual ordered owner turns. Record primitive input/substep timestamps separately; native input integers can advance inside one continuous owner turn.",
+    "information": "Personal observations and actual 8-byte team-register reads; allied vision and private VM state are not implicitly shared.",
+    "guarantees": "State the environment, interruption and risk premises. Neither a nearby ally nor a ready allowance is a committed future action."
+  },
+  "named_service_record": {
+    "group": [
+      "physical group identity",
+      "actual observed lifecycle",
+      "generation/respawn basis",
+      "observation times and provenance",
+      "actual remaining members and partial work"
+    ],
+    "participants": [
+      "physical participant IDs and roles",
+      "individually legal work/heal/cover stations and ingress/egress",
+      "actual arrival opportunity and absolute arrival deadline",
+      "the first legal useful action each participant can deliver",
+      "intended capture occupants and actual payout recipients",
+      "each participant's compatible displaced solo continuation",
+      "personal HP, gear, held gold, bag, cooldowns, permissions and outstanding commitments"
+    ],
+    "protocol": [
+      "Eight-byte wrapped intents nominate a service; they do not certify current hidden HP, position, visibility, readiness, arrival or commitment.",
+      "Round-wrap aliasing and an unchanged intent do not renew observation authority.",
+      "A missed, invalidated or completed service releases/resolves the participants from actual residual state; do not retain a dead reservation forever."
+    ]
+  },
+  "complete_word": [
+    {
+      "stage": "travel and useful pre-arrival work",
+      "requirements": [
+        "Each body's travel and partial work remain individually affordable under the declared threat/support model until actual assembly.",
+        "Do not assume future helper HP, healing or damage before its timely legal action.",
+        "No implicit compulsory rally idle. Any selected wait is a priced physical prefix with an executable continuation.",
+        "A helper arriving after the clear or recipient deadline contributes no past damage, heal or protection.",
+        "Missed deadlines, refusals and interrupted observations choose a resolving action, alternate service or declared-risk continuation; Unknown is not an instruction to wait permanently."
+      ]
+    },
+    {
+      "stage": "fresh joint execution",
+      "requirements": [
+        "Use fresh personally visible body HP, shield amount/timers, position, cooldowns, restrictions, M/A/C and current kit facts at the actual execution point.",
+        "Refresh actual outcomes after effects; a proposed or predicted HP value is not current physical authority.",
+        "Camp actions precede champion inputs. Use actual owner order, stuns, expiry and zero/two opposing opportunities where relevant.",
+        "Price each participant's damage prefixes and executable exit; pooled HP is not a tank policy.",
+        "Willow needs her own legal target visibility and range when she acts, not merely another participant's view."
+      ]
+    },
+    {
+      "stage": "capture and personal conversion",
+      "requirements": [
+        "Extra allies do not accelerate capture. Name intended occupants and verify actual recipients at payout.",
+        "Rewards split into personal wallets/bags; one body's gold cannot silently fund another body's purchase.",
+        "Include actual capture, bank/channel, purchase and recovery elapsed time for each participant.",
+        "A gold-only receipt does not require an empty gem channel, but still needs its declared investment/release continuation.",
+        "Vacate every occupied captured member footprint needed for respawn. Elapsed time alone does not establish ALIVE.",
+        "Rearm work from actual observed ALIVE/new-generation facts; preserve unknown when lifecycle authority is unavailable."
+      ]
+    },
+    {
+      "stage": "release and renewal",
+      "requirements": [
+        "The endpoint is an observed state from which the declared next useful service can actually start.",
+        "Do not silently replace a required spawn/shop endpoint with mere field readiness, or require spawn when the declared next operator does not need it.",
+        "Retain actual partial work, receipt, bag, gear, deadline and refusal state across interruption; invalidate future authority without inventing a reset."
+      ]
+    }
+  ],
+  "first_rolling_joint_version": {
+    "baseline": "Varg has an individually priced own exit under the declared local risk model; do not fund that exit with an unexecuted Willow heal.",
+    "support": "Count actual Willow healing, then make a fresh HP/shield/position quote for the next word. A legal heal on a full-HP ally is not positive HP support.",
+    "vendetta": "Count Vendetta only when an actual timely arrival can deliver the named useful legal action; proximity alone is not damage.",
+    "future_support": [
+      "Future credit requires a named deterministic joint policy, its ordered action opportunities, recipient deadline, personal-observation premises and interruption handling.",
+      "The joint policy must represent the intervening enemy/camp opportunities admitted by its stated model.",
+      "This is a claim boundary. A limited conditional experiment does not need a universal proof against every hidden foe."
+    ]
+  },
+  "kit_constraints": {
+    "Willow": [
+      "Cannot heal herself.",
+      "Heal range four is walking-compatible; current legal target visibility and actual cast permission still matter.",
+      "Ranged basic range three consumes M+A. A reset restores attack, not ordinary movement.",
+      "Heal and reset compete for the same successful cast allowance C.",
+      "Heal readiness does not commit Willow to heal, and nominal healing does not equal observed HP gain."
+    ],
+    "Varg": [
+      "Self-shield and attack reset compete for C.",
+      "A retained shield must be priced with its actual amount, timer and phase order, not hypothetical future absorption.",
+      "Splash/area work must include every affected group's wake and the resulting per-body targeting."
+    ],
+    "Vendetta": [
+      "A kill can reset cooldowns but never refreshes an already spent successful cast allowance C.",
+      "Do not schedule an additional cast merely because its cooldown became zero.",
+      "Arrival, legal target/station and usable allowances determine timely contribution."
+    ]
+  },
+  "geometry_and_cover": [
+    "Willow basic range three cannot attack a wolf of range three or elk of range four from outside that camp's geometric attack footprint.",
+    "A healer within Chebyshev four of a melee body within one of a monolith is within Chebyshev five of the monolith by the triangle inequality.",
+    "These are footprint statements, not universal impossibility or guaranteed-damage claims. Awake state, actual targeting, vision and other bodies still matter.",
+    "Use deliberate actual nearest-target cover and affordable withdrawal where appropriate. Specify which body receives each ordered hit, including tie/priority effects; do not substitute pooled HP.",
+    "An action/route station being geometrically reachable or within attack range does not establish personal sight, support commitment or a safe continuation."
+  ],
+  "comparison": {
+    "horizon": "Compare the joint episode and compatible independent episodes at the same declared elapsed-time horizon and terminal predicate.",
+    "include": [
+      "actual travel and assembly time",
+      "any chosen waiting",
+      "work and per-body damage/recovery",
+      "capture and intended/actual recipients",
+      "banking and interrupted channels",
+      "personal held currency, purchases and residual work",
+      "later usable service state",
+      "opponents reacting to each branch's history rather than a frozen future tape"
+    ],
+    "interpretation": [
+      "Actual joint labor or a successful local clear establishes contribution, not benefit over complete displaced alternatives.",
+      "Unknown/incomplete independent alternatives limit a proved opportunity benefit; they do not prohibit a scoped conditional native experiment.",
+      "Do not infer strength from summed damage, a heal opportunity, a reservation or a model win."
+    ]
+  },
+  "bounded_native_applications": {
+    "first_contact": {
+      "candidate": "contenders/warband@2fe1083b0bf6",
+      "selected_role": "raw",
+      "coverage": "Actual retained R28-55 window; no whole-game or eventual-death cause inferred from this prefix.",
+      "observations": [
+        "At R33 full-HP Varg is within two of Willow; Vendetta is outside heal range four, later distance six. This supports a current kit/position opportunity, not proof that a beneficial heal was applied.",
+        "Heart gets R34 dash+basic and R35 basic before Vendetta's unrestricted owner input; one denied input is not protection through every intervening opportunity.",
+        "The selected contact snapshots are outside static harmful-camp footprints, not therefore champion-quiet.",
+        "No clear, receipt or bank occurs in this window; future party value and safe alternatives remain unproved."
+      ],
+      "assessment": {
+        "path": "results/contenders/warband/capital-work/contact-audit/assessment.json",
+        "sha256": "6957a3a9a894b87957fda625bff40a49488bb7bf5f246dd338ec262049f649a3"
+      },
+      "witness": {
+        "path": "results/contenders/warband/capital-work/contact-audit/witness.json",
+        "sha256": "396aa12905f49fcedffc9f48aad08b089ee6c2ebc6ffe9e255912745ba32448c"
+      },
+      "native_body": {
+        "path": "results/contenders/warband/capital-work/contact-audit/native-28-55.json",
+        "sha256": "1e2a9201c0f38915f9ea15e3810e725e7b043152d1a1e9ae8eed4da7dba9c7ec"
+      }
+    },
+    "first_death": {
+      "coverage": "Actual retained R362-379 first-own-death prefix; distinct from first contact.",
+      "observations": [
+        "At R375 Willow has HP480, M/A/C ready and all three foes personally visible; the subsequent double-basic deals230, leaving250 HP.",
+        "A further115 at R376 leaves135. Recall at R377 is canceled by115 damage, leaving20; the repeated R378 recall is killed.",
+        "The prefix has no healing/NPC damage or currency/receipt/bank change.",
+        "Static NPC quiet is not a renewable recall premise under champion pressure. Nearby allies do not supply committed support.",
+        "Alternative movement/spell masks were not queried. No alternative is labelled safe and no saved private branch is claimed."
+      ],
+      "assessment": {
+        "path": "results/contenders/warband/capital-work/contact-audit/death/assessment.json",
+        "sha256": "dbaad2fe36575aa0d4bd2e95fa27ec275b9b31242db23e624da5a267befb6722"
+      },
+      "witness": {
+        "path": "results/contenders/warband/capital-work/contact-audit/death/witness.json",
+        "sha256": "2e93ca7c8df6424600cd5e29f8691e854a1c203d87edee7829a23d44a9a56065"
+      },
+      "native_body": {
+        "path": "results/contenders/warband/capital-work/contact-audit/death/native-362-379.json",
+        "sha256": "2e23010bf568ac3369a9880b74bd197f05566cbdae21fe62fd452c84af401f8a"
+      }
+    },
+    "preservation_index": {
+      "path": "results/contenders/warband/capital-work/contact-audit/preservation-index.json",
+      "sha256": "6beba7d299dfdba1d6f9ea662b2fed6d5b85e6342c8e9a3dcaad6515fd9fcd11"
+    },
+    "limits": [
+      "These finite observations do not qualify a party controller, universal response envelope, beneficial cooperation or strength.",
+      "The separate contact-controller pilot's fuel failure is not qualified by these counterfacts.",
+      "No new match, decoder or source inspection was performed to preserve this specification."
+    ]
+  },
+  "canonical_dependencies": [
+    {
+      "path": "bots/main/foundation/strategy.md",
+      "entry": "G11: complete observed production, conversion and renewed service"
+    },
+    {
+      "path": "bots/main/foundation/economy.md",
+      "entry": "E31: actual priority rotation, individual survival and opportunity limits"
+    },
+    {
+      "path": "bots/main/foundation/combat.md",
+      "entry": "C2/C8/C22/C23: ordered tempo, escape, timely contribution and response opportunities"
+    },
+    {
+      "path": "bots/main/foundation/micro.md",
+      "entry": "U12: actual ordering, transient stun and non-monotone Heart response"
+    },
+    {
+      "path": "bots/main/foundation/mathematics.md",
+      "entry": "D1-D4/L4/L6-L8/T2/T5: clocks, information, per-body prefixes and complete-service scope"
+    }
+  ]
+}

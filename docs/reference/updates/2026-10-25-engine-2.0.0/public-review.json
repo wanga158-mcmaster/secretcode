@@ -1,0 +1,247 @@
+{
+  "schema": "staged-public-frontend-review/v1",
+  "reviewed_at_utc": "2026-10-25T22:56:03.491128+00:00",
+  "all_writes_under": ".cache/vendor-update-20261025/frontend",
+  "public_http_only": true,
+  "account_authentication": false,
+  "native_matches": 0,
+  "published_production_changes": false,
+  "artifacts": {
+    "service-Bzp8qUsA.js": {
+      "url": "https://2026a.battlecode.co.uk/service/assets/service-Bzp8qUsA.js",
+      "path": ".cache/vendor-update-20261025/frontend/service-Bzp8qUsA.js",
+      "bytes": 274734,
+      "sha256": "c665c77057e69b5eb10d4279b888d0ee2c7d38434a0a0946d5f97efee6214086"
+    },
+    "docs-8j-tVbVm.js": {
+      "url": "https://2026a.battlecode.co.uk/service/assets/docs-8j-tVbVm.js",
+      "path": ".cache/vendor-update-20261025/frontend/docs-8j-tVbVm.js",
+      "bytes": 1857633,
+      "sha256": "aa473a5b2e15fd27f35c8f594d46aed8c4a977b11888eae6c1fcf004392e73e3"
+    },
+    "ChampionGrid-DZ1AFWDe.js": {
+      "url": "https://2026a.battlecode.co.uk/service/assets/ChampionGrid-DZ1AFWDe.js",
+      "path": ".cache/vendor-update-20261025/frontend/ChampionGrid-DZ1AFWDe.js",
+      "bytes": 17599,
+      "sha256": "cdb3368180d5458672069e324537f9a716a21a94e08022e8f6cb8ceaff212194"
+    },
+    "ToolFrame-CHV20e2N.js": {
+      "url": "https://2026a.battlecode.co.uk/service/assets/ToolFrame-CHV20e2N.js",
+      "path": ".cache/vendor-update-20261025/frontend/ToolFrame-CHV20e2N.js",
+      "bytes": 17053,
+      "sha256": "2a9420764a2373fc0fd536f511f4634d1f5238cd5f8a3bb3b90b63008f76054f"
+    },
+    "distribution-BGykJuIe.js": {
+      "url": "https://2026a.battlecode.co.uk/service/assets/distribution-BGykJuIe.js",
+      "path": ".cache/vendor-update-20261025/frontend/distribution-BGykJuIe.js",
+      "bytes": 13401,
+      "sha256": "18bc4e43ba51cc2693e5e057088e85fb082372ac804f8069e0ef37be41888ab0"
+    },
+    "agents.html": {
+      "url": "https://2026a.battlecode.co.uk/game/docs/agents",
+      "path": ".cache/vendor-update-20261025/frontend/agents.html",
+      "bytes": 2327,
+      "sha256": "2e13e1fbcd7d559e00a8411a793541b08fb7359de56bee4d4cc4f5f92836e0f6"
+    },
+    "mapeditor-current.json": {
+      "url": "https://2026a.battlecode.co.uk/service/tools/mapeditor/current.json",
+      "path": ".cache/vendor-update-20261025/frontend/mapeditor-current.json",
+      "bytes": 154,
+      "sha256": "66f1a394ba693111d505b09d1db337dde2fc0ebb9d1f31ed135767054d60a133"
+    },
+    "mapeditor-index.html": {
+      "url": "https://2026a.battlecode.co.uk/service/tools/mapeditor/releases/e3fdd428-614e-462f-a73a-39b48cad2b29/index.html",
+      "path": ".cache/vendor-update-20261025/frontend/mapeditor-index.html",
+      "bytes": 1122,
+      "sha256": "e3996fe99a76b6b7f31d134ec9b91822c18798aed8249fbd9670f8c1dea2b425"
+    },
+    "mapeditor-index-W8g1NCxe.js": {
+      "url": "https://2026a.battlecode.co.uk/service/tools/mapeditor/releases/e3fdd428-614e-462f-a73a-39b48cad2b29/assets/index-W8g1NCxe.js",
+      "path": ".cache/vendor-update-20261025/frontend/mapeditor-index-W8g1NCxe.js",
+      "bytes": 916806,
+      "sha256": "6b103271c211383026bda0ab7c46fa998c2906236d09f0c97621dd2f15891dd3"
+    },
+    "mapeditor-v2_0_0-hWOQ1R8f.wasm": {
+      "url": "https://2026a.battlecode.co.uk/service/tools/mapeditor/releases/e3fdd428-614e-462f-a73a-39b48cad2b29/assets/v2_0_0-hWOQ1R8f.wasm",
+      "path": ".cache/vendor-update-20261025/frontend/mapeditor-v2_0_0-hWOQ1R8f.wasm",
+      "bytes": 642934,
+      "sha256": "d910a59eb8a01e1bc4ad4faed1c1f7ca9258b346f895e36446eb88a4d17f3b18"
+    },
+    "website-v1_0_3-DRqNt1t2.wasm": {
+      "url": "https://2026a.battlecode.co.uk/service/tools/mapeditor/releases/e3fdd428-614e-462f-a73a-39b48cad2b29/assets/v1_0_3-DRqNt1t2.wasm",
+      "path": ".cache/vendor-update-20261025/frontend/website-v1_0_3-DRqNt1t2.wasm",
+      "bytes": 638472,
+      "sha256": "029ecd290dc400e75418178ec386d72cbd7d9f2fc2a2e451bf594ca23566df48"
+    },
+    "visualiser-current.json": {
+      "url": "https://2026a.battlecode.co.uk/service/tools/visualiser/current.json",
+      "path": ".cache/vendor-update-20261025/frontend/visualiser-current.json",
+      "bytes": 155,
+      "sha256": "69c982894669fbf8bc422bf6feb65d2290b6e6dee043438cceff74032b177aa5"
+    },
+    "visualiser-index.html": {
+      "url": "https://2026a.battlecode.co.uk/service/tools/visualiser/releases/387af4b3-d2e6-42c1-8738-ac087342ac45/index.html",
+      "path": ".cache/vendor-update-20261025/frontend/visualiser-index.html",
+      "bytes": 1287,
+      "sha256": "c5310e25e01c5a86cd51bb55e5186f8099ecd00e2a199c7a2c898e64dee1fd4e"
+    },
+    "visualiser-index-CISB562k.js": {
+      "url": "https://2026a.battlecode.co.uk/service/tools/visualiser/releases/387af4b3-d2e6-42c1-8738-ac087342ac45/assets/index-CISB562k.js",
+      "path": ".cache/vendor-update-20261025/frontend/visualiser-index-CISB562k.js",
+      "bytes": 1209031,
+      "sha256": "86859c3d5132b54af94dcdf2bd7dc46efede087e7ebf53bbef278b2e25958aa1"
+    },
+    "visualiser-v2_0_0-hWOQ1R8f.wasm": {
+      "url": "https://2026a.battlecode.co.uk/service/tools/visualiser/releases/387af4b3-d2e6-42c1-8738-ac087342ac45/assets/v2_0_0-hWOQ1R8f.wasm",
+      "path": ".cache/vendor-update-20261025/frontend/visualiser-v2_0_0-hWOQ1R8f.wasm",
+      "bytes": 642934,
+      "sha256": "d910a59eb8a01e1bc4ad4faed1c1f7ca9258b346f895e36446eb88a4d17f3b18"
+    }
+  },
+  "runtime_releases": [
+    {
+      "tool": "mapeditor",
+      "manifest_url": "https://2026a.battlecode.co.uk/service/tools/mapeditor/current.json",
+      "manifest": {
+        "protocol": 1,
+        "release": "e3fdd428-614e-462f-a73a-39b48cad2b29",
+        "path": "/service/tools/mapeditor/releases/e3fdd428-614e-462f-a73a-39b48cad2b29/index.html"
+      },
+      "index_url": "https://2026a.battlecode.co.uk/service/tools/mapeditor/releases/e3fdd428-614e-462f-a73a-39b48cad2b29/index.html",
+      "entries": [
+        {
+          "url": "https://2026a.battlecode.co.uk/service/tools/mapeditor/releases/e3fdd428-614e-462f-a73a-39b48cad2b29/assets/index-W8g1NCxe.js",
+          "path": "mapeditor-index-W8g1NCxe.js",
+          "interesting_refs": [
+            "./WebGPURenderer-BD_szWOe.js",
+            "./WebGPURenderer-Bup7dAO8.js",
+            "./v0_0_1.wasm",
+            "./v0_0_2.wasm",
+            "./v0_0_3.wasm",
+            "./v0_0_4.wasm",
+            "./v0_1_0.wasm",
+            "./v1_0_0.wasm",
+            "./v1_0_1.wasm",
+            "./v1_0_2.wasm",
+            "./v1_0_3.wasm",
+            "./v2_0_0.wasm",
+            "this.state.wasm",
+            "this.wasm",
+            "v0_0_1-ctH8uuEb.wasm",
+            "v0_0_2-DFj19m76.wasm",
+            "v0_0_3-zaIi77qe.wasm",
+            "v0_0_4-CicMoJc9.wasm",
+            "v0_1_0-BXVwOcAb.wasm",
+            "v1_0_0-C4DgnQ2t.wasm",
+            "v1_0_1-OYnUyDob.wasm",
+            "v1_0_2-BIJCVwNu.wasm",
+            "v1_0_3-DRqNt1t2.wasm",
+            "v2_0_0-hWOQ1R8f.wasm"
+          ]
+        }
+      ]
+    },
+    {
+      "tool": "visualiser",
+      "manifest_url": "https://2026a.battlecode.co.uk/service/tools/visualiser/current.json",
+      "manifest": {
+        "protocol": 1,
+        "release": "387af4b3-d2e6-42c1-8738-ac087342ac45",
+        "path": "/service/tools/visualiser/releases/387af4b3-d2e6-42c1-8738-ac087342ac45/index.html"
+      },
+      "index_url": "https://2026a.battlecode.co.uk/service/tools/visualiser/releases/387af4b3-d2e6-42c1-8738-ac087342ac45/index.html",
+      "entries": [
+        {
+          "url": "https://2026a.battlecode.co.uk/service/tools/visualiser/releases/387af4b3-d2e6-42c1-8738-ac087342ac45/assets/index-CISB562k.js",
+          "path": "visualiser-index-CISB562k.js",
+          "interesting_refs": [
+            "./WebGPURenderer-BD_szWOe.js",
+            "./WebGPURenderer-Bup7dAO8.js",
+            "./v0_0_1.wasm",
+            "./v0_0_2.wasm",
+            "./v0_0_3.wasm",
+            "./v0_0_4.wasm",
+            "./v0_1_0.wasm",
+            "./v1_0_0.wasm",
+            "./v1_0_1.wasm",
+            "./v1_0_2.wasm",
+            "./v1_0_3.wasm",
+            "./v2_0_0.wasm",
+            "this.state.wasm",
+            "this.wasm",
+            "v0_0_1-ctH8uuEb.wasm",
+            "v0_0_2-DFj19m76.wasm",
+            "v0_0_3-zaIi77qe.wasm",
+            "v0_0_4-CicMoJc9.wasm",
+            "v0_1_0-BXVwOcAb.wasm",
+            "v1_0_0-C4DgnQ2t.wasm",
+            "v1_0_1-OYnUyDob.wasm",
+            "v1_0_2-BIJCVwNu.wasm",
+            "v1_0_3-DRqNt1t2.wasm",
+            "v2_0_0-hWOQ1R8f.wasm"
+          ]
+        }
+      ]
+    }
+  ],
+  "advertised_default_engine": {
+    "version_key": "v2_0_0",
+    "source_file": "mapeditor-index-W8g1NCxe.js",
+    "source_declaration": "ic=`v2_0_0`",
+    "wasm_sha256": "d910a59eb8a01e1bc4ad4faed1c1f7ca9258b346f895e36446eb88a4d17f3b18",
+    "editor_visualiser_wasm_identical": true,
+    "old_website_engine_matches_local_pin": true,
+    "limits": "Default selection and exact downloaded bytes only. Parent owns WASM Version/config capture and native CLI/SDK validation; no runtime-game parity is claimed here."
+  },
+  "handbook_export": {
+    "method": "Exact current He/Ue public Markdown generators with the same input selection as Ge download handlers; DOM/rendering code excluded.",
+    "evaluatedUtf16CodeUnitRanges": {
+      "championPrefix": [
+        119,
+        9842
+      ],
+      "attackSummary": [
+        15517,
+        15635
+      ],
+      "docs": [
+        382,
+        1496774
+      ]
+    },
+    "outputs": {
+      "GameRules.md": {
+        "bytes": 37021,
+        "sha256": "a2d17ff2eb4139994145d207abc537c2a87618143bdb5d38624c0da09d0ec047",
+        "equalsLocal": false
+      },
+      "BotAPICpp.md": {
+        "bytes": 231950,
+        "sha256": "c47ba0d4872c9675e3eb5e4cab7f0d7ace37a489ea899c144d66689087679779",
+        "equalsLocal": false
+      }
+    }
+  },
+  "observed_sdk_changes": [
+    "get_item_enum helper",
+    "item_family and item_stat enums",
+    "14 emblem families / 84 item variants",
+    "expanded item_passive tags",
+    "camp_group_capture_state, camp_group_capture_type and capture_state API documentation"
+  ],
+  "sdk_availability_review": {
+    "download_page": "https://2026a.battlecode.co.uk/game/download",
+    "download_page_module": "distribution-BGykJuIe.js",
+    "observation": "The inspected public download-page component directs users to cambc init for a workspace. It advertises CLI platform downloads; no standalone SDK or engine-specific SDK download alternative was observed in that component or the distribution metadata supplied by the parent. No guessed download endpoints were requested.",
+    "limit": "This is a bounded advertised-link review, not proof that no unadvertised vendor SDK exists."
+  },
+  "reproduction": {
+    "fetch": "python fetch.py; python fetch-runtime.py; python fetch-engines.py (fresh anonymous page session supplies public asset access; no cookies saved)",
+    "export": "node export.mjs (offline; exact frontend He/Ue generators and matching Ge input selection; no DOM/render functions executed)",
+    "comparison": "GameRules.md.diff and BotAPICpp.md.diff retain exact local/current text differences"
+  },
+  "limits": [
+    "No tools, SDK, CMake, maps, pinned manifest or bot sources were changed.",
+    "Current frontend docs and default editor engine differ from the pinned local1.0.3 bundle; do not publish mixed epochs as a coherent vendor upgrade."
+  ]
+}

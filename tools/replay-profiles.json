@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "profiles": [
+    {
+      "id": "cli-3.0.2",
+      "cliVersion": "3.0.2",
+      "engineVersion": "1.0.1",
+      "engineBuildHash": "c3e9ffc8d98c106f86660c58344dc26ced9459a504e2f0d90d88b4c8594c7765",
+      "decoderSha256": "c03ab26f20263b08e576ebc1a064cd6f9b66a996aca005d69bd9fb9205434354",
+      "timelineSnapshotBytes": 40152,
+      "replayFormatVersions": [
+        "0.0.3"
+      ],
+      "cacheRelease": "0ba59fac5f9516e5a418a5939506eb13dbf41924dc7d64626d6edaa1d4f47157",
+      "browserReleaseSha256": "fb5c525bce403bb17d86f251b980942464ab89411002230c69bbc7c8c73f2a52",
+      "engineFile": "v1_0_1-OYnUyDob.wasm"
+    },
+    {
+      "id": "cli-3.0.4",
+      "cliVersion": "3.0.4",
+      "engineVersion": "1.0.2",
+      "engineBuildHash": "ff41468c05c7be716f7647aaf7ea7314633f7038815386c806fafcec98629114",
+      "decoderSha256": "742919b4454b427912eece99e5675752791fe5d83167b2fee1766c908e9cccee",
+      "timelineSnapshotBytes": 40152,
+      "replayFormatVersions": [
+        "0.0.3"
+      ],
+      "cacheRelease": "d3abb1a4978219ddab8b200b2c1dc4d28adca06f1efb1ad7b79cbd182cd8da50",
+      "browserReleaseSha256": "50462941da2ab47e99469f39f44ad4f66e5c2c91a50ec4b41b7cd6a24eaa5e80",
+      "engineFile": "v1_0_2-BIJCVwNu.wasm"
+    },
+    {
+      "id": "cli-3.0.5",
+      "cliVersion": "3.0.5",
+      "engineVersion": "1.0.3",
+      "engineBuildHash": "fcb6c3e881c453fb7fcb1ce852ff0a6f10c9e3a199126a000df05b427f4ba41f",
+      "decoderSha256": "029ecd290dc400e75418178ec386d72cbd7d9f2fc2a2e451bf594ca23566df48",
+      "timelineSnapshotBytes": 40152,
+      "replayFormatVersions": [
+        "0.0.3"
+      ],
+      "cacheRelease": "2efb693d1f4306c9339c1429507c5253f7a8ff144a7939ed4dbd83d2ab02b909",
+      "browserReleaseSha256": "d772b41e4cc0e33c3ec7292378453e89f0c42d98b6032e7411f54893d1d0e844",
+      "engineFile": "v1_0_3-DRqNt1t2.wasm"
+    }
+  ]
+}

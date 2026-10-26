@@ -1,0 +1,3 @@
+{"width": 32, "height": 26, "symmetry": "horizontal", "champs": 5, "spawnA": [0, 11, 3, 14],
+ "walls": [[6, 3], [6, 4], [6, 5]], "holes": [[4, 6], [4, 7], [5, 7], [6, 7]],
+ "camps": [["wolf", 11, 19]]}

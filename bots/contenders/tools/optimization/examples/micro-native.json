@@ -1,0 +1,18 @@
+{
+  "schema": "contenders-micro/v1",
+  "kind": "evaluate",
+  "scenario": {
+    "replay": "results/contenders/optimization/c11/camp-domain/seed.repl26a",
+    "replay_sha256": "099582852b6dc05ee07ed587920d09691b118077c59750b6c6a8b82ca86b9ea6",
+    "input": 1542,
+    "actor": 4,
+    "participants": [4],
+    "background_policy": "yield"
+  },
+  "generation": {"ground_full": true, "channels": true},
+  "jobs": [
+    {"id": "unchanged", "prefix": []},
+    {"id": "finish-camp", "prefix": [{"type": "attack", "target": {"kind": 2, "id": 48}}, {"type": "move", "x": 73, "y": 24}, {"type": "end"}]},
+    {"id": "unchanged-repeat", "prefix": []}
+  ]
+}

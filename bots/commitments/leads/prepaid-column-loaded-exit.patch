@@ -1,0 +1,127 @@
+--- a/bots/p9-common/src/runtime.h
++++ b/bots/p9-common/src/runtime.h
+@@ -1,6 +1,7 @@
+ #pragma once
+ #include "navigation.h"
+ #include "receipts.h"
++#include "loaded-capture-exit.h"
+ #include <cstdio>
+ #include <iostream>
+ #include <variant>
+@@ -12,6 +13,7 @@
+     const Profile& profile_;
+     Arm arm_;
+     Policy policy_{};
++    [[no_unique_address]] LoadedCaptureExitMemory<Policy> loaded_capture_exit_{};
+     Navigation nav_{};
+     PersonalBank bank_{};
+     int target_=-1,productive_=-1,hold_=-1,hold_since_=-1,hold_last_=-1;
+@@ -779,7 +781,7 @@
+     }
+     void turn() {
+         const int round=static_cast<int>(cambc::round_number());auto& me=cambc::self();
+-        if(!me.is_alive()){nav_.home_dynamic=false;damage_.observe(round,0,false);bank_.invalidate();hold_=-1;recovering_=true;ordinary_shop(round);last_round_=round;return;}
++        if(!me.is_alive()){if constexpr(loaded_capture_exit_enabled<Policy>)loaded_capture_exit_.active=false;nav_.home_dynamic=false;damage_.observe(round,0,false);bank_.invalidate();hold_=-1;recovering_=true;ordinary_shop(round);last_round_=round;return;}
+         if(last_round_>=0&&round-last_round_>1){bank_.invalidate();hold_=-1;route_blocked_epoch_=round/64;}
+         last_round_=round;
+         stage_="prepare";auto fuel=cambc::fuel_remaining();
+@@ -802,6 +804,24 @@
+         if(!world.safe_now||world.enemy_count)last_threat_round_=round;
+         if(cambc::fuel_remaining()<24000){++fuel_skips_;loaded_trace(world,"observe-skip",fuel);return;}
+         if(world.self.channel!=Channel::none)return;
++        if constexpr(loaded_capture_exit_enabled<Policy>) {
++            // An actual carried bag on a physically blocked hold gets a
++            // coherent conversion attempt before capture/policy can renew it.
++            if(dispatch_loaded_capture_exit<Policy>(loaded_capture_exit_,world,recovering_,
++                [&](const Group& group) {
++                    const auto* source=nav_.source(group.id);
++                    return source&&capture_has_enemy_occupant(world.self.position,source->spawn_positions,nav_.threats);
++                },
++                [&] {return nearest_bank(world);},
++                [&] {hold_=-1;},
++                [&](Directive directive) {
++                    if(recovering_&&world.self.at_spawn&&world.self.hp>=.9*world.self.max_hp) {
++                        recovering_=false;nav_.home_dynamic=false;
++                    }
++                    execute(world,directive);
++                },
++                [&] {recover(world);}))return;
++        }
+         if(world.capture_active&&world.safe_now) {execute(world,{Task::capture,world.productive_group});return;}
+         if(!world.safe_now){recover(world);return;}
+         if(partial_clear_&&world.round<partial_until_) {
+--- a/bots/p9-prepaid-column/src/live-policy.h
++++ b/bots/p9-prepaid-column/src/live-policy.h
+@@ -8,6 +8,7 @@
+     live::Point staging_{};
+     int varg_distance_=-1,collector_distance_=-1;
+ public:
++    static constexpr bool bank_blocked_capture() {return true;}
+     live::Directive step(const live::World& w,live::Arm arm) {
+         using namespace live;
+         if(home_<0&&w.productive_group>=0) home_=w.productive_group;
+--- /dev/null
++++ b/bots/p9-common/src/loaded-capture-exit.h
+@@ -0,0 +1,62 @@
++#pragma once
++#include "contract.h"
++#include <type_traits>
++
++namespace p9::live {
++template<class Policy>
++inline constexpr bool loaded_capture_exit_enabled=[] {
++    if constexpr(requires {Policy::bank_blocked_capture();})return bool(Policy::bank_blocked_capture());
++    else return false;
++}();
++struct LoadedCaptureExitState {bool active=false;};
++struct EmptyLoadedCaptureExitState {};
++template<class Policy>
++using LoadedCaptureExitMemory=std::conditional_t<loaded_capture_exit_enabled<Policy>,
++    LoadedCaptureExitState,EmptyLoadedCaptureExitState>;
++
++// ThreatRange is the caller's current visible/alive actor cache. Original
++// spawn occupancy, not attack radius or damage, is the capture obstruction.
++// Both the actor and the rival must occupy an original spawn of this group.
++template<class SpawnRange,class ThreatRange>
++constexpr bool capture_has_enemy_occupant(Point self,const SpawnRange& spawns,const ThreatRange& threats) {
++    bool self_on_spawn=false;
++    for(const auto& spawn:spawns)if(self.x==spawn.x&&self.y==spawn.y) {self_on_spawn=true;break;}
++    if(!self_on_spawn)return false;
++    for(const auto& threat:threats)if(threat.enemy)
++        for(const auto& spawn:spawns)
++            if(threat.position.x==spawn.x&&threat.position.y==spawn.y)return true;
++    return false;
++}
++
++// Called before automatic capture and policy dispatch. In observe(), an active
++// hold is the productive_group. Callbacks use the original coherent World and
++// cached geometry; this helper performs no SDK query and claims no bank receipt.
++template<class Policy,class Occupied,class NearestBank,class ReleaseHold,class Execute,class Recover>
++bool dispatch_loaded_capture_exit(LoadedCaptureExitMemory<Policy>& memory,const World& w,bool recovering,
++    Occupied&& occupied,NearestBank&& nearest_bank,ReleaseHold&& release_hold,Execute&& execute,Recover&& recover) {
++    if constexpr(!loaded_capture_exit_enabled<Policy>)return false;
++    else {
++        if(!w.self.alive||w.self.bag<=0) {memory.active=false;return false;}
++        if(w.self.channel!=Channel::none)return false;
++        // A quiet safe tile cannot cancel an existing recovery commitment.
++        // The caller clears recovery state on its normal at-spawn completion.
++        const bool continue_recovery=memory.active&&recovering&&
++            (!w.self.at_spawn||w.self.hp<.9*w.self.max_hp);
++        int altar=-1;
++        if(!memory.active) {
++            if(recovering||!w.safe_now||!w.capture_active)return false;
++            const auto* held=w.group(w.productive_group);
++            if(!held||!held->observed||!held->cleared||held->respawning||!occupied(*held))return false;
++            altar=nearest_bank();
++            if(altar<0)return false;
++            memory.active=true;
++        } else if(w.safe_now&&!continue_recovery)altar=nearest_bank();
++        // At most one current bank-route probe. Once selected, preserve the exit
++        // through later policy opportunities until the actual bag is empty.
++        release_hold();
++        if(continue_recovery||!w.safe_now||altar<0)recover();
++        else execute(bank(altar,"loaded actor exits enemy-blocked capture"));
++        return true;
++    }
++}
++} // namespace p9::live

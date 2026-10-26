@@ -1,0 +1,15 @@
+{
+  "id": "guarded-party-recovery-cycle",
+  "description": "Only a named two-worker service can clear the rewarding group. Per-participant health loss forces recovery between later visits; capture, release, respawn and banking remain separate jobs. Service costs are explicit assumptions.",
+  "width": 12, "height": 5, "horizon": 180, "goal": 90,
+  "spawns": [[0, 0], [0, 4]], "altars": [[11, 2]],
+  "actors": [
+    {"id": "tank", "position": [0, 0], "hp": 120, "max_hp": 120, "strength": 30},
+    {"id": "support", "position": [0, 4], "hp": 120, "max_hp": 120, "strength": 30}
+  ],
+  "items": [],
+  "camps": [{"id": "party-service", "members": [[6, 2]], "hp": 500, "strength": 20, "range": 1, "gems": 30, "gold": 40, "respawn": 15,
+    "modes": [{"id": "tank-support", "actors": ["tank", "support"], "entry_positions": [[5, 1], [5, 3]], "end_positions": [[5, 1], [5, 3]], "work_rounds": 4, "incoming": [70, 50], "entry_hp_min": [71, 51], "qualification": "explicit_model_assumption"}]
+  }],
+  "max_frontier": 5000, "max_closed": 500000, "checkpoint_every": 1000
+}

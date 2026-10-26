@@ -1,0 +1,19 @@
+{
+  "schema": "contenders-c9-campaign/v1",
+  "provenance": "Tiny constructed timing/proof smoke; the separate endgame family is the sustained search workload.",
+  "id": "uncontested-final-bank",
+  "width": 7,
+  "height": 3,
+  "round": 1999,
+  "settings": {"winning_gems":10},
+  "altars": [[1,1]],
+  "score": [0,0],
+  "earned_gold": [0,0],
+  "max_depth": 12,
+  "max_transpositions": 10000,
+  "checkpoint_nodes": 100,
+  "actors": [
+    {"pos":[0,1],"spawn":[0,0],"hp":1200,"max_hp":1200,"strength":0,"spell_damage":0,"spell_range":0,"spell_stun":0,"gems":10,"locks":0,"cooldown":[100,100]},
+    {"pos":[6,1],"spawn":[6,2],"hp":1200,"max_hp":1200,"strength":0,"spell_damage":0,"spell_range":0,"spell_stun":0,"gems":0,"locks":0,"cooldown":[100,100]}
+  ]
+}

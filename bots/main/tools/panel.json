@@ -1,0 +1,192 @@
+[
+ {
+  "name": "procless",
+  "rank": 1,
+  "opponent": "8df7e1cd-0d60-413b-9331-f5427ce9ca88",
+  "maps": [
+   "00eight",
+   "00interlock",
+   "00expanse",
+   "01starvation",
+   "00corners"
+  ],
+  "sides": [
+   "a",
+   "b",
+   "a",
+   "b",
+   "a"
+  ]
+ },
+ {
+  "name": ":3",
+  "rank": 3,
+  "opponent": "bbe481a7-4575-4826-9a3e-f81c28205de8",
+  "maps": [
+   "00elkring",
+   "00stampede",
+   "00rushbait_v2",
+   "01boss_battle",
+   "00collision"
+  ],
+  "sides": [
+   "b",
+   "a",
+   "b",
+   "a",
+   "b"
+  ]
+ },
+ {
+  "name": "Univardisty of Shingtonwash",
+  "rank": 5,
+  "opponent": "a4350547-b7a1-47b1-9031-4f7f084ad0d8",
+  "maps": [
+   "00contest",
+   "00gem_fields",
+   "00collision",
+   "01gold_rush",
+   "00interlock"
+  ],
+  "sides": [
+   "a",
+   "b",
+   "a",
+   "b",
+   "a"
+  ]
+ },
+ {
+  "name": "Zarzorki",
+  "rank": 8,
+  "opponent": "c0a5d0a5-eb8f-4aa7-8d6a-8e74ed78874c",
+  "maps": [
+   "00ambush",
+   "00road_of_riches",
+   "00reverse_spiral",
+   "01broken_curve",
+   "00swirl"
+  ],
+  "sides": [
+   "b",
+   "a",
+   "b",
+   "a",
+   "b"
+  ]
+ },
+ {
+  "name": "Pantheon",
+  "rank": 11,
+  "opponent": "547efb5b-57e5-4355-8501-3b331f506d62",
+  "maps": [
+   "00gemfight",
+   "00monolith",
+   "00lanes",
+   "01big_world",
+   "00fragment"
+  ],
+  "sides": [
+   "a",
+   "b",
+   "a",
+   "b",
+   "a"
+  ]
+ },
+ {
+  "name": "Let's LARP again",
+  "rank": 15,
+  "opponent": "d2ef7d2c-be90-44e8-be4e-807bc580cc7c",
+  "maps": [
+   "00packs",
+   "00lost_world",
+   "01yellow_brick_road",
+   "01hooks",
+   "00lanes"
+  ],
+  "sides": [
+   "b",
+   "a",
+   "b",
+   "a",
+   "b"
+  ]
+ },
+ {
+  "name": "E=mc^2+AI^3",
+  "rank": 21,
+  "opponent": "21b63196-9d0e-436f-bf5d-25c55bdc4eaf",
+  "maps": [
+   "00quadrants",
+   "00fragment",
+   "01starfish",
+   "01islands",
+   "00corners"
+  ],
+  "sides": [
+   "a",
+   "b",
+   "a",
+   "b",
+   "a"
+  ]
+ },
+ {
+  "name": "geese geese go",
+  "rank": 24,
+  "opponent": "ee3e7b98-f09f-46b9-8e52-348e3d07f551",
+  "maps": [
+   "00swirl",
+   "00rows",
+   "01the_farm",
+   "01corridors",
+   "00lost_world"
+  ],
+  "sides": [
+   "b",
+   "a",
+   "b",
+   "a",
+   "b"
+  ]
+ },
+ {
+  "name": "Gem Simons",
+  "rank": 30,
+  "opponent": "772c398c-6856-4e72-a709-a20db9f67569",
+  "maps": [
+   "00split",
+   "00pilgrimage",
+   "01fracture",
+   "01concentrated_wealth",
+   "00rushbait_v2"
+  ],
+  "sides": [
+   "a",
+   "b",
+   "a",
+   "b",
+   "a"
+  ]
+ },
+ {
+  "name": "BashCode",
+  "rank": 33,
+  "opponent": "fcf5f666-ea55-4da0-b8d4-97c64bb37236",
+  "maps": [
+   "00great_wall",
+   "00corners",
+   "01elk_arena",
+   "01shortcut",
+   "00split"
+  ],
+  "sides": [
+   "b",
+   "a",
+   "b",
+   "a",
+   "b"
+  ]
+ }
+]

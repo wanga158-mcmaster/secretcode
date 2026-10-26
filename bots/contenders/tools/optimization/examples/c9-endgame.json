@@ -1,0 +1,36 @@
+{
+  "schema": "contenders-c9-campaign/v1",
+  "provenance": "Constructed restricted endgame family using current 3.0.5/1.0.3 rule timings. Integer damage, two actors, full information; not native-validated cases.",
+  "max_transpositions": 100000,
+  "checkpoint_nodes": 10000,
+  "cases": [
+    {
+      "id": "last-five-rounds-two-altars",
+      "terrain": [".......", "..#....", ".......", "....#..", "......."],
+      "round": 1996,
+      "slot": 0,
+      "altars": [[2,2],[5,2]],
+      "score": [975,978],
+      "earned_gold": [2210,2240],
+      "kills": [2,2],
+      "actors": [
+        {"pos":[1,2],"spawn":[0,0],"hp":390,"max_hp":1200,"strength":90,"attack_range":1,"spell_damage":154,"spell_range":4,"spell_stun":1,"gems":27,"locks":1,"cooldown":[0,2]},
+        {"pos":[4,2],"spawn":[6,4],"hp":330,"max_hp":1200,"strength":85,"attack_range":1,"spell_damage":100,"spell_range":4,"spell_stun":1,"gems":24,"locks":1,"cooldown":[1,0]}
+      ]
+    },
+    {
+      "id": "ranged-reset-and-locked-bank",
+      "width": 8,
+      "height": 5,
+      "round": 1997,
+      "altars": [[2,2],[6,2]],
+      "altar_locks": [[0,3],[0,0]],
+      "score": [981,980],
+      "earned_gold": [1800,1850],
+      "actors": [
+        {"pos":[1,2],"spawn":[0,0],"hp":280,"max_hp":700,"strength":55,"attack_range":3,"ranged":true,"spell_exclusive":true,"spell_damage":154,"spell_range":4,"spell_stun":1,"gems":20,"locks":1,"cooldown":[0,0]},
+        {"pos":[5,2],"spawn":[7,4],"hp":350,"max_hp":1200,"strength":100,"attack_range":1,"spell_damage":120,"spell_range":4,"spell_stun":0,"stun_immune":true,"gems":22,"locks":1,"cooldown":[0,2]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "source": "results/online/10/56c13cc2-9aa3-4d16-ac97-e2c5a73a3417/group.zip",
+  "archiveMember": "04-b9f6c913-52ba-4df1-b82b-bcb9f3e1a29a.zip",
+  "replaySha256": "7a08cf9b5b128cd1346bcd317d985983be45afe192d557f5ae7dcd4a03410882",
+  "decoderProfile": "cli-3.0.4",
+  "windows": [[257, 260]],
+  "witness": {"actor": 6, "startInput": 3682, "arrivalInput": 3717, "arrivalSubstep": 7},
+  "scope": "Existing retained replay extracted without running bots or changing the archive. Teleport channel start and owner-start arrival with damage during the channel."
+}

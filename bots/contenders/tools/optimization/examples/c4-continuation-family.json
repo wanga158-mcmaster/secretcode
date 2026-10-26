@@ -1,0 +1,3007 @@
+{
+  "max_cases": 64,
+  "description": "32 clearing-to-capture-and-departure strata across four named solo/cooperative parties, open/held-out choke geometry, final scalar investment and partial awake/wounded phase. Large action trees are useful search, not repeated fixtures. Named item effects, dashes, vision and adversarial matchups remain outside this qualified model domain.",
+  "search": {
+    "baseline_steps": 2000,
+    "max_nodes": 150000,
+    "max_solutions": 32,
+    "max_state_json_bytes": 536870912,
+    "checkpoint_every": 10000,
+    "max_depth": 512,
+    "max_frontier": 60000
+  },
+  "cases": [
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "ryth",
+        "investment": "base_final_stats",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 100,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1200,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1200
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party0-geometry0-investment0-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1350,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "ryth",
+        "investment": "base_final_stats",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 100,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 720,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1200
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party0-geometry0-investment0-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 675,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "ryth",
+        "investment": "final_scalar_gear_increment",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 135,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1500,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1500
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party0-geometry0-investment1-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1350,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "ryth",
+        "investment": "final_scalar_gear_increment",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 135,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 900,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1500
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party0-geometry0-investment1-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 675,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "ryth",
+        "investment": "base_final_stats",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 100,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1200,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1200
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party0-geometry1-investment0-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1350,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "ryth",
+        "investment": "base_final_stats",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 100,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 720,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1200
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party0-geometry1-investment0-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 675,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "ryth",
+        "investment": "final_scalar_gear_increment",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 135,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1500,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1500
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party0-geometry1-investment1-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1350,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "ryth",
+        "investment": "final_scalar_gear_increment",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 135,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 900,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1500
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party0-geometry1-investment1-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 675,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "tavi",
+        "investment": "base_final_stats",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 110,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 900,
+          "design": "tavi",
+          "id": "actor0",
+          "max_hp": 900
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party1-geometry0-investment0-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1350,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "tavi",
+        "investment": "base_final_stats",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 110,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 540,
+          "design": "tavi",
+          "id": "actor0",
+          "max_hp": 900
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party1-geometry0-investment0-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 675,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "tavi",
+        "investment": "final_scalar_gear_increment",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 145,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1200,
+          "design": "tavi",
+          "id": "actor0",
+          "max_hp": 1200
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party1-geometry0-investment1-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1350,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "tavi",
+        "investment": "final_scalar_gear_increment",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 145,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 720,
+          "design": "tavi",
+          "id": "actor0",
+          "max_hp": 1200
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party1-geometry0-investment1-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 675,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "tavi",
+        "investment": "base_final_stats",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 110,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 900,
+          "design": "tavi",
+          "id": "actor0",
+          "max_hp": 900
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party1-geometry1-investment0-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1350,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "tavi",
+        "investment": "base_final_stats",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 110,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 540,
+          "design": "tavi",
+          "id": "actor0",
+          "max_hp": 900
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party1-geometry1-investment0-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 675,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "tavi",
+        "investment": "final_scalar_gear_increment",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 145,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1200,
+          "design": "tavi",
+          "id": "actor0",
+          "max_hp": 1200
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party1-geometry1-investment1-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1350,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "tavi",
+        "investment": "final_scalar_gear_increment",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 145,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 720,
+          "design": "tavi",
+          "id": "actor0",
+          "max_hp": 1200
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party1-geometry1-investment1-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 675,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "ryth+stellar",
+        "investment": "base_final_stats",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 100,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1200,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1200
+        },
+        {
+          "y": 4,
+          "strength": 30,
+          "mitigation": 1,
+          "focus": 70,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 650,
+          "design": "stellar",
+          "id": "actor1",
+          "max_hp": 650
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party2-geometry0-investment0-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 2400,
+          "design": "elk",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "ryth+stellar",
+        "investment": "base_final_stats",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 100,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 720,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1200
+        },
+        {
+          "y": 4,
+          "strength": 30,
+          "mitigation": 1,
+          "focus": 70,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 390,
+          "design": "stellar",
+          "id": "actor1",
+          "max_hp": 650
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party2-geometry0-investment0-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1200,
+          "design": "elk",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "ryth+stellar",
+        "investment": "final_scalar_gear_increment",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 135,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1500,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1500
+        },
+        {
+          "y": 4,
+          "strength": 70,
+          "mitigation": 1,
+          "focus": 105,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 950,
+          "design": "stellar",
+          "id": "actor1",
+          "max_hp": 950
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party2-geometry0-investment1-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 2400,
+          "design": "elk",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "ryth+stellar",
+        "investment": "final_scalar_gear_increment",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 135,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 900,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1500
+        },
+        {
+          "y": 4,
+          "strength": 70,
+          "mitigation": 1,
+          "focus": 105,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 570,
+          "design": "stellar",
+          "id": "actor1",
+          "max_hp": 950
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party2-geometry0-investment1-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1200,
+          "design": "elk",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "ryth+stellar",
+        "investment": "base_final_stats",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 100,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1200,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1200
+        },
+        {
+          "y": 4,
+          "strength": 30,
+          "mitigation": 1,
+          "focus": 70,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 650,
+          "design": "stellar",
+          "id": "actor1",
+          "max_hp": 650
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party2-geometry1-investment0-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 2400,
+          "design": "elk",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "ryth+stellar",
+        "investment": "base_final_stats",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 100,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 720,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1200
+        },
+        {
+          "y": 4,
+          "strength": 30,
+          "mitigation": 1,
+          "focus": 70,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 390,
+          "design": "stellar",
+          "id": "actor1",
+          "max_hp": 650
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party2-geometry1-investment0-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1200,
+          "design": "elk",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "ryth+stellar",
+        "investment": "final_scalar_gear_increment",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 135,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1500,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1500
+        },
+        {
+          "y": 4,
+          "strength": 70,
+          "mitigation": 1,
+          "focus": 105,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 950,
+          "design": "stellar",
+          "id": "actor1",
+          "max_hp": 950
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party2-geometry1-investment1-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 2400,
+          "design": "elk",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "ryth+stellar",
+        "investment": "final_scalar_gear_increment",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 135,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 900,
+          "design": "ryth",
+          "id": "actor0",
+          "max_hp": 1500
+        },
+        {
+          "y": 4,
+          "strength": 70,
+          "mitigation": 1,
+          "focus": 105,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 570,
+          "design": "stellar",
+          "id": "actor1",
+          "max_hp": 950
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party2-geometry1-investment1-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1200,
+          "design": "elk",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "marcella+varg",
+        "investment": "base_final_stats",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 60,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1200,
+          "design": "marcella",
+          "id": "actor0",
+          "max_hp": 1200
+        },
+        {
+          "y": 4,
+          "strength": 40,
+          "mitigation": 1,
+          "focus": 100,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1000,
+          "design": "varg",
+          "id": "actor1",
+          "max_hp": 1000
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party3-geometry0-investment0-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1350,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "marcella+varg",
+        "investment": "base_final_stats",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 60,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 720,
+          "design": "marcella",
+          "id": "actor0",
+          "max_hp": 1200
+        },
+        {
+          "y": 4,
+          "strength": 40,
+          "mitigation": 1,
+          "focus": 100,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 600,
+          "design": "varg",
+          "id": "actor1",
+          "max_hp": 1000
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party3-geometry0-investment0-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 675,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "marcella+varg",
+        "investment": "final_scalar_gear_increment",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 95,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1500,
+          "design": "marcella",
+          "id": "actor0",
+          "max_hp": 1500
+        },
+        {
+          "y": 4,
+          "strength": 80,
+          "mitigation": 1,
+          "focus": 135,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1300,
+          "design": "varg",
+          "id": "actor1",
+          "max_hp": 1300
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party3-geometry0-investment1-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1350,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "training",
+      "family": {
+        "party": "marcella+varg",
+        "investment": "final_scalar_gear_increment",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "open"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 95,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 900,
+          "design": "marcella",
+          "id": "actor0",
+          "max_hp": 1500
+        },
+        {
+          "y": 4,
+          "strength": 80,
+          "mitigation": 1,
+          "focus": 135,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 780,
+          "design": "varg",
+          "id": "actor1",
+          "max_hp": 1300
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [],
+      "id": "party3-geometry0-investment1-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 675,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "marcella+varg",
+        "investment": "base_final_stats",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 60,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1200,
+          "design": "marcella",
+          "id": "actor0",
+          "max_hp": 1200
+        },
+        {
+          "y": 4,
+          "strength": 40,
+          "mitigation": 1,
+          "focus": 100,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1000,
+          "design": "varg",
+          "id": "actor1",
+          "max_hp": 1000
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party3-geometry1-investment0-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1350,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "marcella+varg",
+        "investment": "base_final_stats",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 45,
+          "mitigation": 1,
+          "focus": 60,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 720,
+          "design": "marcella",
+          "id": "actor0",
+          "max_hp": 1200
+        },
+        {
+          "y": 4,
+          "strength": 40,
+          "mitigation": 1,
+          "focus": 100,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 600,
+          "design": "varg",
+          "id": "actor1",
+          "max_hp": 1000
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party3-geometry1-investment0-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 675,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "marcella+varg",
+        "investment": "final_scalar_gear_increment",
+        "phase": "healthy_actor_full_sleeping_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 95,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1500,
+          "design": "marcella",
+          "id": "actor0",
+          "max_hp": 1500
+        },
+        {
+          "y": 4,
+          "strength": 80,
+          "mitigation": 1,
+          "focus": 135,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 1300,
+          "design": "varg",
+          "id": "actor1",
+          "max_hp": 1300
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party3-geometry1-investment1-phase0",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 1350,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": false,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    },
+    {
+      "action_subset": [
+        "basic",
+        "cast",
+        "move",
+        "end",
+        "priority"
+      ],
+      "width": 9,
+      "split": "held_out_geometry",
+      "family": {
+        "party": "marcella+varg",
+        "investment": "final_scalar_gear_increment",
+        "phase": "wounded_actor_partial_awake_camp",
+        "geometry": "single_gap_wall"
+      },
+      "actors": [
+        {
+          "y": 2,
+          "strength": 85,
+          "mitigation": 1,
+          "focus": 95,
+          "spawn": [
+            0,
+            0
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 900,
+          "design": "marcella",
+          "id": "actor0",
+          "max_hp": 1500
+        },
+        {
+          "y": 4,
+          "strength": 80,
+          "mitigation": 1,
+          "focus": 135,
+          "spawn": [
+            0,
+            6
+          ],
+          "team": 0,
+          "x": 1,
+          "hp": 780,
+          "design": "varg",
+          "id": "actor1",
+          "max_hp": 1300
+        }
+      ],
+      "state_origin": "constructed_catalog_continuation_strata",
+      "goal": {
+        "team": 0,
+        "kind": "capture_depart",
+        "group": 0
+      },
+      "blocked": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "id": "party3-geometry1-investment1-phase1",
+      "settings": {
+        "max_rounds": 120
+      },
+      "height": 7,
+      "camps": [
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 4,
+          "gems": 12,
+          "respawn": 60,
+          "hp": 675,
+          "design": "wolf",
+          "id": "monster",
+          "gold": 120
+        },
+        {
+          "y": 3,
+          "group": 0,
+          "awake": true,
+          "x": 5,
+          "gems": 0,
+          "respawn": 60,
+          "hp": 120,
+          "design": "gold_cluster",
+          "id": "cluster",
+          "gold": 60
+        }
+      ]
+    }
+  ]
+}

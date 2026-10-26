@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "question": "Does the private experiment plumbing preserve unchanged behavior?",
+  "notes": "Infrastructure check only. Replace this question, variants and opponents as research develops; these are not permanent evaluation categories.",
+  "maps": "pool",
+  "seeds": [0],
+  "seed_knob": "noise_burn",
+  "variants": [
+    {"name": "same", "set": {}}
+  ],
+  "opponents": [
+    {"name": "live-at-setup", "bot": "anchors/main-v39", "set": {}},
+    {"name": "fundamentals", "bot": "anchors/fundamentals", "set": {}}
+  ]
+}

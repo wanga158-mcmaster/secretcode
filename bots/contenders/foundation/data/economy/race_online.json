@@ -1,0 +1,723 @@
+{
+ "games": 909,
+ "end_round_median": 1170,
+ "tiebreak_games": 26,
+ "lead": {
+  "200": {
+   "1-49": {
+    "leader_wins": 0.535,
+    "n": 535
+   },
+   "150-299": {
+    "leader_wins": 0.762,
+    "n": 21
+   },
+   "300+": {
+    "leader_wins": 1.0,
+    "n": 6
+   },
+   "50-149": {
+    "leader_wins": 0.711,
+    "n": 228
+   }
+  },
+  "300": {
+   "1-49": {
+    "leader_wins": 0.571,
+    "n": 415
+   },
+   "150-299": {
+    "leader_wins": 0.909,
+    "n": 66
+   },
+   "300+": {
+    "leader_wins": 0.944,
+    "n": 18
+   },
+   "50-149": {
+    "leader_wins": 0.728,
+    "n": 335
+   }
+  },
+  "400": {
+   "1-49": {
+    "leader_wins": 0.547,
+    "n": 307
+   },
+   "150-299": {
+    "leader_wins": 0.901,
+    "n": 131
+   },
+   "300+": {
+    "leader_wins": 0.964,
+    "n": 28
+   },
+   "50-149": {
+    "leader_wins": 0.782,
+    "n": 371
+   }
+  },
+  "600": {
+   "1-49": {
+    "leader_wins": 0.603,
+    "n": 189
+   },
+   "150-299": {
+    "leader_wins": 0.912,
+    "n": 238
+   },
+   "300+": {
+    "leader_wins": 1.0,
+    "n": 115
+   },
+   "50-149": {
+    "leader_wins": 0.769,
+    "n": 290
+   }
+  }
+ },
+ "gold_lead": {
+  "200": {
+   "1-249": {
+    "leader_wins": 0.582,
+    "n": 488
+   },
+   "1000+": {
+    "leader_wins": 0.967,
+    "n": 30
+   },
+   "250-499": {
+    "leader_wins": 0.789,
+    "n": 246
+   },
+   "500-999": {
+    "leader_wins": 0.873,
+    "n": 142
+   }
+  },
+  "300": {
+   "1-249": {
+    "leader_wins": 0.523,
+    "n": 331
+   },
+   "1000+": {
+    "leader_wins": 0.981,
+    "n": 108
+   },
+   "250-499": {
+    "leader_wins": 0.756,
+    "n": 250
+   },
+   "500-999": {
+    "leader_wins": 0.918,
+    "n": 220
+   }
+  },
+  "400": {
+   "1-249": {
+    "leader_wins": 0.609,
+    "n": 243
+   },
+   "1000+": {
+    "leader_wins": 0.963,
+    "n": 218
+   },
+   "250-499": {
+    "leader_wins": 0.785,
+    "n": 172
+   },
+   "500-999": {
+    "leader_wins": 0.858,
+    "n": 275
+   }
+  },
+  "600": {
+   "1-249": {
+    "leader_wins": 0.543,
+    "n": 116
+   },
+   "1000+": {
+    "leader_wins": 0.93,
+    "n": 460
+   },
+   "250-499": {
+    "leader_wins": 0.711,
+    "n": 128
+   },
+   "500-999": {
+    "leader_wins": 0.856,
+    "n": 188
+   }
+  }
+ },
+ "winner_rate_median": 0.879,
+ "loser_rate_median": 0.412,
+ "kill_lead": {
+  "1": {
+   "leader_wins": 0.629,
+   "n": 140
+  },
+  "2": {
+   "leader_wins": 0.667,
+   "n": 96
+  },
+  "3": {
+   "leader_wins": 0.806,
+   "n": 72
+  },
+  "4": {
+   "leader_wins": 0.827,
+   "n": 52
+  },
+  "5": {
+   "leader_wins": 0.872,
+   "n": 39
+  },
+  "6+": {
+   "leader_wins": 0.962,
+   "n": 446
+  }
+ },
+ "tiebreak": [
+  {
+   "map": "00stampede",
+   "gems": [
+    147,
+    653
+   ],
+   "gold": [
+    9255,
+    11368
+   ],
+   "winner": "teamB",
+   "decided_by": "gems"
+  },
+  {
+   "map": "01boss_battle",
+   "gems": [
+    108,
+    966
+   ],
+   "gold": [
+    22930,
+    46799
+   ],
+   "winner": "teamB",
+   "decided_by": "gems"
+  },
+  {
+   "map": "00stampede",
+   "gems": [
+    454,
+    720
+   ],
+   "gold": [
+    10489,
+    10442
+   ],
+   "winner": "teamB",
+   "decided_by": "gems"
+  },
+  {
+   "map": "01elk_arena",
+   "gems": [
+    936,
+    648
+   ],
+   "gold": [
+    7264,
+    15152
+   ],
+   "winner": "teamA",
+   "decided_by": "gems"
+  },
+  {
+   "map": "01starvation",
+   "gems": [
+    684,
+    728
+   ],
+   "gold": [
+    3022,
+    6720
+   ],
+   "winner": "teamB",
+   "decided_by": "gems"
+  },
+  {
+   "map": "01starvation",
+   "gems": [
+    788,
+    272
+   ],
+   "gold": [
+    3117,
+    5433
+   ],
+   "winner": "teamA",
+   "decided_by": "gems"
+  },
+  {
+   "map": "01starvation",
+   "gems": [
+    684,
+    728
+   ],
+   "gold": [
+    3022,
+    6720
+   ],
+   "winner": "teamB",
+   "decided_by": "gems"
+  },
+  {
+   "map": "01starvation",
+   "gems": [
+    700,
+    412
+   ],
+   "gold": [
+    2934,
+    5641
+   ],
+   "winner": "teamA",
+   "decided_by": "gems"
+  },
+  {
+   "map": "00fragment",
+   "gems": [
+    456,
+    820
+   ],
+   "gold": [
+    5786,
+    9098
+   ],
+   "winner": "teamB",
+   "decided_by": "gems"
+  },
+  {
+   "map": "01starvation",
+   "gems": [
+    348,
+    960
+   ],
+   "gold": [
+    1610,
+    8253
+   ],
+   "winner": "teamB",
+   "decided_by": "gems"
+  },
+  {
+   "map": "01starvation",
+   "gems": [
+    864,
+    550
+   ],
+   "gold": [
+    7806,
+    4127
+   ],
+   "winner": "teamA",
+   "decided_by": "gems"
+  },
+  {
+   "map": "01starvation",
+   "gems": [
+    744,
+    372
+   ],
+   "gold": [
+    2228,
+    4971
+   ],
+   "winner": "teamA",
+   "decided_by": "gems"
+  },
+  {
+   "map": "00fragment",
+   "gems": [
+    940,
+    142
+   ],
+   "gold": [
+    10786,
+    2502
+   ],
+   "winner": "teamA",
+   "decided_by": "gems"
+  },
+  {
+   "map": "00stampede",
+   "gems": [
+    480,
+    960
+   ],
+   "gold": [
+    10515,
+    16425
+   ],
+   "winner": "teamB",
+   "decided_by": "gems"
+  },
+  {
+   "map": "00pilgrimage",
+   "gems": [
+    593,
+    756
+   ],
+   "gold": [
+    9830,
+    11680
+   ],
+   "winner": "teamB",
+   "decided_by": "gems"
+  },
+  {
+   "map": "00stampede",
+   "gems": [
+    480,
+    0
+   ],
+   "gold": [
+    11208,
+    8680
+   ],
+   "winner": "teamA",
+   "decided_by": "gems"
+  },
+  {
+   "map": "01gold_rush",
+   "gems": [
+    787,
+    561
+   ],
+   "gold": [
+    9084,
+    7955
+   ],
+   "winner": "teamA",
+   "decided_by": "gems"
+  },
+  {
+   "map": "00pilgrimage",
+   "gems": [
+    980,
+    608
+   ],
+   "gold": [
+    13964,
+    10697
+   ],
+   "winner": "teamA",
+   "decided_by": "gems"
+  },
+  {
+   "map": "00stampede",
+   "gems": [
+    720,
+    347
+   ],
+   "gold": [
+    11269,
+    13527
+   ],
+   "winner": "teamA",
+   "decided_by": "gems"
+  },
+  {
+   "map": "01starvation",
+   "gems": [
+    604,
+    892
+   ],
+   "gold": [
+    5600,
+    11108
+   ],
+   "winner": "teamB",
+   "decided_by": "gems"
+  },
+  {
+   "map": "00stampede",
+   "gems": [
+    80,
+    0
+   ],
+   "gold": [
+    7843,
+    4388
+   ],
+   "winner": "teamA",
+   "decided_by": "gems"
+  },
+  {
+   "map": "01starvation",
+   "gems": [
+    864,
+    576
+   ],
+   "gold": [
+    9680,
+    5163
+   ],
+   "winner": "teamA",
+   "decided_by": "gems"
+  },
+  {
+   "map": "00pilgrimage",
+   "gems": [
+    712,
+    815
+   ],
+   "gold": [
+    8484,
+    10153
+   ],
+   "winner": "teamB",
+   "decided_by": "gems"
+  },
+  {
+   "map": "00pilgrimage",
+   "gems": [
+    344,
+    601
+   ],
+   "gold": [
+    9020,
+    6468
+   ],
+   "winner": "teamB",
+   "decided_by": "gems"
+  },
+  {
+   "map": "01boss_battle",
+   "gems": [
+    46,
+    867
+   ],
+   "gold": [
+    17022,
+    28334
+   ],
+   "winner": "teamB",
+   "decided_by": "gems"
+  },
+  {
+   "map": "01fracture",
+   "gems": [
+    630,
+    991
+   ],
+   "gold": [
+    4570,
+    8912
+   ],
+   "winner": "teamB",
+   "decided_by": "gems"
+  }
+ ],
+ "end_by_map": {
+  "00ambush": {
+   "n": 17,
+   "median": 1322,
+   "at2000": 0
+  },
+  "00collision": {
+   "n": 53,
+   "median": 1234,
+   "at2000": 0
+  },
+  "00contest": {
+   "n": 12,
+   "median": 1229.0,
+   "at2000": 0
+  },
+  "00corners": {
+   "n": 48,
+   "median": 944.0,
+   "at2000": 0
+  },
+  "00eight": {
+   "n": 22,
+   "median": 1085.5,
+   "at2000": 0
+  },
+  "00elkring": {
+   "n": 26,
+   "median": 874.0,
+   "at2000": 0
+  },
+  "00expanse": {
+   "n": 25,
+   "median": 1120,
+   "at2000": 0
+  },
+  "00fragment": {
+   "n": 31,
+   "median": 1494,
+   "at2000": 2
+  },
+  "00gem_fields": {
+   "n": 17,
+   "median": 650,
+   "at2000": 0
+  },
+  "00gemfight": {
+   "n": 16,
+   "median": 865.0,
+   "at2000": 0
+  },
+  "00great_wall": {
+   "n": 12,
+   "median": 1133.0,
+   "at2000": 0
+  },
+  "00interlock": {
+   "n": 35,
+   "median": 1321,
+   "at2000": 0
+  },
+  "00lanes": {
+   "n": 28,
+   "median": 1083.0,
+   "at2000": 0
+  },
+  "00lost_world": {
+   "n": 23,
+   "median": 679,
+   "at2000": 0
+  },
+  "00monolith": {
+   "n": 14,
+   "median": 1170.0,
+   "at2000": 0
+  },
+  "00packs": {
+   "n": 16,
+   "median": 1085.0,
+   "at2000": 0
+  },
+  "00pilgrimage": {
+   "n": 21,
+   "median": 1679,
+   "at2000": 4
+  },
+  "00quadrants": {
+   "n": 20,
+   "median": 618.0,
+   "at2000": 0
+  },
+  "00reverse_spiral": {
+   "n": 15,
+   "median": 1410,
+   "at2000": 0
+  },
+  "00road_of_riches": {
+   "n": 17,
+   "median": 1083,
+   "at2000": 0
+  },
+  "00rows": {
+   "n": 15,
+   "median": 1466,
+   "at2000": 0
+  },
+  "00rushbait_v2": {
+   "n": 25,
+   "median": 1237,
+   "at2000": 0
+  },
+  "00split": {
+   "n": 34,
+   "median": 924.0,
+   "at2000": 0
+  },
+  "00stampede": {
+   "n": 17,
+   "median": 1927,
+   "at2000": 6
+  },
+  "00swirl": {
+   "n": 36,
+   "median": 1168.5,
+   "at2000": 0
+  },
+  "01big_world": {
+   "n": 42,
+   "median": 1207.0,
+   "at2000": 0
+  },
+  "01boss_battle": {
+   "n": 24,
+   "median": 1426.0,
+   "at2000": 2
+  },
+  "01broken_curve": {
+   "n": 26,
+   "median": 1002.5,
+   "at2000": 0
+  },
+  "01concentrated_wealth": {
+   "n": 16,
+   "median": 1231.0,
+   "at2000": 0
+  },
+  "01corridors": {
+   "n": 23,
+   "median": 1253,
+   "at2000": 0
+  },
+  "01elk_arena": {
+   "n": 9,
+   "median": 1655,
+   "at2000": 1
+  },
+  "01fracture": {
+   "n": 25,
+   "median": 1150,
+   "at2000": 1
+  },
+  "01gold_rush": {
+   "n": 19,
+   "median": 1453,
+   "at2000": 1
+  },
+  "01hooks": {
+   "n": 13,
+   "median": 1358,
+   "at2000": 0
+  },
+  "01islands": {
+   "n": 13,
+   "median": 984,
+   "at2000": 0
+  },
+  "01shortcut": {
+   "n": 19,
+   "median": 1385,
+   "at2000": 0
+  },
+  "01starfish": {
+   "n": 28,
+   "median": 1138.5,
+   "at2000": 0
+  },
+  "01starvation": {
+   "n": 16,
+   "median": 2000.0,
+   "at2000": 9
+  },
+  "01the_farm": {
+   "n": 29,
+   "median": 1078,
+   "at2000": 0
+  },
+  "01yellow_brick_road": {
+   "n": 12,
+   "median": 864.5,
+   "at2000": 0
+  }
+ }
+}

@@ -1,0 +1,316 @@
+# Economy probe evidence (engine 1.0.2, native cambc 3.0.4 games of bots/contenders/_probe-economy on lab maps
+# bots/contenders/foundation/data/mechanics/maps/econ-*.json). Lines are omniscient replay events decoded by
+# tools/mechanics/replay-events.mjs: round phase kind actor from->to | state changes. c<id> = champion (A ids first),
+# m<id> = camp, g<id> = camp group. Regenerate: run_probe.py contenders/_probe-economy <map> then replay-events.mjs.
+
+## econ-cap econ-cap_probe-economy_probe-economy_a14287a1.repl26a
+r16 captures Capture k0:0 0,0->0,0 | c0 gold 0->8; c0 gems 0->6; c1 gold 0->7; c1 gems 0->4; c2 gold 0->6; c2 gems 0->4; g0 reward 1->0 team 0->2
+r16 captures Capture k0:0 0,0->0,0 | c3 gold 0->10; c3 gems 0->6; c4 gold 0->6; c4 gems 0->4; c5 gold 0->6; c5 gems 0->4; g1 reward 1->0 team 1->2
+r32 captures Capture k0:0 0,0->0,0 | c1 gold 7->34; g2 reward 1->0 team 0->2
+r32 captures Capture k0:0 0,0->0,0 | c3 gold 10->37; g3 reward 1->0 team 1->2
+r37 captures Capture k0:0 0,0->0,0 | c0 gold 8->28; g4 reward 1->0 team 0->2
+r37 captures Capture k0:0 0,0->0,0 | c4 gold 6->26; g5 reward 1->0 team 1->2
+r51 captures Capture k0:0 0,0->0,0 | c1 gold 34->87; g6 reward 1->0 team 0->2
+r51 captures Capture k0:0 0,0->0,0 | c3 gold 37->90; g7 reward 1->0 team 1->2
+
+## econ-kill econ-kill_probe-economy_probe-economy_ed6508d9.repl26a
+r13 captures Capture k0:0 0,0->0,0 | c2 gems 0->7; g0 reward 1->0 team 0->2
+r14 captures Capture k0:0 0,0->0,0 | c4 gems 0->7; g3 reward 1->0 team 1->2
+r16 captures Capture k0:0 0,0->0,0 | c3 gems 0->7; g1 reward 1->0 team 1->2
+r21 captures Capture k0:0 0,0->0,0 | c5 gold 0->40; g7 reward 1->0 team 1->2
+r28 captures Capture k0:0 0,0->0,0 | c2 gems 7->14; g2 reward 1->0 team 0->2
+r28 champs Attack c0:vesperA 18,16->21,18 | c4 hp 900->845
+r28 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 845->775
+r29 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 775->705
+r30 champs Attack c0:vesperA 18,16->21,14 | c3 hp 650->595
+r30 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 705->635
+r31 champs Attack c0:vesperA 18,16->21,14 | c3 hp 595->540
+r31 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 635->565
+r32 champs Attack c0:vesperA 18,16->21,14 | c3 hp 540->485
+r32 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 565->495
+r33 captures Capture k0:0 0,0->0,0 | c5 gems 0->7; g5 reward 1->0 team 1->2
+r33 champs Attack c0:vesperA 18,16->21,14 | c3 hp 485->430
+r33 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 495->425
+r33 turnStart GemsSubmitted c2:marcellaA 7,14->8,14 | c2 gold 0->28; c2 gems 14->0; submitted 0,0->14,0
+r34 champs Attack c0:vesperA 18,16->21,14 | c3 hp 430->375
+r34 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 425->355
+r35 champs Attack c0:vesperA 18,16->21,14 | c3 hp 375->320
+r35 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 355->285
+r36 champs Attack c0:vesperA 18,16->21,14 | c3 hp 320->265
+r36 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 285->215
+r37 champs Attack c0:vesperA 18,16->21,14 | c3 hp 265->210
+r37 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 215->145
+r38 champs Attack c0:vesperA 18,16->21,14 | c3 hp 210->155
+r38 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 145->75
+r39 champs Attack c0:vesperA 18,16->21,14 | c3 hp 155->100
+r39 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 75->5
+r40 champs Attack c0:vesperA 18,16->21,14 | c3 hp 100->45
+r40 champs Attack c1:vendettaA 20,18->21,18 | c1 gold 0->100; c1 gems 0->7; c1 kills 0->1; c4 hp 5->0; c4 pos 21,18->-1,-1; c4 gems 7->0; c4 alive 1->0
+r41 champs Attack c0:vesperA 18,16->21,14 | c0 gold 0->133; c0 gems 0->7; c0 kills 0->1; c3 hp 45->0; c3 pos 21,14->-1,-1; c3 gems 7->0; c3 alive 1->0
+r120 champs Attack c0:vesperA 18,16->21,14 | c3 hp 650->595
+r120 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 900->830
+r121 champs Attack c0:vesperA 18,16->21,14 | c3 hp 595->540
+r121 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 830->760
+r122 champs Attack c0:vesperA 18,16->21,14 | c3 hp 540->485
+r122 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 760->690
+r123 champs Attack c0:vesperA 18,16->21,14 | c3 hp 485->430
+r123 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 690->620
+r124 champs Attack c0:vesperA 18,16->21,14 | c3 hp 430->375
+r124 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 620->550
+r125 champs Attack c0:vesperA 18,16->21,14 | c3 hp 375->320
+r125 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 550->480
+r126 champs Attack c0:vesperA 18,16->21,14 | c3 hp 320->265
+r126 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 480->410
+r127 champs Attack c0:vesperA 18,16->21,14 | c3 hp 265->210
+r127 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 410->340
+r128 champs Attack c0:vesperA 18,16->21,14 | c3 hp 210->155
+r128 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 340->270
+r129 champs Attack c0:vesperA 18,16->21,14 | c3 hp 155->100
+r129 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 270->200
+r130 champs Attack c0:vesperA 18,16->21,14 | c3 hp 100->45
+r130 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 200->130
+r131 champs Attack c0:vesperA 18,16->21,14 | c0 gold 133->266; c0 kills 1->2; c3 hp 45->0; c3 pos 21,14->-1,-1; c3 alive 1->0
+r131 champs Attack c1:vendettaA 20,18->21,18 | c4 hp 130->60
+r132 champs Attack c1:vendettaA 20,18->21,18 | c1 gold 100->200; c1 kills 1->2; c4 hp 60->0; c4 pos 21,18->-1,-1; c4 alive 1->0
+
+## econ-shop2 econ-emblem_probe-economy_probe-economy_49de5d74.repl26a
+r43 captures Capture k0:0 0,0->0,0 | c0 gold 0->200; g0 reward 1->0 team 0->2
+r43 captures Capture k0:0 0,0->0,0 | c3 gold 0->200; g1 reward 1->0 team 1->2
+r45 captures Capture k0:0 0,0->0,0 | c4 gold 0->100; c5 gold 0->133; g7 reward 1->0 team 1->2
+r47 captures Capture k0:0 0,0->0,0 | c1 gold 0->100; c2 gold 0->133; g6 reward 1->0 team 0->2
+r58 captures Capture k0:0 0,0->0,0 | c1 gold 100->300; g2 reward 1->0 team 0->2
+r58 captures Capture k0:0 0,0->0,0 | c4 gold 100->300; g3 reward 1->0 team 1->2
+r65 champs Attack c1:stellarA 14,14->17,14 | m112 hp 1350->1320
+r66 champs Cast c4:stellarB slot0 type2 0,0->25,14 | m113 hp 1320->1180
+r66 champs Cast c1:stellarA slot0 type2 0,0->17,14 | m112 hp 1320->1180
+r78 champs Shop c4:stellarB 0,0->0,0 | c4 hp 610->935 max 650->975; c4 gold 300->150
+r78 champs Shop c1:stellarA 0,0->0,0 | c1 hp 610->935 max 650->975; c1 gold 300->150
+r84 captures Capture k0:0 0,0->0,0 | c0 gold 200->400; g4 reward 1->0 team 0->2
+r86 captures Capture k0:0 0,0->0,0 | c5 gold 133->266; g11 reward 1->0 team 1->2
+r88 captures Capture k0:0 0,0->0,0 | c3 gold 200->400; g5 reward 1->0 team 1->2
+r90 captures Capture k0:0 0,0->0,0 | c2 gold 133->266; g10 reward 1->0 team 0->2
+r91 champs Attack c1:stellarA 14,14->17,14 | m112 hp 1180->1147
+r92 champs Cast c4:stellarB slot0 type2 0,0->25,14 | m113 hp 1147->993
+r92 champs Cast c1:stellarA slot0 type2 0,0->17,14 | m112 hp 1147->993
+r97 champs Shop c5:vesperB 0,0->0,0 | c5 hp 1000->1500 max 1000->1500; c5 gold 266->116
+r100 champs Shop c2:vesperA 0,0->0,0 | c2 hp 1000->1500 max 1000->1500; c2 gold 266->116
+r111 champs Recall c5:vesperB 0,0->0,0 | 
+r114 turnStart Move c5:vesperB 33,2->42,13 | c5 pos 33,2->42,13
+r114 champs Recall c2:vesperA 0,0->0,0 | 
+r117 turnStart Move c2:vesperA 9,2->0,13 | c2 pos 9,2->0,13
+r125 captures Capture k0:0 0,0->0,0 | c0 gold 400->600; g8 reward 1->0 team 0->2
+r133 captures Capture k0:0 0,0->0,0 | c3 gold 400->600; g9 reward 1->0 team 1->2
+r133 champs Attack c5:vesperB 23,20->20,20 | c1 hp 975->920
+r134 champs Attack c5:vesperB 23,20->20,20 | c1 hp 920->865
+r135 champs Attack c5:vesperB 23,20->20,20 | c1 hp 865->810
+r136 champs Attack c5:vesperB 23,20->20,20 | c1 hp 810->755
+r137 champs Attack c5:vesperB 23,20->20,20 | c1 hp 755->700
+r138 champs Attack c5:vesperB 23,20->20,20 | c1 hp 700->645
+r139 champs Attack c5:vesperB 23,20->20,20 | c1 hp 645->590
+r140 champs Attack c5:vesperB 23,20->20,20 | c1 hp 590->535
+r141 champs Attack c5:vesperB 23,20->20,20 | c1 hp 535->480
+r142 champs Attack c5:vesperB 23,20->20,20 | c1 hp 480->425
+r143 champs Attack c5:vesperB 23,20->20,20 | c1 hp 425->370
+r144 camps Attack m110:wolf@17,4 17,4->16,4 | c0 hp 1200->1180
+r144 champs Attack c5:vesperB 23,20->20,20 | c1 hp 370->315
+r145 camps Attack m110:wolf@17,4 17,4->16,4 | c0 hp 1180->1160
+r145 champs Attack c5:vesperB 23,20->20,20 | c1 hp 315->260
+r146 camps Attack m110:wolf@17,4 17,4->16,4 | c0 hp 1160->1140
+r146 champs Attack c5:vesperB 23,20->20,20 | c1 hp 260->205
+r147 camps Attack m110:wolf@17,4 17,4->15,3 | c0 hp 1140->1120
+r147 champs Attack c5:vesperB 23,20->20,20 | c1 hp 205->150
+r148 camps Attack m110:wolf@17,4 17,4->14,2 | c0 hp 1120->1100
+r148 champs Attack c5:vesperB 23,20->20,20 | c1 hp 150->95
+r149 champs Attack c5:vesperB 23,20->20,20 | c1 hp 95->40
+r150 champs Attack c5:vesperB 23,20->20,20 | c1 hp 40->0; c1 pos 20,20->-1,-1; c1 alive 1->0; c5 gold 116->249; c5 kills 0->1
+
+## econ-shop2 econ-shop_probe-economy_probe-economy_56d1a67f.repl26a
+r39 captures Capture k0:0 0,0->0,0 | c5 gold 0->100; g9 reward 1->0 team 1->2
+r40 captures Capture k0:0 0,0->0,0 | c2 gold 0->100; g8 reward 1->0 team 0->2
+r43 captures Capture k0:0 0,0->0,0 | c0 gold 0->200; g0 reward 1->0 team 0->2
+r43 captures Capture k0:0 0,0->0,0 | c3 gold 0->200; g1 reward 1->0 team 1->2
+r46 champs Shop c5:prismB 0,0->0,0 | c5 hp 700->760 max 700->760; c5 gold 100->70
+r46 champs Shop c5:prismB 0,0->0,0 | c5 gold 70->40
+r46 champs Shop c5:prismB 0,0->0,0 | c5 gold 40->10
+r47 captures Capture k0:0 0,0->0,0 | c1 gold 0->200; g2 reward 1->0 team 0->2
+r47 captures Capture k0:0 0,0->0,0 | c4 gold 0->200; g3 reward 1->0 team 1->2
+r47 champs Shop c2:prismA 0,0->0,0 | c2 hp 700->760 max 700->760; c2 gold 100->70
+r47 champs Shop c2:prismA 0,0->0,0 | c2 gold 70->40
+r47 champs Shop c2:prismA 0,0->0,0 | c2 gold 40->10
+r73 captures Capture k0:0 0,0->0,0 | c5 gems 0->7; g11 reward 1->0 team 1->2
+r74 captures Capture k0:0 0,0->0,0 | c2 gems 0->7; g10 reward 1->0 team 0->2
+r75 turnStart GemsSubmitted c5:prismB 25,16->25,17 | c5 gems 7->0; submitted 0,0->0,7
+r76 turnStart GemsSubmitted c2:prismA 16,16->16,17 | c2 gems 7->0; submitted 0,7->7,7
+r84 captures Capture k0:0 0,0->0,0 | c0 gold 200->400; g4 reward 1->0 team 0->2
+r87 captures Capture k0:0 0,0->0,0 | c1 gold 200->400; g6 reward 1->0 team 0->2
+r88 captures Capture k0:0 0,0->0,0 | c3 gold 200->400; g5 reward 1->0 team 1->2
+r90 captures Capture k0:0 0,0->0,0 | c4 gold 200->400; g7 reward 1->0 team 1->2
+r98 camps Attack m92:wolf@17,4 17,4->14,6 | c0 hp 1200->1180
+r98 champs Shop c1:taviA 0,0->0,0 | c1 hp 860->860 max 900->975; c1 gold 400->370
+r98 champs Shop c1:taviA 0,0->0,0 | c1 gold 370->310
+r98 champs Shop c1:taviA 0,0->0,0 | c1 gold 310->280
+r98 champs Shop c5:prismB 0,0->0,0 | c5 gold 10->0
+r99 camps Attack m92:wolf@17,4 17,4->15,5 | c0 hp 1180->1160
+r99 champs Shop c2:prismA 0,0->0,0 | c2 gold 10->0
+r100 camps Attack m92:wolf@17,4 17,4->16,4 | c0 hp 1160->1140
+r101 camps Attack m92:wolf@17,4 17,4->16,4 | c0 hp 1140->1120
+r101 champs Shop c4:taviB 0,0->0,0 | c4 hp 860->860 max 900->975; c4 gold 400->370
+r101 champs Shop c4:taviB 0,0->0,0 | c4 gold 370->310
+r101 champs Shop c4:taviB 0,0->0,0 | c4 gold 310->280
+r102 camps Attack m92:wolf@17,4 17,4->16,4 | c0 hp 1120->1100
+r103 camps Attack m92:wolf@17,4 17,4->15,3 | c0 hp 1100->1080
+r104 camps Attack m92:wolf@17,4 17,4->14,2 | c0 hp 1080->1060
+r112 champs Shop c1:taviA 0,0->0,0 | c1 hp 975->1050 max 975->1050; c1 gold 280->250
+r112 champs Shop c1:taviA 0,0->0,0 | c1 gold 250->240
+r112 champs SellItem c1:taviA 0,0->0,0 | c1 gold 240->270
+r112 champs SellItem c1:taviA 0,0->0,0 | c1 gold 270->300
+r113 champs SellItem c1:taviA 0,0->0,0 | c1 gold 300->330
+r114 champs Shop c1:taviA 0,0->0,0 | c1 hp 1050->1125 max 1050->1125; c1 gold 330->180
+r115 champs Shop c4:taviB 0,0->0,0 | c4 hp 975->1050 max 975->1050; c4 gold 280->250
+r115 champs Shop c4:taviB 0,0->0,0 | c4 gold 250->240
+r115 champs SellItem c4:taviB 0,0->0,0 | c4 gold 240->270
+r115 champs SellItem c4:taviB 0,0->0,0 | c4 gold 270->300
+r116 champs SellItem c4:taviB 0,0->0,0 | c4 gold 300->330
+r117 champs Shop c4:taviB 0,0->0,0 | c4 hp 1050->1125 max 1050->1125; c4 gold 330->180
+r120 champs Shop c0:rythA 0,0->0,0 | c0 hp 1200->1300 max 1200->1300; c0 gold 400->370
+r120 champs Shop c0:rythA 0,0->0,0 | c0 gold 370->340
+r120 champs Shop c0:rythA 0,0->0,0 | c0 gold 340->310
+r120 champs Shop c0:rythA 0,0->0,0 | c0 hp 1300->1900 max 1300->1900; c0 gold 310->160
+r125 champs Shop c3:rythB 0,0->0,0 | c3 hp 1200->1300 max 1200->1300; c3 gold 400->370
+r125 champs Shop c3:rythB 0,0->0,0 | c3 gold 370->340
+r125 champs Shop c3:rythB 0,0->0,0 | c3 gold 340->310
+r125 champs Shop c3:rythB 0,0->0,0 | c3 hp 1300->1900 max 1300->1900; c3 gold 310->160
+
+## econ-pass econ-pass_probe-economy_probe-economy_42f1adb5.repl26a
+r24 captures Capture k0:0 0,0->0,0 | c1 gold 0->26; g8 reward 1->0 team 0->2
+r24 captures Capture k0:0 0,0->0,0 | c5 gold 0->26; g9 reward 1->0 team 1->2
+r35 captures Capture k0:0 0,0->0,0 | c1 gold 26->53; g10 reward 1->0 team 0->2
+r35 captures Capture k0:0 0,0->0,0 | c5 gold 26->53; g11 reward 1->0 team 1->2
+r46 captures Capture k0:0 0,0->0,0 | c1 gold 53->79; g12 reward 1->0 team 0->2
+r46 captures Capture k0:0 0,0->0,0 | c5 gold 53->79; g13 reward 1->0 team 1->2
+r47 captures Capture k0:0 0,0->0,0 | c2 gold 0->200; g22 reward 1->0 team 0->2
+r47 captures Capture k0:0 0,0->0,0 | c6 gold 0->200; g23 reward 1->0 team 1->2
+r55 captures Capture k0:0 0,0->0,0 | c0 gold 0->200; g2 reward 1->0 team 0->2
+r55 captures Capture k0:0 0,0->0,0 | c4 gold 0->200; g3 reward 1->0 team 1->2
+r56 champs Shop c6:marcellaB 0,0->0,0 | c6 gold 200->50
+r56 champs Shop c2:marcellaA 0,0->0,0 | c2 gold 200->50
+r57 captures Capture k0:0 0,0->0,0 | c1 gold 79->106; g14 reward 1->0 team 0->2
+r57 captures Capture k0:0 0,0->0,0 | c5 gold 79->106; g15 reward 1->0 team 1->2
+r68 captures Capture k0:0 0,0->0,0 | c1 gold 106->133; g16 reward 1->0 team 0->2
+r68 captures Capture k0:0 0,0->0,0 | c5 gold 106->133; g17 reward 1->0 team 1->2
+r72 captures Capture k0:0 0,0->0,0 | c2 gems 0->7; g24 reward 1->0 team 0->2
+r72 captures Capture k0:0 0,0->0,0 | c6 gems 0->7; g25 reward 1->0 team 1->2
+r79 captures Capture k0:0 0,0->0,0 | c1 gold 133->159; g18 reward 1->0 team 0->2
+r79 captures Capture k0:0 0,0->0,0 | c5 gold 133->159; g19 reward 1->0 team 1->2
+r84 captures Capture k0:0 0,0->0,0 | c2 gems 7->14; g26 reward 1->0 team 0->2
+r84 captures Capture k0:0 0,0->0,0 | c6 gems 7->14; g27 reward 1->0 team 1->2
+r88 turnStart GemsSubmitted c6:marcellaB 32,15->32,16 | c6 gold 50->83; c6 gems 14->0; submitted 0,0->0,14
+r88 turnStart GemsSubmitted c2:marcellaA 11,15->11,16 | c2 gold 50->83; c2 gems 14->0; submitted 0,14->14,14
+r94 champs Shop c5:vesperB 0,0->0,0 | c5 hp 1000->1500 max 1000->1500; c5 gold 159->9
+r94 champs Shop c1:vesperA 0,0->0,0 | c1 hp 1000->1500 max 1000->1500; c1 gold 159->9
+r96 captures Capture k0:0 0,0->0,0 | c0 gold 200->400; g4 reward 1->0 team 0->2
+r100 captures Capture k0:0 0,0->0,0 | c4 gold 200->400; g5 reward 1->0 team 1->2
+r123 captures Capture k0:0 0,0->0,0 | c5 gold 9->40; g21 reward 1->0 team 1->2
+r124 captures Capture k0:0 0,0->0,0 | c1 gold 9->40; g20 reward 1->0 team 0->2
+r141 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 650->580
+r142 captures Capture k0:0 0,0->0,0 | c0 gold 400->600; g0 reward 1->0 team 0->2
+r142 champs Attack c5:vesperB 24,8->21,8 | c3 hp 650->595
+r142 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 580->510
+r143 champs Attack c5:vesperB 24,8->21,8 | c3 hp 595->540
+r143 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 510->440
+r144 champs Attack c5:vesperB 24,8->21,8 | c3 hp 540->485
+r144 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 440->370
+r145 champs Attack c5:vesperB 24,8->21,8 | c3 hp 485->430
+r145 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 370->300
+r146 champs Attack c5:vesperB 24,8->21,8 | c3 hp 430->375
+r146 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 300->230
+r147 champs Attack c5:vesperB 24,8->21,8 | c3 hp 375->320
+r147 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 230->160
+r148 captures Capture k0:0 0,0->0,0 | c4 gold 400->600; g1 reward 1->0 team 1->2
+r148 champs Attack c5:vesperB 24,8->21,8 | c3 hp 320->265
+r148 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 160->90
+r149 champs Attack c5:vesperB 24,8->21,8 | c3 hp 265->210
+r149 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 90->20
+r150 champs Attack c5:vesperB 24,8->21,8 | c3 hp 210->155
+r150 champs Attack c2:marcellaA 21,12->22,12 | c2 gold 83->203; c2 kills 0->1; c7 hp 20->0; c7 pos 22,12->-1,-1; c7 alive 1->0
+r151 camps Attack m60:wolf@17,34 17,34->16,34 | c0 hp 1200->1180
+r151 champs Attack c5:vesperB 24,8->21,8 | c3 hp 155->100
+r152 camps Attack m60:wolf@17,34 17,34->16,34 | c0 hp 1180->1160
+r152 champs Attack c5:vesperB 24,8->21,8 | c3 hp 100->45
+r153 camps Attack m60:wolf@17,34 17,34->16,34 | c0 hp 1160->1140
+r153 champs Attack c5:vesperB 24,8->21,8 | c3 hp 45->0; c3 pos 21,8->-1,-1; c3 alive 1->0; c5 gold 40->193; c5 kills 0->1
+r154 camps Attack m60:wolf@17,34 17,34->15,33 | c0 hp 1140->1120
+r155 camps Attack m60:wolf@17,34 17,34->14,32 | c0 hp 1120->1100
+r168 champs Shop c0:rythA 0,0->0,0 | c0 hp 1200->1700 max 1200->1700; c0 gold 600->450
+r174 champs Shop c4:rythB 0,0->0,0 | c4 hp 1200->1700 max 1200->1700; c4 gold 600->450
+r185 camps Attack m60:wolf@17,34 17,34->16,34 | c0 hp 1700->1686
+r186 camps Attack m60:wolf@17,34 17,34->16,34 | c0 hp 1686->1672
+r187 camps Attack m60:wolf@17,34 17,34->16,34 | c0 hp 1672->1658
+r188 camps Attack m60:wolf@17,34 17,34->15,33 | c0 hp 1658->1644
+r189 camps Attack m60:wolf@17,34 17,34->14,32 | c0 hp 1644->1630
+r202 champs Shop c0:rythA 0,0->0,0 | c0 hp 1700->2200 max 1700->2200; c0 gold 450->300
+r208 champs Shop c4:rythB 0,0->0,0 | c4 hp 1700->2200 max 1700->2200; c4 gold 450->300
+r219 camps Attack m60:wolf@17,34 17,34->16,34 | c0 hp 2200->2187.4
+r220 camps Attack m60:wolf@17,34 17,34->16,34 | c0 hp 2187.4->2174.8
+r221 camps Attack m60:wolf@17,34 17,34->16,34 | c0 hp 2174.8->2162.2
+r222 camps Attack m60:wolf@17,34 17,34->15,33 | c0 hp 2162.2->2149.6
+r223 camps Attack m60:wolf@17,34 17,34->14,32 | c0 hp 2149.6->2137
+r231 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 650->580
+r232 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 580->510
+r233 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 510->440
+r234 champs Attack c5:vesperB 24,8->21,8 | c3 hp 650->595
+r234 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 440->370
+r235 champs Attack c5:vesperB 24,8->21,8 | c3 hp 595->540
+r235 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 370->300
+r236 champs Shop c0:rythA 0,0->0,0 | c0 hp 2200->2700 max 2200->2700; c0 gold 300->150
+r236 champs Attack c5:vesperB 24,8->21,8 | c3 hp 540->485
+r236 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 300->230
+r237 champs Attack c5:vesperB 24,8->21,8 | c3 hp 485->430
+r237 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 230->160
+r238 champs Attack c5:vesperB 24,8->21,8 | c3 hp 430->375
+r238 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 160->90
+r239 champs Attack c5:vesperB 24,8->21,8 | c3 hp 375->320
+r239 champs Attack c2:marcellaA 21,12->22,12 | c7 hp 90->20
+r240 champs Attack c5:vesperB 24,8->21,8 | c3 hp 320->265
+r240 champs Attack c2:marcellaA 21,12->22,12 | c2 gold 203->323; c2 kills 1->2; c7 hp 20->0; c7 pos 22,12->-1,-1; c7 alive 1->0
+r241 champs Attack c5:vesperB 24,8->21,8 | c3 hp 265->210
+r242 champs Shop c4:rythB 0,0->0,0 | c4 hp 2200->2700 max 2200->2700; c4 gold 300->150
+r242 champs Attack c5:vesperB 24,8->21,8 | c3 hp 210->155
+r243 champs Attack c5:vesperB 24,8->21,8 | c3 hp 155->100
+r244 champs Attack c5:vesperB 24,8->21,8 | c3 hp 100->45
+r245 champs Attack c5:vesperB 24,8->21,8 | c3 hp 45->0; c3 pos 21,8->-1,-1; c3 alive 1->0; c5 gold 193->346; c5 kills 1->2
+r253 camps Attack m60:wolf@17,34 17,34->16,34 | c0 hp 2700->2687.4
+r254 camps Attack m60:wolf@17,34 17,34->16,34 | c0 hp 2687.4->2674.8
+r255 camps Attack m60:wolf@17,34 17,34->16,34 | c0 hp 2674.8->2662.2
+r256 camps Attack m60:wolf@17,34 17,34->15,33 | c0 hp 2662.2->2649.6
+r257 camps Attack m60:wolf@17,34 17,34->14,32 | c0 hp 2649.6->2637
+r297 champs Attack c4:rythB 22,26->21,26 | c0 hp 2700->2646
+
+## econ-sell econ-sell_probe-economy_probe-economy_13be082d.repl26a
+r46 captures Capture k0:0 0,0->0,0 | c1 gold 0->200; g4 reward 1->0 team 0->2
+r46 captures Capture k0:0 0,0->0,0 | c4 gold 0->200; g5 reward 1->0 team 1->2
+r49 captures Capture k0:0 0,0->0,0 | c0 gold 0->200; g0 reward 1->0 team 0->2
+r49 captures Capture k0:0 0,0->0,0 | c3 gold 0->200; g1 reward 1->0 team 1->2
+r52 champs Shop c4:rythB 0,0->0,0 | c4 gold 200->170
+r52 champs Shop c4:rythB 0,0->0,0 | c4 hp 1200->1700 max 1200->1700; c4 gold 170->20
+r52 champs Shop c1:rythA 0,0->0,0 | c1 gold 200->170
+r52 champs Shop c1:rythA 0,0->0,0 | c1 hp 1200->1700 max 1200->1700; c1 gold 170->20
+r75 champs Attack c1:rythA 21,24->22,24 | c4 hp 1700->1645
+r94 captures Capture k0:0 0,0->0,0 | c0 gold 200->400; g2 reward 1->0 team 0->2
+r94 captures Capture k0:0 0,0->0,0 | c3 gold 200->400; g3 reward 1->0 team 1->2
+r94 champs Shop c3:taviB 0,0->0,0 | c3 gold 400->370
+r94 champs Shop c3:taviB 0,0->0,0 | c3 gold 370->340
+r94 champs Shop c0:taviA 0,0->0,0 | c0 gold 400->370
+r94 champs Shop c0:taviA 0,0->0,0 | c0 gold 370->340
+r103 champs SellItem c0:taviA 0,0->0,0 | c0 gold 340->370
+r103 champs SellItem c0:taviA 0,0->0,0 | c0 gold 370->400
+r103 champs Shop c0:taviA 0,0->0,0 | c0 gold 400->250
+r103 champs SellItem c0:taviA 0,0->0,0 | c0 gold 250->400
+r104 champs Shop c0:taviA 0,0->0,0 | c0 hp 900->1275 max 900->1275; c0 gold 400->250
+r106 champs SellItem c3:taviB 0,0->0,0 | c3 gold 340->370
+r106 champs SellItem c3:taviB 0,0->0,0 | c3 gold 370->400
+r106 champs Shop c3:taviB 0,0->0,0 | c3 gold 400->250
+r106 champs SellItem c3:taviB 0,0->0,0 | c3 gold 250->400
+r107 champs Shop c3:taviB 0,0->0,0 | c3 hp 900->1275 max 900->1275; c3 gold 400->250
+r127 champs Cast c0:taviA slot1 type4 0,0->24,8 | c3 hp 1275->1136.4
+r129 champs Cast c3:taviB slot1 type4 0,0->21,8 | c0 hp 1275->1136.4

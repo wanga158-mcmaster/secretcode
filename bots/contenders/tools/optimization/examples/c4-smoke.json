@@ -1,0 +1,42 @@
+{
+  "description": "Small restricted-model clearing search for installation and restart checks. Not a native game qualification.",
+  "max_cases": 8,
+  "search": {
+    "max_nodes": 10000,
+    "max_frontier": 4000,
+    "max_depth": 24,
+    "max_solutions": 16,
+    "checkpoint_every": 100,
+    "baseline_steps": 80
+  },
+  "cases": [
+    {
+      "id": "two-basic-clear",
+      "split": "diagnostic",
+      "width": 3,
+      "height": 3,
+      "actors": [
+        {"id": "actor0", "team": 0, "x": 0, "y": 1, "spawn": [0, 0], "hp": 100, "max_hp": 100, "strength": 20, "focus": 0, "range": 1, "ranged": false, "spells": []}
+      ],
+      "camps": [
+        {"id": "camp0", "group": 0, "x": 1, "y": 1, "hp": 40, "max_hp": 40, "strength": 0, "range": 0, "gems": 7, "gold": 0, "respawn": 50}
+      ],
+      "settings": {"capture_time": 5, "camp_sleep_time": 2, "recall_time": 5, "spawn_healing": 1, "submit_multiplier": 0.1, "submit_minimum": 1, "winning_gems": 1000, "max_rounds": 3},
+      "goal": {"kind": "clear", "team": 0, "group": 0}
+    },
+    {
+      "id": "capture-release",
+      "split": "diagnostic",
+      "width": 3,
+      "height": 3,
+      "actors": [
+        {"id": "actor0", "team": 0, "x": 0, "y": 1, "spawn": [0, 0], "hp": 100, "max_hp": 100, "strength": 20, "focus": 0, "range": 1, "ranged": false, "spells": []}
+      ],
+      "camps": [
+        {"id": "camp0", "group": 0, "x": 1, "y": 1, "hp": 20, "max_hp": 20, "strength": 0, "range": 0, "gems": 7, "gold": 0, "respawn": 50}
+      ],
+      "settings": {"capture_time": 1, "camp_sleep_time": 2, "recall_time": 5, "spawn_healing": 1, "submit_multiplier": 0.1, "submit_minimum": 1, "winning_gems": 1000, "max_rounds": 4},
+      "goal": {"kind": "capture_depart", "team": 0, "group": 0}
+    }
+  ]
+}

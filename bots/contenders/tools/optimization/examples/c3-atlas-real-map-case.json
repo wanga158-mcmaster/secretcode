@@ -1,0 +1,102 @@
+{
+  "description": "C4 producer input for C3 real-map atlas import. Exact current-map crop with catalog scalar stats. No claim about omitted champion passives or native execution.",
+  "cases": [
+    {
+      "id": "gem-fields-g180-marcella-basic-point",
+      "split": "training",
+      "state_origin": "current_real_map_crop_with_catalog_scalar_stats_passives_excluded",
+      "map_provenance": {
+        "map_id": "00gem_fields",
+        "map_sha256": "80af89f07723d23d822ddc858616a0156ae60f9d41ffd8bd9105f924379677b5",
+        "group": "g_180",
+        "translation": [
+          30,
+          2
+        ],
+        "geometry_sha256": "05b3cb828d665369edb7310bca6d4d6b6207fbb2c2f0d6dd40c89013a9aef7d2",
+        "catalog_sha256": "7cc2c639c314d0c739ad74e0fc20ade667304276a6040c014f92f5915f0b1d87"
+      },
+      "width": 1,
+      "height": 2,
+      "blocked": [],
+      "altars": [],
+      "actors": [
+        {
+          "id": "actor0",
+          "team": 0,
+          "x": 0,
+          "y": 0,
+          "spawn": [
+            0,
+            0
+          ],
+          "hp": 1200,
+          "max_hp": 1200,
+          "strength": 45,
+          "range": 1,
+          "mitigation": 1,
+          "spells": []
+        }
+      ],
+      "camps": [
+        {
+          "id": "camp0",
+          "group": 0,
+          "x": 0,
+          "y": 1,
+          "hp": 120,
+          "max_hp": 120,
+          "strength": 0,
+          "range": 3,
+          "gems": 7,
+          "gold": 0,
+          "respawn": 50
+        }
+      ],
+      "settings": {
+        "capture_time": 5,
+        "camp_sleep_time": 2,
+        "respawn_time": 60,
+        "recall_time": 5,
+        "submit_gem_duration_multiplier": 0.1,
+        "submit_gem_base_duration": 0,
+        "submit_gem_minimum_duration": 1,
+        "submit_gems_range": 1,
+        "max_rounds": 8,
+        "winning_gems": 1000,
+        "kill_gold": 100,
+        "assist_gold": 0,
+        "passive_gold": 0,
+        "spawn_healing": 1,
+        "active_wards": 1,
+        "ward_charges": 1,
+        "shared_memory_bytes": 8,
+        "draft_memory_bytes": 1024,
+        "tile_reveal_rounds": 1,
+        "ward_cooldown": 10,
+        "ward_lifetime": -1,
+        "ward_vision_radius": 6,
+        "ward_placement_radius": 2,
+        "control_ward_vision_radius": 6,
+        "control_ward_placement_radius": 2,
+        "altar_lock_hits": 5,
+        "tp_scroll_time": 3,
+        "tp_crystal_time": 3,
+        "reserved": 0
+      },
+      "goal": {
+        "kind": "clear",
+        "team": 0,
+        "group": 0
+      }
+    }
+  ],
+  "search": {
+    "max_nodes": 10000,
+    "max_frontier": 5000,
+    "max_depth": 30,
+    "max_solutions": 16,
+    "checkpoint_every": 100,
+    "baseline_steps": 100
+  }
+}

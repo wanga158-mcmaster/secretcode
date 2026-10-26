@@ -1,0 +1,238 @@
+{
+ "pinned": "2026-10-22T05:29:14Z",
+ "engine": "1.0.2",
+ "persona_base": "anchors/main-v36@eafdae44a09a",
+ "entries": [
+  {
+   "label": "anchors/starter-cpp",
+   "bot": "anchors/starter-cpp",
+   "kind": "health",
+   "version": "3785135fc7c7",
+   "why": "official starter: passive, the speedrun opponent",
+   "pin": "frozen"
+  },
+  {
+   "label": "anchors/fundamentals",
+   "bot": "anchors/fundamentals",
+   "kind": "health",
+   "version": "85ce679dc7b1",
+   "why": "B0: the economy most suites build on",
+   "pin": "frozen"
+  },
+  {
+   "label": "anchors/main-v36",
+   "bot": "anchors/main-v36",
+   "kind": "main",
+   "version": "eafdae44a09a",
+   "why": "live since 22 Oct 04:05Z (arena release)",
+   "pin": "frozen"
+  },
+  {
+   "label": "anchors/main-v35",
+   "bot": "anchors/main-v35",
+   "kind": "main",
+   "version": "60b41a3fcd0e",
+   "why": "named live when the battery was specified; the reference subject",
+   "pin": "frozen"
+  },
+  {
+   "label": "anchors/main-v28",
+   "bot": "anchors/main-v28",
+   "kind": "main",
+   "version": "8c47161b5af6",
+   "why": "live 21 Oct; long the lineage anchor",
+   "pin": "frozen"
+  },
+  {
+   "label": "anchors/main-hunter7",
+   "bot": "anchors/main-hunter7",
+   "kind": "main",
+   "version": "417c0489eb1f",
+   "why": "hunting line: ~16 kills a ladder game",
+   "pin": "frozen"
+  },
+  {
+   "label": "persona:hunter",
+   "bot": "anchors/main-v36",
+   "kind": "persona",
+   "overrides": {
+    "hunt_mode": "1",
+    "hunt_radius": "20",
+    "hunt_health": "0.4f",
+    "fight_better_trades_only": "false",
+    "limited_chase": "false"
+   },
+   "version": "73669ca96e4a",
+   "why": "hunts enemies within 20 (early aggression, chases)",
+   "pin": "frozen"
+  },
+  {
+   "label": "persona:rush",
+   "bot": "anchors/main-v36",
+   "kind": "persona",
+   "overrides": {
+    "gem_value": "8.0f",
+    "gem_value_late": "8.0f",
+    "gem_rich_value": "8.0f",
+    "tribute_gems": "10"
+   },
+   "version": "1eb6732d14ba",
+   "why": "gems valued 8x, small bags (gem rush)",
+   "pin": "frozen"
+  },
+  {
+   "label": "persona:squads",
+   "bot": "anchors/main-v36",
+   "kind": "persona",
+   "overrides": {
+    "squad_size": "3"
+   },
+   "version": "deb2c1742128",
+   "why": "squads of 3 (grouped play)",
+   "pin": "frozen"
+  },
+  {
+   "label": "persona:burst",
+   "bot": "anchors/main-v36",
+   "kind": "persona",
+   "overrides": {
+    "focus_builds": "true",
+    "draft_mode": "16"
+   },
+   "version": "d556bdb853d5",
+   "why": "Focus builds, burst draft (scaling burst)",
+   "pin": "frozen"
+  },
+  {
+   "label": "persona:meta",
+   "bot": "anchors/main-v36",
+   "kind": "persona",
+   "overrides": {
+    "draft_mode": "19",
+    "shop_plan": "14",
+    "early_shop_gold": "90",
+    "early_shop_until": "400"
+   },
+   "version": "86e43fd203f8",
+   "why": "online meta draft and Health-first shop",
+   "pin": "frozen"
+  },
+  {
+   "label": "persona:brawl",
+   "bot": "anchors/main-v36",
+   "kind": "persona",
+   "overrides": {
+    "squad_size": "3",
+    "focus_builds": "true",
+    "draft_mode": "16",
+    "hunt_mode": "1",
+    "hunt_radius": "12"
+   },
+   "version": "240c795712f9",
+   "why": "grouped Focus brawlers that hunt (IF-like deathball)",
+   "pin": "frozen"
+  },
+  {
+   "label": "persona:willow",
+   "bot": "anchors/main-v36",
+   "kind": "persona",
+   "overrides": {
+    "draft_mode": "12",
+    "squad_size": "2"
+   },
+   "version": "5732c3e6e38c",
+   "why": "Willow sustain draft in pairs",
+   "pin": "frozen"
+  },
+  {
+   "label": "persona:hoarder",
+   "bot": "anchors/main-v36",
+   "kind": "persona",
+   "overrides": {
+    "tribute_gems": "120"
+   },
+   "version": "e4c2d5a35155",
+   "why": "120-gem bags (big bags, bounty carriers)",
+   "pin": "frozen"
+  },
+  {
+   "label": "specialists/porcupine",
+   "bot": "specialists/porcupine",
+   "kind": "ladder",
+   "version": "5450d9f8c880",
+   "why": "#8 1371: defensive Ren, fights only from superiority, Health/Focus build",
+   "pin": "snapshot"
+  },
+  {
+   "label": "specialists/greenhouse",
+   "bot": "specialists/greenhouse",
+   "kind": "ladder",
+   "version": "01b33e7639c7",
+   "why": "#9 1362: income first (Treasure Strength), the economic race",
+   "pin": "snapshot"
+  },
+  {
+   "label": "specialists/gremlins",
+   "bot": "specialists/gremlins",
+   "kind": "ladder",
+   "version": "426c57985616",
+   "why": "1102: altar locks on visible enemy tributes (lock harassment)",
+   "pin": "snapshot"
+  },
+  {
+   "label": "commitments/bounty-syndicate",
+   "bot": "commitments/bounty-syndicate",
+   "kind": "ladder",
+   "version": "596b183c7640",
+   "why": "#13 1191: Vesper and Varg intercept loaded carriers",
+   "pin": "snapshot"
+  },
+  {
+   "label": "heuristics/reset-pursuit",
+   "bot": "heuristics/reset-pursuit",
+   "kind": "ladder",
+   "version": "2b415b498c4c",
+   "why": "#14 1188: kill/reset pursuit, the most aggressive clean bot",
+   "pin": "snapshot"
+  },
+  {
+   "label": "territory/frontier",
+   "bot": "territory/frontier",
+   "kind": "ladder",
+   "version": "1f33ecd4c38c",
+   "why": "#29 1011: forward territorial pressure, many deaths",
+   "pin": "snapshot"
+  }
+ ],
+ "contenders": [
+  "contenders/timetable",
+  "contenders/warband",
+  "contenders/compound"
+ ],
+ "quick": {
+  "maps": [
+   "00gem-fields",
+   "00reverse-spiral",
+   "00swirl",
+   "00lost-world",
+   "01the-farm",
+   "00ambush",
+   "01starvation",
+   "00collision",
+   "00contest",
+   "01islands"
+  ],
+  "opponents": [
+   "anchors/starter-cpp",
+   "anchors/fundamentals",
+   "anchors/main-v36",
+   "anchors/main-v35",
+   "anchors/main-hunter7",
+   "persona:hunter",
+   "persona:rush",
+   "persona:squads",
+   "specialists/porcupine",
+   "heuristics/reset-pursuit"
+  ]
+ }
+}

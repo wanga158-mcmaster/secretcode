@@ -1,0 +1,3117 @@
+{
+"engine": "1.0.2",
+"margin": "survivor health share of the winner, signed from the row pick's side; mean of both sides x both parities",
+"names": [
+"Ryth",
+"Vesper",
+"Vendetta",
+"Cassi&Issac",
+"Stellar",
+"Prism",
+"Marcella",
+"Willow",
+"Ren",
+"Varg",
+"Tavi",
+"Heart"
+],
+"rows": [
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+29,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.025,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 0
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 0,
+"B": 1
+},
+"deaths": [
+[
+29,
+"A",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.025
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 0
+},
+"stunned_turns": {},
+"winner": "B"
+},
+{
+"alive": {
+"A": 2,
+"B": 0
+},
+"deaths": [
+[
+17,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.738,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 1
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 2,
+"B": 0
+},
+"deaths": [
+[
+16,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.756,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 1
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 0,
+"B": 1
+},
+"deaths": [
+[
+16,
+"A",
+"ryth"
+],
+[
+17,
+"B",
+"ryth"
+],
+[
+42,
+"A",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.031
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 2
+},
+"stunned_turns": {},
+"winner": "B"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+16,
+"B",
+"ryth"
+],
+[
+17,
+"A",
+"ryth"
+],
+[
+42,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.031,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 2
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 2,
+"B": 0
+},
+"deaths": [
+[
+13,
+"B",
+"ryth"
+],
+[
+15,
+"A",
+"varg"
+],
+[
+20,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.653,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 3
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 2,
+"B": 0
+},
+"deaths": [
+[
+12,
+"B",
+"ryth"
+],
+[
+16,
+"A",
+"varg"
+],
+[
+20,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.666,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 3
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 0,
+"B": 1
+},
+"deaths": [
+[
+14,
+"A",
+"varg"
+],
+[
+14,
+"B",
+"varg"
+],
+[
+28,
+"A",
+"ryth"
+],
+[
+28,
+"B",
+"ryth"
+],
+[
+54,
+"A",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.009
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 4
+},
+"stunned_turns": {},
+"winner": "B"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+14,
+"A",
+"varg"
+],
+[
+14,
+"B",
+"varg"
+],
+[
+28,
+"A",
+"ryth"
+],
+[
+28,
+"B",
+"ryth"
+],
+[
+54,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.009,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 4
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 3,
+"B": 0
+},
+"deaths": [
+[
+13,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.868,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 5
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 3,
+"B": 0
+},
+"deaths": [
+[
+12,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.881,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 5
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 2,
+"B": 0
+},
+"deaths": [
+[
+14,
+"A",
+"varg"
+],
+[
+19,
+"B",
+"ryth"
+],
+[
+21,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.56,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 6
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 2,
+"B": 0
+},
+"deaths": [
+[
+14,
+"A",
+"varg"
+],
+[
+20,
+"B",
+"ryth"
+],
+[
+20,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.56,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 6
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 0,
+"B": 2
+},
+"deaths": [
+[
+16,
+"A",
+"ryth"
+],
+[
+30,
+"A",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.287
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 7
+},
+"stunned_turns": {},
+"winner": "B"
+},
+{
+"alive": {
+"A": 0,
+"B": 2
+},
+"deaths": [
+[
+17,
+"A",
+"ryth"
+],
+[
+29,
+"A",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.269
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 7
+},
+"stunned_turns": {},
+"winner": "B"
+},
+{
+"alive": {
+"A": 0,
+"B": 3
+},
+"deaths": [
+[
+10,
+"A",
+"varg"
+],
+[
+18,
+"A",
+"ryth"
+],
+[
+26,
+"A",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.453
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 8
+},
+"stunned_turns": {},
+"winner": "B"
+},
+{
+"alive": {
+"A": 0,
+"B": 3
+},
+"deaths": [
+[
+14,
+"A",
+"varg"
+],
+[
+24,
+"A",
+"ryth"
+],
+[
+30,
+"A",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.51
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 8
+},
+"stunned_turns": {},
+"winner": "B"
+},
+{
+"alive": {
+"A": 0,
+"B": 2
+},
+"deaths": [
+[
+5,
+"A",
+"hear"
+],
+[
+7,
+"B",
+"hear"
+],
+[
+11,
+"A",
+"vesp"
+],
+[
+12,
+"B",
+"vesp"
+],
+[
+14,
+"A",
+"vend"
+],
+[
+20,
+"A",
+"marc"
+],
+[
+22,
+"B",
+"vend"
+],
+[
+26,
+"A",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.319
+},
+"run": "g1",
+"scenario": {
+"champs": 5,
+"gold": false,
+"parity": 0,
+"table": 9
+},
+"stunned_turns": {
+"A:hear": [
+4
+],
+"A:ryth": [
+4,
+12,
+20
+],
+"A:vend": [
+3,
+11
+],
+"A:vesp": [
+4
+],
+"B:hear": [
+3,
+6
+],
+"B:ryth": [
+9,
+17,
+25
+],
+"B:vend": [
+14,
+17
+],
+"B:vesp": [
+10
+]
+},
+"winner": "B"
+},
+{
+"alive": {
+"A": 2,
+"B": 0
+},
+"deaths": [
+[
+5,
+"B",
+"hear"
+],
+[
+7,
+"A",
+"hear"
+],
+[
+11,
+"B",
+"vesp"
+],
+[
+13,
+"A",
+"vesp"
+],
+[
+13,
+"B",
+"vend"
+],
+[
+20,
+"B",
+"marc"
+],
+[
+22,
+"A",
+"vend"
+],
+[
+26,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.3,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 5,
+"gold": false,
+"parity": 1,
+"table": 9
+},
+"stunned_turns": {
+"A:hear": [
+3,
+6
+],
+"A:ryth": [
+9,
+17,
+25
+],
+"A:vend": [
+9,
+15,
+17
+],
+"B:hear": [
+4
+],
+"B:ryth": [
+4,
+12,
+20
+],
+"B:vend": [
+3,
+11,
+12
+],
+"B:vesp": [
+4
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 3,
+"B": 0
+},
+"deaths": [
+[
+7,
+"B",
+"hear"
+],
+[
+8,
+"A",
+"hear"
+],
+[
+11,
+"B",
+"vesp"
+],
+[
+13,
+"A",
+"marc"
+],
+[
+16,
+"B",
+"marc"
+],
+[
+22,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.351,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 5,
+"gold": false,
+"parity": 0,
+"table": 10
+},
+"stunned_turns": {
+"A:hear": [
+3,
+4
+],
+"A:ryth": [
+4,
+12,
+20
+],
+"A:vend": [
+3,
+11,
+19
+],
+"A:vesp": [
+4,
+12,
+20
+],
+"B:hear": [
+3,
+4
+],
+"B:ryth": [
+9,
+17
+],
+"B:vesp": [
+9
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 3,
+"B": 0
+},
+"deaths": [
+[
+5,
+"B",
+"hear"
+],
+[
+8,
+"A",
+"hear"
+],
+[
+10,
+"B",
+"vesp"
+],
+[
+13,
+"B",
+"marc"
+],
+[
+15,
+"A",
+"vesp"
+],
+[
+18,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.495,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 5,
+"gold": false,
+"parity": 1,
+"table": 10
+},
+"stunned_turns": {
+"A:hear": [
+3,
+4,
+7
+],
+"A:ryth": [
+15
+],
+"A:vend": [
+6,
+14
+],
+"A:vesp": [
+7,
+12
+],
+"B:hear": [
+4
+],
+"B:ryth": [
+4,
+5,
+12
+],
+"B:vesp": [
+4
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 4,
+"B": 0
+},
+"deaths": [
+[
+5,
+"B",
+"hear"
+],
+[
+9,
+"B",
+"vesp"
+],
+[
+12,
+"A",
+"hear"
+],
+[
+13,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.806,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 5,
+"gold": false,
+"parity": 0,
+"table": 11
+},
+"stunned_turns": {
+"A:hear": [
+3,
+11
+],
+"B:hear": [
+3,
+4
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 4,
+"B": 0
+},
+"deaths": [
+[
+5,
+"B",
+"hear"
+],
+[
+9,
+"B",
+"vesp"
+],
+[
+13,
+"A",
+"hear"
+],
+[
+14,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.798,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 5,
+"gold": false,
+"parity": 1,
+"table": 11
+},
+"stunned_turns": {
+"A:hear": [
+3,
+4,
+12
+],
+"B:hear": [
+4
+],
+"B:vesp": [
+4,
+5
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 2,
+"B": 0
+},
+"deaths": [
+[
+7,
+"B",
+"vend"
+],
+[
+13,
+"A",
+"vend"
+],
+[
+16,
+"B",
+"marc"
+],
+[
+24,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.416,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 12
+},
+"stunned_turns": {
+"A:ryth": [
+14,
+22
+],
+"A:vend": [
+4,
+12
+],
+"B:ryth": [
+3,
+15,
+19,
+23
+],
+"B:vend": [
+3
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 0,
+"B": 2
+},
+"deaths": [
+[
+7,
+"A",
+"vend"
+],
+[
+13,
+"B",
+"vend"
+],
+[
+15,
+"A",
+"marc"
+],
+[
+23,
+"A",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.456
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 12
+},
+"stunned_turns": {
+"A:ryth": [
+5,
+13,
+21
+],
+"A:vend": [
+3,
+5
+],
+"B:ryth": [
+14,
+22
+],
+"B:vend": [
+4,
+12
+]
+},
+"winner": "B"
+},
+{
+"alive": {
+"A": 2,
+"B": 0
+},
+"deaths": [
+[
+9,
+"B",
+"marc"
+],
+[
+12,
+"A",
+"vend"
+],
+[
+15,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.562,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 13
+},
+"stunned_turns": {
+"A:ryth": [
+4,
+12
+],
+"A:vend": [
+3,
+4
+],
+"B:ryth": [
+5,
+11,
+13
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 2,
+"B": 0
+},
+"deaths": [
+[
+10,
+"B",
+"marc"
+],
+[
+12,
+"A",
+"vend"
+],
+[
+16,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.535,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 13
+},
+"stunned_turns": {
+"A:ryth": [
+3,
+13
+],
+"A:vend": [
+3,
+4
+],
+"B:ryth": [
+6,
+11,
+14
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 0,
+"B": 3
+},
+"deaths": [
+[
+7,
+"A",
+"hear"
+],
+[
+10,
+"A",
+"vend"
+],
+[
+11,
+"B",
+"hear"
+],
+[
+17,
+"A",
+"marc"
+],
+[
+21,
+"A",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.503
+},
+"run": "g1",
+"scenario": {
+"champs": 4,
+"gold": false,
+"parity": 0,
+"table": 14
+},
+"stunned_turns": {
+"A:hear": [
+3,
+4
+],
+"A:ryth": [
+4,
+12,
+19,
+20
+],
+"A:vend": [
+3,
+4
+],
+"B:hear": [
+3
+],
+"B:ryth": [
+13
+],
+"B:vend": [
+12,
+13
+]
+},
+"winner": "B"
+},
+{
+"alive": {
+"A": 3,
+"B": 0
+},
+"deaths": [
+[
+7,
+"B",
+"hear"
+],
+[
+10,
+"B",
+"vend"
+],
+[
+11,
+"A",
+"hear"
+],
+[
+17,
+"B",
+"marc"
+],
+[
+21,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.503,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 4,
+"gold": false,
+"parity": 1,
+"table": 14
+},
+"stunned_turns": {
+"A:hear": [
+3
+],
+"A:ryth": [
+13
+],
+"A:vend": [
+12,
+13
+],
+"B:hear": [
+3,
+4
+],
+"B:ryth": [
+4,
+12,
+19,
+20
+],
+"B:vend": [
+3,
+4
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 2,
+"B": 0
+},
+"deaths": [
+[
+11,
+"B",
+"hear"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.719,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 15
+},
+"stunned_turns": {
+"A:vend": [
+4
+],
+"B:hear": [
+3
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 2,
+"B": 0
+},
+"deaths": [
+[
+11,
+"B",
+"hear"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.736,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 15
+},
+"stunned_turns": {
+"A:vend": [
+3
+],
+"B:hear": [
+4
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 4,
+"B": 0
+},
+"deaths": [
+[
+17,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": true,
+"parity": 0,
+"table": 16
+},
+"stunned_turns": {
+"B:ryth": [
+5,
+13
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 4,
+"B": 0
+},
+"deaths": [
+[
+16,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": true,
+"parity": 1,
+"table": 16
+},
+"stunned_turns": {
+"B:ryth": [
+4,
+5,
+12,
+13
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 4,
+"B": 0
+},
+"deaths": [
+[
+17,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": true,
+"parity": 0,
+"table": 17
+},
+"stunned_turns": {
+"B:ryth": [
+5,
+6,
+7,
+13,
+14,
+15
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 4,
+"B": 0
+},
+"deaths": [
+[
+17,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": true,
+"parity": 1,
+"table": 17
+},
+"stunned_turns": {
+"B:ryth": [
+4,
+5,
+6,
+12,
+13,
+14
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 6,
+"B": 0
+},
+"deaths": [
+[
+13,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 5,
+"gold": true,
+"parity": 0,
+"table": 18
+},
+"stunned_turns": {
+"B:ryth": [
+5,
+6,
+7,
+8,
+9
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 6,
+"B": 0
+},
+"deaths": [
+[
+13,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 5,
+"gold": true,
+"parity": 1,
+"table": 18
+},
+"stunned_turns": {
+"B:ryth": [
+4,
+5,
+6,
+7,
+8,
+12
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 6,
+"B": 0
+},
+"deaths": [
+[
+13,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 5,
+"gold": true,
+"parity": 0,
+"table": 19
+},
+"stunned_turns": {
+"B:ryth": [
+5,
+6,
+8
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 6,
+"B": 0
+},
+"deaths": [
+[
+13,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 5,
+"gold": true,
+"parity": 1,
+"table": 19
+},
+"stunned_turns": {
+"B:ryth": [
+4,
+5,
+6,
+8,
+12
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+23,
+"B",
+"varg"
+],
+[
+39,
+"B",
+"ryth"
+],
+[
+53,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 20
+},
+"stunned_turns": {
+"B:ryth": [
+5,
+13,
+21,
+29,
+37
+],
+"B:varg": [
+5,
+13,
+21
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+23,
+"B",
+"varg"
+],
+[
+38,
+"B",
+"ryth"
+],
+[
+53,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 20
+},
+"stunned_turns": {
+"B:ryth": [
+6,
+14,
+22,
+30
+],
+"B:varg": [
+5,
+13,
+21
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+20,
+"B",
+"varg"
+],
+[
+37,
+"B",
+"ryth"
+],
+[
+52,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 21
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+20,
+"B",
+"varg"
+],
+[
+38,
+"B",
+"ryth"
+],
+[
+52,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 21
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+20,
+"B",
+"varg"
+],
+[
+37,
+"B",
+"ryth"
+],
+[
+52,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 22
+},
+"stunned_turns": {
+"B:ryth": [
+29
+],
+"B:varg": [
+4,
+12
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+20,
+"B",
+"varg"
+],
+[
+38,
+"B",
+"ryth"
+],
+[
+52,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 22
+},
+"stunned_turns": {
+"B:ryth": [
+28,
+36
+],
+"B:varg": [
+4,
+12
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+27,
+"B",
+"vend"
+],
+[
+31,
+"B",
+"ryth"
+],
+[
+54,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 23
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+27,
+"B",
+"vend"
+],
+[
+32,
+"B",
+"ryth"
+],
+[
+54,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 23
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 0,
+"B": 1
+},
+"deaths": [
+[
+7,
+"A",
+"will"
+],
+[
+11,
+"B",
+"vend"
+],
+[
+19,
+"A",
+"vend"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.185
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 24
+},
+"stunned_turns": {},
+"winner": "B"
+},
+{
+"alive": {
+"A": 0,
+"B": 1
+},
+"deaths": [
+[
+7,
+"A",
+"will"
+],
+[
+10,
+"B",
+"vend"
+],
+[
+20,
+"A",
+"vend"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.15
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 24
+},
+"stunned_turns": {},
+"winner": "B"
+},
+{
+"alive": {
+"A": 0,
+"B": 1
+},
+"deaths": [
+[
+8,
+"A",
+"will"
+],
+[
+13,
+"B",
+"tavi"
+],
+[
+20,
+"A",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.421
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 25
+},
+"stunned_turns": {
+"A:will": [
+2,
+5
+],
+"B:tavi": [
+4,
+12
+]
+},
+"winner": "B"
+},
+{
+"alive": {
+"A": 0,
+"B": 1
+},
+"deaths": [
+[
+7,
+"A",
+"will"
+],
+[
+13,
+"B",
+"tavi"
+],
+[
+19,
+"A",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.443
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 25
+},
+"stunned_turns": {
+"A:will": [
+3
+],
+"B:tavi": [
+4,
+12
+]
+},
+"winner": "B"
+},
+{
+"alive": {
+"A": 0,
+"B": 2
+},
+"deaths": [
+[
+10,
+"A",
+"will"
+],
+[
+24,
+"A",
+"varg"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.603
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 0,
+"table": 26
+},
+"stunned_turns": {},
+"winner": "B"
+},
+{
+"alive": {
+"A": 0,
+"B": 2
+},
+"deaths": [
+[
+9,
+"A",
+"will"
+],
+[
+23,
+"A",
+"varg"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.505
+},
+"run": "g1",
+"scenario": {
+"champs": 3,
+"gold": false,
+"parity": 1,
+"table": 26
+},
+"stunned_turns": {},
+"winner": "B"
+},
+{
+"alive": {
+"A": 4,
+"B": 0
+},
+"deaths": [
+[
+17,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "stun",
+"scenario": {
+"champs": 3,
+"gold": true,
+"parity": 0,
+"table": 16
+},
+"stunned_turns": {
+"B:ryth": [
+5,
+13
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 4,
+"B": 0
+},
+"deaths": [
+[
+16,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "stun",
+"scenario": {
+"champs": 3,
+"gold": true,
+"parity": 1,
+"table": 16
+},
+"stunned_turns": {
+"B:ryth": [
+4,
+5,
+12,
+13
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 4,
+"B": 0
+},
+"deaths": [
+[
+17,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "stun",
+"scenario": {
+"champs": 3,
+"gold": true,
+"parity": 0,
+"table": 17
+},
+"stunned_turns": {
+"B:ryth": [
+5,
+6,
+7,
+13,
+14,
+15
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 4,
+"B": 0
+},
+"deaths": [
+[
+17,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "stun",
+"scenario": {
+"champs": 3,
+"gold": true,
+"parity": 1,
+"table": 17
+},
+"stunned_turns": {
+"B:ryth": [
+4,
+5,
+6,
+12,
+13,
+14
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 6,
+"B": 0
+},
+"deaths": [
+[
+13,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "stun",
+"scenario": {
+"champs": 5,
+"gold": true,
+"parity": 0,
+"table": 18
+},
+"stunned_turns": {
+"B:ryth": [
+5,
+6,
+7,
+8,
+9
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 6,
+"B": 0
+},
+"deaths": [
+[
+13,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "stun",
+"scenario": {
+"champs": 5,
+"gold": true,
+"parity": 1,
+"table": 18
+},
+"stunned_turns": {
+"B:ryth": [
+4,
+5,
+6,
+7,
+8,
+12
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 6,
+"B": 0
+},
+"deaths": [
+[
+13,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "stun",
+"scenario": {
+"champs": 5,
+"gold": true,
+"parity": 0,
+"table": 19
+},
+"stunned_turns": {
+"B:ryth": [
+5,
+6,
+8
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 6,
+"B": 0
+},
+"deaths": [
+[
+13,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "stun",
+"scenario": {
+"champs": 5,
+"gold": true,
+"parity": 1,
+"table": 19
+},
+"stunned_turns": {
+"B:ryth": [
+4,
+5,
+6,
+8,
+12
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+15,
+"B",
+"vend"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.44,
+"B": 0.0
+},
+"run": "camp",
+"scenario": {
+"champs": 3,
+"parity": 0,
+"table": 27,
+"terrain": {
+"camps": [
+[
+"elk",
+20,
+14
+]
+]
+},
+"terrain_tag": "elk"
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+16,
+"B",
+"vend"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.37,
+"B": 0.0
+},
+"run": "camp",
+"scenario": {
+"champs": 3,
+"parity": 1,
+"table": 27,
+"terrain": {
+"camps": [
+[
+"elk",
+20,
+14
+]
+]
+},
+"terrain_tag": "elk"
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 0,
+"B": 1
+},
+"deaths": [
+[
+20,
+"A",
+"vesp"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.23
+},
+"run": "camp",
+"scenario": {
+"champs": 3,
+"parity": 0,
+"table": 28,
+"terrain": {
+"camps": [
+[
+"elk",
+20,
+14
+]
+]
+},
+"terrain_tag": "elk"
+},
+"stunned_turns": {},
+"winner": "B"
+},
+{
+"alive": {
+"A": 0,
+"B": 1
+},
+"deaths": [
+[
+21,
+"A",
+"vesp"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.23
+},
+"run": "camp",
+"scenario": {
+"champs": 3,
+"parity": 1,
+"table": 28,
+"terrain": {
+"camps": [
+[
+"elk",
+20,
+14
+]
+]
+},
+"terrain_tag": "elk"
+},
+"stunned_turns": {},
+"winner": "B"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+11,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "camp",
+"scenario": {
+"champs": 3,
+"parity": 0,
+"table": 29,
+"terrain": {
+"camps": [
+[
+"elk",
+20,
+14
+]
+]
+},
+"terrain_tag": "elk"
+},
+"stunned_turns": {
+"B:ryth": [
+9
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+11,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 1.0,
+"B": 0.0
+},
+"run": "camp",
+"scenario": {
+"champs": 3,
+"parity": 1,
+"table": 29,
+"terrain": {
+"camps": [
+[
+"elk",
+20,
+14
+]
+]
+},
+"terrain_tag": "elk"
+},
+"stunned_turns": {
+"B:ryth": [
+8
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+25,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.028,
+"B": 0.0
+},
+"run": "camp",
+"scenario": {
+"champs": 3,
+"parity": 0,
+"table": 30,
+"terrain": {
+"camps": [
+[
+"elk",
+20,
+14
+]
+]
+},
+"terrain_tag": "elk"
+},
+"stunned_turns": {
+"A:tavi": [
+12,
+20
+],
+"B:ryth": [
+9,
+17
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+26,
+"B",
+"ryth"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.028,
+"B": 0.0
+},
+"run": "camp",
+"scenario": {
+"champs": 3,
+"parity": 1,
+"table": 30,
+"terrain": {
+"camps": [
+[
+"elk",
+20,
+14
+]
+]
+},
+"terrain_tag": "elk"
+},
+"stunned_turns": {
+"A:tavi": [
+13,
+21
+],
+"B:ryth": [
+8,
+16,
+24
+]
+},
+"winner": "A"
+},
+{
+"alive": {
+"A": 0,
+"B": 0
+},
+"deaths": [
+[
+13,
+"A",
+"marc"
+],
+[
+17,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.0
+},
+"run": "camp",
+"scenario": {
+"champs": 3,
+"parity": 0,
+"table": 31,
+"terrain": {
+"camps": [
+[
+"elk",
+20,
+14
+]
+]
+},
+"terrain_tag": "elk"
+},
+"stunned_turns": {},
+"winner": null
+},
+{
+"alive": {
+"A": 0,
+"B": 0
+},
+"deaths": [
+[
+13,
+"A",
+"marc"
+],
+[
+17,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.0
+},
+"run": "camp",
+"scenario": {
+"champs": 3,
+"parity": 1,
+"table": 31,
+"terrain": {
+"camps": [
+[
+"elk",
+20,
+14
+]
+]
+},
+"terrain_tag": "elk"
+},
+"stunned_turns": {},
+"winner": null
+},
+{
+"alive": {
+"A": 1,
+"B": 0
+},
+"deaths": [
+[
+27,
+"B",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.05,
+"B": 0.0
+},
+"run": "camp",
+"scenario": {
+"champs": 3,
+"parity": 0,
+"table": 32,
+"terrain": {
+"camps": [
+[
+"elk",
+20,
+14
+]
+]
+},
+"terrain_tag": "elk"
+},
+"stunned_turns": {},
+"winner": "A"
+},
+{
+"alive": {
+"A": 0,
+"B": 1
+},
+"deaths": [
+[
+27,
+"A",
+"marc"
+]
+],
+"errors": 0,
+"hp_frac": {
+"A": 0.0,
+"B": 0.125
+},
+"run": "camp",
+"scenario": {
+"champs": 3,
+"parity": 1,
+"table": 32,
+"terrain": {
+"camps": [
+[
+"elk",
+20,
+14
+]
+]
+},
+"terrain_tag": "elk"
+},
+"stunned_turns": {},
+"winner": "B"
+}
+],
+"table_rows": "bots/contenders/_duel-lab/src/table.h"
+}

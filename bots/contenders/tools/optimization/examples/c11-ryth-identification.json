@@ -1,0 +1,9 @@
+{
+  "batch_size": 8,
+  "reservoir_size": 96,
+  "tolerance": 0.00001,
+  "holdout_families": ["cc_cycle", "move_basic"],
+  "initial_model": {"basic_scale": 1, "cast_scale": 1, "shield_first": true,
+    "reset_restores_attack": true, "reset_requires_spent_attack": true,
+    "cast_consumes_attack": false, "cast_blocks_move": true, "basic_blocks_move": false}
+}

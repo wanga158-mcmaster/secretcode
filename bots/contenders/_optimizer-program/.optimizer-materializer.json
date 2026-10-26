@@ -1,0 +1,85 @@
+{
+  "schema": "contenders-program-materialization/v1",
+  "kind": "program",
+  "base": "anchors/main-v42",
+  "base_files": [
+    "src/brain.cpp",
+    "src/brain.h",
+    "src/combat.cpp",
+    "src/combat.h",
+    "src/config.h",
+    "src/ctx.cpp",
+    "src/ctx.h",
+    "src/draft.cpp",
+    "src/draft.h",
+    "src/knowledge.cpp",
+    "src/knowledge.h",
+    "src/main.cpp",
+    "src/model.h",
+    "src/nav.cpp",
+    "src/nav.h",
+    "src/shop.cpp",
+    "src/shop.h",
+    "src/util.h",
+    "src/world.cpp",
+    "src/world.h"
+  ],
+  "base_source_sha256": "2f8e458d6a9c433c82ff7a0f073fae74b8a29e34a2ffe4085d0927448115c836",
+  "candidate_sha256": "54c5c63a3e888762c72c5862bc15703818c09351d9ff254aca82d890636c3bfe",
+  "tree_feature_schema": "contenders-job-context/v1",
+  "actor_feature_schema": "contenders-actor-context/v1",
+  "feature_names": [
+    "roundFraction",
+    "hpFraction",
+    "bagFraction",
+    "goldFraction",
+    "enemyVisibleFraction",
+    "alliesVisibleFraction",
+    "travelFraction",
+    "groupGemFraction",
+    "groupGoldFraction",
+    "groupHpFraction",
+    "groupHarmless",
+    "homeDistanceFraction"
+  ],
+  "action_names": [
+    "neutral",
+    "gems",
+    "gold",
+    "short",
+    "home"
+  ],
+  "tree_home_distance": "candidate group center to own spawn, Chebyshev/100, clipped",
+  "actor_home_distance": "current self to own spawn, Chebyshev/100, clipped",
+  "actor_zero_features": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "unknown_group_hp": "remembered legal observation; unknown/full=1; not fresh hidden state",
+  "identity_program_unpatched": true,
+  "pruning_upper_bound": 1.0,
+  "actor_sampling_fuel_floor": 65000,
+  "tree_limits": {
+    "depth": 6,
+    "nodes": 127,
+    "factor": [
+      0.125,
+      8.0
+    ]
+  },
+  "policy": null,
+  "emission_contract": {
+    "trace": false,
+    "one_decision_per_actor_scoring_turn": true,
+    "minimum_fuel": 65000,
+    "cap_per_actor": 0,
+    "no_unlogged_sampled_decisions": true,
+    "outside_eligibility": "neutral/no actor decision",
+    "untraced_eligibility_gate_identical": true,
+    "trace_can_change_later_fuel_dependent_control": true
+  },
+  "scope": "positive camp-job ranking only; inherited legality, combat, channels and safety unchanged"
+}

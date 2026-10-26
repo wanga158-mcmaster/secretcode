@@ -1,0 +1,4 @@
+{"width": 41, "height": 30, "symmetry": "horizontal", "champs": 3, "spawnA": [0, 13, 3, 16],
+ "altars": [[8, 14]],
+ "camps": [["gem_cluster", 5, 17], ["gem_cluster", 5, 11], ["gem_cluster", 5, 25],
+           ["gold_cluster", 5, 22], ["gold_cluster", 6, 22], ["golem", 10, 25]]}

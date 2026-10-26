@@ -1,0 +1,18 @@
+{
+ "about": "Medium track claims as executable checks (replaces verdict prose). Each claim is a knob set applied to the current base bot, an expected sign vs the base, and the evidence that made it. `.cache/main/med/scripts/claims.py` re-runs every claim on a new base in one paired experiment and reports which still hold. A claim whose bot lacks a knob is skipped and reported.",
+ "base": "main/main",
+ "opponents": ["anchors/main-v53", "anchors/main-v52", "main/gank", "main/ball"],
+ "maps": "train,pool",
+ "claims": [
+  {"id": "C1-capture-recall", "set": {"capture_recall": "0"}, "expect": "-", "note": "turning C1 off loses (shipped v50; fresh +66/1,200 vs v44)"},
+  {"id": "C2-group-news", "set": {"group_news": "false"}, "expect": "-", "note": "news off loses once weights are co-trained (v53)"},
+  {"id": "reaudit-opening-party", "set": {"opening_party": "3"}, "expect": "+", "note": "re-audit 25 Oct: +51/1,920 p 0.008 on v52+C2"},
+  {"id": "reaudit-retreat-buffer", "set": {"retreat_enemy_buffer": "1"}, "expect": "+", "note": "+42 p 0.022"},
+  {"id": "reaudit-gem-value-model", "set": {"gem_value_model": "true"}, "expect": "+", "note": "+42 p 0.011 (D91 had rejected it)"},
+  {"id": "reaudit-threat-focus", "set": {"threat_focus": "true"}, "expect": "+", "note": "+31 p 0.043"},
+  {"id": "avoidance-calm2", "set": {"calm_farm": "2"}, "expect": "-", "note": "avoidance raises deaths (T5, T7)"},
+  {"id": "avoidance-track-enemies", "set": {"track_group_enemies": "true"}, "expect": "-", "note": "-60 on v52+C2"},
+  {"id": "tactics-s", "set": {"tactics_s": "1"}, "expect": "-", "note": "-657 on v52+C2"},
+  {"id": "hunting-unconditional", "set": {"hunt_mode": "1"}, "expect": "-", "note": "walking off to hunt costs the farm"}
+ ]
+}
